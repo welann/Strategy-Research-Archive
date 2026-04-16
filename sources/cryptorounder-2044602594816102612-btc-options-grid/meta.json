@@ -1,0 +1,107 @@
+{
+  "title": "比特币的大震荡时代——期权网格交易战法（一）",
+  "author": {
+    "id": "1445736128552734720",
+    "name": "Rounder",
+    "screenName": "CryptoRounder",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1583409642444533760/6qo2ckWf_normal.jpg",
+    "verified": true
+  },
+  "published_local": "2026-04-16 10:23",
+  "published_iso": "2026-04-16T02:23:40+00:00",
+  "url": "https://x.com/CryptoRounder/status/2044602594816102612",
+  "article_url": "http://x.com/i/article/2044452853654401024",
+  "source_type": "x_article",
+  "tweet_id": "2044602594816102612",
+  "article_id": "2044452853654401024",
+  "lang": "zh",
+  "metrics_at_capture": {
+    "likes": 31,
+    "retweets": 6,
+    "replies": 3,
+    "quotes": 3,
+    "views": 4236,
+    "bookmarks": 36
+  },
+  "media": [
+    {
+      "file": "assets/封面图.jpg",
+      "source_url": "https://pbs.twimg.com/media/HF9ch5ObEAMHDwa.jpg",
+      "type": "cover_image",
+      "api_width": 3324,
+      "api_height": 1330,
+      "media_id": "2044454493216247811"
+    },
+    {
+      "file": "assets/图1.jpg",
+      "source_url": "https://pbs.twimg.com/media/HF_S68ZaQAALUOo.jpg",
+      "type": "article_inline_image",
+      "api_width": 3324,
+      "api_height": 1732,
+      "media_id": "2044584665936445440",
+      "content_order": 1
+    },
+    {
+      "file": "assets/图2.png",
+      "source_url": "https://pbs.twimg.com/media/HF_UDmOaEAAUgu6.png",
+      "type": "article_inline_image",
+      "api_width": 336,
+      "api_height": 184,
+      "media_id": "2044585914115166208",
+      "content_order": 2
+    },
+    {
+      "file": "assets/图3.jpg",
+      "source_url": "https://pbs.twimg.com/media/HF_Xg0zaIAAVw-_.jpg",
+      "type": "article_inline_image",
+      "api_width": 2612,
+      "api_height": 1378,
+      "media_id": "2044589714779545600",
+      "content_order": 3
+    },
+    {
+      "file": "assets/图4.jpg",
+      "source_url": "https://pbs.twimg.com/media/HF_Y2MDaQAAa0pP.jpg",
+      "type": "article_inline_image",
+      "api_width": 1328,
+      "api_height": 1166,
+      "media_id": "2044591181309558784",
+      "content_order": 4
+    },
+    {
+      "file": "assets/图5.jpg",
+      "source_url": "https://pbs.twimg.com/media/HF_eRItaoAAVPlY.jpg",
+      "download_url": "https://pbs.twimg.com/media/HF_eRItaoAAVPlY?format=jpg&name=large",
+      "type": "article_inline_image",
+      "api_width": 2608,
+      "api_height": 1374,
+      "media_id": "2044597141826609152",
+      "content_order": 5
+    },
+    {
+      "file": "assets/图6.jpg",
+      "source_url": "https://pbs.twimg.com/media/HF_cIX4bIAEC9YD.jpg",
+      "type": "article_inline_image",
+      "api_width": 2608,
+      "api_height": 1590,
+      "media_id": "2044594792257232897",
+      "content_order": 6
+    }
+  ],
+  "author_replies_captured": [
+    {
+      "id": "2044655981389545810",
+      "published_local": "2026-04-16 13:55",
+      "topic": "Range Intelligence 的 Ready Score 可以辅助判断铁鹰策略：低分开仓，高分止盈或休息。"
+    },
+    {
+      "id": "2044619046172450846",
+      "published_local": "2026-04-16 11:29",
+      "topic": "指标只是参考之一，合理资金管理才构成可用交易系统。"
+    }
+  ],
+  "asset_dir": "assets",
+  "capture_tool": "twitter-cli",
+  "captured_at_local": "2026-04-16",
+  "notes": "twitter-cli article markdown skips Draft.js atomic media blocks. Inline images were recovered from TweetResultByRestId article content_state entityMap and media_entities."
+}

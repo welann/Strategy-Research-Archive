@@ -20,6 +20,9 @@
 - [`SNDK高隐含波动率下的Covered Call策略：用期权溢价管理持股风险.md`](SNDK高隐含波动率下的Covered%20Call策略：用期权溢价管理持股风险.md)
   - 整理 `KotlinerBTC` 关于 `SNDK` 近端隐含波动率冲高后的期权策略，重点拆解 `Call` 追价、最大痛点、深度价外 `Covered Call`、`IV crush` 与卖方执行风险。
 
+- [`比特币震荡期权网格策略：用区间指标执行择时双币与铁鹰.md`](比特币震荡期权网格策略：用区间指标执行择时双币与铁鹰.md)
+  - 总结 `CryptoRounder` 关于 `BTC` 震荡行情下的期权网格文章，重点拆解 `Range Intelligence Suite`、择时双币、卖 Put / 卖 Call、铁鹰策略和 `Ready Score` 的开仓止盈逻辑。
+
 ## 价差套利与跨市场执行
 
 - [`WTI-Brent价差套利复盘：判断逻辑与应对策略.md`](WTI-Brent价差套利复盘：判断逻辑与应对策略.md)
