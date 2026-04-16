@@ -23,6 +23,9 @@
 - [`比特币震荡期权网格策略：用区间指标执行择时双币与铁鹰.md`](比特币震荡期权网格策略：用区间指标执行择时双币与铁鹰.md)
   - 总结 `CryptoRounder` 关于 `BTC` 震荡行情下的期权网格文章，重点拆解 `Range Intelligence Suite`、择时双币、卖 Put / 卖 Call、铁鹰策略和 `Ready Score` 的开仓止盈逻辑。
 
+- [`DVOL预测BTC实际波动率：全样本有效、分周期失灵与VRP压缩.md`](DVOL预测BTC实际波动率：全样本有效、分周期失灵与VRP压缩.md)
+  - 总结 `leifuchen` 关于 `DVOL / RV / VRP` 的研究推文，重点拆解全样本回归、分周期失效、`Simpson` 聚合效应，以及卖波溢价持续压缩的含义。
+
 ## 价差套利与跨市场执行
 
 - [`WTI-Brent价差套利复盘：判断逻辑与应对策略.md`](WTI-Brent价差套利复盘：判断逻辑与应对策略.md)
