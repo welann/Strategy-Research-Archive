@@ -1,0 +1,80 @@
+{
+  "title": "SNDK SanDisk 隐含波动率与 Covered Call 讨论",
+  "author": {
+    "id": "3039828572",
+    "name": "Curry_TW",
+    "screenName": "KotlinerBTC",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/570243410141798400/fxjm7Pqr_normal.jpeg",
+    "verified": true
+  },
+  "published_local": "2026-04-15 10:34",
+  "published_iso": "2026-04-15T02:34:06+00:00",
+  "url": "https://x.com/kotlinerbtc/status/2044242835822756347",
+  "source_type": "x_tweet",
+  "tweet_id": "2044242835822756347",
+  "lang": "zh",
+  "metrics_at_capture": {
+    "likes": 100,
+    "retweets": 14,
+    "replies": 9,
+    "quotes": 0,
+    "views": 19967,
+    "bookmarks": 68
+  },
+  "media": [
+    {
+      "file": "assets/图1.jpg",
+      "source_url": "https://pbs.twimg.com/media/HF6ZFEzasAAb_D7.jpg",
+      "type": "photo",
+      "api_width": 1400,
+      "api_height": 741
+    },
+    {
+      "file": "assets/图2.jpg",
+      "source_url": "https://pbs.twimg.com/media/HF6ZGJ5asAIiGef.jpg",
+      "type": "photo",
+      "api_width": 1400,
+      "api_height": 793
+    },
+    {
+      "file": "assets/图3.jpg",
+      "source_url": "https://pbs.twimg.com/media/HF6ZGlZasAA68kt.jpg",
+      "type": "photo",
+      "api_width": 1400,
+      "api_height": 797
+    },
+    {
+      "file": "assets/图4.jpg",
+      "source_url": "https://pbs.twimg.com/media/HF6ZHjsasAMH1jf.jpg",
+      "type": "photo",
+      "api_width": 1400,
+      "api_height": 797
+    }
+  ],
+  "author_replies_captured": [
+    {
+      "id": "2044258293825347816",
+      "published_local": "2026-04-15 11:35",
+      "topic": "卖期权的目标是赚取波动率溢价；若股票因 Covered Call 被 call 走，可用卖 put 接回。"
+    },
+    {
+      "id": "2044353937311146250",
+      "published_local": "2026-04-15 17:55",
+      "topic": "波动率交易需要波动，核心是拥抱波动。"
+    },
+    {
+      "id": "2044585151267774838",
+      "published_local": "2026-04-16 09:14",
+      "topic": "财报后若期权仍 OTM，IV crush 的 Vega 损耗可能吃掉 Delta 收益；深度 ITM call 更稳定，OTM 卖方可收高 IV 溢价。"
+    },
+    {
+      "id": "2044587028751454386",
+      "published_local": "2026-04-16 09:21",
+      "topic": "当前局势中，TSM 相对更安稳。"
+    }
+  ],
+  "asset_dir": "assets",
+  "capture_tool": "twitter-cli",
+  "captured_at_local": "2026-04-16",
+  "notes": "original.md reconstructed from twitter-cli tweet detail output. Unrelated recommendation/ad tweets from the CLI response were not archived as source material."
+}
