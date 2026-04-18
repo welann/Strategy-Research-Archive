@@ -1,0 +1,73 @@
+{
+  "title": "Morpho 作为借贷资产发行协议",
+  "author": {
+    "id": "940165249440792576",
+    "name": "Bonna | U酪乳",
+    "screenName": "bonnazhu",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1983527479232110592/SYOsVTM1_normal.jpg",
+    "verified": true
+  },
+  "published_local": "2026-04-17 22:29",
+  "published_iso": "2026-04-17T14:29:23+00:00",
+  "url": "https://x.com/bonnazhu/status/2045147615344611570",
+  "source_type": "x_tweet",
+  "tweet_id": "2045147615344611570",
+  "lang": "zh",
+  "metrics_at_capture": {
+    "likes": 113,
+    "retweets": 22,
+    "replies": 60,
+    "quotes": 3,
+    "views": 14095,
+    "bookmarks": 39
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HGHM4oxaEAAqb8Y.jpg",
+      "local_path": "assets/图1.jpg",
+      "width": 1212,
+      "height": 868
+    }
+  ],
+  "quoted_tweet": {
+    "id": "2044304119670710442",
+    "author": {
+      "screenName": "PaulFrambot",
+      "name": "Paul Frambot"
+    },
+    "summary": "Paul Frambot 称 Morpho Midnight 是其做过最难、最有野心的事情，可能是 DeFi 协议设计多年未见的 0-to-1 创新，尤其对机构有重大解锁意义。"
+  },
+  "author_replies_captured": [
+    {
+      "id": "2045165574238749014",
+      "published_local": "2026-04-17 23:40",
+      "text": "@bocaibocai_ @Morpho 谢谢！"
+    },
+    {
+      "id": "2045381895010365636",
+      "published_local": "2026-04-18 14:00",
+      "text": "@hoidya_ @bitcoin136 @Morpho @UnifiedLabs_ 对，我看到了菠菜大哥的这个，已经在关注了"
+    }
+  ],
+  "notable_replies": [
+    {
+      "id": "2045163248794898663",
+      "screenName": "ronniew32276793",
+      "summary": "指出 Curator 安全、误操作、黑客攻击和响应不及时是关键风险，用户对策展商依赖较强。"
+    },
+    {
+      "id": "2045371989016379496",
+      "screenName": "wavaneth",
+      "summary": "指出 Morpho 流动性分裂、浅池和利率波动问题，并认为 Aave v4 统一流动性长期前景可能更好。"
+    },
+    {
+      "id": "2045340214114340964",
+      "screenName": "Till_okb",
+      "summary": "用 B2C 链上银行和 PaaS 金融基建操作系统对比 Aave 与 Morpho。"
+    }
+  ],
+  "capture_tool": "twitter-cli",
+  "captured_at_local": "2026-04-18",
+  "notes": "主帖为长文推文；归档中保留主帖、引用推文摘要、配图和有信息量的评论区风险补充。"
+}
