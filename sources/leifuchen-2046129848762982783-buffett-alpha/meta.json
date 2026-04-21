@@ -1,0 +1,65 @@
+{
+  "title": "巴菲特的 Alpha 到底来自哪里？",
+  "author": {
+    "id": "1702231380",
+    "name": "leifu _/",
+    "screenName": "leifuchen",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1479549463312183296/aJbH14q3_normal.jpg",
+    "verified": true
+  },
+  "published_local": "2026-04-20 15:32",
+  "published_iso": "2026-04-20T07:32:25+00:00",
+  "url": "https://x.com/leifuchen/status/2046129848762982783",
+  "source_type": "x_tweet",
+  "tweet_id": "2046129848762982783",
+  "lang": "zh",
+  "metrics_at_capture": {
+    "likes": 344,
+    "retweets": 102,
+    "replies": 24,
+    "quotes": 9,
+    "views": 68852,
+    "bookmarks": 409
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HGVPIRtXwAAizof.jpg",
+      "local_path": "assets/图1.jpg",
+      "width": 1440,
+      "height": 1784
+    }
+  ],
+  "paper_reference": {
+    "tweet_id": "2046129851535339978",
+    "citation": "Frazzini, A., Kabiller, D., & Pedersen, L. H. (2018). Buffett's alpha. Financial Analysts Journal, 74(4), 35-55.",
+    "url": "https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3197185"
+  },
+  "author_replies_captured": [
+    {
+      "id": "2046215157500584240",
+      "published_local": "2026-04-20 21:11",
+      "text": "这篇应该是巴菲特最权威的论文了，估计写过的人不少。"
+    },
+    {
+      "id": "2046498231169798362",
+      "published_local": "2026-04-21 15:56",
+      "text": "对 的，资金来源是非常重要的 alpha。"
+    }
+  ],
+  "notable_replies": [
+    {
+      "id": "2046478680822886612",
+      "screenName": "ehkluo",
+      "summary": "指出资金来源本身也是 alpha，作者明确认同。"
+    },
+    {
+      "id": "2046211815399670137",
+      "screenName": "lo2cin4",
+      "summary": "指出 Buffett's Alpha 是讨论巴菲特来源最经典、最权威的论文之一。"
+    }
+  ],
+  "capture_tool": "twitter-cli",
+  "captured_at_local": "2026-04-21",
+  "notes": "主帖为长文推文，正文直接概述 FKP 2018 对巴菲特业绩来源的因子与杠杆拆解；归档保留配图、论文链接和评论区中关于资金来源 alpha 的关键补充。"
+}
