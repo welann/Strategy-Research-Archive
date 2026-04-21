@@ -1,0 +1,78 @@
+{
+  "title": "不要卖 Put 了：DVOL 高分位买 BTC Put 的回测与更正",
+  "author": {
+    "id": "1702231380",
+    "name": "leifu _/",
+    "screenName": "leifuchen",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1479549463312183296/aJbH14q3_normal.jpg",
+    "verified": true
+  },
+  "published_local": "2026-02-24 22:47",
+  "published_iso": "2026-02-24T14:47:34+00:00",
+  "url": "https://x.com/leifuchen/status/2026308024604770507",
+  "article_url": "http://x.com/i/article/2026292682885091329",
+  "source_type": "x_article",
+  "tweet_id": "2026308024604770507",
+  "article_id": "2026292682885091329",
+  "lang": "zh",
+  "metrics_at_capture": {
+    "likes": 267,
+    "retweets": 69,
+    "replies": 24,
+    "quotes": 10,
+    "views": 89983,
+    "bookmarks": 506
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HCAPqYRXUAAgOWv.jpg",
+      "local_path": "assets/图1_30天窗口更正.jpg",
+      "width": 1434,
+      "height": 834,
+      "note": "作者次日发布的回测更正图。"
+    }
+  ],
+  "author_replies_captured": [
+    {
+      "id": "2026339748416024662",
+      "published_local": "2026-02-25 00:53",
+      "text": "本质就是 CTA 思路；买点固定在每周五结算，策略二加 DVOL 分位过滤，持有到期不管卖点；BS 定价低估了实际 OTM put 成本；需要极强纪律性。"
+    },
+    {
+      "id": "2026555495968895089",
+      "published_local": "2026-02-25 15:10",
+      "text": "规则只有两条：每周五 08:00 UTC 看 DVOL 分位数，超过阈值就买 10 delta Put，没超过就不做。"
+    },
+    {
+      "id": "2026640168426348843",
+      "published_local": "2026-02-25 20:47",
+      "text": "作者确认原回测有 bug，并在上方更正。"
+    },
+    {
+      "id": "2026639580179341669",
+      "published_local": "2026-02-25 20:45",
+      "text": "统一小时数据后，30 天窗口最优，结果从原文宣称的约 6 倍修正为 5.2 倍；短窗口更适合抓恐慌尖峰。"
+    }
+  ],
+  "notable_replies": [
+    {
+      "id": "2026330832210948446",
+      "screenName": "dotyyds1234",
+      "summary": "指出该策略本质上是 CTA 式跟随，最大的难点不是逻辑，而是长期不赚钱阶段中的纪律性。"
+    },
+    {
+      "id": "2026329740068704380",
+      "screenName": "lo2cin4",
+      "summary": "指出样本太短可能 overfit，并提出波动率高时卖双边的对照思路。"
+    },
+    {
+      "id": "2026521534882607394",
+      "screenName": "H5D43",
+      "summary": "指出如果扩大到更长历史周期，策略可能失效，因此多周期回测是必要的。"
+    }
+  ],
+  "capture_tool": "twitter-cli",
+  "captured_at_local": "2026-04-21",
+  "notes": "主帖为 X Article 链接。原文中的“1年6倍”在作者次日被更正；统一小时数据后，30 天窗口结果为 5.2 倍，90 天窗口结论不再成立。"
+}
