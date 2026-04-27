@@ -1,0 +1,52 @@
+{
+  "title": "进击的 MM 1：做市商库存报价系统",
+  "author": {
+    "id": "1713112485082050560",
+    "name": "Dave.𝟎𝐱U",
+    "screenName": "bc1qDave",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1842016423776026625/SU8ZKRFI_normal.jpg",
+    "verified": true
+  },
+  "published_local": "2025-12-23 09:53",
+  "published_iso": "2025-12-23T01:53:35+00:00",
+  "url": "https://x.com/bc1qDave/status/2003282809528729988",
+  "article_url": "http://x.com/i/article/2003280116311556096",
+  "source_type": "x_article",
+  "tweet_id": "2003282809528729988",
+  "metrics_at_capture": {
+    "likes": 267,
+    "retweets": 37,
+    "replies": 25,
+    "quotes": 7,
+    "views": 176660,
+    "bookmarks": 379
+  },
+  "top_level_media_count": 0,
+  "notable_replies": [
+    {
+      "id": "2003377092990578738",
+      "author": "@agintender",
+      "published_local": "2025-12-23 16:08",
+      "summary": "建议把期权 delta 也并入 q，一起理解库存与报价偏移。"
+    },
+    {
+      "id": "2003376242763137368",
+      "author": "@MNson11",
+      "published_local": "2025-12-23 16:04",
+      "summary": "指出很多非头部做市商单靠 spread 获利已经非常困难。"
+    },
+    {
+      "id": "2003382970233815198",
+      "author": "@bc1qDave",
+      "published_local": "2025-12-23 16:31",
+      "summary": "作者回应币圈语境里确实混杂着真实存在的阴谋论式行为，因此更难把概念讲清。"
+    },
+    {
+      "id": "2008079334725349455",
+      "author": "@OCEA_LI",
+      "published_local": "2026-01-05 15:33",
+      "summary": "就 Reservation Price 公式提出符号方向疑问，认为正文的“买入后价格下调”与公式表述之间可能存在歧义。"
+    }
+  ],
+  "notes": "original.md 由 twitter article --output 导出后补充关键评论区摘要。原始主帖无顶层配图。"
+}
