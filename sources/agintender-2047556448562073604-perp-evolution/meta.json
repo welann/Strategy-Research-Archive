@@ -1,0 +1,53 @@
+{
+  "title": "合约算法镰刀进化史：永续合约十年，幕还未谢",
+  "author": {
+    "id": "913320844411019265",
+    "name": "danny",
+    "screenName": "agintender",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1629854460003614722/WBiNvasr_normal.jpg",
+    "verified": true
+  },
+  "published_local": "2026-04-24 14:01",
+  "published_iso": "2026-04-24T06:01:13+00:00",
+  "url": "https://x.com/agintender/status/2047556448562073604",
+  "article_url": "http://x.com/i/article/2047535174309556224",
+  "source_type": "x_article",
+  "tweet_id": "2047556448562073604",
+  "metrics_at_capture": {
+    "likes": 219,
+    "retweets": 49,
+    "replies": 23,
+    "quotes": 9,
+    "views": 130391,
+    "bookmarks": 307
+  },
+  "top_level_media_count": 0,
+  "notable_replies": [
+    {
+      "id": "2047863758836416937",
+      "author": "@lilk1kopops",
+      "published_local": "2026-04-25 10:22",
+      "summary": "追问币安第三代资金费率机制为何在正文中没有展开。"
+    },
+    {
+      "id": "2047893244919652595",
+      "author": "@agintender",
+      "published_local": "2026-04-25 12:19",
+      "quoted_tweet_id": "1968535750259134464",
+      "summary": "作者回复“这里”，并指向自己更早的一条相关推文作为延展解释。"
+    },
+    {
+      "id": "2047718999451197829",
+      "author": "@tothemoon_12345",
+      "published_local": "2026-04-25 00:47",
+      "summary": "建议把资金费率设计成按持仓时间加权，优先惩罚新近拥挤的空单。"
+    },
+    {
+      "id": "2047867358937825705",
+      "author": "@liuw0718",
+      "published_local": "2026-04-25 10:36",
+      "summary": "把永续合约概括为交易所最赚钱也最容易演化成双轨制放大器的基础设施。"
+    }
+  ],
+  "notes": "original.md 由 twitter article --output 导出后补充关键评论区摘要。抓取结果未发现顶层配图。"
+}
