@@ -1,0 +1,57 @@
+{
+  "title": "BTC 无限拉盘的秘密：衍生品驱动行情",
+  "author": {
+    "id": "1713112485082050560",
+    "name": "Dave.𝟎𝐱U",
+    "screenName": "bc1qDave",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1842016423776026625/SU8ZKRFI_normal.jpg",
+    "verified": true
+  },
+  "published_local": "2026-04-27 10:32",
+  "published_iso": "2026-04-27T02:32:05+00:00",
+  "url": "https://x.com/bc1qdave/status/2048590979830292561",
+  "source_type": "x_tweet",
+  "tweet_id": "2048590979830292561",
+  "metrics_at_capture": {
+    "likes": 32,
+    "retweets": 6,
+    "replies": 4,
+    "quotes": 2,
+    "views": 17598,
+    "bookmarks": 17
+  },
+  "top_level_media_count": 1,
+  "top_level_media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HG4I7WIbgAAPsCy.jpg",
+      "local_path": "assets/图1.jpg"
+    }
+  ],
+  "quoted_tweet": {
+    "id": "2045163504257442082",
+    "author": "@bc1qDave",
+    "summary": "作者更早提醒：极端负费率出现后，历史上的下跌往往不流畅，甚至可能先出现明显反拉。"
+  },
+  "notable_replies": [
+    {
+      "id": "2048595383320993799",
+      "author": "@Ant5x2",
+      "published_local": "2026-04-27 10:49",
+      "summary": "质疑这次负费率是否可能由现货集中买盘而非空头拥挤所致。"
+    },
+    {
+      "id": "2048596421973282998",
+      "author": "@bc1qDave",
+      "published_local": "2026-04-27 10:53",
+      "summary": "作者回应：现货驱动并非不可能，但合约面的异常证据更明显。"
+    },
+    {
+      "id": "2048949317671723081",
+      "author": "@bc1qDave",
+      "published_local": "2026-04-28 10:15",
+      "summary": "作者次日补充情绪观察：时间线里连续出现看空与崩盘叙事，说明空头惯性仍很强。"
+    }
+  ],
+  "notes": "ordinary tweet with one top-level image. original.md 手工整理主帖正文、引用推文上下文和评论区关键补充。"
+}
