@@ -1,0 +1,41 @@
+{
+  "title": "Happy arbitrage on arbitrum without local node. 记一次无本地节点的套利",
+  "author": {
+    "id": "1654574164974645248",
+    "name": "Weilin (William) Li",
+    "screenName": "hklst4r",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1694723443516936192/P4urhIUm_normal.jpg",
+    "verified": true
+  },
+  "published_local": "2026-04-23 09:41",
+  "published_iso": "2026-04-23T01:41:55+00:00",
+  "status_url": "https://x.com/hklst4r/status/2047128806549328186?s=52",
+  "article_url": "http://x.com/i/article/2047120702986244096",
+  "source_type": "x_article_via_status",
+  "tweet_id": "2047128806549328186",
+  "metrics_at_capture": {
+    "likes": 118,
+    "retweets": 11,
+    "replies": 3,
+    "quotes": 2,
+    "views": 0,
+    "bookmarks": 145
+  },
+  "top_level_media_count": 0,
+  "linked_urls": [
+    "https://x.com/0xfluid/status/2046971208550486244?s=20"
+  ],
+  "notable_replies": [
+    {
+      "id": "2047162536349565225",
+      "author": "@changq1ng",
+      "summary": "追问作者从收到 repayment event 到交易上链能压到几个 block，指出自己总是慢于竞争者一个 block。"
+    },
+    {
+      "id": "2047174757632848017",
+      "author": "@lucas_wang77129",
+      "summary": "补充自己一天赚 0.7 WETH，但认为最大门槛是发送交易、地理位置和算法能力。"
+    }
+  ],
+  "notes": "顶层推文只包含文章链接。正文核心是：在 Arbitrum 的 FCFS 排序环境下，低延迟事件获取和靠近 sequencer 的发送路径，能部分替代本地节点的优势。"
+}
