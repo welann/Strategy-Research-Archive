@@ -103,6 +103,9 @@
 - [`Polymarket避雷指南：预测市场赚钱难点、执行优势与零售陷阱.md`](Polymarket避雷指南：预测市场赚钱难点、执行优势与零售陷阱.md)
   - 总结 `YourAirdropETH` 关于 `Polymarket` 的避坑指南，重点拆解 longshot、generic LP、AI 自动交易、抄单、跨平台套利、速度交易、天气市场 favorite 等零售陷阱，以及真正赚钱者依赖的执行优势。
 
+- [`Polymarket亏损复盘：负偏度、Kelly错用与把预测市场当望远镜.md`](Polymarket亏损复盘：负偏度、Kelly错用与把预测市场当望远镜.md)
+  - 总结 `polymaster` 对两次美伊冲突相关亏损的复盘，重点拆解负偏度策略、硬性离场规则缺失、Kelly 反向加仓，以及为什么更好的用法是把 `Polymarket` 当作 7x24 事件信号源而不是唯一猎场。
+
 ## 量化学习与研究框架
 
 - [`2026年普通人入门量化交易：从概率到Polymarket的学习地图.md`](2026年普通人入门量化交易：从概率到Polymarket的学习地图.md)
