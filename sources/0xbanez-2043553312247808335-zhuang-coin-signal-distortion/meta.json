@@ -1,0 +1,22 @@
+{
+  "title": "庄币数据分析的信号失真与后视镜陷阱",
+  "author": {
+    "id": "731794811917766656",
+    "name": "Bane💤",
+    "screenName": "0xBanez"
+  },
+  "published_local": "2026-04-13 12:54",
+  "published_utc_source": "Mon Apr 13 04:54:11 +0000 2026",
+  "url": "https://x.com/0xbanez/status/2043553312247808335?s=52",
+  "source_type": "x_tweet",
+  "tweet_id": "2043553312247808335",
+  "top_level_media_count": 1,
+  "top_level_media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HFwo52jbQAA2qbN.jpg",
+      "local_path": "assets/图1.jpg"
+    }
+  ],
+  "notes": "主帖核心是提醒庄币的很多衍生品信号都可能被操盘者反向利用，因此更适合作为彩票仓博弈而非大仓位系统。"
+}

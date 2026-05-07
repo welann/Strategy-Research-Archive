@@ -1,0 +1,32 @@
+{
+  "title": "OI 分阶段解读：从早期顺风盘到后期多角色博弈",
+  "author": {
+    "id": "956793926861537280",
+    "name": "freeland(ϙ,ϙ)",
+    "screenName": "derrrrrrrq"
+  },
+  "published_local": "2026-04-12 22:13",
+  "published_utc_source": "Sun Apr 12 14:13:53 +0000 2026",
+  "url": "https://x.com/derrrrrrrq/status/2043331777897676894?s=52",
+  "source_type": "x_tweet_with_replies",
+  "tweet_id": "2043331777897676894",
+  "top_level_media_count": 0,
+  "notable_replies": [
+    {
+      "id": "2047363915206869429",
+      "author": "@derrrrrrrq",
+      "summary": "提醒新手合约风险很高，更适合先做现货和大周期囤货。"
+    },
+    {
+      "id": "2043356150360657961",
+      "author": "@derrrrrrrq",
+      "summary": "不同交易所的 OI 结构不一样，币安通常最大，但也可能由 Bybit、OKX、BG 主导。"
+    },
+    {
+      "id": "2043653815262716263",
+      "author": "@tinyyyy667168",
+      "summary": "评论区补充：价格和 OI 之外，还要结合 CVD 看主动成交方向。"
+    }
+  ],
+  "notes": "主帖核心是把 OI 与价格的关系放回操盘阶段去理解，而不是做静态公式解读。"
+}

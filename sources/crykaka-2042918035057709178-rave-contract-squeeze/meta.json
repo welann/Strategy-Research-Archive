@@ -1,0 +1,39 @@
+{
+  "title": "RAVE 的合约主导逼空盘判断",
+  "author": {
+    "id": "1520698717719785473",
+    "name": "Kaka",
+    "screenName": "CryKaka"
+  },
+  "published_local": "2026-04-11 18:49",
+  "published_utc_source": "Sat Apr 11 10:49:49 +0000 2026",
+  "url": "https://x.com/crykaka/status/2042918035057709178?s=52",
+  "source_type": "x_tweet_with_replies",
+  "tweet_id": "2042918035057709178",
+  "top_level_media_count": 1,
+  "top_level_media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HFnkot3asAAJ_Ua.jpg",
+      "local_path": "assets/图1.jpg"
+    }
+  ],
+  "notable_replies": [
+    {
+      "id": "2043167703939310021",
+      "author": "@CryKaka",
+      "summary": "承认这类盘情绪驱动很强，更适合轻仓分批，不适合重仓追。"
+    },
+    {
+      "id": "2043703016436752868",
+      "author": "@CryKaka",
+      "summary": "与 STO 的关键区别是现货是否同步配合，RAVE 更偏纯合约堆上去。"
+    },
+    {
+      "id": "2042988086066581783",
+      "author": "@CryKaka",
+      "summary": "在 OI 高位横住、CVD 还在走强时，作者仍不愿意贸然开空。"
+    }
+  ],
+  "notes": "主帖给出合约主导逼空盘的典型观察项，以及何时等待转弱再考虑做空。"
+}

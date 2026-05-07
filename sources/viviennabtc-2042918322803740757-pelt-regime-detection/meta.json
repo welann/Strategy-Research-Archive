@@ -1,0 +1,22 @@
+{
+  "title": "用 PELT 变点检测识别 regime 切换与巨鲸结构突变",
+  "author": {
+    "id": "1468116967542251522",
+    "name": "vivienna.btc",
+    "screenName": "viviennaBTC"
+  },
+  "published_local": "2026-04-11 18:50",
+  "published_utc_source": "Sat Apr 11 10:50:58 +0000 2026",
+  "url": "https://x.com/viviennabtc/status/2042918322803740757?s=52",
+  "source_type": "x_tweet",
+  "tweet_id": "2042918322803740757",
+  "top_level_media_count": 1,
+  "top_level_media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HFnnIjnaQAAvcym.jpg",
+      "local_path": "assets/图1.jpg"
+    }
+  ],
+  "notes": "主帖用 PELT 解释如何识别 regime 切换，并把方法迁移到链上巨鲸地址变动分析。"
+}
