@@ -1,0 +1,34 @@
+{
+  "title": "顿悟的马和被噪音驱动的投资者",
+  "author": {
+    "id": "1389045925981560836",
+    "name": "lufei",
+    "screenName": "lufeieth"
+  },
+  "published_local": "2026-04-02 14:07",
+  "published_utc_source": "Thu Apr 02 06:07:06 +0000 2026",
+  "url": "https://x.com/lufeieth/status/2039585395495596164?s=52",
+  "source_type": "x_tweet_with_video",
+  "tweet_id": "2039585395495596164",
+  "top_level_media_count": 1,
+  "top_level_media": [
+    {
+      "type": "video",
+      "url": "https://video.twimg.com/amplify_video/2039585249827729408/vid/avc1/1284x1526/6oo1AZRGbbKBJwPe.mp4?tag=21",
+      "local_path": "assets/图1.mp4"
+    }
+  ],
+  "notable_replies": [
+    {
+      "id": "2039586830149206336",
+      "author": "@lufeieth",
+      "summary": "作者补充说，结合另一条推文一起看会更好理解。"
+    },
+    {
+      "id": "2039648158268154320",
+      "author": "@lufeieth",
+      "summary": "作者把主帖的含义浓缩成一句：我们原来是活在 Matrix 里。"
+    }
+  ],
+  "notes": "主帖核心是把宏观数据流比作信息遛马机，提醒长期投资者不要让月度噪音劫持自己的决策频率。"
+}
