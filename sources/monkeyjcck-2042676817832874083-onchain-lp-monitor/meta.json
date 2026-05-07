@@ -1,0 +1,44 @@
+{
+  "title": "链上 LP 加减实时监控工具构想",
+  "author": {
+    "id": "1719668906137452544",
+    "name": "叠马仔🍁",
+    "screenName": "MonkeyJcck"
+  },
+  "published_local": "2026-04-11 02:51",
+  "published_utc_source": "Fri Apr 10 18:51:19 +0000 2026",
+  "url": "https://x.com/monkeyjcck/status/2042676817832874083?s=52",
+  "source_type": "x_tweet_with_replies",
+  "tweet_id": "2042676817832874083",
+  "top_level_media_count": 1,
+  "top_level_media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HFkLRPnaYAAUqYm.png",
+      "local_path": "assets/图1.png"
+    }
+  ],
+  "notable_replies": [
+    {
+      "id": "2042677591841337669",
+      "author": "@MonkeyJcck",
+      "summary": "作者强调会把工具打磨到足够丝滑，因为自己就是做 LP 的，知道什么数据重要。"
+    },
+    {
+      "id": "2042912522869829866",
+      "author": "@MonkeyJcck",
+      "summary": "作者明确说，这不是机械跟单工具，而是用来判断热点。"
+    },
+    {
+      "id": "2042912648589906116",
+      "author": "@MonkeyJcck",
+      "summary": "工具暂未公开，作者仍在持续优化。"
+    },
+    {
+      "id": "2042958960777662507",
+      "author": "@MonkeyJcck",
+      "summary": "作者回应，区间展示本身就是核心功能，要能看清不同人的 LP 范围和池子信息。"
+    }
+  ],
+  "notes": "主帖核心是构建一个以 Uniswap V3/V4 等集中流动性池为中心的 LP 变动监控面板，用于热点识别与策略者行为观察。"
+}
