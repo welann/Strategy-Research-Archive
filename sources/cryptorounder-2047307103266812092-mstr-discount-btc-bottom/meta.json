@@ -1,0 +1,63 @@
+{
+  "title": "MSTR 折价与 BTC 底部观察",
+  "author": {
+    "id": "1445736128552734720",
+    "name": "Rounder",
+    "screenName": "CryptoRounder",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1583409642444533760/6qo2ckWf_normal.jpg",
+    "verified": true
+  },
+  "published_local": "2026-04-23 21:30",
+  "published_iso": "2026-04-23T13:30:25+00:00",
+  "url": "https://x.com/cryptorounder/status/2047307103266812092",
+  "source_type": "x_tweet",
+  "tweet_id": "2047307103266812092",
+  "metrics_at_capture": {
+    "likes": 78,
+    "retweets": 11,
+    "replies": 8,
+    "quotes": 0,
+    "views": 17618,
+    "bookmarks": 54
+  },
+  "top_level_media_count": 0,
+  "quoted_tweet": {
+    "id": "2033823795145056652",
+    "author": "@CryptoRounder",
+    "title": "杂谈 $MSTR 和 $BTC 的价格关系",
+    "summary": "作者更早的长文提出：顶部看 MSTR 先于 BTC 背离，底部看 mNAV 跌到 1.0 附近作为折价抄底信号。"
+  },
+  "notable_replies": [
+    {
+      "id": "2047314265451933899",
+      "author": "@BTC__options",
+      "published_local": "2026-04-23 21:58",
+      "summary": "指出上一轮牛市是灰度，这一轮则是 MSTR，且 MSTR 明显更硬。"
+    },
+    {
+      "id": "2047318404919697887",
+      "author": "@CryptoRounder",
+      "published_local": "2026-04-23 22:15",
+      "summary": "作者回应：MSTR 背后有更严密的金融工程，并非表面看起来那样无脑。"
+    },
+    {
+      "id": "2047315911988899998",
+      "author": "@Maxandzero",
+      "published_local": "2026-04-23 22:05",
+      "summary": "建议若 MSTR 再次折价，可通过卖 Put/接货方式参与抄底。"
+    },
+    {
+      "id": "2047319590766874999",
+      "author": "@CryptoRounder",
+      "published_local": "2026-04-23 22:20",
+      "summary": "作者认同该思路，并补充届时权利金大概率会很厚。"
+    },
+    {
+      "id": "2047660552705765461",
+      "author": "@Rich06918",
+      "published_local": "2026-04-24 20:54",
+      "summary": "推演若再度折价，市场主流 FUD 很可能是 MSTR 将要爆雷。"
+    }
+  ],
+  "notes": "ordinary tweet with no top-level media. original.md 补充了作者自引长文的关键上下文和评论区要点。"
+}
