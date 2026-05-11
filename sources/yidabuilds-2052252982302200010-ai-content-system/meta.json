@@ -1,0 +1,53 @@
+{
+  "title": "一个人日更长文，篇均12万曝光——我的AI内容系统长什么样",
+  "author": {
+    "id": "1818587199841222656",
+    "name": "百年 AI×出海",
+    "screenName": "yidabuilds",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/2050988744568877056/PKNjDeYJ_normal.jpg",
+    "verified": true
+  },
+  "published_local": "2026-05-07 13:03",
+  "published_iso": "2026-05-07T05:03:34+00:00",
+  "status_url": "https://x.com/yidabuilds/status/2052252982302200010",
+  "article_url": "http://x.com/i/article/2052252336345800704",
+  "source_type": "x_article_via_status",
+  "tweet_id": "2052252982302200010",
+  "metrics_at_capture": {
+    "likes": 938,
+    "retweets": 155,
+    "replies": 64,
+    "quotes": 48,
+    "views": 0,
+    "bookmarks": 2371
+  },
+  "top_level_media_count": 0,
+  "notable_replies": [
+    {
+      "id": "2052647894180909397",
+      "author": "@yidabuilds",
+      "summary": "作者补充了运行成本：个人用了两个 200 美金的 Claude Code。"
+    },
+    {
+      "id": "2052313421853741064",
+      "author": "@yidabuilds",
+      "summary": "作者明确不公开完整内容系统，因为里面包含太多个人数据。"
+    },
+    {
+      "id": "2052395364331016413",
+      "author": "@yidabuilds",
+      "summary": "作者强调一切事情的底层都是数据。"
+    },
+    {
+      "id": "2052270793405694440",
+      "author": "@yidabuilds",
+      "summary": "作者强调输出倒逼输入，核心执行要求是无论如何都要日更。"
+    },
+    {
+      "id": "2052269776740008165",
+      "author": "@yidabuilds",
+      "summary": "作者承认 AI 味已经减轻，但还没有完全消除。"
+    }
+  ],
+  "notes": "顶层推文只包含文章链接。正文核心是把 AI 内容创作从碎片化 prompt 使用，升级为语料库、素材库、内容管线和数据复盘组成的闭环系统。"
+}
