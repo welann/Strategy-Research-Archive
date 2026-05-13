@@ -1,0 +1,33 @@
+{
+  "title": "永续合约：小而美的ALPHA之路",
+  "author": {
+    "id": "730205023620071424",
+    "name": "Boywus",
+    "screenName": "Boywus"
+  },
+  "published_local": "2026-03-05 18:09",
+  "published_utc_source": "Thu Mar 05 10:09:46 +0000 2026",
+  "status_url": "https://x.com/Boywus/status/2029499603767415067?s=52",
+  "article_url": "http://x.com/i/article/2029488760237572097",
+  "source_type": "x_article_via_status",
+  "tweet_id": "2029499603767415067",
+  "top_level_media_count": 0,
+  "notable_replies": [
+    {
+      "id": "2029518623556211050",
+      "author": "@Boywus",
+      "summary": "作者回应预测市场与 CEX 套利方向，认为这块学问很大，自己也在研究。"
+    },
+    {
+      "id": "2029514652607209858",
+      "author": "@cryptoagentmake",
+      "summary": "补充不同交易所资金费计算公式差异会天然形成 alpha，但资金分散和跨所风险会限制收益率。"
+    },
+    {
+      "id": "2029522668136092082",
+      "author": "@QuantGrayman",
+      "summary": "补充跨所资金费套利需要实盘基础设施，且交易所 API 经常更新。"
+    }
+  ],
+  "notes": "顶层推文只包含文章链接。正文核心是：小团队不该和大厂硬拼大容量模型 alpha，而应在永续合约资金费率、指数规则、API、结算窗口和跨所机制差异中寻找机制 alpha。"
+}

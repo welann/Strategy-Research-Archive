@@ -1,0 +1,37 @@
+{
+  "title": "原油展期套利变卷后，用 Boros 做多 YU 捕捉费率跳转",
+  "author": {
+    "id": "1390560341227020291",
+    "name": "HongKongDoll",
+    "screenName": "hongkongdoll"
+  },
+  "published_local": "2026-05-12 10:44",
+  "published_utc_source": "Tue May 12 02:44:10 +0000 2026",
+  "url": "https://x.com/hongkongdoll/status/2054029841507201453?s=52",
+  "source_type": "x_tweet_with_quote",
+  "tweet_id": "2054029841507201453",
+  "top_level_media_count": 0,
+  "quoted_tweet": {
+    "id": "2052037820663927161",
+    "author": "@boros_fi",
+    "summary": "主帖引用 Boros 相关链接作为原油费率交易背景。"
+  },
+  "notable_replies": [
+    {
+      "id": "2054043906757845289",
+      "author": "@limxn6",
+      "summary": "补充 Boros 上套利规模相比上月换月小很多，对手盘不够多。"
+    },
+    {
+      "id": "2054091174177116453",
+      "author": "@hongkongdoll",
+      "summary": "作者回应这个月套利很苦，说明收敛空间和费率交易空间都明显变卷。"
+    },
+    {
+      "id": "2054135943209406740",
+      "author": "@huobi_evan",
+      "summary": "评论补充套利共识太强会压缩利润，Boros 本质是在争夺未来费率的定价权。"
+    }
+  ],
+  "notes": "主帖核心是从原油展期收敛套利切换到 Boros 原油费率多头，利用展期中实际费率从普通负到极负再跳回普通负的节奏寻找额外机会。"
+}

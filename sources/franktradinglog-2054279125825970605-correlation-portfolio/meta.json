@@ -1,0 +1,39 @@
+{
+  "title": "分散投资不是买很多 ticker，而是做相关性矩阵上的分散",
+  "author": {
+    "id": "1197424631398879233",
+    "name": "摩卡星冰乐",
+    "screenName": "Franktradinglog"
+  },
+  "published_local": "2026-05-13 03:14",
+  "published_utc_source": "Tue May 12 19:14:44 +0000 2026",
+  "url": "https://x.com/franktradinglog/status/2054279125825970605?s=52",
+  "source_type": "x_tweet_with_image",
+  "tweet_id": "2054279125825970605",
+  "top_level_media_count": 1,
+  "top_level_media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HIJD0ijaYAAWud3.jpg",
+      "local_path": "assets/图1.jpg"
+    }
+  ],
+  "notable_replies": [
+    {
+      "id": "2054283450686083316",
+      "author": "@Franktradinglog",
+      "summary": "作者回复强调这本质上是板块轮动问题。"
+    },
+    {
+      "id": "2054446345667440905",
+      "author": "@stometaverse",
+      "summary": "评论补充半导体内部也要分层看，HBM 与消费级存储的供给结构不同。"
+    },
+    {
+      "id": "2054342344284221557",
+      "author": "@Franktradinglog",
+      "summary": "作者在评论区解释几何收益、算术收益、expected log return 与 expected simple return 在 lognormal 假设和小 vol 近似下的关系。"
+    }
+  ],
+  "notes": "主帖核心是用相关性矩阵、波动拖累、再平衡溢价和风险预算解释为什么真正的分散不是 ticker 数量，而是不相关收益来源。"
+}
