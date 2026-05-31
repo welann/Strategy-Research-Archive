@@ -1,0 +1,75 @@
+{
+  "source": "x",
+  "author": {
+    "name": "李翠芬",
+    "screen_name": "belouga2000",
+    "id": "1552120456492134401"
+  },
+  "tweet": {
+    "id": "2060729156921589865",
+    "url": "https://x.com/belouga2000/status/2060729156921589865",
+    "photo_url": "https://x.com/belouga2000/status/2060729156921589865/photo/1",
+    "created_at": "2026-05-30T14:24:52+00:00",
+    "created_at_local": "2026-05-30 22:24",
+    "lang": "zh"
+  },
+  "metrics_at_fetch": {
+    "likes": 416,
+    "retweets": 71,
+    "replies": 36,
+    "quotes": 0,
+    "views": 49682,
+    "bookmarks": 533
+  },
+  "related_tweets": [
+    {
+      "id": "2060730332513726597",
+      "author": "belouga2000",
+      "type": "author_follow_up",
+      "created_at": "2026-05-30T14:29:32+00:00"
+    },
+    {
+      "id": "2060890762729202058",
+      "author": "belouga2000",
+      "type": "indicator_location_reply",
+      "created_at": "2026-05-31T01:07:01+00:00"
+    },
+    {
+      "id": "2060989032864378906",
+      "author": "belouga2000",
+      "type": "indicator_definition_reply",
+      "created_at": "2026-05-31T07:37:31+00:00"
+    },
+    {
+      "id": "2060767371996864766",
+      "author": "maitian99",
+      "type": "important_counterpoint",
+      "created_at": "2026-05-30T16:56:43+00:00"
+    }
+  ],
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HJktAprbUAA-qf3.jpg",
+      "local_path": "sources/belouga2000-2060729156921589865-mmth-breadth-timing/assets/图1.jpg",
+      "width": 1582,
+      "height": 808
+    },
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HJlQbqUWAAAk8dQ.jpg",
+      "local_path": "sources/belouga2000-2060729156921589865-mmth-breadth-timing/assets/图2-评论20年视角.jpg",
+      "width": 1805,
+      "height": 827
+    }
+  ],
+  "fetched_at": "2026-05-31",
+  "content_type": "X thread with images and important comment",
+  "archive_files": [
+    "original.md",
+    "meta.json",
+    "assets/图1.jpg",
+    "assets/图2-评论20年视角.jpg"
+  ]
+}
+
