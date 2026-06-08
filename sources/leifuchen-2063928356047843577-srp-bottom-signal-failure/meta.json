@@ -1,0 +1,70 @@
+{
+  "source": "x",
+  "author": {
+    "name": "leifu _/",
+    "screen_name": "leifuchen",
+    "id": "1702231380"
+  },
+  "tweet": {
+    "id": "2063928356047843577",
+    "url": "https://x.com/leifuchen/status/2063928356047843577",
+    "created_at": "2026-06-08T10:17:20+00:00",
+    "created_at_local": "2026-06-08 18:17",
+    "lang": "zh"
+  },
+  "metrics_at_fetch": {
+    "likes": 6,
+    "retweets": 0,
+    "replies": 1,
+    "quotes": 0,
+    "views": 806,
+    "bookmarks": 2
+  },
+  "quoted_tweet": {
+    "id": "2060260742926914042",
+    "url": "https://x.com/leifuchen/status/2060260742926914042",
+    "created_at": "2026-05-29T07:23:33+00:00",
+    "created_at_local": "2026-05-29 15:23",
+    "metrics_at_fetch": {
+      "likes": 69,
+      "retweets": 11,
+      "replies": 14,
+      "quotes": 6,
+      "views": 29846,
+      "bookmarks": 94
+    }
+  },
+  "media": [
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HKR-Dn9WEAA_8fY.jpg",
+      "local_path": "sources/leifuchen-2063928356047843577-srp-bottom-signal-failure/assets/图1-SRP与两周收益散点图.jpg",
+      "width": 2322,
+      "height": 1518
+    },
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HKR_NOcXoAA7qyY.jpg",
+      "local_path": "sources/leifuchen-2063928356047843577-srp-bottom-signal-failure/assets/图2-SRP与BTC价格时序图.jpg",
+      "width": 2244,
+      "height": 1156
+    },
+    {
+      "type": "photo",
+      "url": "https://pbs.twimg.com/media/HJeEOaTXIAMnD_z.jpg",
+      "local_path": "sources/leifuchen-2063928356047843577-srp-bottom-signal-failure/assets/图3-上一篇SRP90D历史图.jpg",
+      "width": 1200,
+      "height": 882
+    }
+  ],
+  "fetched_at": "2026-06-08",
+  "content_type": "X post with quoted research post and charts",
+  "archive_files": [
+    "original.md",
+    "meta.json",
+    "assets/图1-SRP与两周收益散点图.jpg",
+    "assets/图2-SRP与BTC价格时序图.jpg",
+    "assets/图3-上一篇SRP90D历史图.jpg"
+  ]
+}
+
