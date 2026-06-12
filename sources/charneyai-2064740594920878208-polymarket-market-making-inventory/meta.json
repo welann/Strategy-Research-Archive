@@ -1,0 +1,59 @@
+{
+  "source": "x",
+  "author": {
+    "name": "Charney Chen",
+    "screen_name": "CharneyAI",
+    "id": "2052747658851418112"
+  },
+  "tweet": {
+    "id": "2064740594920878208",
+    "url": "https://x.com/CharneyAI/status/2064740594920878208",
+    "created_at": "2026-06-10T16:04:53+00:00",
+    "created_at_local": "2026-06-11 00:04",
+    "lang": "zxx"
+  },
+  "article": {
+    "id": "2064734206341582849",
+    "url": "http://x.com/i/article/2064734206341582849",
+    "title": "3-Polymarket 做市实录:吃单套利死于手续费之后,我转向了双边做市",
+    "local_path": "sources/charneyai-2064740594920878208-polymarket-market-making-inventory/article.md"
+  },
+  "metrics_at_fetch": {
+    "likes": 87,
+    "retweets": 11,
+    "replies": 7,
+    "quotes": 2,
+    "views": 9002,
+    "bookmarks": 127
+  },
+  "related_tweets": [
+    {
+      "id": "2064904566882320819",
+      "author": "river100311",
+      "type": "inventory_management_comment",
+      "created_at": "2026-06-11T02:56:27+00:00"
+    },
+    {
+      "id": "2064905242060218503",
+      "author": "CharneyAI",
+      "type": "author_inventory_management_reply",
+      "created_at": "2026-06-11T02:59:08+00:00"
+    }
+  ],
+  "cited_research": [
+    {
+      "title": "Unravelling the Probabilistic Forest: Arbitrage in Prediction Markets",
+      "arxiv_id": "2508.03474",
+      "url": "https://arxiv.org/abs/2508.03474"
+    }
+  ],
+  "media": [],
+  "fetched_at": "2026-06-12",
+  "content_type": "X Article with market-making implementation retrospective",
+  "archive_files": [
+    "article.md",
+    "original.md",
+    "meta.json"
+  ]
+}
+
