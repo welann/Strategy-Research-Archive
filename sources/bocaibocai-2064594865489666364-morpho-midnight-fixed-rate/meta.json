@@ -1,0 +1,64 @@
+{
+  "source": "x",
+  "author": {
+    "name": "菠菜菠菜｜bocaibocai",
+    "screen_name": "bocaibocai_",
+    "id": "4832417086"
+  },
+  "tweet": {
+    "id": "2064594865489666364",
+    "url": "https://x.com/bocaibocai_/status/2064594865489666364",
+    "created_at": "2026-06-10T06:25:48+00:00",
+    "created_at_local": "2026-06-10 14:25",
+    "lang": "zxx"
+  },
+  "article": {
+    "id": "2059941028120150016",
+    "url": "http://x.com/i/article/2059941028120150016",
+    "title": "一文读懂 Morpho Midnight：当链上借贷遇上固定利率与定期市场",
+    "local_path": "sources/bocaibocai-2064594865489666364-morpho-midnight-fixed-rate/article.md"
+  },
+  "metrics_at_fetch": {
+    "likes": 41,
+    "retweets": 6,
+    "replies": 11,
+    "quotes": 1,
+    "views": 12009,
+    "bookmarks": 37
+  },
+  "related_tweets": [
+    {
+      "id": "2064599892140708167",
+      "author": "MengLayer",
+      "type": "availability_question",
+      "created_at": "2026-06-10T06:45:47+00:00"
+    },
+    {
+      "id": "2064601575654629469",
+      "author": "bocaibocai_",
+      "type": "author_availability_reply",
+      "created_at": "2026-06-10T06:52:28+00:00"
+    },
+    {
+      "id": "2064683273620795615",
+      "author": "0xCodada",
+      "type": "pendle_comparison_comment",
+      "created_at": "2026-06-10T12:17:07+00:00"
+    },
+    {
+      "id": "2064608058580599187",
+      "author": "hallway_lol",
+      "type": "existing_fixed_rate_protocol_comment",
+      "created_at": "2026-06-10T07:18:14+00:00"
+    }
+  ],
+  "media": [],
+  "fetched_at": "2026-06-12",
+  "content_type": "X Article with technical protocol analysis",
+  "archive_files": [
+    "article.md",
+    "original.md",
+    "meta.json"
+  ]
+}
+

@@ -125,6 +125,9 @@
 - [`Morpho借贷资产发行协议：固定利率如何强化RWA与机构化叙事飞轮.md`](Morpho借贷资产发行协议：固定利率如何强化RWA与机构化叙事飞轮.md)
   - 总结 `Bonna` 对 `Morpho` 的框架，重点拆解借贷资产发行协议、RWA 链上第一站、Curator 配资、民主化 Prime Brokerage、固定利率和机构化飞轮。
 
+- [`Morpho Midnight固定利率协议：零息凭证、无锁资Offer与链下路由.md`](Morpho%20Midnight固定利率协议：零息凭证、无锁资Offer与链下路由.md)
+  - 总结 `bocaibocai_` 对 `Morpho Midnight` 的协议拆解，重点分析固定日历到期、零息凭证、无锁资 `Offer`、执行时 `callback`、消费组和链下路由如何提高资本效率，以及报价可执行性、路由集中化与定期清算风险。
+
 ## 因子投资与长期资本
 
 - [`巴菲特Alpha拆解：价值、质量、低贝塔与保险浮存金杠杆.md`](巴菲特Alpha拆解：价值、质量、低贝塔与保险浮存金杠杆.md)
