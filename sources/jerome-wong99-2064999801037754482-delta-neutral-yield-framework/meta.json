@@ -1,0 +1,38 @@
+{
+  "source": "x",
+  "author": {
+    "name": "0xjerome",
+    "screen_name": "jerome_wong99",
+    "id": "949627085823225856"
+  },
+  "tweet": {
+    "id": "2064999801037754482",
+    "url": "https://x.com/jerome_wong99/status/2064999801037754482",
+    "created_at": "2026-06-11T09:14:53+00:00",
+    "created_at_local": "2026-06-11 17:14",
+    "lang": "zxx"
+  },
+  "article": {
+    "id": "2064963172344442880",
+    "url": "http://x.com/i/article/2064963172344442880",
+    "title": "VC创始人的自白：普通人必须理解的量化策略底层逻辑",
+    "local_path": "sources/jerome-wong99-2064999801037754482-delta-neutral-yield-framework/article.md"
+  },
+  "metrics_at_fetch": {
+    "likes": 26,
+    "retweets": 5,
+    "replies": 4,
+    "quotes": 1,
+    "views": 10476,
+    "bookmarks": 27
+  },
+  "media": [],
+  "fetched_at": "2026-06-13",
+  "content_type": "X Article with delta-neutral education and product narrative",
+  "archive_files": [
+    "article.md",
+    "original.md",
+    "meta.json"
+  ]
+}
+
