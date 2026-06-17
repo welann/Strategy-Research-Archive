@@ -1,0 +1,60 @@
+{
+  "source": "x",
+  "source_url": "https://x.com/franktradinglog/status/2063320999018578335?s=52",
+  "tweet_id": "2063320999018578335",
+  "author": {
+    "name": "Frank trading",
+    "screen_name": "Franktradinglog",
+    "id": "1197424631398879233",
+    "verified": true
+  },
+  "created_at_iso": "2026-06-06T18:03:55+00:00",
+  "created_at_local": "2026-06-07 02:03",
+  "fetched_at_local": "2026-06-17",
+  "content_type": [
+    "市场结构",
+    "交易策略",
+    "期权指标",
+    "风险管理"
+  ],
+  "topic": "半导体杠杆踩踏、VIXEQ、COR1M、HVL、SMH put spread 与韩国 2x SK Hynix ETF 左尾风险",
+  "metrics_at_fetch": {
+    "likes": 524,
+    "retweets": 78,
+    "replies": 113,
+    "quotes": 10,
+    "views": 108466,
+    "bookmarks": 593
+  },
+  "archive": {
+    "tweet_json": "tweet.json",
+    "original_markdown": "original.md",
+    "assets": [
+      "assets/HKJhSdKb0AAuKpi.jpg",
+      "assets/HKJhiKvacAAQ9TV.png",
+      "assets/HKJ1n6HbMAAnPub.jpg"
+    ],
+    "x_article": "not_found"
+  },
+  "external_links": [
+    {
+      "url": "https://franktrading.substack.com/p/06012026?r=2wn5pz",
+      "title": "06/01/2026 复盘与展望",
+      "subtitle": "Sell into Strength Before it's Too Late",
+      "access": "paid",
+      "archive_note": "未原样归档 HTML；页面包含登录态数据和付费内容痕迹。"
+    }
+  ],
+  "author_followups_used": [
+    {
+      "tweet_id": "2063322152280240591",
+      "created_at_local": "2026-06-07 02:08",
+      "summary": "作者称 2x 海力士相关 swap 和 option 部分都会减，规模不是 200 万，而是约 20B 美元。"
+    },
+    {
+      "tweet_id": "2063340972780695863",
+      "created_at_local": "2026-06-07 03:23",
+      "summary": "作者补充 MU 周五被爆杀后仍然 call-heavy，并配 Risk Reversal Skew 图。"
+    }
+  ]
+}

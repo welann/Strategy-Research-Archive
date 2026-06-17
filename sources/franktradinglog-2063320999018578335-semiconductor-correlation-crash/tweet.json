@@ -1,0 +1,1172 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2063320999018578335",
+      "text": "复盘一下做空半导体的逻辑，以及对下周一韩国的一点看法\n\n其实上周的周报里已经写得差不多了https://t.co/2Odld4493x。这里只讲最核心的一条：这次暴跌的原动力，从来不是基本面，而是杠杆。\n\n判断杠杆堆到了多大，我主要靠两个指标，VIXEQ 和 COR1M，再辅以 call/put ratio 和另外几个情绪指标。\n\n先解释一下这两个指标的原理。\nVIXEQ（CBOE 标普500成分股波动率指数） 衡量的是个股层面的隐含波动率。VIX 用的是 SPX 指数期权，算的是\"整个指数的恐慌\"；VIXEQ 则对每一只成分股的个股期权做一次类 VIX 计算，再按市值加权汇总，算的是\"平均每只个股的恐慌\"。当单股 call 买入极度激进、投机高度集中在 MU, SNDK, INTC, NOK这类名字上时，个股期权会被买得很贵，VIXEQ 相对 VIX 的溢价就会拉到极致，这是单股投机与杠杆最直接的读数。\nCOR1M（CBOE 1个月隐含相关性指数） 衡量的是市场预期的成分股之间的相关性。指数方差 ≈ 成分股的平均方差 × 相关性，所以当个股都在涨、却是彼此独立地涨（资金分散押在各自的故事上）时，相关性会被压到地量。COR1M 收在 6.33，意味着隐含相关性已经逼近历史最低。\n\n这两个指标合起来，描述的是同一种结构：所有人都加着杠杆、押在彼此独立的个股上（主要是半导体），同时有很多对冲基金在做多半导体的同时做空价值股，指数因此被人为地压平。 这种结构最大的风险在于任何一个冲击，都会让相关性在一瞬间从接近 0 弹回 1，所有票一起跌，所有杠杆被迫同时平仓。所谓的暴跌，本质上就是相关性回归 1 的过程。\n所以早在上周初，我就已经意识到了这个巨大的杠杆风险。它才是下跌的原动力。\n\n至于导火索是什么，其实并不重要。AVGO 的财报、SemiAnalysis 对MU的负面评论、那个所谓\"过热\"的 NFP、Meta 的增发，这些全都只是萨拉热窝的那一声枪响。 和今年 1 月底的白银一模一样：Warsh 上台也只是导火索，真正的理由是，在暴涨过程中堆积起来的、满载浮盈的杠杆资金一旦开始出逃，就会引发多杀多，多头踩踏多头，越卖越跌、越跌越卖。结构决定方向，催化剂只决定时点。\n\n具体到做空。我一开始只开了1%仓位的 SMH 的 put spread，这种行情你很难判断究竟哪一天会崩，但我们可以预设一个点位。我们预设的点位，就是 7495 这个 HVL（high vol level）。7495 之上，做市商整体是正 gamma会压制波动；一旦跌穿 7495，正 gamma 翻成 -gamma，做市商被迫越跌越卖，制造出更大的系统性卖压。在这个位置加空，胜率最高。 不是去猜顶，而是等结构自己翻空、做市商自己变成强制卖方的那一刻，再动手。\n\n别的也没什么好说的了。\n\n哦，额外补充一点对下周一的看法。\n韩国股市里仍然酝酿着系统性危机，说一种最危险的左尾，大概会是这样一种情形：如果 SK 海力士周一开盘直接跌停，就不会给2x海力士（目前全球最大的单股 ETF）任何减仓的窗口，它没法在跌停板上卖出对冲、无法降杠杆，于是只能带着远超 2x 的杠杆进入次日。一旦海力士隔日继续下杀，这只 ETF 就会被彻底击穿甚至被清盘，恐慌从会从首尔直接蔓延到香港引发剧烈的金融海啸甚至传导到更远。\n\n但是大概率韩国政府会动手救一下？让我们为韩国祈祷吧。",
+      "author": {
+        "id": "1197424631398879233",
+        "name": "Frank trading",
+        "screenName": "Franktradinglog",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2003040202361593856/6OBVC9U8_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 524,
+        "retweets": 78,
+        "replies": 113,
+        "quotes": 10,
+        "views": 108466,
+        "bookmarks": 593
+      },
+      "createdAt": "Sat Jun 06 18:03:55 +0000 2026",
+      "createdAtLocal": "2026-06-07 02:03",
+      "createdAtISO": "2026-06-06T18:03:55+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKJhSdKb0AAuKpi.jpg",
+          "width": 1910,
+          "height": 1428
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKJhiKvacAAQ9TV.png",
+          "width": 1690,
+          "height": 1432
+        }
+      ],
+      "urls": [
+        "https://franktrading.substack.com/p/06012026?r=2wn5pz"
+      ],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063340972780695863",
+      "text": "btw，周五被爆杀了一下之后mu甚至还是call heavy https://t.co/PPLDCu5Snm",
+      "author": {
+        "id": "1197424631398879233",
+        "name": "Frank trading",
+        "screenName": "Franktradinglog",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2003040202361593856/6OBVC9U8_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 17,
+        "retweets": 0,
+        "replies": 7,
+        "quotes": 0,
+        "views": 12600,
+        "bookmarks": 9
+      },
+      "createdAt": "Sat Jun 06 19:23:17 +0000 2026",
+      "createdAtLocal": "2026-06-07 03:23",
+      "createdAtISO": "2026-06-06T19:23:17+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKJ1n6HbMAAnPub.jpg",
+          "width": 1454,
+          "height": 1014
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2063533192876113997",
+      "text": "@Franktradinglog 海力士凭哪门子开盘跌30%？？？瞎几把摸头写？",
+      "author": {
+        "id": "1530239285298876416",
+        "name": "KKK-YOLO🫡",
+        "screenName": "CryptoKazgg",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1887795093014491136/mZJP-5ey_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1300,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 08:07:06 +0000 2026",
+      "createdAtLocal": "2026-06-07 16:07",
+      "createdAtISO": "2026-06-07T08:07:06+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063556693523657057",
+      "text": "@CryptoKazgg 你知道什么叫左尾风险吗，傻逼",
+      "author": {
+        "id": "1197424631398879233",
+        "name": "Frank trading",
+        "screenName": "Franktradinglog",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2003040202361593856/6OBVC9U8_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1203,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 09:40:29 +0000 2026",
+      "createdAtLocal": "2026-06-07 17:40",
+      "createdAtISO": "2026-06-07T09:40:29+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063322008017051772",
+      "text": "@Franktradinglog 这个基金是被动减仓对吗哥，一下子砸200W，市场直接会崩吧",
+      "author": {
+        "id": "1361176728639475712",
+        "name": "CryptoLu",
+        "screenName": "Crypto_XiaoLu",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1582044448380157953/3mbz5WpN_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 4270,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Jun 06 18:07:56 +0000 2026",
+      "createdAtLocal": "2026-06-07 02:07",
+      "createdAtISO": "2026-06-06T18:07:56+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063322152280240591",
+      "text": "@Crypto_XiaoLu swap和option的部分都会减，怎么可能只有200w，是20b，美元",
+      "author": {
+        "id": "1197424631398879233",
+        "name": "Frank trading",
+        "screenName": "Franktradinglog",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2003040202361593856/6OBVC9U8_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 4135,
+        "bookmarks": 1
+      },
+      "createdAt": "Sat Jun 06 18:08:30 +0000 2026",
+      "createdAtLocal": "2026-06-07 02:08",
+      "createdAtISO": "2026-06-06T18:08:30+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063321380809023680",
+      "text": "@Franktradinglog 护国之战🤣",
+      "author": {
+        "id": "1767756460325552128",
+        "name": "RocAFella",
+        "screenName": "roc_fella18582",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1767757064389136384/Hvdo9Og__normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 3836,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Jun 06 18:05:26 +0000 2026",
+      "createdAtLocal": "2026-06-07 02:05",
+      "createdAtISO": "2026-06-06T18:05:26+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063321794959016084",
+      "text": "@roc_fella18582 护球之战！",
+      "author": {
+        "id": "1197424631398879233",
+        "name": "Frank trading",
+        "screenName": "Franktradinglog",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2003040202361593856/6OBVC9U8_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 3735,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Jun 06 18:07:05 +0000 2026",
+      "createdAtLocal": "2026-06-07 02:07",
+      "createdAtISO": "2026-06-06T18:07:05+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063381037246464103",
+      "text": "@Franktradinglog 我截了图，真心希望你不是在吹牛，并且历经牛熊和周期的考验 https://t.co/FLw7OWNNTd",
+      "author": {
+        "id": "3271066764",
+        "name": "Crazyox",
+        "screenName": "crazyox",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1990903287902842884/jxIHIdcj_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 1,
+        "views": 2215,
+        "bookmarks": 2
+      },
+      "createdAt": "Sat Jun 06 22:02:29 +0000 2026",
+      "createdAtLocal": "2026-06-07 06:02",
+      "createdAtISO": "2026-06-06T22:02:29+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKKaGvfaAAAiuma.jpg",
+          "width": 1320,
+          "height": 1683
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063552825221939328",
+      "text": "@Franktradinglog 把@Franktradinglog 老师方法论指标做成了可视化表盘\nhttps://t.co/93ASmQyuWW",
+      "author": {
+        "id": "3271066764",
+        "name": "Crazyox",
+        "screenName": "crazyox",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1990903287902842884/jxIHIdcj_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 775,
+        "bookmarks": 2
+      },
+      "createdAt": "Sun Jun 07 09:25:07 +0000 2026",
+      "createdAtLocal": "2026-06-07 17:25",
+      "createdAtISO": "2026-06-07T09:25:07+00:00",
+      "media": [],
+      "urls": [
+        "https://x.com/crazyox/status/2063501481584816166?s=46"
+      ],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "2063501481584816166",
+        "text": "根据 @franktradinglog 老师100%做空方法论【先看期权市场有没有给出“结构已经很脆”的证据： VIXEQ 很高、COR1M 很低、Call/Put 偏热、左尾 Skew 升温，再等 HVL 跌破作为执行触发】做了一个半导体杠杆踩踏监控表盘，因为部分指标获取需要Cboe Global Indices 授权源，所以暂时先用静态快照抓的数据，暂时没有做成实时表盘。\n访问页面和github地址见评论区。",
+        "author": {
+          "screenName": "crazyox",
+          "name": "Crazyox"
+        }
+      }
+    },
+    {
+      "id": "2063506892002140185",
+      "text": "@Franktradinglog 就这么10个点的暴跌，就推算要崩盘未免太小看当前的半导体多头了。但凡明天2倍海力士跌30个点以下，无数的买盘就进场了。",
+      "author": {
+        "id": "976516560939462656",
+        "name": "Ying",
+        "screenName": "yingbe4s",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1066999178046464000/G9czgtR__normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 9,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 877,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 06:22:35 +0000 2026",
+      "createdAtLocal": "2026-06-07 14:22",
+      "createdAtISO": "2026-06-07T06:22:35+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063446645296292244",
+      "text": "@Franktradinglog 💡 大白话总结：之前大家涨的时候，是各凭本事、各讲各的故事（相关性极低，COR1M 极低）； 但等到雷爆了、杠杆断裂要砸盘的时候，大家就是手拉手一起跳水，谁也别想买单私逃（相关性瞬间回弹到 1）。博主就是看穿了这种“各涨各的”的虚假繁荣已经到了头，才果断出手做空的。",
+      "author": {
+        "id": "1430469342022422531",
+        "name": "WhyDon'tYouWearASuit?",
+        "screenName": "9to5_Drone",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1591836030793289733/njJjm--J_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 7,
+        "retweets": 1,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1211,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 02:23:11 +0000 2026",
+      "createdAtLocal": "2026-06-07 10:23",
+      "createdAtISO": "2026-06-07T02:23:11+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063336843199037790",
+      "text": "@Franktradinglog 谢谢Frank，VIXEQ&amp;COR1M学到很多，不过似乎韩股跌停也可以继续交易？所以7709的基金经理应该有时间来减少敞口，而且在那之前似乎还有大盘的熔断机制来充当第一层保护？应该不会发生那种000660一天跌-30%的情况吧...毕竟小哈梅内伊上台那天亚盘恐慌到了极致，那天才跌了大约不到-15%",
+      "author": {
+        "id": "1800760546951831552",
+        "name": "SUPER ARRI",
+        "screenName": "Super_ARRI",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2063675961670000640/a2kvTZTE_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 2616,
+        "bookmarks": 1
+      },
+      "createdAt": "Sat Jun 06 19:06:53 +0000 2026",
+      "createdAtLocal": "2026-06-07 03:06",
+      "createdAtISO": "2026-06-06T19:06:53+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063445489811603815",
+      "text": "@Franktradinglog VIX和VIX EQ类比：是全班学生的平均分的波动（A多考10分和B少考10分会抵消），VIXEQ是班每个学生的平均分加权平均（A多考10分，A的平均分波动和B少考10分，平均分波动是相加的）。 https://t.co/TrXgI7ODf8",
+      "author": {
+        "id": "1430469342022422531",
+        "name": "WhyDon'tYouWearASuit?",
+        "screenName": "9to5_Drone",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1591836030793289733/njJjm--J_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1459,
+        "bookmarks": 1
+      },
+      "createdAt": "Sun Jun 07 02:18:36 +0000 2026",
+      "createdAtLocal": "2026-06-07 10:18",
+      "createdAtISO": "2026-06-07T02:18:36+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HKLTrataIAAvW_R.png",
+          "width": 1376,
+          "height": 1176
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063448643139690846",
+      "text": "@Franktradinglog 感谢，很有水平的帖子，不像某些情绪或观点的输出，FRANK都是满满干货，有理有据，我是小白，需要借助AI一句句学习。很有收获。",
+      "author": {
+        "id": "1430469342022422531",
+        "name": "WhyDon'tYouWearASuit?",
+        "screenName": "9to5_Drone",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1591836030793289733/njJjm--J_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1041,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 02:31:08 +0000 2026",
+      "createdAtLocal": "2026-06-07 10:31",
+      "createdAtISO": "2026-06-07T02:31:08+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063439571258593403",
+      "text": "@Franktradinglog 2倍做多etf清盘的可能性理论上成立，但是实际发生基本上需要封死30%跌停榨干流动性才有可能发生，概率很低。",
+      "author": {
+        "id": "1369421458586341387",
+        "name": "Laminar",
+        "screenName": "LaminarRed",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2001177378442371073/t-ZZypOF_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1149,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 01:55:05 +0000 2026",
+      "createdAtLocal": "2026-06-07 09:55",
+      "createdAtISO": "2026-06-07T01:55:05+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063399638175207913",
+      "text": "@Franktradinglog 请问会对周一dram走势产生什么影响呢？怎么样抄底dram比较好咧",
+      "author": {
+        "id": "2395464006",
+        "name": "edcys",
+        "screenName": "ZhilinCai",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1464023370496765955/9jntW-HG_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1588,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Jun 06 23:16:24 +0000 2026",
+      "createdAtLocal": "2026-06-07 07:16",
+      "createdAtISO": "2026-06-06T23:16:24+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063574519424717208",
+      "text": "@Franktradinglog 至于会引发金融海啸吗，严重不到那个程度吧，顶多高杠杆的被爆仓清算，然后机构继续捡筹码，继续唱多",
+      "author": {
+        "id": "1005866600954671104",
+        "name": "Litsen",
+        "screenName": "Litsen_xu",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1657435307850231808/3ejWab5F_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 355,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 10:51:19 +0000 2026",
+      "createdAtLocal": "2026-06-07 18:51",
+      "createdAtISO": "2026-06-07T10:51:19+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063552210366328915",
+      "text": "@Franktradinglog 杠杆就是基本面，资金面也是基本面的一部分",
+      "author": {
+        "id": "1151822892520206337",
+        "name": "前程锦绣",
+        "screenName": "kptcl19710301",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1665016347343077378/KnJRAIgL_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 292,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 09:22:40 +0000 2026",
+      "createdAtLocal": "2026-06-07 17:22",
+      "createdAtISO": "2026-06-07T09:22:40+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063666372828352751",
+      "text": "@Franktradinglog 所以老黄和韩国周末出现了救市新闻🥹",
+      "author": {
+        "id": "865652691254427648",
+        "name": "🍇",
+        "screenName": "Sky_00_33",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1474666888235945985/yNN20OXI_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 246,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 16:56:19 +0000 2026",
+      "createdAtLocal": "2026-06-08 00:56",
+      "createdAtISO": "2026-06-07T16:56:19+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063449331546612130",
+      "text": "@Franktradinglog 韩国的个股跌停是30% 这个情形太极端了",
+      "author": {
+        "id": "885909839494356992",
+        "name": "想要取个新名字",
+        "screenName": "soft_cozy_land",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1502640349365239810/m8N4qaC-_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1472,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 02:33:52 +0000 2026",
+      "createdAtLocal": "2026-06-07 10:33",
+      "createdAtISO": "2026-06-07T02:33:52+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063418983878173050",
+      "text": "@Franktradinglog 在引爆前是否有那种更实时的的早期信号呢",
+      "author": {
+        "id": "1501049872182484993",
+        "name": "AliceBCeiona",
+        "screenName": "AliceBCeiona",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1950723657426522112/s4mWyw5T_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1396,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 00:33:16 +0000 2026",
+      "createdAtLocal": "2026-06-07 08:33",
+      "createdAtISO": "2026-06-07T00:33:16+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063463354237374530",
+      "text": "@Franktradinglog 感谢Frank授人以渔，操作背后的逻辑和相关原理才是更有价值的收获",
+      "author": {
+        "id": "2699648611",
+        "name": "harveyzh",
+        "screenName": "harveyzhangjl",
+        "profileImageUrl": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1303,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 03:29:35 +0000 2026",
+      "createdAtLocal": "2026-06-07 11:29",
+      "createdAtISO": "2026-06-07T03:29:35+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063380050205176191",
+      "text": "@Franktradinglog 你这次精准做空很厉害也很精彩，但是你说自己100%精准做空让人觉得是吹牛，这世界上很难有什么事能100%，我相信大概率但不相信绝对。于是我关注你并且加了小铃铛，让我看看你到底是真的有东西还是在沽名钓誉。\n对了那几个情绪指标是什么🤓",
+      "author": {
+        "id": "3271066764",
+        "name": "Crazyox",
+        "screenName": "crazyox",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1990903287902842884/jxIHIdcj_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 3,
+        "retweets": 1,
+        "replies": 4,
+        "quotes": 0,
+        "views": 1682,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Jun 06 21:58:34 +0000 2026",
+      "createdAtLocal": "2026-06-07 05:58",
+      "createdAtISO": "2026-06-06T21:58:34+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063437721000116356",
+      "text": "@Franktradinglog le bulletin hebdomadaire de la semaine dernière a déjà évoqué les points clés, mais je pense que l'aspect qui manque est la relation entre la chine et la coree du sud en matière de semi-conducteurs. c'est là où je vois une opportunité pour les startups en termes d'invention",
+      "author": {
+        "id": "1481272107745095682",
+        "name": "Adel Bucetta",
+        "screenName": "adelbucetta",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2013542217005043713/RJunJ4GJ_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 736,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 01:47:44 +0000 2026",
+      "createdAtLocal": "2026-06-07 09:47",
+      "createdAtISO": "2026-06-07T01:47:44+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "fr",
+      "score": null
+    },
+    {
+      "id": "2063354597121442057",
+      "text": "@Franktradinglog South Korea's semis are still supply-constrained. Shorting that while margins are fat means waiting for demand to crater. Usually not a next-Monday trade. What catalyst do you see?",
+      "author": {
+        "id": "1387405573642018817",
+        "name": "Ferbin",
+        "screenName": "Ferbin08",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2060117430270115843/5qYFJ6fe_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1332,
+        "bookmarks": 2
+      },
+      "createdAt": "Sat Jun 06 20:17:25 +0000 2026",
+      "createdAtLocal": "2026-06-07 04:17",
+      "createdAtISO": "2026-06-06T20:17:25+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2063329302381511029",
+      "text": "@Franktradinglog 周一最关键不是AI基本面，先看海力士有没有流动性窗口。要是跌停把2x ETF的降杠杆窗口堵住，后面就不是观点问题，是被动卖盘问题。",
+      "author": {
+        "id": "1492806888618004480",
+        "name": "Drabone hoo",
+        "screenName": "bizihaosuan",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2065633715339051008/YwquLcWg_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1682,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Jun 06 18:36:55 +0000 2026",
+      "createdAtLocal": "2026-06-07 02:36",
+      "createdAtISO": "2026-06-06T18:36:55+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063548684961558910",
+      "text": "@Franktradinglog 你有点小看多头了",
+      "author": {
+        "id": "1900559163119534080",
+        "name": "怪客",
+        "screenName": "xn0915300165032",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1900559352169115648/78hh1Ee5_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 124,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 09:08:40 +0000 2026",
+      "createdAtLocal": "2026-06-07 17:08",
+      "createdAtISO": "2026-06-07T09:08:40+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063616333397606658",
+      "text": "@Franktradinglog 空狗，明天鞭尸",
+      "author": {
+        "id": "1453893287606034438",
+        "name": "David的自由王国",
+        "screenName": "717171David",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1883386973769150465/sWpdphFP_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 67,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 13:37:28 +0000 2026",
+      "createdAtLocal": "2026-06-07 21:37",
+      "createdAtISO": "2026-06-07T13:37:28+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2063448136161595879",
+      "text": "@Franktradinglog 1. SMH 是什么？\n是 VanEck 半导体 ETF (VanEck Semiconductor ETF)。 它里面装满了全球最核心的芯片和半导体巨头（比如英伟达、台积电、AMD、美光等）。2. Put Spread（熊市看跌期权价差）是怎么操作的？为了省钱和提高胜率，他采用了一种组合拳：买一个贵一点的 Put，同时卖出一个便宜一点的 Put。",
+      "author": {
+        "id": "1430469342022422531",
+        "name": "WhyDon'tYouWearASuit?",
+        "screenName": "9to5_Drone",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1591836030793289733/njJjm--J_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 640,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 02:29:07 +0000 2026",
+      "createdAtLocal": "2026-06-07 10:29",
+      "createdAtISO": "2026-06-07T02:29:07+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063628344877277219",
+      "text": "@Franktradinglog 恐慌过后世界级的存储股票遍地是黄金！持有到2027年中，所有人都会有翻几倍的战绩！😁",
+      "author": {
+        "id": "1735283539967676416",
+        "name": "油点东西",
+        "screenName": "VRCH_AI",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2047832283697295360/1MAogptp_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 85,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 14:25:12 +0000 2026",
+      "createdAtLocal": "2026-06-07 22:25",
+      "createdAtISO": "2026-06-07T14:25:12+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063483244436402671",
+      "text": "@Franktradinglog 认为韩国人这个周末应该已经做好准备了，至少把一个50%的级别的暴跌分散成每天下跌10%，这样有足够的缓冲",
+      "author": {
+        "id": "1672385004608065537",
+        "name": "Ceasoul",
+        "screenName": "BCeasoul16174",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1941296172129452033/RUtPNVRY_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 2,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 04:48:37 +0000 2026",
+      "createdAtLocal": "2026-06-07 12:48",
+      "createdAtISO": "2026-06-07T04:48:37+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063365544422539517",
+      "text": "@Franktradinglog 你说的2X海力士是南方两倍做多海力士(07709) ？还是最近韩国本土上市的2X海力士",
+      "author": {
+        "id": "1672385004608065537",
+        "name": "Ceasoul",
+        "screenName": "BCeasoul16174",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1941296172129452033/RUtPNVRY_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Jun 06 21:00:55 +0000 2026",
+      "createdAtLocal": "2026-06-07 05:00",
+      "createdAtISO": "2026-06-06T21:00:55+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063365151068180681",
+      "text": "@Franktradinglog 感谢大佬详细的分享，，就差喂饭了！",
+      "author": {
+        "id": "1672385004608065537",
+        "name": "Ceasoul",
+        "screenName": "BCeasoul16174",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1941296172129452033/RUtPNVRY_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 2,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Jun 06 20:59:22 +0000 2026",
+      "createdAtLocal": "2026-06-07 04:59",
+      "createdAtISO": "2026-06-06T20:59:22+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063587321837211822",
+      "text": "@Franktradinglog 我只能用牛逼来形容博主的分析",
+      "author": {
+        "id": "216230268",
+        "name": "Ivanisevic",
+        "screenName": "shifeirenwu",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1395412780/Winter_Leaves_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 93,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 11:42:11 +0000 2026",
+      "createdAtLocal": "2026-06-07 19:42",
+      "createdAtISO": "2026-06-07T11:42:11+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063377364961358133",
+      "text": "@Franktradinglog 跌停要-30%，你说的很难啊",
+      "author": {
+        "id": "2306273863",
+        "name": "yukikaze_j",
+        "screenName": "noel_miambao",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1526992992359174144/3LKjz4RH_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 933,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Jun 06 21:47:54 +0000 2026",
+      "createdAtLocal": "2026-06-07 05:47",
+      "createdAtISO": "2026-06-06T21:47:54+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063436692053488101",
+      "text": "@Franktradinglog 南韩变北韩😂",
+      "author": {
+        "id": "1981538356728041472",
+        "name": "azl001",
+        "screenName": "azl00193057",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1981542400259502080/RLDVm-yU_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 663,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 01:43:38 +0000 2026",
+      "createdAtLocal": "2026-06-07 09:43",
+      "createdAtISO": "2026-06-07T01:43:38+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063446703139966990",
+      "text": "@Franktradinglog 干货！感谢！",
+      "author": {
+        "id": "1776952479348891648",
+        "name": "Shelly G.",
+        "screenName": "ShellyGuowww",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1776952807318298624/i5ecR1aG_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 489,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 02:23:25 +0000 2026",
+      "createdAtLocal": "2026-06-07 10:23",
+      "createdAtISO": "2026-06-07T02:23:25+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063351475498287459",
+      "text": "@Franktradinglog 有水平",
+      "author": {
+        "id": "1839070506927931392",
+        "name": "Lameassmf",
+        "screenName": "Lameassmf0",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1915146321520189443/3urbjNz8_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1108,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Jun 06 20:05:01 +0000 2026",
+      "createdAtLocal": "2026-06-07 04:05",
+      "createdAtISO": "2026-06-06T20:05:01+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2063540993312600554",
+      "text": "@Franktradinglog 相信李在明",
+      "author": {
+        "id": "1517117799843344384",
+        "name": "国会林心如JD Vance",
+        "screenName": "JDVance1996",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1976952221016498176/XrsL71B9_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 134,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 07 08:38:06 +0000 2026",
+      "createdAtLocal": "2026-06-07 16:38",
+      "createdAtISO": "2026-06-07T08:38:06+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    }
+  ]
+}
