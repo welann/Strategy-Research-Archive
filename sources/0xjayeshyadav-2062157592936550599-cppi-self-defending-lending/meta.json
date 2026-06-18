@@ -1,0 +1,58 @@
+{
+  "source": "x",
+  "source_url": "https://x.com/0xjayeshyadav/status/2062157592936550599?s=20",
+  "tweet_id": "2062157592936550599",
+  "article_id": "2062070965534863360",
+  "article_url": "http://x.com/i/article/2062070965534863360",
+  "article_title": "Onchain lending is missing CPPI: A loan that defends its own collateral",
+  "author": {
+    "name": "jayesh",
+    "screen_name": "0xjayeshyadav",
+    "id": "1277666878006034432",
+    "verified": true
+  },
+  "created_at_iso": "2026-06-03T13:00:57+00:00",
+  "created_at_local": "2026-06-03 21:00",
+  "fetched_at_local": "2026-06-18",
+  "content_type": [
+    "技术知识",
+    "协议设计",
+    "DeFi 借贷",
+    "风险管理"
+  ],
+  "topic": "将 CPPI 迁移到链上借贷，用动态抵押品篮子替代单点硬清算悬崖",
+  "metrics_at_fetch": {
+    "likes": 39,
+    "retweets": 6,
+    "replies": 6,
+    "quotes": 1,
+    "views": 4482,
+    "bookmarks": 26
+  },
+  "archive": {
+    "tweet_json": "tweet.json",
+    "article_markdown": "article.md",
+    "original_markdown": "original.md",
+    "assets": []
+  },
+  "key_replies_used": [
+    {
+      "tweet_id": "2062179081282879798",
+      "author": "0xjayeshyadav",
+      "created_at_local": "2026-06-03 22:26",
+      "summary": "作者说明这篇文章面向 lending protocol builders，并欢迎反馈。"
+    },
+    {
+      "tweet_id": "2062262905240707436",
+      "author": "Panoptic_xyz",
+      "created_at_local": "2026-06-04 03:59",
+      "summary": "评论指出类似目标也可通过 options 实现，是一种正凸性的组合保险。"
+    },
+    {
+      "tweet_id": "2065733019688944011",
+      "author": "megabyte0x",
+      "created_at_local": "2026-06-13 17:48",
+      "summary": "评论补充 Bitmor Loan protocol 曾采用类似 f(x) + fixed duration 的方案，并用期权替代频繁稳定币再平衡。"
+    }
+  ]
+}
