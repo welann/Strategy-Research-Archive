@@ -1,0 +1,209 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2067777957989642515",
+      "text": "很多同学看懂了上一篇的正Gamma和负Gamma，今天继续讲一个概念：Gamma Flip/翻转点。\n\n翻转点就是市场从「稳」到「乱」的那道开关。\n\n上一篇讲过，做市商在正Gamma时是减震器、负Gamma时是放大器。但他们不是一直待在某一种状态，而是会随着价格上下穿越某个位置切换。这个位置，就是翻转点。\n\n> 价格在翻转点上方，做市商整体是正Gamma，市场被按住，回调会被接住，盘面偏稳。\n\n> 价格在翻转点下方，做市商整体是负Gamma，市场被踩油门，一跌就被追着砸，盘面容易加速。\n\n所以翻转点不是普通的支撑阻力，它是两个世界的边境线。同样跌2%，在边境上方可能被默默买回去，在边境下方却可能演成踩踏。\n\n拿这几天复盘的实际数据来看，6月18日收盘，现价是7,500.58，而翻转点在8,030 。现价在翻转点下方约530点，也就是说市场整个泡在负Gamma的水里。这是我复盘里反复说的体制未确认，缓冲是在重建，但只要没站回翻转点，放大器就还挂着，一跌就容易失速。\n\n(Note: 这里有个坑，就是不同网站的算法口径不同， Unusual Whales给的反转点是7626，更接近目前的spot price因为UW更偏近月，所以贴现价更近，而我用的数据是把所有期限/expiry都算进去。）\n\n这也是为什么我们天天盯着能不能收复某个价位，因为收复的本质就是把价格从边境下方推回上方，让市场重新装回减震器。\n\n反转点不是一个固定数字，每天都会随着持仓挪。因为大家买卖的期权变了，做市商的持仓重心跟着变，那道边境线自然就移位了。\n\n还有一个容易混淆的概念：Gamma是一份期权，GEX是整个市场加总的结果，把市场上所有行权价、所有到期的期权都算进来。\n\n净GEX的正负量的是当前这一刻，整个市场加总起来，做市商手里是偏减震器还是偏放大器。它是一个现在的总账。\n\n翻转点，量的是价格走到哪个位置，这个总账会由正翻负。它是一条未来的边境线。\n\n所以【现在总账是正的】和【价格在边境线的哪一侧】完全可以错位。6月18日，市场状态是正GEX，但是现价还是在反转点下方。\n\n最后：我说的Gamma，是整个市场的Gamma，不是个股的希腊字母。这个系列里讲的Gamma、正负Gamma、翻转点，全程指的是整个市场层面、做市商加总起来的Gamma敞口（也就是GEX那一套）。这跟你在期权报价软件里看到的，单张期权或单只个股的Gamma，不是一回事。",
+      "author": {
+        "id": "1750038488257605632",
+        "name": "Street Alpha | Macro & Equities",
+        "screenName": "StAlphaResearch",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2068154838249246720/Pz_hRuN0_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 129,
+        "retweets": 29,
+        "replies": 6,
+        "quotes": 0,
+        "views": 8514,
+        "bookmarks": 168
+      },
+      "createdAt": "Fri Jun 19 01:14:17 +0000 2026",
+      "createdAtLocal": "2026-06-19 09:14",
+      "createdAtISO": "2026-06-19T01:14:17+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HLI4hjLa4AAcnpm.jpg",
+          "width": 835,
+          "height": 958
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2067780753136681158",
+      "text": "@StAlphaResearch gamma还是负的 价格还在期权墙下方 也就是说 一跌的话 没有价格托底。但是最近这几天 每次下跌都很短 半天就被人买上去了。即使有人说是gamma squeeze造成的。我是等不到大跌位置买入了吗？",
+      "author": {
+        "id": "2032137302944989186",
+        "name": "星际复利",
+        "screenName": "starryx9",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2052493913785786368/RtedTWAR_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 291,
+        "bookmarks": 1
+      },
+      "createdAt": "Fri Jun 19 01:25:23 +0000 2026",
+      "createdAtLocal": "2026-06-19 09:25",
+      "createdAtISO": "2026-06-19T01:25:23+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2067786898412875872",
+      "text": "@starryx9 6/11是一次典型的gamma squeeze，市场在跌，机构在做空。结果懂王出来画线，最后市场直线拉升。",
+      "author": {
+        "id": "1750038488257605632",
+        "name": "Street Alpha | Macro & Equities",
+        "screenName": "StAlphaResearch",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2068154838249246720/Pz_hRuN0_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 274,
+        "bookmarks": 1
+      },
+      "createdAt": "Fri Jun 19 01:49:48 +0000 2026",
+      "createdAtLocal": "2026-06-19 09:49",
+      "createdAtISO": "2026-06-19T01:49:48+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2067779953983361289",
+      "text": "@StAlphaResearch 什么是spot price?",
+      "author": {
+        "id": "2032137302944989186",
+        "name": "星际复利",
+        "screenName": "starryx9",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2052493913785786368/RtedTWAR_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 239,
+        "bookmarks": 1
+      },
+      "createdAt": "Fri Jun 19 01:22:13 +0000 2026",
+      "createdAtLocal": "2026-06-19 09:22",
+      "createdAtISO": "2026-06-19T01:22:13+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2067910986368180388",
+      "text": "@StAlphaResearch 🐮",
+      "author": {
+        "id": "2039208583041060866",
+        "name": "闪闪酱🍑附近的来🍑点主页",
+        "screenName": "ElsieRusk47902",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2067911274340769792/ddrJ6Snt_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 92,
+        "bookmarks": 0
+      },
+      "createdAt": "Fri Jun 19 10:02:53 +0000 2026",
+      "createdAtLocal": "2026-06-19 18:02",
+      "createdAtISO": "2026-06-19T10:02:53+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "qme",
+      "score": null
+    },
+    {
+      "id": "2067910985827110988",
+      "text": "@StAlphaResearch 🍇",
+      "author": {
+        "id": "2036342722223808512",
+        "name": "芭乐芭乐🍑寻炮友🍑点主页",
+        "screenName": "DeirdreChr25007",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2067911267889942528/uR8sXUSt_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 82,
+        "bookmarks": 0
+      },
+      "createdAt": "Fri Jun 19 10:02:53 +0000 2026",
+      "createdAtLocal": "2026-06-19 18:02",
+      "createdAtISO": "2026-06-19T10:02:53+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "qme",
+      "score": null
+    },
+    {
+      "id": "2067910982182343070",
+      "text": "@StAlphaResearch 😃",
+      "author": {
+        "id": "2036342788951080960",
+        "name": "野生茜茜🍑找搭子🍑点主页",
+        "screenName": "GailMathil3532",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2067911268024176640/o3fkO1Co_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 76,
+        "bookmarks": 0
+      },
+      "createdAt": "Fri Jun 19 10:02:52 +0000 2026",
+      "createdAtLocal": "2026-06-19 18:02",
+      "createdAtISO": "2026-06-19T10:02:52+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "qme",
+      "score": null
+    }
+  ]
+}

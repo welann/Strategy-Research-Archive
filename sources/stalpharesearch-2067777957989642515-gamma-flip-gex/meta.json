@@ -1,0 +1,52 @@
+{
+  "source": "x",
+  "source_url": "https://x.com/StAlphaResearch/status/2067777957989642515?s=20",
+  "tweet_id": "2067777957989642515",
+  "author": {
+    "name": "Street Alpha | Macro & Equities",
+    "screen_name": "StAlphaResearch",
+    "id": "1750038488257605632",
+    "verified": true
+  },
+  "created_at_iso": "2026-06-19T01:14:17+00:00",
+  "created_at_local": "2026-06-19 09:14",
+  "fetched_at_local": "2026-06-20",
+  "content_type": [
+    "市场结构",
+    "期权微结构",
+    "做市商 Gamma",
+    "GEX 观察框架"
+  ],
+  "topic": "Gamma Flip 翻转点如何区分正 Gamma 与负 Gamma 环境，以及净 GEX、翻转点和数据口径差异",
+  "metrics_at_fetch": {
+    "likes": 129,
+    "retweets": 29,
+    "replies": 6,
+    "quotes": 0,
+    "views": 8514,
+    "bookmarks": 168
+  },
+  "archive": {
+    "tweet_json": "tweet.json",
+    "original_markdown": "original.md",
+    "assets": [
+      "assets/HLI4hjLa4AAcnpm.jpg"
+    ],
+    "x_article": "none"
+  },
+  "key_numbers_from_post": {
+    "author_all_expiry_flip": 8030,
+    "author_spot_close_2026_06_18": 7500.58,
+    "unusual_whales_gamma_flip": 7625.78,
+    "unusual_whales_spot": 7515,
+    "unusual_whales_call_wall": 7600,
+    "unusual_whales_put_wall": 7500
+  },
+  "author_followups_used": [
+    {
+      "tweet_id": "2067786898412875872",
+      "created_at_local": "2026-06-19 09:49",
+      "summary": "作者将 2026-06-11 描述为一次典型 gamma squeeze：市场下跌、机构做空，随后外部消息触发直线拉升。"
+    }
+  ]
+}
