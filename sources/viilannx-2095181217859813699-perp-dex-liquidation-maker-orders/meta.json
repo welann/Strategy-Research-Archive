@@ -1,0 +1,24 @@
+{
+  "title": "viilannx：Perp DEX 清算流守株待兔策略",
+  "author": {
+    "id": "1925191305652805632",
+    "name": "lannvvi.",
+    "screenName": "viilannx"
+  },
+  "published_local": "2026-09-03 00:05",
+  "published_utc_source": "Wed Sep 02 16:05:03 +0000 2026",
+  "status_url": "https://x.com/viilannx/status/2095181217859813699?s=20",
+  "source_type": "x_short_post",
+  "tweet_id": "2095181217859813699",
+  "top_level_media_count": 0,
+  "metrics_at_capture": {
+    "likes": 0,
+    "retweets": 0,
+    "replies": 0,
+    "quotes": 0,
+    "views": 2,
+    "bookmarks": 0
+  },
+  "notable_replies": [],
+  "notes": "主帖提出在 perp DEX 中监控接近清算的账户，并在清算线附近提前挂 maker 单承接清算 market order。原文明确提示核心风险是价格单边、一侧腿未及时成交，类似火车头前捡硬币。无媒体、无外链、无作者后续回复。"
+}
