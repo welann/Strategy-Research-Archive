@@ -1,0 +1,27 @@
+Title: Boywus：用 trade feed 提前重建 shadow orderbook
+Author: @Boywus (Boywus)
+Published: 2026-09-02 22:14
+Status URL: https://x.com/Boywus/status/2095153506823074008?s=20
+Source Type: X long post
+Capture Tool: twitter-cli
+Capture Note: 原帖无配图、无外链。twitter-cli 同次返回中包含若干非相关推荐推文，本归档正文只保留主帖和与正文有关的回复；非相关条目在 meta.json 中说明。
+
+Main Tweet:
+
+讲一个在 @RobinhoodCrypto 的 @Lighter_xyz 上的技巧，能比别人更快处理行情，理论上也可以延升到其他交易所。
+
+按照文档描述，一次orderbook的推送是50ms，实测下来，中位数是接近的，一次更新会把上一次推送之后的所有变化合成一个delta信息推送给你。
+
+但是这样子其实你是慢一些的，因为算上网络波动，p90下来，已经大于50ms不少了，这个时候如果有大哥在进行大金额吃单，orderbook其实可能已经被吃出skew了，你都还不知道。
+
+技巧就是订阅trade，一个trade帧里面有trades数据，是比orderbook先到达的，你可以做一个预测性质的shadow orderbook，根据刚刚的trades信息，自己提前分析出情况，不等官方的snapshot，变相的比别人快几十ms。
+
+本质上就是利用不同 market data channel 的更新频率差，拿 execution feed 去提前预测市场情况。
+
+Relevant Replies:
+
+@ZeoMEV 回复 @Boywus @RobinhoodCrypto @Lighter_xyz：
+根据订单流重建orderbook的思路还真是很多地方都能用上，univ3/v4的本地模拟也是靠swap重构tick 信息
+
+@Boywus 回复 @ZeoMEV @RobinhoodCrypto @Lighter_xyz：
+还是你们搞LP的更敏感些

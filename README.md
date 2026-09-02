@@ -159,6 +159,9 @@
 - [`高频做市脚本结构：Basis Alpha、GLFT动态点差与库存风控.md`](高频做市脚本结构：Basis%20Alpha、GLFT动态点差与库存风控.md)
   - 总结 `fxu_starr` 对高频做市策略脚本结构的拆解，重点整理 `market data -> feature bucket -> Basis alpha -> forecast midprice -> GLFT 动态 spread -> 库存倾斜 -> 订单 ID 映射 -> kill-switch -> 监控日志` 的工程链路。
 
+- [`Lighter行情提前量：用Trade_Feed重建Shadow_Orderbook.md`](Lighter行情提前量：用Trade_Feed重建Shadow_Orderbook.md)
+  - 总结 `Boywus` 关于 `Lighter` 行情通道提前量的技巧，重点拆解为什么 `trade feed` 可能先于 `orderbook delta` 暴露大额吃单后的盘口 skew，以及如何用预测性的 `shadow orderbook` 服务做市报价、价差计算和风控撤单。
+
 - [`虚空Gamma与做市库存曲线：固定距离挂单、网格与期权做市.md`](虚空Gamma与做市库存曲线：固定距离挂单、网格与期权做市.md)
   - 总结 `Boywus` 对固定距离做市、`Gamma Scalping`、网格和期权做市的统一解释，重点拆解“价格 -> 目标库存”这条底层映射、虚空 `Gamma` 的成本迁移，以及期权做市商如何把线性资产加工成非线性 payoff。
 

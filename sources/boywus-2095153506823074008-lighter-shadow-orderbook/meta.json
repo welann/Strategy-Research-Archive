@@ -1,0 +1,72 @@
+{
+  "title": "Boywus：用 trade feed 提前重建 shadow orderbook",
+  "author": {
+    "id": "730205023620071424",
+    "name": "Boywus",
+    "screenName": "Boywus"
+  },
+  "published_local": "2026-09-02 22:14",
+  "published_utc_source": "Wed Sep 02 14:14:56 +0000 2026",
+  "status_url": "https://x.com/Boywus/status/2095153506823074008?s=20",
+  "source_type": "x_long_post",
+  "tweet_id": "2095153506823074008",
+  "top_level_media_count": 0,
+  "metrics_at_capture": {
+    "likes": 65,
+    "retweets": 3,
+    "replies": 5,
+    "quotes": 0,
+    "views": 3178,
+    "bookmarks": 70
+  },
+  "notable_replies": [
+    {
+      "id": "2095166604405588046",
+      "author": "@ZeoMEV",
+      "summary": "评论把根据订单流重建 orderbook 的思路类比到 Uniswap V3 / V4 本地模拟，认为可通过 swap 重构 tick 信息。"
+    },
+    {
+      "id": "2095168521462579706",
+      "author": "@Boywus",
+      "summary": "作者回应 LP 实务者对本地状态重构更敏感。"
+    }
+  ],
+  "ignored_cli_items": [
+    {
+      "id": "2095159035813380426",
+      "author": "@blapta",
+      "reason": "普通互动回复，不提供正文增量。"
+    },
+    {
+      "id": "2095160147568136293",
+      "author": "@Boywus",
+      "reason": "作者礼貌性回复，不提供正文增量。"
+    },
+    {
+      "id": "2068114352218239133",
+      "author": "@Starlink",
+      "reason": "twitter-cli 返回的非相关推荐推文。"
+    },
+    {
+      "id": "2095017052755107954",
+      "author": "@Super4DeFi",
+      "reason": "twitter-cli 返回的非相关推荐推文。"
+    },
+    {
+      "id": "2094692953172455476",
+      "author": "@Labrin",
+      "reason": "twitter-cli 返回的非相关推荐推文。"
+    },
+    {
+      "id": "2095067021314498746",
+      "author": "@0xLoki_Zeng",
+      "reason": "twitter-cli 返回的非相关推荐推文。"
+    },
+    {
+      "id": "2095030663057444887",
+      "author": "@mev15_eth",
+      "reason": "twitter-cli 返回的非相关推荐推文，虽然主题接近 MEV，但不是目标帖正文或回复。"
+    }
+  ],
+  "notes": "主帖讨论在 Lighter 相关场景中利用 trade channel 早于 orderbook delta 到达的特性，构建预测性的 shadow orderbook，从而在大额吃单导致盘口 skew 时提前几十毫秒反应。无媒体、无外链。"
+}
