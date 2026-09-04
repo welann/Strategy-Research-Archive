@@ -1,0 +1,342 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "1933013337576780181",
+      "text": "最近 有不少老铁 跟我推荐 rebalancing 的LP玩法。\n原理就是 在v3模式下，自动跟随价格的波动 进行调整LP的区间。\n我不太喜欢这种玩法。因为说实话 这种策略 属于无脑的追涨杀跌。\n每一次的rebalancing  就是在追涨杀跌。长期跑下来 可能是亏的 波动越大 亏得越多。 而这些项目上标注的 APR 是在不波动的前提下来进行计算的。\n每一次剧烈波动造成的 追涨杀跌 是会造成实质的亏损的。\n举个简单的例子。\n你正常组一个LP 跌破了区间 你没取消。价格又涨回来了 你是不亏的对吧？\n但是如果你使用rebalancing方法。跌破了区间 他就重组LP。怎么重组 ？就是卖掉一部分币 重新组。\n由于下跌造成了浮亏。如果你卖出这部分亏损的币 继续组\n这就是杀跌的行为。 当币价反弹回来以后，杀跌行为已经变成了事实。你又开始 买入上涨的币。开始追涨。\n这么一来一回 最终大概率就直接亏钱了。\n\nrebalancing唯一利好的就是出货的项目方或者巨鲸。。。可以反向操控价格 来回淘空池子的资金。。。因为这个bug 实在太过明显了。。。这也是这类项目 无法发展壮大的主要原因。\n\n所以老铁们 组LP 绝对不是躺着赚钱 是讲究策略的。",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 40,
+        "retweets": 4,
+        "replies": 14,
+        "quotes": 2,
+        "views": 12532,
+        "bookmarks": 24
+      },
+      "createdAt": "Thu Jun 12 04:07:47 +0000 2025",
+      "createdAtLocal": "2025-06-12 12:07",
+      "createdAtISO": "2025-06-12T04:07:47+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1933040691829223921",
+      "text": "@gch_enbsbxbs 会不断锁定无常损失，除非是自己能够操控这个代币的价格，不然大部分情况下不划算",
+      "author": {
+        "id": "1237691835897671680",
+        "name": "Crypto 豆 🌱",
+        "screenName": "DeFi_Bean",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1911099819600310272/1P4ZVxm1_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 448,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Jun 12 05:56:29 +0000 2025",
+      "createdAtLocal": "2025-06-12 13:56",
+      "createdAtISO": "2025-06-12T05:56:29+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1933057292439851275",
+      "text": "@gch_enbsbxbs 浮亏变实亏",
+      "author": {
+        "id": "912012131830259712",
+        "name": "橘皮乌龙||Leo",
+        "screenName": "ZLiao3",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1905538164477063168/J4fD8c7M_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 323,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Jun 12 07:02:27 +0000 2025",
+      "createdAtLocal": "2025-06-12 15:02",
+      "createdAtISO": "2025-06-12T07:02:27+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1933041977647641088",
+      "text": "@gch_enbsbxbs CJ 老师对加 LP 简直是真爱，从半年前开始测试 METEORA，到现在自动化脚本+理论...",
+      "author": {
+        "id": "1610353801",
+        "name": "Cody",
+        "screenName": "Cody_DeFi",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1781050103006158850/lJvhLicr_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 791,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Jun 12 06:01:36 +0000 2025",
+      "createdAtLocal": "2025-06-12 14:01",
+      "createdAtISO": "2025-06-12T06:01:36+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1933051611884245126",
+      "text": "@Cody_DeFi 嗯 不过 我也有其他的玩法。但是有些东西不好公开讲 或者没办法讲。 比如有些套利和量化的 是真的不能讲。。。一讲就凉了",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 635,
+        "bookmarks": 2
+      },
+      "createdAt": "Thu Jun 12 06:39:53 +0000 2025",
+      "createdAtLocal": "2025-06-12 14:39",
+      "createdAtISO": "2025-06-12T06:39:53+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1933195062462361780",
+      "text": "@gch_enbsbxbs 这么做的底层理念（信念）：\n\n赚取到的手续费 &gt; 实际性的无常损失\n\n但是很难",
+      "author": {
+        "id": "148629284",
+        "name": "gm365",
+        "screenName": "gm365",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1888075777041907712/6varnwUI_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 321,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Jun 12 16:09:54 +0000 2025",
+      "createdAtLocal": "2025-06-13 00:09",
+      "createdAtISO": "2025-06-12T16:09:54+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1933013691789947057",
+      "text": "@gch_enbsbxbs 原来如此，看来我之前想的那个办法意义也不是很大",
+      "author": {
+        "id": "1107624707426115585",
+        "name": "khan09.AI",
+        "screenName": "KhanAIBuilds",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1906682523847106562/FFhVWmt5_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 368,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Jun 12 04:09:12 +0000 2025",
+      "createdAtLocal": "2025-06-12 12:09",
+      "createdAtISO": "2025-06-12T04:09:12+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1933108200439742759",
+      "text": "@gch_enbsbxbs reblance 适用在小区间内主动实现无常，并不是一个无脑的追涨杀跌策略；小区间的无常损失更低，资金利用率高，在某些标的用rebalance是很好的策略",
+      "author": {
+        "id": "1019124156724477953",
+        "name": "feiker",
+        "screenName": "feikerwu",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1881983547906707456/fV5fxLmx_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 76,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Jun 12 10:24:45 +0000 2025",
+      "createdAtLocal": "2025-06-12 18:24",
+      "createdAtISO": "2025-06-12T10:24:45+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1933113726464639050",
+      "text": "@gch_enbsbxbs 币安做市商是否也是有rebalancing策略？",
+      "author": {
+        "id": "1322584442246897664",
+        "name": "Kokolomoto",
+        "screenName": "kklmt123456",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2093515047377174528/Mnz7GZ2z_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 149,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Jun 12 10:46:42 +0000 2025",
+      "createdAtLocal": "2025-06-12 18:46",
+      "createdAtISO": "2025-06-12T10:46:42+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1933049411623661842",
+      "text": "@gch_enbsbxbs 对小散来说还是对冲比较现实吧，复杂的不好弄",
+      "author": {
+        "id": "1501844961242890243",
+        "name": "abckunnn",
+        "screenName": "abckunnn",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1501845310137589760/DBduQ8WM_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 214,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Jun 12 06:31:08 +0000 2025",
+      "createdAtLocal": "2025-06-12 14:31",
+      "createdAtISO": "2025-06-12T06:31:08+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1933022964330664386",
+      "text": "@gch_enbsbxbs Rebalancing in V3 LP strategies can indeed amplify losses during high volatility due to frequent adjustments. However, when optimized with proper fee tiers and range settings, it can capture upside while mitigating impermanent loss.",
+      "author": {
+        "id": "1366708392140566531",
+        "name": "BlockChair🧪",
+        "screenName": "chairsman1",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1704756773901807616/rhMGzYHe_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 294,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Jun 12 04:46:03 +0000 2025",
+      "createdAtLocal": "2025-06-12 12:46",
+      "createdAtISO": "2025-06-12T04:46:03+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "1979919077884731559",
+      "text": "@gch_enbsbxbs 打个标签，看了几天老哥得推了，明天继续研究，太牛了",
+      "author": {
+        "id": "1653645425377787904",
+        "name": "jiao shou",
+        "screenName": "blvwf92437671",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1982459979232612352/wyAhdj0c_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 33,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Oct 19 14:34:27 +0000 2025",
+      "createdAtLocal": "2025-10-19 22:34",
+      "createdAtISO": "2025-10-19T14:34:27+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

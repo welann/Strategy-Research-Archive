@@ -1,0 +1,70 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "1930623777962139695",
+      "text": "好吧，再补充一下 LP 如何算，\n首先知道基本的概念 v3 模式的LP 的分布模式就类似网格买卖的模式，所以跌破 区间的无常亏损很容易计算\n就是区间的百分比的一半，例如你组了一个单边LP 区间百分比时百分10. 假设跌穿了，那么你亏百分5，\n而你需要做的事情 有2个，你认为 你组的这百分10的LP 能扛多久 不会跌穿， 第二个 在这个时间里 你赚的fee 能不能赚到百分5. 如果你2个计算 你都认为没问题。 那么这一笔LP 就能组。\n所以 有老铁说 这个感觉像是炒币，我需要预判价格走势。\n实际上是有点这个性质，但是不全是，炒币 需要判断涨跌。 而你要判断的是 不会跌破一个价格 或者 不会涨破一个价格。 有点类似于期权卖方的味道。\n同时你的利润来源也是时间。时间越长 赚得越多，这和期权也是一样。\n当然 有很多老铁 不懂期权，没关系 以后我再详细解释吧\n我会在合适的机会 发布第四版LP玩法",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 28,
+        "retweets": 3,
+        "replies": 1,
+        "quotes": 3,
+        "views": 11239,
+        "bookmarks": 28
+      },
+      "createdAt": "Thu Jun 05 13:52:32 +0000 2025",
+      "createdAtLocal": "2025-06-05 21:52",
+      "createdAtISO": "2025-06-05T13:52:32+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "1930592265342525690",
+        "text": "先不聊脚本 简单说下LP，任何地方 任何时候 核心就是预判未来的时间fee能跑赢无常。只要判断对了这个，那么就是盈利了。那么你需要做的就是去计算和估算这2个东西",
+        "author": {
+          "screenName": "gch_enbsbxbs",
+          "name": "C J"
+        }
+      }
+    },
+    {
+      "id": "1930928971467968596",
+      "text": "@gch_enbsbxbs V3已经和LOB的双边挂单类似了，就看挂单提供流动性奖励以及被主动买入卖出击穿之后，还会不会均值回归来回波动，击穿之后就会亏损，在这个区间内获得奖励就是利润。对于币圈来说，长期风险是非常高的，还是要合理控制仓位与杠杆。",
+      "author": {
+        "id": "713204200822288384",
+        "name": "ThinkInBinaryOption",
+        "screenName": "buckyandlucky",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2052303741051932672/iO-sS9cA_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 379,
+        "bookmarks": 0
+      },
+      "createdAt": "Fri Jun 06 10:05:16 +0000 2025",
+      "createdAtLocal": "2025-06-06 18:05",
+      "createdAtISO": "2025-06-06T10:05:16+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

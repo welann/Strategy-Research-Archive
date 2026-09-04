@@ -1,0 +1,174 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "1931626940806598927",
+      "text": "币安alpha 的利益方 一共有哪些？\n花手续费和gas刷交易量的\n组LP赚手续费的\n24小时盯着随时待命的mev机器人（这个我已经亲自体验过了，要想躲过mev机器人 ：不能使用公共节点，swap的参数必须设置最低接收数量调到你认为的合理的数值。）\n还有什么呢？赚gas的验证节点？我不晓得这部分是否是都燃烧了。 没对bsc做过多研究\n另外就是币价操控的项目方或者是野庄？\n\n这么一层一层看下来 前面两个确实没什么抗风险的能力 \n就是一个字\n赌。。。\n玩了些天bsc的池子 \n肉眼可见的内卷\n内卷程度 比sol还狠 我也是服了",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 24,
+        "retweets": 2,
+        "replies": 4,
+        "quotes": 1,
+        "views": 17818,
+        "bookmarks": 9
+      },
+      "createdAt": "Sun Jun 08 08:18:45 +0000 2025",
+      "createdAtLocal": "2025-06-08 16:18",
+      "createdAtISO": "2025-06-08T08:18:45+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1931628108261830679",
+      "text": "@gch_enbsbxbs 老师，滑点设置0.01% 理论上是不是机器人不会花成本去攻击？",
+      "author": {
+        "id": "1735331342093885440",
+        "name": "Eric",
+        "screenName": "Kingdes_v",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1937557442260533254/VYMNWLjh_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 907,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 08 08:23:23 +0000 2025",
+      "createdAtLocal": "2025-06-08 16:23",
+      "createdAtISO": "2025-06-08T08:23:23+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1931630520796148185",
+      "text": "@Kingdes_v 嗯",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 764,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 08 08:32:58 +0000 2025",
+      "createdAtLocal": "2025-06-08 16:32",
+      "createdAtISO": "2025-06-08T08:32:58+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "1931650165301256383",
+      "text": "@gch_enbsbxbs bsc的lp太卷了，交易量大区间都要非常窄，一个浇给半个月白玩",
+      "author": {
+        "id": "1501844961242890243",
+        "name": "abckunnn",
+        "screenName": "abckunnn",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1501845310137589760/DBduQ8WM_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 933,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 08 09:51:02 +0000 2025",
+      "createdAtLocal": "2025-06-08 17:51",
+      "createdAtISO": "2025-06-08T09:51:02+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1932436061986427144",
+      "text": "@gch_enbsbxbs 开吧 哥 我想学习了",
+      "author": {
+        "id": "1749306466513915904",
+        "name": "Bellypig",
+        "screenName": "bellypig66",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1958179043116974080/m6xZge4V_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 375,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Jun 10 13:53:54 +0000 2025",
+      "createdAtLocal": "2025-06-10 21:53",
+      "createdAtISO": "2025-06-10T13:53:54+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1931909060435276163",
+      "text": "@gch_enbsbxbs 采金老师的bsc脚本怎样了",
+      "author": {
+        "id": "1526473292265103360",
+        "name": "0x031.inx",
+        "screenName": "LYyyyyuan",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1776894545487360000/Ahx_Aq0U_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 575,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Jun 09 02:59:47 +0000 2025",
+      "createdAtLocal": "2025-06-09 10:59",
+      "createdAtISO": "2025-06-09T02:59:47+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

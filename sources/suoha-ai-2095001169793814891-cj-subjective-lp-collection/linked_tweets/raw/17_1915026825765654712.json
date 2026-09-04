@@ -1,0 +1,602 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "1915026825765654712",
+      "text": "LP玩法第二版：如何组头部币的LP。\n之前在第一版的时候介绍过LP玩法，优缺点很明显\n收益高，风险系数我认为是中等，但是不是天天都能玩。\n今天说个低风险 天天都能赚的策略。但是收益没有那么的高。\n这是我平时用来赚点被动收入的方法。欢迎你来卷我\n这个玩法不算很复杂，但是要想吧它讲清楚，又能通俗易懂，我有点犯难。\n简单说 用马丁+网格的思路 去组LP。\n以sol为例 去meteora组池子。\n我从170块钱开始接货一路往下买 我预计最低的价格是85块钱基本上就是腰斩吧，\n然后我准备拿1万u 去抄底。\n（这1万u 不是提前准备了1万u，而是这1万u 只存在于理论和想象中的1万u。实际上不需要真正的准备1万u，后面我会解释）\n我设定了5个大区间 每个区间买入比例如下：\n1 3 5 7 9\n总数字 是26。我们就算25好了 方便计算。 1w/25 。那么就是\n5个区间分别投入\n400 1200 2000 2800 3600\n马丁的思路跌得越多 买得越多。 能够有效的降低成本。\n所以一路下跌，亏损有限。\n网格的思路是做波段，低买高卖。\n常规情况下LP无法做到低买高卖。它只赚手续费 赚不了波动的钱。\n所以如何实现网格？那就是调整仓位。\n还记得为什么我做了5个大区间，而不是一个区间。\n调整就是来自于这5个大区间。\n因为价格只会存在于一个区间里 不会同时出现在不同的区间里。比如\n170-150是一个区间\n150-130是一个区间\n130-110是一个区间\n每个区间都组bid ask 模式。\n当价格从170一路下跌到110之后。我会吧这3个区间的池子。全部调转方向。\nBidask 的模型是一个三角形。就是吧这个三角换一个方向这么去理解就可以了。\n所以它就实现了低买 高卖的方法。\n之前是跌得越多 买得越多。等你真的买到了。你就换一个方向 开始涨得越多 卖得越多。\n如果不涨怎么办？不涨 就不涨。不涨的话 你换或者不换方向没有什么变化。\n比如从110又涨到了130之后，你实现了涨得越多，卖得越多。你已经实现了。然后你又把130-110 这个区间的三角形 又给换回来。 又变成跌得越多买得越多。\n如果它循环反复，那就反复赚。\n也就是说 价格来到了什么区间，你就吧它相邻的区间 的三角形做相应的方向上的调整。\n以上就是实操方法，到这里 我想你就听明白了 为什么是马丁+网格的思路组LP了\n马丁是最大程度用来降低平均买入成本，可以不用太在意第一笔的买入时机，哪怕买在山顶上 也不慌。网格是调整三角形的方向实现低买高卖。\n\n那么现在开始更进阶的方案：\n1/前文说到1万u 不会真实拿出1万u。是因为5个大区间。我们并不需要每个区间都放钱。\n价格来到什么区间 就在什么区间放钱。如果价格暴跌，直接从第一个区间跌到了第五个区间。\n那么前4个区间的钱 你就可以取出来。这些钱全部都是sol 就不是usdc了。\n你就吧sol取出来 拿去抵押 借出来usdc。\n市场越跌 u得借贷利息越低。 所以抵押借贷 不需要支付很多利息。\n但是可以放大资金效率。有人说这不是上杠杠么？\n这是上杠杠，但是也不是上杠杠 因为在最开始你就已经为自己想好了 要拿多少钱来组LP\n你只是吧资金效率最大化了。仅此而已。\n\n2/\n如果吧meteora的模式\n搬到uniswap v3上？uniswap v3不支持dlmm模式。 所以有点操作麻烦。这里我就不细讲了\n但是你自己思考一下就知道如何做了。\n\n3/\n你可以设置更多区间。价格密度更高，这样触发波段的频率就越高。\n\n4/\n如果你对趋势判断足够准 你甚至吧所有的区间的池子来掉转反向，不仅仅局限于一个区间。\n\n5/\n可以使用期权结合用。但是我没去搞 我不想弄太复杂，我只想被动赚点小钱。teng老师 @xtenyz 在研究 如果要用期权对冲 你可以参考他的玩法\n\n最后请你仔细理解下面这段话\n用波段来提高收益 会一定程度降低fee的收益。但是事实上fee的收益主要取决于时间和交易量\n而这两者你无法干涉和预测。你能干涉的是你设定的价格。\n\n以上就是整个LP的操作方法和思路（花了我1个多小时）\n我认为已经说得相当的明白了，如果你的心算能力还可以，稍微脑子算一下就知道它的收益率\n比直接组了不管 要高出多少了。波段赚的收益肯定比fee要高！\n记住这个玩法的前提是 这个币跌了 它还能长回来。短时间内fee可以跑不赢无常损失。关键还是价格能否涨回来。涨不回来 神仙也没招。所以它只适合于头部币。\n这套玩法一开始我也没想得这么深，中间是杰哥@szu_jason 给了我灵感。他是meteora的老og。LP高手\n还有@0xPoseidon_sol也是LP的老og\n还有第三版 写不动了。老铁们 就先到这里了。",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 217,
+        "retweets": 53,
+        "replies": 25,
+        "quotes": 10,
+        "views": 105803,
+        "bookmarks": 296
+      },
+      "createdAt": "Wed Apr 23 12:55:49 +0000 2025",
+      "createdAtLocal": "2025-04-23 20:55",
+      "createdAtISO": "2025-04-23T12:55:49+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "1914933717157777419",
+        "text": "没有拿到空投，如何靠LP也一样赚到高收益。\n今天来深入讲讲这个。（哎 其实不想讲 因为大家会了又会卷 希望大家不要怪我）\n首先这里有几个大的核心点：\n1/是相对比较热门的项目方发的币，\n2/先在DEX上线。\n3/最好是有盘前期货价或者场外otc价作为参考\n\n具备以上条件之后。你就紧盯TGE发布时期，别人在claim的时候。\n你就去组LP \n一般要么是meteora那种DLMM，要么就是uniswap v3 的模式。 可以自定义区间\n比如hyper昨天上线之后就可以组，预期价格是0.3\n所以你就直接按照这个价格组单边池。0.3开始买，\n最高价有了，你再找一个最低价比如0.2\n激进点就0.25，新手建议不要激进。组了以后 不要怕跌 为什么？\n因为cex还没上线 从k线上可以看出 昨天上了币安以后 瞬间就啦上去了一波。\n所以 cex上线的时候 就是你跑路的时候。那边会有接盘侠。具体什么时候跑 看你自己的盈利情况。\n你如果已经赚很多了 继续玩一下也是没问题的。但是收益 会越来越少。\n如果现在 再去组。已经赚不到多少收益。因为交易量全部迁移到CEX了。\n像这类机会不算多，但是把握住了 还是能赚不少的。如果第一时间组进去 hyper能赚到超出你想象的收益\n你可以回忆一下过去 还有什么币 是先在dex上的，我就不列举了。\n\n这里解释一下\nLP 其实也是网格。玩LP的人是做市商。它和交易所的网格 有什么不同？\nLP不赚差价，赚的是手续费。 交易所的网格赚的是差价。支付手续费，无法赚手续费。\n这里就体现出了链上LP具体大的优势。很明显LP赚钱更容易。\n之前有人跟我讲过 cex的做市商也是可以赚手续费的。交易所来支付。不过这跟咱普通人就没啥关系了。毕竟普通人没办法参与CEX的做市。\n所以事实上链上吧机会让出来了 公平的让所有人都能参与了。",
+        "author": {
+          "screenName": "gch_enbsbxbs",
+          "name": "C J"
+        }
+      }
+    },
+    {
+      "id": "1916370539796443511",
+      "text": "@gch_enbsbxbs 我要是知道他能涨回来我还组lp干啥我直接马丁合约开多就完事了",
+      "author": {
+        "id": "1856538525396561921",
+        "name": "0x叮当猫",
+        "screenName": "0xdizz",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1934621482337861632/ouSd1SI0_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 274,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Apr 27 05:55:15 +0000 2025",
+      "createdAtLocal": "2025-04-27 13:55",
+      "createdAtISO": "2025-04-27T05:55:15+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915316486522233022",
+      "text": "@gch_enbsbxbs CJ老师还是太保守了，meteora的dlmm模式LP搭配刚发的人气meme币收益更高，不过风险也更大，用bid-ask马丁模式，无须掉转LP方向，核心是选币和撤出流动性的时机把握。用dlmm来玩价值币有点不搭，不过风险也更低，适合大资金。",
+      "author": {
+        "id": "1748891223010738176",
+        "name": "smile",
+        "screenName": "smile2904579121",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1748961271503052800/P-Luy4OV_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 849,
+        "bookmarks": 4
+      },
+      "createdAt": "Thu Apr 24 08:06:49 +0000 2025",
+      "createdAtLocal": "2025-04-24 16:06",
+      "createdAtISO": "2025-04-24T08:06:49+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915316839649067255",
+      "text": "@smile2904579121 你说的这个 是我本来计划 发在第三版的 如何玩meme的LP。不过 我现在已经不打算发了。",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 762,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Apr 24 08:08:14 +0000 2025",
+      "createdAtLocal": "2025-04-24 16:08",
+      "createdAtISO": "2025-04-24T08:08:14+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915091099586306150",
+      "text": "@gch_enbsbxbs 能听明白，但是最大的难点是管理仓位",
+      "author": {
+        "id": "1373348053210427397",
+        "name": "0xposeidon",
+        "screenName": "0xPoseidon_sol",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1905167414087823360/pPj3Uu3x_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1696,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Apr 23 17:11:13 +0000 2025",
+      "createdAtLocal": "2025-04-24 01:11",
+      "createdAtISO": "2025-04-23T17:11:13+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915031053263368325",
+      "text": "@gch_enbsbxbs 太强了，学到了",
+      "author": {
+        "id": "1356811759508574208",
+        "name": "ShuaI",
+        "screenName": "YQ50474505",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1645768226767527936/TZOT2dfv_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1443,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Apr 23 13:12:37 +0000 2025",
+      "createdAtLocal": "2025-04-23 21:12",
+      "createdAtISO": "2025-04-23T13:12:37+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915291308362809458",
+      "text": "@gch_enbsbxbs 挺好的 bid ask变相相当于网格交易，就这两周的行情，其实能赚不少的（sol从95-150）同时还能赚fee，还有就是价格下跌的单边流动性，抵押借u继续组lp之前没想到过，打开思路了。",
+      "author": {
+        "id": "1661386296860856321",
+        "name": "Mrxxx",
+        "screenName": "auddk111",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2095781858642714624/SUyuEk9s_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1028,
+        "bookmarks": 1
+      },
+      "createdAt": "Thu Apr 24 06:26:46 +0000 2025",
+      "createdAtLocal": "2025-04-24 14:26",
+      "createdAtISO": "2025-04-24T06:26:46+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915054999891247527",
+      "text": "@gch_enbsbxbs 先收藏后研究👀",
+      "author": {
+        "id": "1525001951104348160",
+        "name": "tianti",
+        "screenName": "tianti51476893",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1915234014002372610/Gg6HDGfY_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 734,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Apr 23 14:47:46 +0000 2025",
+      "createdAtLocal": "2025-04-23 22:47",
+      "createdAtISO": "2025-04-23T14:47:46+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "1915185504305504724",
+      "text": "@gch_enbsbxbs 第一个方案里的抵押借出来usdc这里没看懂，usdc继续加到第五个区间里吗，一般在哪抵押借",
+      "author": {
+        "id": "1800898056700989440",
+        "name": "梦想当将军的小兵",
+        "screenName": "zhangjunka0912",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2037384610271899648/TMXl2YL5_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 419,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Apr 23 23:26:21 +0000 2025",
+      "createdAtLocal": "2025-04-24 07:26",
+      "createdAtISO": "2025-04-23T23:26:21+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915318901707333733",
+      "text": "@gch_enbsbxbs 先赞慢慢看",
+      "author": {
+        "id": "1591820544936054784",
+        "name": "Zee",
+        "screenName": "zhexu53188891",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1959901156479754240/Bn5igXIw_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 323,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Apr 24 08:16:25 +0000 2025",
+      "createdAtLocal": "2025-04-24 16:16",
+      "createdAtISO": "2025-04-24T08:16:25+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "1925084206914535787",
+      "text": "@gch_enbsbxbs 非常棒，值得学习",
+      "author": {
+        "id": "1796114770091008000",
+        "name": "小叮当",
+        "screenName": "LittlePlayer00",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1796115274242121728/g3sN6JSM_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 127,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed May 21 07:00:15 +0000 2025",
+      "createdAtLocal": "2025-05-21 15:00",
+      "createdAtISO": "2025-05-21T07:00:15+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1916296386074841311",
+      "text": "@gch_enbsbxbs @threadreaderapp unroll",
+      "author": {
+        "id": "1787870277495631872",
+        "name": "yier3",
+        "screenName": "yier3",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1788201469147283457/fsXtjq78_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 422,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Apr 27 01:00:36 +0000 2025",
+      "createdAtLocal": "2025-04-27 09:00",
+      "createdAtISO": "2025-04-27T01:00:36+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "1916297009142903147",
+      "text": "@gch_enbsbxbs 可恶 没打开 CJ 大师的🔔 错过多少赚钱思路",
+      "author": {
+        "id": "1787870277495631872",
+        "name": "yier3",
+        "screenName": "yier3",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1788201469147283457/fsXtjq78_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 352,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Apr 27 01:03:04 +0000 2025",
+      "createdAtLocal": "2025-04-27 09:03",
+      "createdAtISO": "2025-04-27T01:03:04+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1919808493407895938",
+      "text": "@gch_enbsbxbs 写得很棒",
+      "author": {
+        "id": "1661588559432761344",
+        "name": "阿拉斯加的托尼丹",
+        "screenName": "tonydan202205",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1972325333753065473/btRpsLjw_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 183,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue May 06 17:36:27 +0000 2025",
+      "createdAtLocal": "2025-05-07 01:36",
+      "createdAtISO": "2025-05-06T17:36:27+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915203002295869919",
+      "text": "@gch_enbsbxbs 牛逼，佩服老师",
+      "author": {
+        "id": "1430368709760016390",
+        "name": "SuperPig",
+        "screenName": "Jimmy_superpig",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2048700536342634496/viMhaYsd_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 739,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Apr 24 00:35:53 +0000 2025",
+      "createdAtLocal": "2025-04-24 08:35",
+      "createdAtISO": "2025-04-24T00:35:53+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915031070992744627",
+      "text": "@gch_enbsbxbs 看起来很屌的样子",
+      "author": {
+        "id": "1908112013030723584",
+        "name": "淳淳",
+        "screenName": "L6EtQO0voc38915",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1908112148406075392/divblHBB_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 511,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Apr 23 13:12:41 +0000 2025",
+      "createdAtLocal": "2025-04-23 21:12",
+      "createdAtISO": "2025-04-23T13:12:41+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915451883663352215",
+      "text": "@gch_enbsbxbs 期待第三版😆",
+      "author": {
+        "id": "1109931223273496578",
+        "name": "Adapter",
+        "screenName": "Adapter227",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1903407695421755392/DV8W1wRh_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 467,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Apr 24 17:04:51 +0000 2025",
+      "createdAtLocal": "2025-04-25 01:04",
+      "createdAtISO": "2025-04-24T17:04:51+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "1915287293394641345",
+      "text": "@gch_enbsbxbs 思路打开",
+      "author": {
+        "id": "1795766270601674752",
+        "name": "Megan Hart",
+        "screenName": "MeganHart186598",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1886991072087486464/wFVvVoWt_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 644,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Apr 24 06:10:49 +0000 2025",
+      "createdAtLocal": "2025-04-24 14:10",
+      "createdAtISO": "2025-04-24T06:10:49+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915056314205786596",
+      "text": "@gch_enbsbxbs 我一直都是摊大饼赚fee，今天知道比我优秀的人还更努力勤奋，只好继续躺平点，别绊到大佬",
+      "author": {
+        "id": "857562053472538624",
+        "name": "DEFI和空投重度爱好者",
+        "screenName": "millioooonaire",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1792458256612483072/ycH2_xIf_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 790,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Apr 23 14:52:59 +0000 2025",
+      "createdAtLocal": "2025-04-23 22:52",
+      "createdAtISO": "2025-04-23T14:52:59+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915198261545292007",
+      "text": "@gch_enbsbxbs 思路很棒",
+      "author": {
+        "id": "2717254959",
+        "name": "币安高返佣注册服务(Parody)",
+        "screenName": "1453Gurbuz",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1844729914207166464/7gv55I0i_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 547,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Apr 24 00:17:02 +0000 2025",
+      "createdAtLocal": "2025-04-24 08:17",
+      "createdAtISO": "2025-04-24T00:17:02+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "1944350693223268728",
+      "text": "@gch_enbsbxbs 这种玩法，24hr fee / TVL 能有多少？感觉很低了。如果一路暴跌，涨回去可能要几个月，感觉和做现货差不多了。",
+      "author": {
+        "id": "1675511594426703872",
+        "name": "Jerry Wong",
+        "screenName": "JerryWong14927",
+        "profileImageUrl": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 74,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jul 13 10:58:24 +0000 2025",
+      "createdAtLocal": "2025-07-13 18:58",
+      "createdAtISO": "2025-07-13T10:58:24+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

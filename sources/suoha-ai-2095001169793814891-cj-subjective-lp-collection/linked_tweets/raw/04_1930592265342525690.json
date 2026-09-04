@@ -1,0 +1,126 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "1930592265342525690",
+      "text": "先不聊脚本 简单说下LP，任何地方 任何时候 核心就是预判未来的时间fee能跑赢无常。只要判断对了这个，那么就是盈利了。那么你需要做的就是去计算和估算这2个东西",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 15,
+        "retweets": 1,
+        "replies": 3,
+        "quotes": 1,
+        "views": 10911,
+        "bookmarks": 8
+      },
+      "createdAt": "Thu Jun 05 11:47:19 +0000 2025",
+      "createdAtLocal": "2025-06-05 19:47",
+      "createdAtISO": "2025-06-05T11:47:19+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "1929890865360843170",
+        "text": "写好了 真的累。。 策略 自动LP 和买卖代币。 三个核心功能已经写好了。\n为什么我每次截图的界面不一样。 因为这3个功能 是完全独立编写的。 3个功能 有3个前端。。他们使用的端口都不一样。可以同时启动 独立使用。也支持同时启动结合使用。 \n我非常喜欢这样的架构模式。 我以后大概全部会使用这种模式。 每一个功能做好了以后。直接编写这个功能的api封装起来 给其他程序调用。哪个出问题 改哪个。 想单独用了 就单独用。 想 一起用 就一起用。\n这也是我慢慢琢磨出来的方案。 封装api对我来说更加容易识别和管理。",
+        "author": {
+          "screenName": "gch_enbsbxbs",
+          "name": "C J"
+        }
+      }
+    },
+    {
+      "id": "1930619859156729888",
+      "text": "@gch_enbsbxbs 请问大佬如何计算呢，我每次做LP都感觉自己在炒币，觉都睡不好",
+      "author": {
+        "id": "716279788332146688",
+        "name": "小D",
+        "screenName": "qimiaozhongdeyu",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1504114664913129473/FtzqzVww_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 357,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Jun 05 13:36:58 +0000 2025",
+      "createdAtLocal": "2025-06-05 21:36",
+      "createdAtISO": "2025-06-05T13:36:58+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1930597734781685799",
+      "text": "@gch_enbsbxbs 一般apr多少能冲",
+      "author": {
+        "id": "1501844961242890243",
+        "name": "abckunnn",
+        "screenName": "abckunnn",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1501845310137589760/DBduQ8WM_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 346,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Jun 05 12:09:03 +0000 2025",
+      "createdAtLocal": "2025-06-05 20:09",
+      "createdAtISO": "2025-06-05T12:09:03+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "1930752709847908502",
+      "text": "@gch_enbsbxbs 这个估算很难，但程序很牛，赞",
+      "author": {
+        "id": "1567437699052896258",
+        "name": "浪里淘饼",
+        "screenName": "rwf168",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1927213655780630528/OYVOLbiK_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 250,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Jun 05 22:24:52 +0000 2025",
+      "createdAtLocal": "2025-06-06 06:24",
+      "createdAtISO": "2025-06-05T22:24:52+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

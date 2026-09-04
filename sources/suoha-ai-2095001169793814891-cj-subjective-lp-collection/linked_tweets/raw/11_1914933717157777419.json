@@ -1,0 +1,517 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "1914933717157777419",
+      "text": "没有拿到空投，如何靠LP也一样赚到高收益。\n今天来深入讲讲这个。（哎 其实不想讲 因为大家会了又会卷 希望大家不要怪我）\n首先这里有几个大的核心点：\n1/是相对比较热门的项目方发的币，\n2/先在DEX上线。\n3/最好是有盘前期货价或者场外otc价作为参考\n\n具备以上条件之后。你就紧盯TGE发布时期，别人在claim的时候。\n你就去组LP \n一般要么是meteora那种DLMM，要么就是uniswap v3 的模式。 可以自定义区间\n比如hyper昨天上线之后就可以组，预期价格是0.3\n所以你就直接按照这个价格组单边池。0.3开始买，\n最高价有了，你再找一个最低价比如0.2\n激进点就0.25，新手建议不要激进。组了以后 不要怕跌 为什么？\n因为cex还没上线 从k线上可以看出 昨天上了币安以后 瞬间就啦上去了一波。\n所以 cex上线的时候 就是你跑路的时候。那边会有接盘侠。具体什么时候跑 看你自己的盈利情况。\n你如果已经赚很多了 继续玩一下也是没问题的。但是收益 会越来越少。\n如果现在 再去组。已经赚不到多少收益。因为交易量全部迁移到CEX了。\n像这类机会不算多，但是把握住了 还是能赚不少的。如果第一时间组进去 hyper能赚到超出你想象的收益\n你可以回忆一下过去 还有什么币 是先在dex上的，我就不列举了。\n\n这里解释一下\nLP 其实也是网格。玩LP的人是做市商。它和交易所的网格 有什么不同？\nLP不赚差价，赚的是手续费。 交易所的网格赚的是差价。支付手续费，无法赚手续费。\n这里就体现出了链上LP具体大的优势。很明显LP赚钱更容易。\n之前有人跟我讲过 cex的做市商也是可以赚手续费的。交易所来支付。不过这跟咱普通人就没啥关系了。毕竟普通人没办法参与CEX的做市。\n所以事实上链上吧机会让出来了 公平的让所有人都能参与了。",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 356,
+        "retweets": 76,
+        "replies": 20,
+        "quotes": 7,
+        "views": 121105,
+        "bookmarks": 525
+      },
+      "createdAt": "Wed Apr 23 06:45:50 +0000 2025",
+      "createdAtLocal": "2025-04-23 14:45",
+      "createdAtISO": "2025-04-23T06:45:50+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1914954999471456275",
+      "text": "@gch_enbsbxbs 网格靠波动，LP 靠交易。但底层其实都来自于别人的交易。\n\n在设定的区间内，交易量足够大，LP 收益（可能）会更高。\n\n上个周期搞网格，这个周期已经不想再碰这个工具了，链上 LP 更好玩儿些。",
+      "author": {
+        "id": "148629284",
+        "name": "gm365",
+        "screenName": "gm365",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1888075777041907712/6varnwUI_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 5640,
+        "bookmarks": 4
+      },
+      "createdAt": "Wed Apr 23 08:10:24 +0000 2025",
+      "createdAtLocal": "2025-04-23 16:10",
+      "createdAtISO": "2025-04-23T08:10:24+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1926985148479770888",
+      "text": "@gch_enbsbxbs 请问这个价格区间要怎么判断。我之前试过几次，往往都超出区间了。",
+      "author": {
+        "id": "1433631182541901824",
+        "name": "Kan3214",
+        "screenName": "kan665588",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2095350910247714816/Z2Ui0M4a_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 4740,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon May 26 12:53:55 +0000 2025",
+      "createdAtLocal": "2025-05-26 20:53",
+      "createdAtISO": "2025-05-26T12:53:55+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1926987518773252244",
+      "text": "@kan665588 根据场外 和 期货价 估算",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 4329,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon May 26 13:03:20 +0000 2025",
+      "createdAtLocal": "2025-05-26 21:03",
+      "createdAtISO": "2025-05-26T13:03:20+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1926966968885690446",
+      "text": "@gch_enbsbxbs 这才 是真正的内容输出、比那些什么嘴撸的强太多了",
+      "author": {
+        "id": "1666551169156800513",
+        "name": "菲远物流",
+        "screenName": "haiweiyue",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2072744627871137792/e67fVOU9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 2525,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon May 26 11:41:41 +0000 2025",
+      "createdAtLocal": "2025-05-26 19:41",
+      "createdAtISO": "2025-05-26T11:41:41+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1914942684244140375",
+      "text": "@gch_enbsbxbs 第2时间的全区间收益都还行 https://t.co/lx83AjyDPS",
+      "author": {
+        "id": "1469712129250840582",
+        "name": "起床搞钱了",
+        "screenName": "bigBear233333",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1494648427774234630/fR3LWV4P_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 4760,
+        "bookmarks": 2
+      },
+      "createdAt": "Wed Apr 23 07:21:28 +0000 2025",
+      "createdAtLocal": "2025-04-23 15:21",
+      "createdAtISO": "2025-04-23T07:21:28+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GpM-L3aa4AMVk0g.png",
+          "width": 871,
+          "height": 328
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1914935230777143716",
+      "text": "@gch_enbsbxbs 思路太活了，哥",
+      "author": {
+        "id": "1182519012564983808",
+        "name": "hunz1z",
+        "screenName": "hunz1zz",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2066735368901472257/9c3BGZTP_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 963,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Apr 23 06:51:51 +0000 2025",
+      "createdAtLocal": "2025-04-23 14:51",
+      "createdAtISO": "2025-04-23T06:51:51+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "1914935224439370215",
+      "text": "@gch_enbsbxbs 本质上都是订单，吃单手续费是多少，是给谁的不同",
+      "author": {
+        "id": "1408723899316015108",
+        "name": "平A流法师🧙⚡️💎",
+        "screenName": "szu_jason",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1805852806190088193/auAeRJsx_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 3835,
+        "bookmarks": 1
+      },
+      "createdAt": "Wed Apr 23 06:51:49 +0000 2025",
+      "createdAtLocal": "2025-04-23 14:51",
+      "createdAtISO": "2025-04-23T06:51:49+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1962149362441826430",
+      "text": "@gch_enbsbxbs 大师，有点难，看了两遍都没看懂，悟性不够",
+      "author": {
+        "id": "1778410166117150720",
+        "name": "浅浅相逢",
+        "screenName": "qqxf321",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1877394830323757058/gNfbw_kD_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 905,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Aug 31 13:43:57 +0000 2025",
+      "createdAtLocal": "2025-08-31 21:43",
+      "createdAtISO": "2025-08-31T13:43:57+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915292866462859716",
+      "text": "@gch_enbsbxbs 如果没有空投，进场的时候要挨上滑点一刀属实有点痛",
+      "author": {
+        "id": "1468224785876492301",
+        "name": "沃克慢🌶️",
+        "screenName": "Work_work_man",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1978824053231382528/fYDGGhwR_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 3250,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Apr 24 06:32:58 +0000 2025",
+      "createdAtLocal": "2025-04-24 14:32",
+      "createdAtISO": "2025-04-24T06:32:58+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1914943412379509174",
+      "text": "@gch_enbsbxbs 你发出来了后面又要开始卷了，hyper V3 单边昨天3小时有20-30个点的回报，当然也有风险，前提是币价不崩  。",
+      "author": {
+        "id": "1406570220290904073",
+        "name": "white",
+        "screenName": "geoometry007",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1945432706105643008/WtcRRpIB_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 3317,
+        "bookmarks": 1
+      },
+      "createdAt": "Wed Apr 23 07:24:22 +0000 2025",
+      "createdAtLocal": "2025-04-23 15:24",
+      "createdAtISO": "2025-04-23T07:24:22+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1962065199122501775",
+      "text": "@gch_enbsbxbs 做传送门过来的",
+      "author": {
+        "id": "1356811759508574208",
+        "name": "ShuaI",
+        "screenName": "YQ50474505",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1645768226767527936/TZOT2dfv_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1143,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Aug 31 08:09:31 +0000 2025",
+      "createdAtLocal": "2025-08-31 16:09",
+      "createdAtISO": "2025-08-31T08:09:31+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915086802828063183",
+      "text": "@gch_enbsbxbs 这个限于好LP才可以 不然跌死🥹",
+      "author": {
+        "id": "1661186814898733056",
+        "name": "San | ⚡",
+        "screenName": "hcs_san",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2088439679519719424/WhEAWz1J_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 2015,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Apr 23 16:54:09 +0000 2025",
+      "createdAtLocal": "2025-04-24 00:54",
+      "createdAtISO": "2025-04-23T16:54:09+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1929457397224878113",
+      "text": "@gch_enbsbxbs 老哥你说的组单边池是新建一个池子吗？",
+      "author": {
+        "id": "1591820544936054784",
+        "name": "Zee",
+        "screenName": "zhexu53188891",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1959901156479754240/Bn5igXIw_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1380,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Jun 02 08:37:45 +0000 2025",
+      "createdAtLocal": "2025-06-02 16:37",
+      "createdAtISO": "2025-06-02T08:37:45+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1962295865479168083",
+      "text": "@gch_enbsbxbs 感谢老哥指点。",
+      "author": {
+        "id": "848420919160619008",
+        "name": "alexshaw1102",
+        "screenName": "alexshaw1102",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1505913334314377216/AZ3cGcmw_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 602,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Aug 31 23:26:06 +0000 2025",
+      "createdAtLocal": "2025-09-01 07:26",
+      "createdAtISO": "2025-08-31T23:26:06+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1927739938323280143",
+      "text": "@gch_enbsbxbs 請問組LP 會有人接嗎 會不會組了 沒人接盤",
+      "author": {
+        "id": "912177608753741824",
+        "name": "CryptoChengCheng",
+        "screenName": "Cryptocheng777",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1945773374002622464/G3GUzc-F_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1294,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed May 28 14:53:11 +0000 2025",
+      "createdAtLocal": "2025-05-28 22:53",
+      "createdAtISO": "2025-05-28T14:53:11+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1914934177017028907",
+      "text": "@gch_enbsbxbs bnb链的在panke租lp吗",
+      "author": {
+        "id": "99397816",
+        "name": "Firdi",
+        "screenName": "a909705a",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1568967266376773638/q-5JekLQ_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 3082,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Apr 23 06:47:40 +0000 2025",
+      "createdAtLocal": "2025-04-23 14:47",
+      "createdAtISO": "2025-04-23T06:47:40+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1915267350485754271",
+      "text": "@gch_enbsbxbs 学习",
+      "author": {
+        "id": "1795766270601674752",
+        "name": "Megan Hart",
+        "screenName": "MeganHart186598",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1886991072087486464/wFVvVoWt_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1805,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Apr 24 04:51:34 +0000 2025",
+      "createdAtLocal": "2025-04-24 12:51",
+      "createdAtISO": "2025-04-24T04:51:34+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

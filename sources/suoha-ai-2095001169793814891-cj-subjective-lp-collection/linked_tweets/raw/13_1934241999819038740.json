@@ -1,0 +1,357 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "1934241999819038740",
+      "text": "前几天 才发了 LP得脚本 和玩法拆解。\n不知道 有没有老铁受伤。\n我自己是不玩 koge 这种币的。因为收益太低了  脱离区间就会亏。\n玩LP 就要做好 脱离区间的打算，要假设在有限的时间内脱离区间 不亏钱 才能组。\n例如当前的fee 赚1个小时 脱离区间不亏钱 就能玩。\n如果不能，就不能玩。 这个1小时是浮动的，每个人想法不一致。\n\n所以为了进一步减少脱离区间的可能性。需要引入另外一个策略。\n主动退出，不能等真的波动来了 再退出。所以 你需要忍住诱惑，做第一个跑掉的人，而不是等待踩踏。\n\n相比于sol的LP 。bsc这种属实太血腥，太恶心。被控制得太厉害了。",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 23,
+        "retweets": 1,
+        "replies": 9,
+        "quotes": 0,
+        "views": 10880,
+        "bookmarks": 10
+      },
+      "createdAt": "Sun Jun 15 13:30:03 +0000 2025",
+      "createdAtLocal": "2025-06-15 21:30",
+      "createdAtISO": "2025-06-15T13:30:03+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GtfN1TEa4AAKRog.jpg",
+          "width": 1240,
+          "height": 700
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "1932980462240346183",
+        "text": "如何在pancakeswap 组上LP赚钱，这是第四版LP玩法发布。\n这应该是独属于bsc的玩法。与以往的玩法全不同。\n造成这个玩法的本质就是因为alpha刷交易量导致的。\nLP要赚手续费的大前提就是 得有交易量。\n而交易量 往往在波动较大的时候才会出现，没什么波动意味着交易低迷。交易量很低。\n而bsc因为刷交易量的存在 违背了这个逻辑。\n很多人刷交易量 选择的时间点是没什么波动的时候，\n如果一个币上下波动狠剧烈 反而没办法刷。\n所以在bsc玩LP玩法的就是 选择超窄区间，低波动，然后组进去。但是当前的低波动不代表未来的低波动。如果一直底波动，就会有内卷，让收益率下滑。例如koge这个币 都知道没什么波动。都在组LP 收益率就下来了。\n\n所以bsc玩LP得难点 就在于这里。 你需要判断波动率\n你预计这个币短期内不会突然 暴涨 暴跌。然后组一个很窄的区间 组进去 吃一段时间的fee。然后退出。\n不能一直组者不管。即便有脚本最好也是主动退出。等待脱离区间后再退出。那样收益会减少。\n\n至于目前收益率，只能说能玩，但是对我来说 有点太费劲。我不想设计过于复杂的策略。因为策略越复杂，调试的时间就越久。越花时间。但是如果策略不复杂 就没办法自动化。 没办法自动化，对我来说就有点难了 因为我不想把时间花在这个上面。\n\n一开始决定做这个脚本是因为，当时玩收益很猛。我以为会持续很长时间。 但是现在 如果没有更复杂的策略 收益很难做起来。造成这个的原因 还是因为内卷。\n\n所以最终我寻思 还是干脆 开源了 分享给大家。\n如果你有什么其他想法 也可以私信跟我交流。",
+        "author": {
+          "screenName": "gch_enbsbxbs",
+          "name": "C J"
+        }
+      }
+    },
+    {
+      "id": "1934246823046062578",
+      "text": "@gch_enbsbxbs 有个问题一直想问，如果一个代币是向上脱离区间，那应该还是有得赚得吧？手续费和上涨到区间上沿的钱都还是可以赚到的",
+      "author": {
+        "id": "2924011372",
+        "name": "悠",
+        "screenName": "kingsgame3",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1885182255389396992/pnJudDib_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 342,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 15 13:49:13 +0000 2025",
+      "createdAtLocal": "2025-06-15 21:49",
+      "createdAtISO": "2025-06-15T13:49:13+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1934247224877396071",
+      "text": "@kingsgame3 不对冲的话 是这样",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 284,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 15 13:50:49 +0000 2025",
+      "createdAtLocal": "2025-06-15 21:50",
+      "createdAtISO": "2025-06-15T13:50:49+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1934248190674641060",
+      "text": "@gch_enbsbxbs Bsc的LP，狗都不去，让cake一个人赚吧。",
+      "author": {
+        "id": "1408723899316015108",
+        "name": "平A流法师🧙⚡️💎",
+        "screenName": "szu_jason",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1805852806190088193/auAeRJsx_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 513,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 15 13:54:39 +0000 2025",
+      "createdAtLocal": "2025-06-15 21:54",
+      "createdAtISO": "2025-06-15T13:54:39+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1934249068840251647",
+      "text": "@szu_jason 刚开始很猛的。。刷梅林 日化百分50。。。",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 464,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 15 13:58:09 +0000 2025",
+      "createdAtLocal": "2025-06-15 21:58",
+      "createdAtISO": "2025-06-15T13:58:09+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1934254382008401988",
+      "text": "@gch_enbsbxbs 当前的fee 赚1个小时 脱离区间不亏钱 就能玩。怎么理解，不明白，",
+      "author": {
+        "id": "1403355895187185665",
+        "name": "馨馨",
+        "screenName": "xiaobu99521",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1861048995277361152/h0pSVf0I_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 366,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 15 14:19:16 +0000 2025",
+      "createdAtLocal": "2025-06-15 22:19",
+      "createdAtISO": "2025-06-15T14:19:16+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1934269167529832705",
+      "text": "@xiaobu99521 你组的lp 费用积累了1个小时，脱离了区间， 你会亏损，但是你赚够了1个小时的fee，这一个小时的fee能够跟亏损打平， 就能玩， 但是 这个时间 每个人都有每个人的判断 并不固定，有人认为2个小时 甚至有人认为1天都可以。 一切基于你都风险的掌控。时间越短 你主观认为风险越高，越长风险越低，",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 395,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 15 15:18:01 +0000 2025",
+      "createdAtLocal": "2025-06-15 23:18",
+      "createdAtISO": "2025-06-15T15:18:01+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1934279470325846318",
+      "text": "@gch_enbsbxbs 之前在研究自动化对冲bsc池子, 对池子价格进行扫描,然后实时在交易所对冲.    做实验中 zkj koge相关的池子 大家设置的太卷了,没法用这套策略 ,最后没弄,幸亏没弄",
+      "author": {
+        "id": "1449215782492073987",
+        "name": "Magic cat",
+        "screenName": "magiccat001",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1560871102980558848/Knd22P38_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 254,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 15 15:58:57 +0000 2025",
+      "createdAtLocal": "2025-06-15 23:58",
+      "createdAtISO": "2025-06-15T15:58:57+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1934255131819921514",
+      "text": "@gch_enbsbxbs 太难了 挣点费用不够下跌的",
+      "author": {
+        "id": "1526473292265103360",
+        "name": "0x031.inx",
+        "screenName": "LYyyyyuan",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1776894545487360000/Ahx_Aq0U_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 244,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 15 14:22:14 +0000 2025",
+      "createdAtLocal": "2025-06-15 22:22",
+      "createdAtISO": "2025-06-15T14:22:14+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1934277464450326948",
+      "text": "@gch_enbsbxbs lp+买看跌价差",
+      "author": {
+        "id": "1762876558765649922",
+        "name": "Alexon",
+        "screenName": "iamAlexon",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1929088727101702144/pqn6EFz0_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 139,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 15 15:50:59 +0000 2025",
+      "createdAtLocal": "2025-06-15 23:50",
+      "createdAtISO": "2025-06-15T15:50:59+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1934289793460183147",
+      "text": "@gch_enbsbxbs 没崩之前，“收益太低了”怎么说，日化高达1%还没波动，市场上仅此一处吧",
+      "author": {
+        "id": "1134391582768033792",
+        "name": "加密三哥",
+        "screenName": "yesantian",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1688186300648865792/4im4GQ_j_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 127,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Jun 15 16:39:58 +0000 2025",
+      "createdAtLocal": "2025-06-16 00:39",
+      "createdAtISO": "2025-06-15T16:39:58+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1934457476940026001",
+      "text": "@gch_enbsbxbs 收益其实不低吧？风险大",
+      "author": {
+        "id": "1567437699052896258",
+        "name": "浪里淘饼",
+        "screenName": "rwf168",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1927213655780630528/OYVOLbiK_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 76,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Jun 16 03:46:17 +0000 2025",
+      "createdAtLocal": "2025-06-16 11:46",
+      "createdAtISO": "2025-06-16T03:46:17+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

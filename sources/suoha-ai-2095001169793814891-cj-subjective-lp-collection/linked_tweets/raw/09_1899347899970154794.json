@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "1899347899970154794",
+      "text": "也许这就是LP得魅力了吧 即便跌成这样，依然没亏钱 且还是赚的。\n目前计划是 依然不平仓。如果跌破110 就当强制抄底了。赎回sol。不跌破就赚fee。未来一段时间行情都不太可能好。只能这样了。 https://t.co/WpYkc9DGcE",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 10,
+        "retweets": 1,
+        "replies": 1,
+        "quotes": 1,
+        "views": 16507,
+        "bookmarks": 6
+      },
+      "createdAt": "Tue Mar 11 06:33:22 +0000 2025",
+      "createdAtLocal": "2025-03-11 14:33",
+      "createdAtISO": "2025-03-11T06:33:22+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/GlvVB7Ka4AINylY.jpg",
+          "width": 1182,
+          "height": 832
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "1894253715953258760",
+        "text": "昨天 我吧抄底的sol。又给卖了 感觉市场还要跌 所以就卖了。 同时还有一些别的币。\n不过我也组了 bidask 在接货 开了10个号 每个号5000u 从160多 一路接货到110，我认为110是一个强支撑 暂时跌不破。\n这实际上一个不错的抄底方案， 又兴趣的朋友 可以试试，当然前提是你真的看好这个币，\n目前浮亏一点点 但稍微横盘一下 就能赚回来。然后等时机合适了 我再取消LP 完成抄底。",
+        "author": {
+          "screenName": "gch_enbsbxbs",
+          "name": "C J"
+        }
+      }
+    },
+    {
+      "id": "1916426493976342610",
+      "text": "@gch_enbsbxbs 宝藏博主，熊市里的一点温暖",
+      "author": {
+        "id": "1910585630213718016",
+        "name": "V587.eth",
+        "screenName": "V587Eth",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2019621465034043392/Tg0rl-9z_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 196,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Apr 27 09:37:36 +0000 2025",
+      "createdAtLocal": "2025-04-27 17:37",
+      "createdAtISO": "2025-04-27T09:37:36+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

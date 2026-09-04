@@ -1,0 +1,77 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "1962860208310583793",
+      "text": "还是多说几句吧。\n不是所有的币 都能够采用LP的玩法。\n如果你要玩 最好满足我之前说过的以下核心条件\n1/是相对比较热门的项目方发的币， \n2/先在DEX上线。 \n3/最好是有盘前期货价或者场外otc价作为参考。\n\n撸毛的一次性项目 就当撸毛玩就好。\n什么叫大项目？\n至少 TGE 你得能上1线的CEX\n\n其实很多人还是没弄明白 LP赚钱的 本质。\nLP赚钱的本质。是利用爆发式的交易量赚手续费。\n并且手续费能够覆盖下跌 所带来的无偿损失。\n这个条件实际是很苛刻的。不是什么币都能去玩LP",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 71,
+        "retweets": 3,
+        "replies": 3,
+        "quotes": 2,
+        "views": 17641,
+        "bookmarks": 45
+      },
+      "createdAt": "Tue Sep 02 12:48:36 +0000 2025",
+      "createdAtLocal": "2025-09-02 20:48",
+      "createdAtISO": "2025-09-02T12:48:36+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/Gz130QFWEAAE0Z-.jpg",
+          "width": 1950,
+          "height": 1402
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "1962796424581783628",
+        "text": "@gch_enbsbxbs 今晚的CDL玩不玩？这个cj老哥打算设置什么范围？",
+        "author": {
+          "screenName": "slerf789",
+          "name": "山寨哥 奥de飙"
+        }
+      }
+    },
+    {
+      "id": "1962874318242914614",
+      "text": "@gch_enbsbxbs 学到了，老哥能不能出一期专门说说 pendle 的玩法",
+      "author": {
+        "id": "494644792",
+        "name": "吹杨",
+        "screenName": "0xchuiyang",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1960387695894781952/pVlqFLCq_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 43,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 02 13:44:40 +0000 2025",
+      "createdAtLocal": "2025-09-02 21:44",
+      "createdAtISO": "2025-09-02T13:44:40+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

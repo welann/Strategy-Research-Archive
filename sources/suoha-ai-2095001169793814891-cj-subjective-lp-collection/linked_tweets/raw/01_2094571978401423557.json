@@ -1,0 +1,917 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2094571978401423557",
+      "text": "有人说，组池子 不如拿着币等涨。\n逻辑不是这样的。\n如果你不波段的话，成本就打不下来，\n如果你波段的话，结果就是卖飞，主动波段和被动LP 刚好是2个相反的操作手法。\n如果一直拿着。\n除非是龙头， 如果是市值很小的币，最终就是大部分都归零，极少数跑出来。甚至 一个都没有。 如果你只买龙头，然后拿着等涨 这是最简单 轻松的打法，这个确实也不用枯坐。但是得上仓位。对我来说 我没办法重仓土狗。\n\n我组池子 不关心币背后的叙事。或者谁在喊单之类的。\n简单看下k线 各个数据就足够了。\n当然我也想看，但是时间精力跟不上。\n很多时候 赚fee的时间窗口 就那几十分钟。\n早上这个 就很猛 不到1个小时 本金1500 撸了2000u，\n而这个其实也没涨多少。 刚好差不多翻倍吧。\n但是交易的话，就很难掌握点位，LP容错率 就高了。\n\n做自己擅长的吧，习惯做什么 就做什么。不必刻意勉强自己。",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 239,
+        "retweets": 21,
+        "replies": 40,
+        "quotes": 4,
+        "views": 116353,
+        "bookmarks": 244
+      },
+      "createdAt": "Mon Aug 31 23:44:09 +0000 2026",
+      "createdAtLocal": "2026-09-01 07:44",
+      "createdAtISO": "2026-08-31T23:44:09+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRFkSKlbcAAV-6j.png",
+          "width": 1606,
+          "height": 144
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "2094294541214117902",
+        "text": "这是起床后 撸的一个仓位。5000u本金。\n还有其他就不挨个发了，这个相对收益率比较高。\n我通常 手动 会同时操作七八个土狗，极限也就10来个。再多 就忙不过来了。\n龙头开的仓位会大些， 通常不需要太关注，\n几m的土狗 基本上 都是快进快出。 \n其实也蛮累的。\n主观做LP 需要带着交易的思维去做。进 出的时机比较重要。详细的就不展开讲了，\n这些东西 我一年多前 都发过。有兴趣的老铁 自己翻推文吧。",
+        "author": {
+          "screenName": "gch_enbsbxbs",
+          "name": "C J"
+        }
+      }
+    },
+    {
+      "id": "2094633972374651279",
+      "text": "@gch_enbsbxbs 又看到 CJ 大佬回来搞 LP 的日子了",
+      "author": {
+        "id": "148629284",
+        "name": "gm365",
+        "screenName": "gm365",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1888075777041907712/6varnwUI_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 2135,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 03:50:30 +0000 2026",
+      "createdAtLocal": "2026-09-01 11:50",
+      "createdAtISO": "2026-09-01T03:50:30+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2094588985536565324",
+      "text": "@gch_enbsbxbs cj老师带带我",
+      "author": {
+        "id": "1929544731652231168",
+        "name": "EFO_xx",
+        "screenName": "efo_xx",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1951962474301034496/Cn-YriFv_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1025,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 00:51:44 +0000 2026",
+      "createdAtLocal": "2026-09-01 08:51",
+      "createdAtISO": "2026-09-01T00:51:44+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094590228984115416",
+      "text": "@gch_enbsbxbs 我想问下 cj老师一般用哪些工具？比如监控lp以及管理lp的工具，求推荐",
+      "author": {
+        "id": "930066997932707840",
+        "name": "棋圣江流儿",
+        "screenName": "mnxqzf",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1892411041625133056/zVLNW6yK_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 4605,
+        "bookmarks": 1
+      },
+      "createdAt": "Tue Sep 01 00:56:40 +0000 2026",
+      "createdAtLocal": "2026-09-01 08:56",
+      "createdAtISO": "2026-09-01T00:56:40+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094591203488743793",
+      "text": "@mnxqzf 就常规的 没什么特别的 dexscreener gmgn  okx  uniswap revert",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 18,
+        "retweets": 2,
+        "replies": 1,
+        "quotes": 0,
+        "views": 4345,
+        "bookmarks": 23
+      },
+      "createdAt": "Tue Sep 01 01:00:33 +0000 2026",
+      "createdAtLocal": "2026-09-01 09:00",
+      "createdAtISO": "2026-09-01T01:00:33+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094576626965389429",
+      "text": "@gch_enbsbxbs CJ哥，这是在哪儿做的LP，求喂饭。",
+      "author": {
+        "id": "1433631182541901824",
+        "name": "Kan3214",
+        "screenName": "kan665588",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2095350910247714816/Z2Ui0M4a_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 4420,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 00:02:37 +0000 2026",
+      "createdAtLocal": "2026-09-01 08:02",
+      "createdAtISO": "2026-09-01T00:02:37+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094576955517735254",
+      "text": "@kan665588 微信给我发消息",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 4326,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 00:03:56 +0000 2026",
+      "createdAtLocal": "2026-09-01 08:03",
+      "createdAtISO": "2026-09-01T00:03:56+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095332043181940960",
+      "text": "@gch_enbsbxbs 推荐一下哪个 LP 然后怎么配置区间范围",
+      "author": {
+        "id": "50650516",
+        "name": "TeslaOnTheWay",
+        "screenName": "reinstall2020",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1734658205341696000/u6cvA2-q_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 141,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 03 02:04:23 +0000 2026",
+      "createdAtLocal": "2026-09-03 10:04",
+      "createdAtISO": "2026-09-03T02:04:23+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094622784551112937",
+      "text": "@gch_enbsbxbs 经常破区间怎么办。。",
+      "author": {
+        "id": "2002712738184019968",
+        "name": "Lee",
+        "screenName": "CryptoLylee",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2002948410706436096/8HywYiaj_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 2939,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 03:06:02 +0000 2026",
+      "createdAtLocal": "2026-09-01 11:06",
+      "createdAtISO": "2026-09-01T03:06:02+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095090907372744783",
+      "text": "@gch_enbsbxbs cj哥我是老粉了😂想跟大哥学习下交个好朋友",
+      "author": {
+        "id": "1850442174577729536",
+        "name": "fc",
+        "screenName": "fcgunxueqiu",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1958176532398231552/ebXo13Kq_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 311,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 10:06:11 +0000 2026",
+      "createdAtLocal": "2026-09-02 18:06",
+      "createdAtISO": "2026-09-02T10:06:11+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094614843089440994",
+      "text": "@gch_enbsbxbs 这是在哪个平台组的？",
+      "author": {
+        "id": "1393875036595920902",
+        "name": "十五望月",
+        "screenName": "aicoding1515",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1496865651134140417/gGHjlhUi_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 2569,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 02:34:29 +0000 2026",
+      "createdAtLocal": "2026-09-01 10:34",
+      "createdAtISO": "2026-09-01T02:34:29+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094584472016765181",
+      "text": "@gch_enbsbxbs woc, 你这价格区间设这么宰",
+      "author": {
+        "id": "1795295660906057730",
+        "name": "蛙哥来啦",
+        "screenName": "run_go_",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2062132491356684289/lVq0rAES_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1767,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 00:33:48 +0000 2026",
+      "createdAtLocal": "2026-09-01 08:33",
+      "createdAtISO": "2026-09-01T00:33:48+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094603608579006655",
+      "text": "@gch_enbsbxbs 自己做的加LP插件吗",
+      "author": {
+        "id": "1369544846625542146",
+        "name": "0xgambleking",
+        "screenName": "gambleking8888",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1814608320113876993/T9jgknYa_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1922,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 01:49:50 +0000 2026",
+      "createdAtLocal": "2026-09-01 09:49",
+      "createdAtISO": "2026-09-01T01:49:50+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094702610322526633",
+      "text": "@gch_enbsbxbs 大meme，有时间盯着就可以搞LP，没时间就算了，区间大了APR太低",
+      "author": {
+        "id": "1868518934355582976",
+        "name": "一叽咕",
+        "screenName": "iamironman0315",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2047300696043839488/f0XK2M4p_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1114,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 08:23:14 +0000 2026",
+      "createdAtLocal": "2026-09-01 16:23",
+      "createdAtISO": "2026-09-01T08:23:14+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094595920142979452",
+      "text": "@gch_enbsbxbs 这收益，羡慕死人",
+      "author": {
+        "id": "1161120298923466752",
+        "name": "weinfs",
+        "screenName": "weinfs88",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2095762053680214016/wuslsFMW_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 2249,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 01:19:17 +0000 2026",
+      "createdAtLocal": "2026-09-01 09:19",
+      "createdAtISO": "2026-09-01T01:19:17+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094777154705965404",
+      "text": "@gch_enbsbxbs 怎么挑选标的呢？10分钟就可以翻倍？",
+      "author": {
+        "id": "965860986698612736",
+        "name": "星空🍊｜周期投资",
+        "screenName": "XingKongBTC",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1989167626300583936/Fa9Pjm4j_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 589,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 13:19:27 +0000 2026",
+      "createdAtLocal": "2026-09-01 21:19",
+      "createdAtISO": "2026-09-01T13:19:27+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094625060774715675",
+      "text": "@gch_enbsbxbs 这个什么lp组合",
+      "author": {
+        "id": "1191006428191850498",
+        "name": "Ivangan_1541",
+        "screenName": "Ivangan_1541",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1601444922652905473/fH_zqG12_normal.png",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 948,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 03:15:05 +0000 2026",
+      "createdAtLocal": "2026-09-01 11:15",
+      "createdAtISO": "2026-09-01T03:15:05+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094596855703474529",
+      "text": "@gch_enbsbxbs cj哥，想问一下怎么去挑标的呢？我就怕一组池子就归零",
+      "author": {
+        "id": "1907723780400758784",
+        "name": "Z大诗",
+        "screenName": "Zh_Crypto517",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2068563815822917632/5TyYQZKQ_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1518,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 01:23:00 +0000 2026",
+      "createdAtLocal": "2026-09-01 09:23",
+      "createdAtISO": "2026-09-01T01:23:00+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094623488724406426",
+      "text": "@gch_enbsbxbs 老師 請問這是哪的lp",
+      "author": {
+        "id": "1247041903373111296",
+        "name": "0xLin | 八方來財版",
+        "screenName": "Airdrop_Lin",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2084890850123972608/DXrP3bBO_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1829,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 03:08:50 +0000 2026",
+      "createdAtLocal": "2026-09-01 11:08",
+      "createdAtISO": "2026-09-01T03:08:50+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094587650317377619",
+      "text": "@gch_enbsbxbs 小市值拿着大多归零啊草",
+      "author": {
+        "id": "3794878754",
+        "name": "22歲的我開始決定練習畫少女漫畫真的還假的 | 网红模特经济",
+        "screenName": "lrwrene",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2092591320812425216/COc1Lueh_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1883,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 00:46:26 +0000 2026",
+      "createdAtLocal": "2026-09-01 08:46",
+      "createdAtISO": "2026-09-01T00:46:26+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095497664112816584",
+      "text": "@gch_enbsbxbs 虚拟货币就是诈骗",
+      "author": {
+        "id": "1881564611524313088",
+        "name": "全网最高返佣",
+        "screenName": "VIP520_",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2090867661727002624/6Iyz_qoS_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 16,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 03 13:02:30 +0000 2026",
+      "createdAtLocal": "2026-09-03 21:02",
+      "createdAtISO": "2026-09-03T13:02:30+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094607927843971575",
+      "text": "@gch_enbsbxbs 认同！\n赚LP的钱，是要重视和行动起来的，尤其现在pvp时代。\n赚LP快钱的要求很高\n我们普通散户，还是要挑选有基本面和长期的项目，比如01，全球首个自动生息隐私稳定币基础设施协议平台币，2个多月时间交易量50m了，90%以上交易在1%池子，大区间长线拿着，赚手续费、01和eth增值多份的钱",
+      "author": {
+        "id": "1335462961",
+        "name": "狗哥 #hooksummer",
+        "screenName": "jingouwang888",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1933348269335457795/w_6TXVz7_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 881,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 02:07:00 +0000 2026",
+      "createdAtLocal": "2026-09-01 10:07",
+      "createdAtISO": "2026-09-01T02:07:00+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094670489893720566",
+      "text": "@gch_enbsbxbs 跟大佬学习",
+      "author": {
+        "id": "1360607917079023628",
+        "name": "小小小炉-w3",
+        "screenName": "0xoldlulu",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1882096195432337408/QckCyeC3_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 389,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 06:15:36 +0000 2026",
+      "createdAtLocal": "2026-09-01 14:15",
+      "createdAtISO": "2026-09-01T06:15:36+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094646836170817744",
+      "text": "@gch_enbsbxbs Tell me which app is this and what’s your starteg y",
+      "author": {
+        "id": "1891034168580325376",
+        "name": "코바 인사이트",
+        "screenName": "imtigerbabe",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2067215679615557632/IaO0vtvA_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 483,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 04:41:37 +0000 2026",
+      "createdAtLocal": "2026-09-01 12:41",
+      "createdAtISO": "2026-09-01T04:41:37+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2094938078268018745",
+      "text": "@gch_enbsbxbs cj哥 怎么进微信群呀",
+      "author": {
+        "id": "1970473523413147648",
+        "name": "威廉1638",
+        "screenName": "William88Crypto",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2093321260281536512/h4So513f_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 237,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 23:58:54 +0000 2026",
+      "createdAtLocal": "2026-09-02 07:58",
+      "createdAtISO": "2026-09-01T23:58:54+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094573523771470012",
+      "text": "@gch_enbsbxbs 这行确实挺磨人的  选条路坚持下去就行",
+      "author": {
+        "id": "131667862",
+        "name": "返佣70｜BG小溪Visa卡可领",
+        "screenName": "LupitaFloresC",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2092944321066520576/KeUZCRxi_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1225,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Aug 31 23:50:18 +0000 2026",
+      "createdAtLocal": "2026-09-01 07:50",
+      "createdAtISO": "2026-08-31T23:50:18+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094825410181972461",
+      "text": "@gch_enbsbxbs 学习一下",
+      "author": {
+        "id": "2058474778298863616",
+        "name": "九思老白",
+        "screenName": "jiusilaobai",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2082005025774358528/MwVrnUkk_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 233,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 16:31:12 +0000 2026",
+      "createdAtLocal": "2026-09-02 00:31",
+      "createdAtISO": "2026-09-01T16:31:12+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094699770497425514",
+      "text": "@gch_enbsbxbs cj哥印钞了，有没有小群啊",
+      "author": {
+        "id": "1801542875764924416",
+        "name": "梭哈.AI",
+        "screenName": "SUOHA_AI",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2072451349061533696/vwo_gqSQ_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 518,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 08:11:57 +0000 2026",
+      "createdAtLocal": "2026-09-01 16:11",
+      "createdAtISO": "2026-09-01T08:11:57+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094578718648029221",
+      "text": "@gch_enbsbxbs 求教下",
+      "author": {
+        "id": "1879067851333718016",
+        "name": "snow",
+        "screenName": "snow9808",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1879067907344551936/gZ31elpw_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 974,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 00:10:56 +0000 2026",
+      "createdAtLocal": "2026-09-01 08:10",
+      "createdAtISO": "2026-09-01T00:10:56+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2094838468191097009",
+      "text": "@gch_enbsbxbs dddddd",
+      "author": {
+        "id": "1938273900192010240",
+        "name": "比特唐三藏",
+        "screenName": "tangsanzangbtc",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2094072672363900928/92K0rlvw_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 237,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 17:23:05 +0000 2026",
+      "createdAtLocal": "2026-09-02 01:23",
+      "createdAtISO": "2026-09-01T17:23:05+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "und",
+      "score": null
+    },
+    {
+      "id": "2094662027256164598",
+      "text": "@gch_enbsbxbs I also prefer LPing than just buy &amp; hold.\nLPing might not be as profitable as holding, but I think it reduces risk greatly when they sideline or have great volatility.",
+      "author": {
+        "id": "1709434247440957440",
+        "name": "probe",
+        "screenName": "soldev",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2015068185796730880/umxJfYYi_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 664,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 05:41:58 +0000 2026",
+      "createdAtLocal": "2026-09-01 13:41",
+      "createdAtISO": "2026-09-01T05:41:58+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2089351481895850256",
+      "text": "PIF published its 2025 Annual Report demonstrating strong financial performance and continued progress against its long-term objectives.",
+      "author": {
+        "id": "1196896901116944384",
+        "name": "Public Investment Fund",
+        "screenName": "PIF_en",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1749839189296717824/N-BeqnjB_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 499,
+        "retweets": 26,
+        "replies": 14,
+        "quotes": 1,
+        "views": 28557772,
+        "bookmarks": 132
+      },
+      "createdAt": "Mon Aug 17 13:59:46 +0000 2026",
+      "createdAtLocal": "2026-08-17 21:59",
+      "createdAtISO": "2026-08-17T13:59:46+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    }
+  ]
+}

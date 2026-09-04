@@ -1,0 +1,497 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2090359344445719016",
+      "text": "很多人没明白我说话的底层逻辑。\n套利之所以能跟行情挂钩。\n原因就是 套利赚的钱 来自于fomo情绪。各路资金疯狂的涌入。\n来自非量化的资金越多，造成的价格不对称就越严重。\n也就造成了fomo的时候，套利的利润 就会暴涨。\n而这个时候 通常就是见顶信号了。这种情况不会维持很久。\n相反的如果场内交易的资金只有量化的资金在互相内卷。\n利润就会一直下降。\n因为没有场外资金进入，价格自然就会走低。\n\n所以 套利和建仓的逻辑 就是相反的。\n有点买在无人问津，卖在人声鼎沸的味道，但是这句话太笼统，而使用套利的角度去观察 就非常的简单 直观。\n\n当然二者要想完美的衔接做好 并没有那么的容易。\n时间节点 ，建仓目标 。但这是另外的问题了。",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 154,
+        "retweets": 13,
+        "replies": 63,
+        "quotes": 6,
+        "views": 54923,
+        "bookmarks": 126
+      },
+      "createdAt": "Thu Aug 20 08:44:39 +0000 2026",
+      "createdAtLocal": "2026-08-20 16:44",
+      "createdAtISO": "2026-08-20T08:44:39+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "2082649459046134070",
+        "text": "泄漏一个焚决打法。\n行情不好的时候，把资金从套利中抽出来，找标的埋伏。\n（买什么很重要，这是另外一套功法）\n行情来了，卖掉，转向套利。\n如此循环。\n（真正的行情不好，是套利的利润大幅度下滑。）",
+        "author": {
+          "screenName": "gch_enbsbxbs",
+          "name": "C J"
+        }
+      }
+    },
+    {
+      "id": "2090378842481549480",
+      "text": "@gch_enbsbxbs 套利的利润来自一部分场外资金不计成本买入？可以这样理解吗",
+      "author": {
+        "id": "2030868621304745986",
+        "name": "Tomz zz zh",
+        "screenName": "ZhTomz76000",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2083931448785227776/IzcxUdoA_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1639,
+        "bookmarks": 1
+      },
+      "createdAt": "Thu Aug 20 10:02:08 +0000 2026",
+      "createdAtLocal": "2026-08-20 18:02",
+      "createdAtISO": "2026-08-20T10:02:08+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2090379712921325846",
+      "text": "@ZhTomz76000 可以",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1409,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Aug 20 10:05:35 +0000 2026",
+      "createdAtLocal": "2026-08-20 18:05",
+      "createdAtISO": "2026-08-20T10:05:35+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2090837318022439001",
+      "text": "@gch_enbsbxbs 正确的。一针见血的。",
+      "author": {
+        "id": "1770646033481310208",
+        "name": "Solomon | 加密牧师 (薄肌版)",
+        "screenName": "Solomon_Nahhh",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2061136083975622656/4Dj9cYYI_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 230,
+        "bookmarks": 0
+      },
+      "createdAt": "Fri Aug 21 16:23:57 +0000 2026",
+      "createdAtLocal": "2026-08-22 00:23",
+      "createdAtISO": "2026-08-21T16:23:57+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2090449653942919359",
+      "text": "@gch_enbsbxbs 滴滴～～打卡",
+      "author": {
+        "id": "1760202063726981120",
+        "name": "Ada哒哒哒🐬| 来Gate事件合约抢百万积分",
+        "screenName": "ada0211dada",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2064553559392391168/sCnLIvFA_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 242,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Aug 20 14:43:30 +0000 2026",
+      "createdAtLocal": "2026-08-20 22:43",
+      "createdAtISO": "2026-08-20T14:43:30+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2095783925079818751",
+      "text": "Some pairings never go out of style. Envision HǍO Future Tastes with Tsingtao as your timeless companion. https://t.co/FrwIZJnyga",
+      "author": {
+        "id": "2189736667",
+        "name": "Tsingtao",
+        "screenName": "tsingtao",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/905998340063559681/pgHhJ9Q5_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 12402,
+        "bookmarks": 0
+      },
+      "createdAt": "Fri Sep 04 08:00:00 +0000 2026",
+      "createdAtLocal": "2026-09-04 16:00",
+      "createdAtISO": "2026-09-04T08:00:00+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRW3dtqaEAA65LR.jpg",
+          "width": 1200,
+          "height": 675
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2090461121719460055",
+      "text": "@gch_enbsbxbs 套利空间突然拉大我就开始减仓",
+      "author": {
+        "id": "1951957837674070017",
+        "name": "莓莓",
+        "screenName": "Meimeibtcc",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2010291244300402689/zURKwu8L_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 646,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Aug 20 15:29:04 +0000 2026",
+      "createdAtLocal": "2026-08-20 23:29",
+      "createdAtISO": "2026-08-20T15:29:04+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2090452620028871131",
+      "text": "@gch_enbsbxbs 高频mm 最明显，市价单多的时候，嘎嘎赚钱，冷下来，开机就赔钱",
+      "author": {
+        "id": "765571906581913601",
+        "name": "布欧的量化日记",
+        "screenName": "huojichuanqi",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1646454418584518656/QolfNrn8_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 565,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Aug 20 14:55:18 +0000 2026",
+      "createdAtLocal": "2026-08-20 22:55",
+      "createdAtISO": "2026-08-20T14:55:18+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2092452747983622347",
+      "text": "@gch_enbsbxbs 很有道理",
+      "author": {
+        "id": "2038970743124381696",
+        "name": "ToTheMoon",
+        "screenName": "ToTheMoon0915",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2071416409532608512/XivNGMtE_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 26,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Aug 26 03:23:05 +0000 2026",
+      "createdAtLocal": "2026-08-26 11:23",
+      "createdAtISO": "2026-08-26T03:23:05+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2090430564574904480",
+      "text": "@gch_enbsbxbs 信息自链上来",
+      "author": {
+        "id": "1107624707426115585",
+        "name": "khan09.AI",
+        "screenName": "KhanAIBuilds",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1906682523847106562/FFhVWmt5_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 419,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Aug 20 13:27:39 +0000 2026",
+      "createdAtLocal": "2026-08-20 21:27",
+      "createdAtISO": "2026-08-20T13:27:39+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2090630970168983848",
+      "text": "@gch_enbsbxbs banger",
+      "author": {
+        "id": "1855970656086794240",
+        "name": "ipop",
+        "screenName": "ipoperp",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2067543816568217600/DSTgqofn_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 205,
+        "bookmarks": 0
+      },
+      "createdAt": "Fri Aug 21 02:43:59 +0000 2026",
+      "createdAtLocal": "2026-08-21 10:43",
+      "createdAtISO": "2026-08-21T02:43:59+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "in",
+      "score": null
+    },
+    {
+      "id": "2090631803195510959",
+      "text": "@gch_enbsbxbs 经历过多次行情就知道总结得很妙",
+      "author": {
+        "id": "1442097295252615171",
+        "name": "hx套利日记",
+        "screenName": "hxdcraptodaliy",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1585866757008371712/jwyKuraY_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 346,
+        "bookmarks": 0
+      },
+      "createdAt": "Fri Aug 21 02:47:18 +0000 2026",
+      "createdAtLocal": "2026-08-21 10:47",
+      "createdAtISO": "2026-08-21T02:47:18+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2090394029385286068",
+      "text": "@gch_enbsbxbs 套利利润拉满的时候确实离顶不远了，但这玩意儿滞后性也强，容易误判。",
+      "author": {
+        "id": "966873192441655296",
+        "name": "风中浪客",
+        "screenName": "xiexieyixin",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1933163868311973888/CelxLGvL_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 660,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Aug 20 11:02:28 +0000 2026",
+      "createdAtLocal": "2026-08-20 19:02",
+      "createdAtISO": "2026-08-20T11:02:28+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2090403485615612139",
+      "text": "@gch_enbsbxbs 还有热门空投预期dex 有人不计成本硬刷量。。。也是量化燃料。。。",
+      "author": {
+        "id": "1764232333",
+        "name": "Love 爱💕",
+        "screenName": "Lovexiaomi1",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1762642675419828224/pZ3CvoME_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 711,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Aug 20 11:40:03 +0000 2026",
+      "createdAtLocal": "2026-08-20 19:40",
+      "createdAtISO": "2026-08-20T11:40:03+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2090674052235194721",
+      "text": "@gch_enbsbxbs 不能这么看，fomo 是分不同时间尺度的。",
+      "author": {
+        "id": "1630622879850311681",
+        "name": "金隐",
+        "screenName": "chowsteven",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2026950024924708864/E0yTZUmJ_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 173,
+        "bookmarks": 0
+      },
+      "createdAt": "Fri Aug 21 05:35:11 +0000 2026",
+      "createdAtLocal": "2026-08-21 13:35",
+      "createdAtISO": "2026-08-21T05:35:11+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2090368951188594818",
+      "text": "@gch_enbsbxbs 说得好",
+      "author": {
+        "id": "1872831625886875648",
+        "name": "Boiledwater22",
+        "screenName": "Boiledwater22",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1929577246156902405/Em6OjEPY_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 337,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Aug 20 09:22:49 +0000 2026",
+      "createdAtLocal": "2026-08-20 17:22",
+      "createdAtISO": "2026-08-20T09:22:49+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2093024778831728927",
+      "text": "Where will physical AI show up first?​\n\nFrom logistics and manufacturing to healthcare and mobility, the impact won’t be uniform.​\n\nSome sectors will see productivity gains. Others face disruption.​\n\nListen to the debate unfold 🎙️",
+      "author": {
+        "id": "856524819948609536",
+        "name": "Barclays Investment Bank",
+        "screenName": "BarclaysCIB",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1572163114958716931/5g1FiPFR_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 466865,
+        "bookmarks": 1
+      },
+      "createdAt": "Thu Aug 27 17:16:08 +0000 2026",
+      "createdAtLocal": "2026-08-28 01:16",
+      "createdAtISO": "2026-08-27T17:16:08+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    }
+  ]
+}

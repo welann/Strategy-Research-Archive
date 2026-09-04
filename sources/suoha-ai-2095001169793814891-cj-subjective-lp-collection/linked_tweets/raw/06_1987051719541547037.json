@@ -1,0 +1,693 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "1987051719541547037",
+      "text": "按照以往玩土狗LP的思路。  \n当apr 达到3000以上\n做短线LP 基本上是盈利是不难的。\n无论是meteora 还是pancake。\n（低于1000则不能玩，这是个人经验）\n\n那么现在切换成网格 逻辑是一致， apr 能维持在3000以上 就能打\n利用网格利润 覆盖下跌带来的损失。\n不做长线，合适的位置平仓 和仓开 即可。\n\n先玩玩看吧",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 124,
+        "retweets": 8,
+        "replies": 26,
+        "quotes": 2,
+        "views": 64775,
+        "bookmarks": 132
+      },
+      "createdAt": "Sat Nov 08 06:57:02 +0000 2025",
+      "createdAtLocal": "2025-11-08 14:57",
+      "createdAtISO": "2025-11-08T06:57:02+00:00",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/1987047520221208576/vid/avc1/2552x1264/aQKfEVp5yuoZUjNr.mp4?tag=21",
+          "width": 2552,
+          "height": 1264
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "1987042503493874011",
+        "text": "更换策略， 改打小币的 网格，\n借用LP思路， 做短线网格， 依据k线和成交量情况，\n做日内时间线的网格， 目前看 收益 还是很猛的\n图中 计算出来的收益率 能达到6000 以上的apr。\n等于 你组 LP 面板显示6000多的apr。。\n就是我之前 说过的计算方法。 我把他写到脚本里 实时计算了。10分钟算一次。\n按照0g 这个 收益率 加上 资金费率， 即便下跌 应该也亏不了钱。 做短线 问题不大。\n\n这下 lighter 应该 能多给我些分了吧？？？？",
+        "author": {
+          "screenName": "gch_enbsbxbs",
+          "name": "C J"
+        }
+      }
+    },
+    {
+      "id": "1987054440541790266",
+      "text": "@gch_enbsbxbs 问下apr是怎么计算的呢？最低只有1m线，没法细究里面穿插了多少次（是先运行后得知apr的吗？",
+      "author": {
+        "id": "1925191305652805632",
+        "name": "lannvvi.",
+        "screenName": "viilannx",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2090446779573788672/KmwVzvdr_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 2106,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 07:07:50 +0000 2025",
+      "createdAtLocal": "2025-11-08 15:07",
+      "createdAtISO": "2025-11-08T07:07:50+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987054676693688428",
+      "text": "@viilannx 嗯 统计过去10分钟的次数， 以及 统计 运行时间内 所有的次数。 2种计算方法 。可以对比出 apr是在下降 还是在上涨",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1967,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 07:08:47 +0000 2025",
+      "createdAtLocal": "2025-11-08 15:08",
+      "createdAtISO": "2025-11-08T07:08:47+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987128073674719346",
+      "text": "@gch_enbsbxbs 建议加上追踪止盈的功能，再拐点处自动离场，这样就完美了",
+      "author": {
+        "id": "1704942262055268352",
+        "name": "Ann",
+        "screenName": "Ann168_4",
+        "profileImageUrl": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 1353,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 12:00:26 +0000 2025",
+      "createdAtLocal": "2025-11-08 20:00",
+      "createdAtISO": "2025-11-08T12:00:26+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987128403145990458",
+      "text": "@Ann168_4 止盈 有， 止损 刚才也做了。 止损分为离场。和重新组。 也就是再平衡功能。 已经做了",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1302,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 12:01:45 +0000 2025",
+      "createdAtLocal": "2025-11-08 20:01",
+      "createdAtISO": "2025-11-08T12:01:45+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987173824878796820",
+      "text": "@gch_enbsbxbs 怎么找到这些标的？",
+      "author": {
+        "id": "1434775696048476162",
+        "name": "日拱一卒王小楼",
+        "screenName": "wang_xiaolou",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1988567900735877120/DKtV7mlY_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 720,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 15:02:14 +0000 2025",
+      "createdAtLocal": "2025-11-08 23:02",
+      "createdAtISO": "2025-11-08T15:02:14+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1995483802127454282",
+      "text": "@gch_enbsbxbs 过了一个月，我终于看懂哥写的是什么意思了~~~~",
+      "author": {
+        "id": "1760202063726981120",
+        "name": "Ada哒哒哒🐬| 来Gate事件合约抢百万积分",
+        "screenName": "ada0211dada",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2064553559392391168/sCnLIvFA_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 125,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Dec 01 13:23:07 +0000 2025",
+      "createdAtLocal": "2025-12-01 21:23",
+      "createdAtISO": "2025-12-01T13:23:07+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987183249018511743",
+      "text": "@gch_enbsbxbs 高apr配合窄区间网格 真是暴力输出",
+      "author": {
+        "id": "1570113589402570752",
+        "name": "WilcosX.eth",
+        "screenName": "WilcosX",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2017650825393524736/4qqtp9SJ_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 356,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 15:39:41 +0000 2025",
+      "createdAtLocal": "2025-11-08 23:39",
+      "createdAtISO": "2025-11-08T15:39:41+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987172215381737492",
+      "text": "@gch_enbsbxbs 哥们这套网格思路太溜了！3000+ APR直接干，利润滚雪球盖亏损，短线进出无压力，稳稳吃肉牛逼！",
+      "author": {
+        "id": "1887720676255277060",
+        "name": "盟主 | 币圈&美股博主聚合",
+        "screenName": "0xallyvip",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2072397666001289216/B7nd-l4U_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 712,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 14:55:50 +0000 2025",
+      "createdAtLocal": "2025-11-08 22:55",
+      "createdAtISO": "2025-11-08T14:55:50+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987062968190918749",
+      "text": "@gch_enbsbxbs 老师，怎么找到这些高APR的池子？",
+      "author": {
+        "id": "1824775014354456576",
+        "name": "Kano ⛓️",
+        "screenName": "CantvH4819",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1828444766968913921/BSgUrHrq_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1293,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 07:41:44 +0000 2025",
+      "createdAtLocal": "2025-11-08 15:41",
+      "createdAtISO": "2025-11-08T07:41:44+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987361060597473692",
+      "text": "@gch_enbsbxbs Cj 太强了",
+      "author": {
+        "id": "1719668906137452544",
+        "name": "叠马仔🍁",
+        "screenName": "MonkeyJcck",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2034879217230651394/fwME3D___normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 380,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Nov 09 03:26:14 +0000 2025",
+      "createdAtLocal": "2025-11-09 11:26",
+      "createdAtISO": "2025-11-09T03:26:14+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987093202244149479",
+      "text": "@gch_enbsbxbs 只要不是大单边 是可以盈利的",
+      "author": {
+        "id": "1722224844853694465",
+        "name": "papii",
+        "screenName": "RichardPapii",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2086713143707971584/ey39mj2W_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 799,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 09:41:52 +0000 2025",
+      "createdAtLocal": "2025-11-08 17:41",
+      "createdAtISO": "2025-11-08T09:41:52+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987110718894965004",
+      "text": "@gch_enbsbxbs 这间隔真窄",
+      "author": {
+        "id": "1823677468672458752",
+        "name": "King",
+        "screenName": "huangjia88",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1930682647669592064/luj1qxw1_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 640,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 10:51:28 +0000 2025",
+      "createdAtLocal": "2025-11-08 18:51",
+      "createdAtISO": "2025-11-08T10:51:28+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987056729016971480",
+      "text": "@gch_enbsbxbs cj哥 脚本能分享出来吗",
+      "author": {
+        "id": "1855862964890611712",
+        "name": "母猪的产后护理",
+        "screenName": "randomtest94291",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1892753281157414912/gPzcl2hz_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1338,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 07:16:56 +0000 2025",
+      "createdAtLocal": "2025-11-08 15:16",
+      "createdAtISO": "2025-11-08T07:16:56+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987436595637817687",
+      "text": "@gch_enbsbxbs 完全没毛病！",
+      "author": {
+        "id": "1715171983942692864",
+        "name": "沉浮若海",
+        "screenName": "kelisititan",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1993257825116790784/DvXDuSRy_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 134,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Nov 09 08:26:23 +0000 2025",
+      "createdAtLocal": "2025-11-09 16:26",
+      "createdAtISO": "2025-11-09T08:26:23+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987441721555509309",
+      "text": "@gch_enbsbxbs 高apr配合快进快出才是土狗真解",
+      "author": {
+        "id": "1852962207996452864",
+        "name": "Liam Anderson",
+        "screenName": "TinNguyn1845245",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1978695087036186624/kAoCzDHP_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 150,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Nov 09 08:46:45 +0000 2025",
+      "createdAtLocal": "2025-11-09 16:46",
+      "createdAtISO": "2025-11-09T08:46:45+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987578293139448266",
+      "text": "@gch_enbsbxbs 开源吗 哥",
+      "author": {
+        "id": "1549614509551063041",
+        "name": "小白CodeBai",
+        "screenName": "Abisidian_pump",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1896504280879869955/lPGgo1ym_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 176,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Nov 09 17:49:27 +0000 2025",
+      "createdAtLocal": "2025-11-10 01:49",
+      "createdAtISO": "2025-11-09T17:49:27+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987188285371003155",
+      "text": "@gch_enbsbxbs 网格高APR这招牛，试试链上鲸鱼动向做预警，进场更准。",
+      "author": {
+        "id": "338606394",
+        "name": "shawnacee Bowman.edge 🦭🥊",
+        "screenName": "Shawnacee20",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/556965922272198657/wF4FDsII_normal.jpeg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 537,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 15:59:42 +0000 2025",
+      "createdAtLocal": "2025-11-08 23:59",
+      "createdAtISO": "2025-11-08T15:59:42+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987326539235778970",
+      "text": "@gch_enbsbxbs 说得太到位了！",
+      "author": {
+        "id": "1715162222345994240",
+        "name": "潘妮_penny",
+        "screenName": "penny8818",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1995328726977150976/aZ8UkLhu_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 197,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Nov 09 01:09:04 +0000 2025",
+      "createdAtLocal": "2025-11-09 09:09",
+      "createdAtISO": "2025-11-09T01:09:04+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987162461813023119",
+      "text": "@gch_enbsbxbs 그르게요...",
+      "author": {
+        "id": "1022507947",
+        "name": "CryptoVault",
+        "screenName": "2Klett",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/3015757640/779b476abdfe9390ba8dc69eab63f8f8_normal.jpeg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 62,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 14:17:05 +0000 2025",
+      "createdAtLocal": "2025-11-08 22:17",
+      "createdAtISO": "2025-11-08T14:17:05+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ko",
+      "score": null
+    },
+    {
+      "id": "1987200746782417330",
+      "text": "@gch_enbsbxbs 网格，风险控王",
+      "author": {
+        "id": "1104433506107736064",
+        "name": "Dr. Abdullah",
+        "screenName": "AbdullahWahtan",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1941410737970102272/21EbEs44_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 350,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 16:49:13 +0000 2025",
+      "createdAtLocal": "2025-11-09 00:49",
+      "createdAtISO": "2025-11-08T16:49:13+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987189954167120029",
+      "text": "@gch_enbsbxbs 风格对了就稳了",
+      "author": {
+        "id": "982592910",
+        "name": "e4kr",
+        "screenName": "e4kr",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2011350534268329985/Js09P14N_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 69,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 16:06:19 +0000 2025",
+      "createdAtLocal": "2025-11-09 00:06",
+      "createdAtISO": "2025-11-08T16:06:19+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987407434231783797",
+      "text": "@gch_enbsbxbs 得看波动节奏啊兄弟，apr稳高但行情太陡也容易被反杀",
+      "author": {
+        "id": "985781636",
+        "name": "Escan",
+        "screenName": "98Escandon",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2011349012998459393/q4jbQrJt_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 44,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Nov 09 06:30:31 +0000 2025",
+      "createdAtLocal": "2025-11-09 14:30",
+      "createdAtISO": "2025-11-09T06:30:31+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1987168785225384047",
+      "text": "@gch_enbsbxbs 稳住apr才是真活",
+      "author": {
+        "id": "1463358383621165061",
+        "name": "Guine.ETH",
+        "screenName": "GuinevereFranc5",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1463358464655523840/9Y1-7BKD_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 65,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Nov 08 14:42:12 +0000 2025",
+      "createdAtLocal": "2025-11-08 22:42",
+      "createdAtISO": "2025-11-08T14:42:12+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    }
+  ]
+}

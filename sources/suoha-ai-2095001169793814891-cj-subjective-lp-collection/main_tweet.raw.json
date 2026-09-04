@@ -1,0 +1,728 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2095001169793814891",
+      "text": "【收藏贴】套利高手CJ老师 @gch_enbsbxbs「主观 LP 交易思维」17 篇干货 文章收录\n\n现在做 LP 和链上套利，绝对是全网最暴利、现金流最猛的印钞机，套利交易员是如何做 LP 的？ 不赌单边、不搞无脑再平衡，进场前算清无常账，用极高换手率把成本打成负数，把做 LP 当成主动概率交易\n\n我收藏了 CJ 老师在套利逻辑、无常数学算法、做多/做空挂单、选品标准与撤池风控上的 17 篇内容，绝对干货，分享给大家学习👇\n\n一、 为什么做 LP 容错率最高？\n\n【推文 1：组池子 vs 死拿 vs 主动波段】\n• 可以学到：为什么小币死拿归零、纯波段卖飞，而做 LP 容错率最高。\n“有人说，组池子不如拿着币等涨。逻辑不是这样的。如果你不波段的话，成本就打不下来；如果你波段的话，结果就是卖飞。小市值的币死拿最终大部分都归零。很多时候赚 fee 的时间窗口就那几十分钟。早上这个很猛，不到 1 个小时本金 1500 撸了 2000u，币价其实也没涨多少，刚好差不多翻倍吧。但是交易的话很难掌握点位，LP 容错率就高了。”\n🔗 原推文：https://t.co/ey3gXyIPPu\n\n───\n\n二、 套利与做市的利润来源\n\n【推文 2：赚的是市场 FOMO 的钱】\n• 可以学到：做市利润来自散户情绪，利润暴涨往往是见顶信号。\n“套利赚的钱来自于 fomo 情绪，各路资金疯狂涌入。来自非量化的资金越多，价格不对称就越严重，套利的利润就会暴涨。而这个时候通常就是见顶信号了。相反如果场内只有量化在互相内卷，利润就会一直下降，价格自然走低。所以套利和建仓的逻辑就是相反的，买在无人问津，卖在人声鼎沸。”\n🔗 原推文：https://t.co/3DmzPHsDG2\n\n───\n\n三、 为什么做市能做到整体无回撤？\n\n【推文 3：集中流动性多池现金流覆盖】\n• 可以学到：多池组合如何用持续手续费现金流抹平局部单边无常。\n“对于擅长 meteora 的 LPer，在 robin 就是捡钱，而且基本没有回撤。即便局部有亏损，整体净值仍然能持续上升。这不是我自己胡扯，这是实盘数据表现出来的。”\n\n🔗 原推文：https://t.co/Hx2cHfMtnJ\n\n───\n\n四、 做 LP 的唯一底层盈利公式\n\n【推文 4：Fee 跑赢无常损失】\n• 可以学到：进场前唯一要算的数学题。\n“先不聊脚本，简单说下 LP，任何地方任何时候核心就是预判未来的时间 fee 能跑赢无常。只要判断对了这一点，那么就是盈利了。你需要做的就是去计算和估算这 2 个东西。”\n🔗 原推文：https://t.co/JZKo8TjH75\n\n───\n\n五、 单边 10% 区间跌穿数学法则\n\n【推文 5：跌穿区间本金最大亏损严格等于一半】\n• 可以学到：集中流动性挂单的精确亏损测算。\n“v3 模式的 LP 分布类似网格买卖，跌破区间的无常亏损很容易计算：就是区间百分比的一半。例如你组了一个单边 LP 区间是 10%，假设跌穿了，那么你亏 5%。你需要评估的是这 10% 的区间能扛多久、能否在跌穿前赚回这 5% 的手续费。”\n🔗 原推文：https://t.co/j2e3vQcDCe\n\n───\n\n六、 短线土狗 APR 盈亏生死线\n\n【推文 6：APR > 3000% 才能打，< 1000% 禁区】\n• 可以学到：不同收益率下的做市安全边际。\n“按照以往玩土狗 LP 的思路，当 apr 达到 3000 以上，做短线 LP 基本上盈利是不难的。（低于 1000 则不能玩，这是个人经验）。apr 能维持在 3000 以上就能打，利用利润覆盖下跌带来的损失。不做长线，合适的位置平仓即可。”\n🔗 原推文：https://t.co/xcQReO8qHn\n\n───\n\n七、 独创方向性战法：做多 LP 与 做空 LP\n【推文 7：方向判断结合手续费安全垫】\n• 可以学到：如何利用做市工具表达主观方向观点。\n“什么叫 做多 和 做空的 LP：核心思路首先方向要看准；其次如果没有精准的判断，那么利用 fee 来覆盖无常损失。”\n🔗 原推文：https://t.co/LVhY7KCEpw\n\n───\n\n八、 进出场时机节奏切换\n【推文 8：做空止盈 ➔ 单边做多接货】\n• 可以学到：实战中如何顺应走势切换多空区间。\n“这次下跌之快有点超出预期。之前是组的做空方向的 LP，已脱离区间了只能平仓了。目前我觉得当前价格可以开始组单边 LP 试试看能不能接到货，挂 ETH 4100-3300。”\n🔗 原推文：https://t.co/rFmbceRH8N\n\n───\n\n九、 跌破区间当抄底，不跌破纯赚 Fee\n【推文 9：单边接货的兜底容错逻辑】\n• 可以学到：如何把被迫接货转化为计划内的均价抄底。\n“也许这就是 LP 的魅力了吧，即便跌成这样依然没亏钱且还是赚的。目前计划是依然不平仓，如果跌破 110 就当强制抄底了，赎回 SOL；不跌破就赚 fee。”\n🔗 原推文：https://t.co/JElbNbbJKj\n\n───\n\n十、 锯齿状双层马丁嵌套挂单法\n【推文 10：非均匀区间提升资金效率】\n• 可以学到：高阶网格马丁挂单逻辑。\n“锯齿状的双层马丁嵌套公式，你丢给 AI 他就知道你要干什么了。（实际的使用场景就是用这套公式去 Uniswap V3 组池子）。”\n🔗 原推文：https://t.co/W8Hms6H1pf\n\n───\n\n十一、 选品三大硬性指标（第一版）\n【推文 11：DEX 首发 + 高热度 + 盘前定价锚】\n• 可以学到：挑选高胜率爆款池子的黄金三要素。\n“没有拿到空投，如何靠 LP 也一样赚到高收益。核心点：1/ 相对比较热门的项目方发的币；2/ 先在 DEX 上线；3/ 最好是有盘前期货价或者场外 otc 价作为参考。”\n🔗 原推文：https://t.co/o1MhjOuuCq\n\n───\n\n十二、 选品补充标准：什么叫大项目？\n【推文 12：TGE 至少能上 1 线 CEX】\n• 可以学到：如何区分一次性土狗与值得重仓的大项目。\n“不是所有的币都能够采用 LP 的玩法。撸毛的一次性项目就当撸毛玩就好。什么叫大项目？至少 TGE 你得能上 1 线的 CEX。”\n🔗 原推文：https://t.co/MgJAaymn1q\n\n───\n\n十三、 出场第一铁律：脱离区间立刻撤池\n【推文 13：绝不死扛脱轨头寸】\n• 可以学到：进场前必须设定退出机制，脱离区间果断平仓。\n“我自己是不玩收益太低的币的，因为脱离区间就会亏。玩 LP 就要做好脱离区间的打算，要假设在有限的时间内脱离区间不亏钱才能组。例如当前的 fee 赚 1 个小时脱离区间不亏钱就能玩；如果不能，就不能玩。”\n🔗 原推文：https://t.co/e4Bgbkf1Nz\n\n───\n\n十四、 绝对禁忌：坚决拉黑自动再平衡\n【推文 14：自动调仓等同于追涨杀跌】\n• 可以学到：为什么第三方自动调仓工具会加速本金亏损。\n“在 v3 模式下自动跟随价格波动调整 LP 区间，说实话这种策略属于无脑的追涨杀跌。每一次的 rebalancing 就是在追涨杀跌，长期跑下来可能是亏的，波动越大亏得越多。”\n🔗 原推文：https://t.co/AvgrGGgObt\n\n───\n\n十五、 链上防 MEV 夹子与滑点实操\n【推文 15：私有节点与最低接收数量保护】\n• 可以学到：链上交易如何避免被机器人夹走利润。\n“要想躲过 mev 机器人：不能使用公共节点，swap 的参数必须设置最低接收数量（amountMin）调到你认为合理的数值。”\n🔗 原推文：https://t.co/qXKAgZ3wza\n\n───\n\n十六、 仓位分层管理与精力极限\n【推文 16：大仓吃稳息 vs 小土狗快进快出】\n• 可以学到：单人手动盯盘上限 7~10 个池子。\n“我通常手动会同时操作七八个土狗，极限也就 10 来个，再多就忙不过来了。龙头开的仓位会大些，通常不需要太关注；几 M 的土狗基本上都是快进快出。主观做 LP 需要带着交易思维去做，进出的时机比较重要。”\n🔗 原推文：https://t.co/n2nzxVFti8\n\n───\n\n十七、 头部主流币 LP 策略（第二版）\n【推文 17：低风险获取持续被动现金流】\n• 可以学到：主流币稳定吃费的压舱石配置。\n“LP 玩法第二版：如何组头部币的 LP。今天说个低风险天天都能赚的策略，这是我平时用来赚点被动收入的方法。”\n🔗 原推文：https://t.co/AfpXOPe58X\n\n───\n有些推文是一年前的，也许已经不太适合现在的版本。但思路仍然十分值得学习。CJ老师@gch_enbsbxbs 是我关注很久的套利高手了，感谢分享🫡",
+      "author": {
+        "id": "1801542875764924416",
+        "name": "梭哈.AI",
+        "screenName": "SUOHA_AI",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2072451349061533696/vwo_gqSQ_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 351,
+        "retweets": 80,
+        "replies": 26,
+        "quotes": 7,
+        "views": 47739,
+        "bookmarks": 684
+      },
+      "createdAt": "Wed Sep 02 04:09:36 +0000 2026",
+      "createdAtLocal": "2026-09-02 12:09",
+      "createdAtISO": "2026-09-02T04:09:36+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRLvgbmW8AMvG4O.jpg",
+          "width": 2700,
+          "height": 2105
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "2094662841404194947",
+        "text": "你们要感谢我 我还愿意 给你们分享。\n这东西 有些人已经偷着搞了一段时间了。\n我也是最近perp套利收益不行了 才转过来玩玩。\n而这个正好也是我比较擅长的赛道。",
+        "author": {
+          "screenName": "gch_enbsbxbs",
+          "name": "C J"
+        }
+      }
+    },
+    {
+      "id": "2095071706792489392",
+      "text": "CJ老师人非常好，建议大家关注上。翻翻他的历史推文，别错过这波LP的印钞机会 https://t.co/oSDpdUDIVV",
+      "author": {
+        "id": "1801542875764924416",
+        "name": "梭哈.AI",
+        "screenName": "SUOHA_AI",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2072451349061533696/vwo_gqSQ_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1775,
+        "bookmarks": 2
+      },
+      "createdAt": "Wed Sep 02 08:49:54 +0000 2026",
+      "createdAtLocal": "2026-09-02 16:49",
+      "createdAtISO": "2026-09-02T08:49:54+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRMwkxNW8AU7xZy.png",
+          "width": 675,
+          "height": 447
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095036472672100589",
+      "text": "@SUOHA_AI @gch_enbsbxbs 这，说啥也得好好学习一下",
+      "author": {
+        "id": "148629284",
+        "name": "gm365",
+        "screenName": "gm365",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1888075777041907712/6varnwUI_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 1007,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 06:29:53 +0000 2026",
+      "createdAtLocal": "2026-09-02 14:29",
+      "createdAtISO": "2026-09-02T06:29:53+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095041642419872015",
+      "text": "@gm365 @gch_enbsbxbs 我全部收录了，晚点出个更详细的",
+      "author": {
+        "id": "1801542875764924416",
+        "name": "梭哈.AI",
+        "screenName": "SUOHA_AI",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2072451349061533696/vwo_gqSQ_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 818,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 06:50:26 +0000 2026",
+      "createdAtLocal": "2026-09-02 14:50",
+      "createdAtISO": "2026-09-02T06:50:26+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2093015046007947630",
+      "text": "Hiring for a web3 role? Most comp decisions are still made on vibes.\n\nOur benchmarking tool gives you the actual salary range by role, seniority and location in about 30 seconds.\n\nNo email needed.",
+      "author": {
+        "id": "834772481382690820",
+        "name": "Plexus Crypto Recruitment",
+        "screenName": "PlexusRS",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1762065776385699840/voQ8f5aR_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 22,
+        "retweets": 1,
+        "replies": 1,
+        "quotes": 0,
+        "views": 366397,
+        "bookmarks": 16
+      },
+      "createdAt": "Thu Aug 27 16:37:27 +0000 2026",
+      "createdAtLocal": "2026-08-28 00:37",
+      "createdAtISO": "2026-08-27T16:37:27+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2095314179712578015",
+      "text": "@SUOHA_AI @gch_enbsbxbs 这波整理真鸡儿牛逼，我学不会找你补习啊，梭哈哥哥",
+      "author": {
+        "id": "414377698",
+        "name": "初白",
+        "screenName": "0xchubai",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2092327905644908544/jfQCm5ak_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 342,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 03 00:53:24 +0000 2026",
+      "createdAtLocal": "2026-09-03 08:53",
+      "createdAtISO": "2026-09-03T00:53:24+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095344323759853809",
+      "text": "@0xchubai @gch_enbsbxbs 跟CJ老师多学啊哈哈",
+      "author": {
+        "id": "1801542875764924416",
+        "name": "梭哈.AI",
+        "screenName": "SUOHA_AI",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2072451349061533696/vwo_gqSQ_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 327,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 03 02:53:11 +0000 2026",
+      "createdAtLocal": "2026-09-03 10:53",
+      "createdAtISO": "2026-09-03T02:53:11+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095004195548201126",
+      "text": "@SUOHA_AI @gch_enbsbxbs 写的好～～",
+      "author": {
+        "id": "1760202063726981120",
+        "name": "Ada哒哒哒🐬| 来Gate事件合约抢百万积分",
+        "screenName": "ada0211dada",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2064553559392391168/sCnLIvFA_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 601,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 04:21:38 +0000 2026",
+      "createdAtLocal": "2026-09-02 12:21",
+      "createdAtISO": "2026-09-02T04:21:38+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2095024083922493508",
+      "text": "@ada0211dada @gch_enbsbxbs 认真学习中",
+      "author": {
+        "id": "1801542875764924416",
+        "name": "梭哈.AI",
+        "screenName": "SUOHA_AI",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2072451349061533696/vwo_gqSQ_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 557,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 05:40:39 +0000 2026",
+      "createdAtLocal": "2026-09-02 13:40",
+      "createdAtISO": "2026-09-02T05:40:39+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095055567714988287",
+      "text": "@SUOHA_AI @gch_enbsbxbs 这篇收藏整理太值了，尤其跌穿区间亏损和选品标准那几条，实操性很强。正好我们也在找懂LP的带单员合作，有机会聊聊？",
+      "author": {
+        "id": "1398200649569902595",
+        "name": "Tiffany10",
+        "screenName": "tiffanyli1010",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1461744432672546816/ZTuhXyT8_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 508,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 07:45:46 +0000 2026",
+      "createdAtLocal": "2026-09-02 15:45",
+      "createdAtISO": "2026-09-02T07:45:46+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095110665748799991",
+      "text": "@tiffanyli1010 @gch_enbsbxbs 认真的吗",
+      "author": {
+        "id": "1801542875764924416",
+        "name": "梭哈.AI",
+        "screenName": "SUOHA_AI",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2072451349061533696/vwo_gqSQ_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 487,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 11:24:42 +0000 2026",
+      "createdAtLocal": "2026-09-02 19:24",
+      "createdAtISO": "2026-09-02T11:24:42+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095442278991216865",
+      "text": "@SUOHA_AI @gch_enbsbxbs 动作真鸡儿快，蒸馏板已经来了",
+      "author": {
+        "id": "1320006286025523200",
+        "name": "自由雷神",
+        "screenName": "seonsan1",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1779133377737588736/-5kQ8TFp_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 72,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 03 09:22:25 +0000 2026",
+      "createdAtLocal": "2026-09-03 17:22",
+      "createdAtISO": "2026-09-03T09:22:25+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095123300804649119",
+      "text": "@SUOHA_AI @gch_enbsbxbs 謝謝整理",
+      "author": {
+        "id": "1492731798664597507",
+        "name": "黑鳳梨",
+        "screenName": "SDwan10",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1639115974967463936/tpBXre0R_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 202,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 12:14:55 +0000 2026",
+      "createdAtLocal": "2026-09-02 20:14",
+      "createdAtISO": "2026-09-02T12:14:55+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2095432146936873287",
+      "text": "@SUOHA_AI @gch_enbsbxbs 这篇整理得很棒啊。",
+      "author": {
+        "id": "709808389728161792",
+        "name": "Badel Akdoğan",
+        "screenName": "AkdoganBadel",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2072922765053861888/idmbkt4X_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 70,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 03 08:42:09 +0000 2026",
+      "createdAtLocal": "2026-09-03 16:42",
+      "createdAtISO": "2026-09-03T08:42:09+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2095013453513752870",
+      "text": "@SUOHA_AI @gch_enbsbxbs 高换手把成本打成负数的前提，是手续费收入能持续覆盖逆向选择和撤池滑点；真正难的是识别窗口何时失效。",
+      "author": {
+        "id": "1749597659902713856",
+        "name": "ByteLee · AI Investing",
+        "screenName": "bytelee_trade",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2067425510221889536/koDGQGTL_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 351,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 04:58:25 +0000 2026",
+      "createdAtLocal": "2026-09-02 12:58",
+      "createdAtISO": "2026-09-02T04:58:25+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095024330455552156",
+      "text": "@SUOHA_AI @gch_enbsbxbs 如果多个池子都在同一生态（比如都是 Solana meme），相关性高了以后极端行情下'整体无回撤'还成立吗？",
+      "author": {
+        "id": "131431095",
+        "name": "sanhe",
+        "screenName": "3heeeeee",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2087919418303242242/L-zW7P4M_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 318,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 05:41:38 +0000 2026",
+      "createdAtLocal": "2026-09-02 13:41",
+      "createdAtISO": "2026-09-02T05:41:38+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095014990885581210",
+      "text": "@SUOHA_AI @gch_enbsbxbs 主观 LP 交易思维和绝对是全网最暴利、现金流最猛的印钞机放在一起问，确实抓住了主贴的核心矛盾。",
+      "author": {
+        "id": "1347202481202163713",
+        "name": "FlowOps Daily",
+        "screenName": "FlowOpsDaily",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2085522777931718656/k2f6_BEj_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 313,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 05:04:31 +0000 2026",
+      "createdAtLocal": "2026-09-02 13:04",
+      "createdAtISO": "2026-09-02T05:04:31+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094340791892365521",
+      "text": "Inside The Gentlemen: Undisclosed TukTuk C2 Framework and EDR Neutralization Research",
+      "author": {
+        "id": "2010666785268494336",
+        "name": "OASIS SECURITY",
+        "screenName": "OASIS_SECURITY_",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2011631577915396096/eGmpVs9L_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 10402,
+        "bookmarks": 1
+      },
+      "createdAt": "Mon Aug 31 08:25:30 +0000 2026",
+      "createdAtLocal": "2026-08-31 16:25",
+      "createdAtISO": "2026-08-31T08:25:30+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2095348576797012197",
+      "text": "@SUOHA_AI @gch_enbsbxbs 很全哇，收藏了",
+      "author": {
+        "id": "1879798199428521984",
+        "name": "Alph AI",
+        "screenName": "alphai_onchain",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2082385956800446464/ay-38tyX_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 154,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 03 03:10:05 +0000 2026",
+      "createdAtLocal": "2026-09-03 11:10",
+      "createdAtISO": "2026-09-03T03:10:05+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2095004552219312152",
+      "text": "@SUOHA_AI @gch_enbsbxbs 这套LP拆解真把无常损失讲透了，尤其那个跌穿区间亏一半的数学公式，看完突然就敢算账了。",
+      "author": {
+        "id": "1899957438645694464",
+        "name": "Guuona",
+        "screenName": "Adevinsoq",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2040797522034307072/QG_M8pJu_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 390,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 04:23:03 +0000 2026",
+      "createdAtLocal": "2026-09-02 12:23",
+      "createdAtISO": "2026-09-02T04:23:03+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095073590303416496",
+      "text": "@SUOHA_AI @gch_enbsbxbs active lp strategies are getting more interesting",
+      "author": {
+        "id": "2568145028",
+        "name": "Nycole",
+        "screenName": "ny14co",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1975998588330090496/x7lFhaB4_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 187,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 08:57:23 +0000 2026",
+      "createdAtLocal": "2026-09-02 16:57",
+      "createdAtISO": "2026-09-02T08:57:23+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2095284558182969393",
+      "text": "@SUOHA_AI @gch_enbsbxbs 这份更像注意力榜，不是生态质量榜。Robinhood链的核心筹码是券商用户入口，能否转成持续交易、存款和收入，才决定谁是真蓝筹；靠官宣和积分堆出的只是补贴型繁荣。",
+      "author": {
+        "id": "930034888148840448",
+        "name": "大伟｜AI × Web3",
+        "screenName": "david1989_zhu",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2040326983285190657/Ibu1wxDu_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 114,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 22:55:41 +0000 2026",
+      "createdAtLocal": "2026-09-03 06:55",
+      "createdAtISO": "2026-09-02T22:55:41+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095494378647364058",
+      "text": "@SUOHA_AI @gch_enbsbxbs 必须关注上",
+      "author": {
+        "id": "1938273900192010240",
+        "name": "比特唐三藏",
+        "screenName": "tangsanzangbtc",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2094072672363900928/92K0rlvw_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 32,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 03 12:49:26 +0000 2026",
+      "createdAtLocal": "2026-09-03 20:49",
+      "createdAtISO": "2026-09-03T12:49:26+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095365494027297249",
+      "text": "@SUOHA_AI @gch_enbsbxbs 牛的 又可以学习",
+      "author": {
+        "id": "949667954",
+        "name": "挣了就跑🔺🔺",
+        "screenName": "nlgcf69515952",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2065707262484860928/nkbf0qDS_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 78,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 03 04:17:18 +0000 2026",
+      "createdAtLocal": "2026-09-03 12:17",
+      "createdAtISO": "2026-09-03T04:17:18+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095136587403370635",
+      "text": "@SUOHA_AI @gch_enbsbxbs 👍优秀课代表啊🤣",
+      "author": {
+        "id": "1393875036595920902",
+        "name": "十五望月",
+        "screenName": "aicoding1515",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1496865651134140417/gGHjlhUi_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 133,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 02 13:07:42 +0000 2026",
+      "createdAtLocal": "2026-09-02 21:07",
+      "createdAtISO": "2026-09-02T13:07:42+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

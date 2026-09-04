@@ -1,0 +1,562 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2094662841404194947",
+      "text": "你们要感谢我 我还愿意 给你们分享。\n这东西 有些人已经偷着搞了一段时间了。\n我也是最近perp套利收益不行了 才转过来玩玩。\n而这个正好也是我比较擅长的赛道。",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 140,
+        "retweets": 4,
+        "replies": 42,
+        "quotes": 3,
+        "views": 86358,
+        "bookmarks": 83
+      },
+      "createdAt": "Tue Sep 01 05:45:13 +0000 2026",
+      "createdAtLocal": "2026-09-01 13:45",
+      "createdAtISO": "2026-09-01T05:45:13+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "2094571978401423557",
+        "text": "有人说，组池子 不如拿着币等涨。\n逻辑不是这样的。\n如果你不波段的话，成本就打不下来，\n如果你波段的话，结果就是卖飞，主动波段和被动LP 刚好是2个相反的操作手法。\n如果一直拿着。\n除非是龙头， 如果是市值很小的币，最终就是大部分都归零，极少数跑出来。甚至 一个都没有。 如果你只买龙头，然后拿着等涨 这是最简单 轻松的打法，这个确实也不用枯坐。但是得上仓位。对我来说 我没办法重仓土狗。\n\n我组池子 不关心币背后的叙事。或者谁在喊单之类的。\n简单看下k线 各个数据就足够了。\n当然我也想看，但是时间精力跟不上。\n很多时候 赚fee的时间窗口 就那几十分钟。\n早上这个 就很猛 不到1个小时 本金1500 撸了2000u，\n而这个其实也没涨多少。 刚好差不多翻倍吧。\n但是交易的话，就很难掌握点位，LP容错率 就高了。\n\n做自己擅长的吧，习惯做什么 就做什么。不必刻意勉强自己。",
+        "author": {
+          "screenName": "gch_enbsbxbs",
+          "name": "C J"
+        }
+      }
+    },
+    {
+      "id": "2094680323460333686",
+      "text": "@gch_enbsbxbs 主要是不知道如何选币",
+      "author": {
+        "id": "1863779748071243776",
+        "name": "0xskd(🔴,💊)",
+        "screenName": "0xskd132120",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1902951512923574272/w5WFk-uW_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1495,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 06:54:41 +0000 2026",
+      "createdAtLocal": "2026-09-01 14:54",
+      "createdAtISO": "2026-09-01T06:54:41+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094697045210681830",
+      "text": "@gch_enbsbxbs 有组 lp 的平台推荐吗？",
+      "author": {
+        "id": "1875354995023138816",
+        "name": "Hao Lin",
+        "screenName": "haolinlifing",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1940345974905360384/YF5T-BNg_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1814,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 08:01:07 +0000 2026",
+      "createdAtLocal": "2026-09-01 16:01",
+      "createdAtISO": "2026-09-01T08:01:07+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094667123964748244",
+      "text": "@gch_enbsbxbs 大佬范围怎么设置？",
+      "author": {
+        "id": "1391193399902892034",
+        "name": "登高",
+        "screenName": "YDX111",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2020613960274477056/2G3RQM6r_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 2039,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 06:02:14 +0000 2026",
+      "createdAtLocal": "2026-09-01 14:02",
+      "createdAtISO": "2026-09-01T06:02:14+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094738006301393205",
+      "text": "Trusted partnerships drive progress. Join ADNOC at APPEC 2026 to discover how we are supporting Asia's evolving energy needs through reliable supply and long-term collaboration.",
+      "author": {
+        "id": "716903323564118016",
+        "name": "ADNOC Group",
+        "screenName": "ADNOCGroup",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2042580323792539648/VqKOa1DH_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 111887,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 10:43:53 +0000 2026",
+      "createdAtLocal": "2026-09-01 18:43",
+      "createdAtISO": "2026-09-01T10:43:53+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2094706036431286394",
+      "text": "@gch_enbsbxbs 在什么平台组的",
+      "author": {
+        "id": "1513195789455007749",
+        "name": "茄子加",
+        "screenName": "darren88994874",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1968864959137538048/xLprwXfb_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1030,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 08:36:51 +0000 2026",
+      "createdAtLocal": "2026-09-01 16:36",
+      "createdAtISO": "2026-09-01T08:36:51+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094669821522956773",
+      "text": "@gch_enbsbxbs 感谢老板",
+      "author": {
+        "id": "1434775696048476162",
+        "name": "日拱一卒王小楼",
+        "screenName": "wang_xiaolou",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1988567900735877120/DKtV7mlY_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1401,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 06:12:57 +0000 2026",
+      "createdAtLocal": "2026-09-01 14:12",
+      "createdAtISO": "2026-09-01T06:12:57+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094808678671200271",
+      "text": "@gch_enbsbxbs Chia sẻ đi bạn, mình cũng đang tò mò vụ arbitrage này lắm 😄",
+      "author": {
+        "id": "1716454003440283648",
+        "name": "Kelvin Tran",
+        "screenName": "KevinTrann86",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2095522962183258112/2YdN1x2S_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 463,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 15:24:43 +0000 2026",
+      "createdAtLocal": "2026-09-01 23:24",
+      "createdAtISO": "2026-09-01T15:24:43+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "vi",
+      "score": null
+    },
+    {
+      "id": "2094668269928186031",
+      "text": "@gch_enbsbxbs 老师请问怎么选标的和看入场点位呢",
+      "author": {
+        "id": "2041452114300555264",
+        "name": "0xboom",
+        "screenName": "0xboom1",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2041452660046565376/QtUs4uWi_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 851,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 06:06:47 +0000 2026",
+      "createdAtLocal": "2026-09-01 14:06",
+      "createdAtISO": "2026-09-01T06:06:47+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094768462594031861",
+      "text": "@gch_enbsbxbs 大佬牛啊",
+      "author": {
+        "id": "1586689015788736512",
+        "name": "0xLam🪙🚀🌕🔥",
+        "screenName": "ALam0x4",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1943644233405206528/RXlTQVBM_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 372,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 12:44:55 +0000 2026",
+      "createdAtLocal": "2026-09-01 20:44",
+      "createdAtISO": "2026-09-01T12:44:55+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2094704577589256540",
+      "text": "@gch_enbsbxbs 成本打下来比啥都强",
+      "author": {
+        "id": "957348394045001729",
+        "name": "유정",
+        "screenName": "PQTonX",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2066702187560853504/aAgfRKSn_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 385,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 08:31:03 +0000 2026",
+      "createdAtLocal": "2026-09-01 16:31",
+      "createdAtISO": "2026-09-01T08:31:03+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094666704437805316",
+      "text": "@gch_enbsbxbs 感谢分享 大佬",
+      "author": {
+        "id": "1457377220192714766",
+        "name": "zzzzzzzz",
+        "screenName": "mxd123021",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1469541029296574464/FfMtkF7p_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 748,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 06:00:34 +0000 2026",
+      "createdAtLocal": "2026-09-01 14:00",
+      "createdAtISO": "2026-09-01T06:00:34+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094670968799314001",
+      "text": "@gch_enbsbxbs 牛逼",
+      "author": {
+        "id": "1427216383784505353",
+        "name": "明前毛尖URHFW",
+        "screenName": "JUSK4238",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1590029822532947968/tOaOOE_C_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 445,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 06:17:30 +0000 2026",
+      "createdAtLocal": "2026-09-01 14:17",
+      "createdAtISO": "2026-09-01T06:17:30+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095530373274816595",
+      "text": "Polymarket Perps is live.\n\nUp to 20x leverage on crypto, stocks, commodities, &amp; more. Deepest liquidity, lowest fees.\n\nLong BTC, predict the Fed, short the S&amp;P reaction — only on Polymarket⁠.com\n\n👉 https://t.co/UwdkHrmEMT https://t.co/hwOULeRjIH",
+      "author": {
+        "id": "1261335549215989760",
+        "name": "Polymarket",
+        "screenName": "Polymarket",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2005664281002491904/bz2ZO_nU_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1684,
+        "retweets": 279,
+        "replies": 287,
+        "quotes": 401,
+        "views": 8470391,
+        "bookmarks": 466
+      },
+      "createdAt": "Thu Sep 03 15:12:28 +0000 2026",
+      "createdAtLocal": "2026-09-03 23:12",
+      "createdAtISO": "2026-09-03T15:12:28+00:00",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2095529997213515780/vid/avc1/1920x1080/GVKJtz6MNfy570yD.mp4?tag=29",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "urls": [
+        "https://polymarket.com/perps"
+      ],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2094666178912510303",
+      "text": "@gch_enbsbxbs 感谢",
+      "author": {
+        "id": "1863046694843387904",
+        "name": "yarven",
+        "screenName": "0xyarven",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1863049508613156864/p3_le03L_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 512,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 05:58:28 +0000 2026",
+      "createdAtLocal": "2026-09-01 13:58",
+      "createdAtISO": "2026-09-01T05:58:28+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094663701291004330",
+      "text": "@gch_enbsbxbs 确实，但不多，啊哈哈",
+      "author": {
+        "id": "1458967265240440832",
+        "name": "Dafei π² 🐬TermMax",
+        "screenName": "huangdafeige",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1475791355662139395/5ilaH6ol_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 472,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 05:48:38 +0000 2026",
+      "createdAtLocal": "2026-09-01 13:48",
+      "createdAtISO": "2026-09-01T05:48:38+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094664905123385796",
+      "text": "@gch_enbsbxbs 感谢",
+      "author": {
+        "id": "1567586336",
+        "name": "tio",
+        "screenName": "tttiiiiooo",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1899659237581598720/0dc5Nv2r_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 543,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 05:53:25 +0000 2026",
+      "createdAtLocal": "2026-09-01 13:53",
+      "createdAtISO": "2026-09-01T05:53:25+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094663530020827243",
+      "text": "@gch_enbsbxbs 感谢cj老师",
+      "author": {
+        "id": "1441229810257121282",
+        "name": "oversea.hl",
+        "screenName": "0xdefidefi",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1821467344490901504/QA7KnUAN_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 495,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 05:47:57 +0000 2026",
+      "createdAtLocal": "2026-09-01 13:47",
+      "createdAtISO": "2026-09-01T05:47:57+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2094666181865263242",
+      "text": "@gch_enbsbxbs 磕一个。 https://t.co/3hiMmXPyP2",
+      "author": {
+        "id": "1433631182541901824",
+        "name": "Kan3214",
+        "screenName": "kan665588",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2095350910247714816/Z2Ui0M4a_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 494,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 01 05:58:29 +0000 2026",
+      "createdAtLocal": "2026-09-01 13:58",
+      "createdAtISO": "2026-09-01T05:58:29+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRG_taUbYAAmM5I.png",
+          "width": 853,
+          "height": 122
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "1969964672825909560",
+      "text": "我再解释一遍。 以后 我发过长文 讲过的策略。\n我不再解释。 属实太麻烦。 你们可以搜索我的推文。\n什么叫 做多 和 做空的 LP（这是我自己想的词。因为我不知道如何解释。）\n核心思路 首先方向 要看准。 其次 如果没有精准的判断。\n那么 利用fee 来 覆盖无常损失。所以这部分 需要依靠时间。就是时间换空间。\n\n什么叫做多方向的。 就是买一笔aster 现货 跟usdt 组了以后 一路涨 一路卖。fee能覆盖无常即可。\n\n什么叫做空方向的。 就是借现货。 不买。\n仍然是一路涨 一路卖。 涨的速度太快 你就会亏钱。（fee覆盖不了无常），反之则是赚的或者不亏。\n如果组了 不涨 而是跌了。\n并且你严重看空。 就借了现货 直接当场卖出。或者卖出一部分。 然后用卖出的钱 再跟剩余的aster 组LP。至于比例。看你判断。\n这就好比说 你想开做空合约，应该开多大仓位？\n\n以上操作 难度系数较大。\n需要衡量计算很多数据和判断方向。但是玩熟了 比玩合约简单 轻松。\n小白慎入。",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 48,
+        "retweets": 5,
+        "replies": 14,
+        "quotes": 2,
+        "views": 17229,
+        "bookmarks": 63
+      },
+      "createdAt": "Mon Sep 22 03:19:12 +0000 2025",
+      "createdAtLocal": "2025-09-22 11:19",
+      "createdAtISO": "2025-09-22T03:19:12+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "1969957988816597338",
+        "text": "组了 一笔 做空方向的 aster 的LP。\n堵他 不会新高。准确说短期不会新高",
+        "author": {
+          "screenName": "gch_enbsbxbs",
+          "name": "C J"
+        }
+      }
+    },
+    {
+      "id": "1969991227815924012",
+      "text": "@gch_enbsbxbs 类似于卖期权，手拿现货，covercall",
+      "author": {
+        "id": "1623244071941844997",
+        "name": "ramble｜crypto x AI",
+        "screenName": "ByteRamble",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2060977286397227009/JKzVmBh4_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 430,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 22 05:04:44 +0000 2025",
+      "createdAtLocal": "2025-09-22 13:04",
+      "createdAtISO": "2025-09-22T05:04:44+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1969967279346786624",
+      "text": "@gch_enbsbxbs 好复杂，舔一口汤真不容易",
+      "author": {
+        "id": "1459799398876323840",
+        "name": "shisanchen",
+        "screenName": "shisan_chen",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1972260169079009280/F06XvDrn_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 465,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 22 03:29:34 +0000 2025",
+      "createdAtLocal": "2025-09-22 11:29",
+      "createdAtISO": "2025-09-22T03:29:34+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2095337897071366172",
+      "text": "@gch_enbsbxbs 咋没有震荡LP",
+      "author": {
+        "id": "1506603120683806722",
+        "name": "Cultivator",
+        "screenName": "SanGongJieDan",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2012245121476214784/r75Hm_rM_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 44,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 03 02:27:38 +0000 2026",
+      "createdAtLocal": "2026-09-03 10:27",
+      "createdAtISO": "2026-09-03T02:27:38+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1970132431127855140",
+      "text": "@gch_enbsbxbs 那为什么不直接做多或是做空？",
+      "author": {
+        "id": "2924011372",
+        "name": "悠",
+        "screenName": "kingsgame3",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1885182255389396992/pnJudDib_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 220,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 22 14:25:49 +0000 2025",
+      "createdAtLocal": "2025-09-22 22:25",
+      "createdAtISO": "2025-09-22T14:25:49+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1979012109661835725",
+      "text": "@gch_enbsbxbs 都知道方向了，直接合约做起得了，做lp有点脱裤子放屁",
+      "author": {
+        "id": "1369952097383317505",
+        "name": "sethDefi",
+        "screenName": "SethDefi",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1371646824071589891/WoUHp1Dp_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 80,
+        "bookmarks": 0
+      },
+      "createdAt": "Fri Oct 17 02:30:29 +0000 2025",
+      "createdAtLocal": "2025-10-17 10:30",
+      "createdAtISO": "2025-10-17T02:30:29+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1969974741525205146",
+      "text": "@gch_enbsbxbs 谢谢哥，我消化一下",
+      "author": {
+        "id": "2919826973",
+        "name": "rochestor",
+        "screenName": "rochestor_mu",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1964338306759741442/TGBORoai_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 284,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 22 03:59:13 +0000 2025",
+      "createdAtLocal": "2025-09-22 11:59",
+      "createdAtISO": "2025-09-22T03:59:13+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1969981056657834466",
+      "text": "@gch_enbsbxbs 组v3的池子么？",
+      "author": {
+        "id": "1515563282337349634",
+        "name": "98K （BTC&BNB)",
+        "screenName": "98knft",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1921898623442595841/Ux7jDiVd_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 230,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 22 04:24:19 +0000 2025",
+      "createdAtLocal": "2025-09-22 12:24",
+      "createdAtISO": "2025-09-22T04:24:19+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1969966282159387081",
+      "text": "@gch_enbsbxbs 对不起 我是废物 看不懂",
+      "author": {
+        "id": "1707074953366122496",
+        "name": "小展爱喝🍎榨汁",
+        "screenName": "xz_keep_calm",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2016397728339918850/4ASNFx1P_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 413,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 22 03:25:36 +0000 2025",
+      "createdAtLocal": "2025-09-22 11:25",
+      "createdAtISO": "2025-09-22T03:25:36+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

@@ -1,0 +1,236 @@
+{
+  "title": "梭哈.AI：CJ 主观 LP 交易思维 17 篇合集",
+  "collector": {
+    "id": "1801542875764924416",
+    "name": "梭哈.AI",
+    "screenName": "SUOHA_AI"
+  },
+  "original_author": {
+    "id": "1466028290272079875",
+    "name": "C J",
+    "screenName": "gch_enbsbxbs"
+  },
+  "collection_tweet": {
+    "id": "2095001169793814891",
+    "url": "https://x.com/suoha_ai/status/2095001169793814891?s=52",
+    "published_local": "2026-09-02 12:09",
+    "published_utc_source": "Wed Sep 02 04:09:36 +0000 2026",
+    "metrics_at_capture": {
+      "likes": 351,
+      "retweets": 80,
+      "replies": 26,
+      "quotes": 7,
+      "views": 47729,
+      "bookmarks": 684
+    }
+  },
+  "source_type": "x_collection_post_with_17_linked_tweets",
+  "capture_tool": "twitter-cli",
+  "raw_capture_note": "twitter-cli tweet output may include the target tweet, same-author replies, quoted context, public replies, and recommendation timeline items. The readable markdown/text archives filter the collection into the target tweet, the 17 linked CJ tweets, and directly relevant same-author/quoted context.",
+  "archive_files": {
+    "collection_markdown": "original.md",
+    "collection_text": "original.txt",
+    "collection_raw_json": "main_tweet.raw.json",
+    "linked_index": "linked_tweets/index.md",
+    "linked_markdown": "linked_tweets/originals.md",
+    "linked_text": "linked_tweets/originals.txt",
+    "linked_raw_json_dir": "linked_tweets/raw/"
+  },
+  "assets": [
+    {
+      "file": "assets/main-collection.jpg",
+      "source_url": "https://pbs.twimg.com/media/HRLvgbmW8AMvG4O.jpg",
+      "note": "梭哈目录贴主图，压缩呈现 17 条 CJ 主观 LP 内容。"
+    },
+    {
+      "file": "assets/author-followup.png",
+      "source_url": "https://pbs.twimg.com/media/HRMwkxNW8AU7xZy.png",
+      "note": "梭哈作者补充回复中的 CJ 主页截图。"
+    },
+    {
+      "file": "assets/linked-01-2094571978401423557.png",
+      "source_url": "https://pbs.twimg.com/media/HRFkSKlbcAAV-6j.png",
+      "note": "第 1 条原推文的收益 / APR 截图。"
+    },
+    {
+      "file": "assets/linked-06-1987051719541547037.mp4",
+      "source_url": "https://video.twimg.com/amplify_video/1987047520221208576/vid/avc1/2552x1264/aQKfEVp5yuoZUjNr.mp4?tag=21",
+      "note": "第 6 条原推文的视频媒体。"
+    },
+    {
+      "file": "assets/linked-09-1899347899970154794.jpg",
+      "source_url": "https://pbs.twimg.com/media/GlvVB7Ka4AINylY.jpg",
+      "note": "第 9 条原推文的 LP 仓位截图。"
+    },
+    {
+      "file": "assets/linked-10-1916086010678849899.jpg",
+      "source_url": "https://pbs.twimg.com/media/GpdNTLqboAAoMEO.jpg",
+      "note": "第 10 条原推文的锯齿状双层马丁嵌套公式图。"
+    },
+    {
+      "file": "assets/linked-12-1962860208310583793.jpg",
+      "source_url": "https://pbs.twimg.com/media/Gz130QFWEAAE0Z-.jpg",
+      "note": "第 12 条原推文的 CDL / PancakeSwap K 线截图。"
+    },
+    {
+      "file": "assets/linked-13-1934241999819038740.jpg",
+      "source_url": "https://pbs.twimg.com/media/GtfN1TEa4AAKRog.jpg",
+      "note": "第 13 条原推文的 KOGE 跌穿区间示例图。"
+    },
+    {
+      "file": "assets/linked-16-2094294541214117902.jpg",
+      "source_url": "https://pbs.twimg.com/media/HRBsjA8bAAAe40l.jpg",
+      "note": "第 16 条原推文的 pooled assets / PnL / APR 截图。"
+    }
+  ],
+  "linked_tweets": [
+    {
+      "index": 1,
+      "topic": "组池子 vs 死拿 vs 主动波段",
+      "id": "2094571978401423557",
+      "url": "https://x.com/gch_enbsbxbs/status/2094571978401423557",
+      "raw_json": "linked_tweets/raw/01_2094571978401423557.json",
+      "summary": "LP 通过手续费降低成本，在短时间 fee 窗口里比死拿土狗或主动波段更有容错。"
+    },
+    {
+      "index": 2,
+      "topic": "赚的是市场 FOMO 的钱",
+      "id": "2090359344445719016",
+      "url": "https://x.com/gch_enbsbxbs/status/2090359344445719016",
+      "raw_json": "linked_tweets/raw/02_2090359344445719016.json",
+      "summary": "套利和 LP 利润来自非量化资金造成的价格不对称，利润暴涨通常是热度后段信号。"
+    },
+    {
+      "index": 3,
+      "topic": "集中流动性多池现金流覆盖",
+      "id": "2094582598022664265",
+      "url": "https://x.com/gch_enbsbxbs/status/2094582598022664265",
+      "raw_json": "linked_tweets/raw/03_2094582598022664265.json",
+      "summary": "作者认为擅长 Meteora 的 LPer 在 Robin 场景可用多池现金流覆盖局部亏损。"
+    },
+    {
+      "index": 4,
+      "topic": "Fee 跑赢无常损失",
+      "id": "1930592265342525690",
+      "url": "https://x.com/gch_enbsbxbs/status/1930592265342525690",
+      "raw_json": "linked_tweets/raw/04_1930592265342525690.json",
+      "summary": "LP 的核心判断是未来一段时间 fee 是否能覆盖无常损失。"
+    },
+    {
+      "index": 5,
+      "topic": "单边区间亏损快算",
+      "id": "1930623777962139695",
+      "url": "https://x.com/gch_enbsbxbs/status/1930623777962139695",
+      "raw_json": "linked_tweets/raw/05_1930623777962139695.json",
+      "summary": "作者用区间百分比的一半作为单边 LP 跌穿区间后的快速亏损估算。"
+    },
+    {
+      "index": 6,
+      "topic": "短线土狗 APR 生死线",
+      "id": "1987051719541547037",
+      "url": "https://x.com/gch_enbsbxbs/status/1987051719541547037",
+      "raw_json": "linked_tweets/raw/06_1987051719541547037.json",
+      "summary": "作者用 APR 3000% 以上作为短线土狗 LP / 网格可参与的经验阈值。"
+    },
+    {
+      "index": 7,
+      "topic": "做多 LP 与做空 LP",
+      "id": "1969964672825909560",
+      "url": "https://x.com/gch_enbsbxbs/status/1969964672825909560",
+      "raw_json": "linked_tweets/raw/07_1969964672825909560.json",
+      "summary": "方向性 LP 用现货、借币和区间组合表达做多或做空观点，同时靠 fee 覆盖无常。"
+    },
+    {
+      "index": 8,
+      "topic": "做空止盈后切换单边接货",
+      "id": "1957967603051466921",
+      "url": "https://x.com/gch_enbsbxbs/status/1957967603051466921",
+      "raw_json": "linked_tweets/raw/08_1957967603051466921.json",
+      "summary": "作者示例从做空 LP 平仓后转向 ETH 单边接货区间。"
+    },
+    {
+      "index": 9,
+      "topic": "跌破区间当抄底，不跌破赚 fee",
+      "id": "1899347899970154794",
+      "url": "https://x.com/gch_enbsbxbs/status/1899347899970154794",
+      "raw_json": "linked_tweets/raw/09_1899347899970154794.json",
+      "summary": "单边接货的容错逻辑是跌破后接受变成 SOL 抄底，不跌破则继续赚 fee。"
+    },
+    {
+      "index": 10,
+      "topic": "锯齿状双层马丁嵌套公式",
+      "id": "1916086010678849899",
+      "url": "https://x.com/gch_enbsbxbs/status/1916086010678849899",
+      "raw_json": "linked_tweets/raw/10_1916086010678849899.json",
+      "summary": "用多大区间、多小格子和资金梯度分配，把 LP 设计成非均匀马丁网格。"
+    },
+    {
+      "index": 11,
+      "topic": "DEX 首发 + 高热度 + 盘前定价锚",
+      "id": "1914933717157777419",
+      "url": "https://x.com/gch_enbsbxbs/status/1914933717157777419",
+      "raw_json": "linked_tweets/raw/11_1914933717157777419.json",
+      "summary": "新币 LP 选品重点是热门项目、DEX 先上线、盘前期货价或 OTC 价格作为参考。"
+    },
+    {
+      "index": 12,
+      "topic": "大项目至少 TGE 上一线 CEX",
+      "id": "1962860208310583793",
+      "url": "https://x.com/gch_enbsbxbs/status/1962860208310583793",
+      "raw_json": "linked_tweets/raw/12_1962860208310583793.json",
+      "summary": "不是所有币都适合 LP，至少要有一线 CEX 上线预期和足够爆发式交易量。"
+    },
+    {
+      "index": 13,
+      "topic": "脱离区间主动撤池",
+      "id": "1934241999819038740",
+      "url": "https://x.com/gch_enbsbxbs/status/1934241999819038740",
+      "raw_json": "linked_tweets/raw/13_1934241999819038740.json",
+      "summary": "进场前要假设脱离区间，fee 必须能在有限时间内打平亏损，风险上升时主动撤池。"
+    },
+    {
+      "index": 14,
+      "topic": "反对无脑自动 rebalancing",
+      "id": "1933013337576780181",
+      "url": "https://x.com/gch_enbsbxbs/status/1933013337576780181",
+      "raw_json": "linked_tweets/raw/14_1933013337576780181.json",
+      "summary": "机械跟随价格移动 LP 区间容易把浮亏变成实亏，形成追涨杀跌。"
+    },
+    {
+      "index": 15,
+      "topic": "防 MEV 夹子与 amountMin",
+      "id": "1931626940806598927",
+      "url": "https://x.com/gch_enbsbxbs/status/1931626940806598927",
+      "raw_json": "linked_tweets/raw/15_1931626940806598927.json",
+      "summary": "链上交易需要避免公共节点和过宽滑点，`amountMin` 是基本保护。"
+    },
+    {
+      "index": 16,
+      "topic": "仓位分层与单人精力上限",
+      "id": "2094294541214117902",
+      "url": "https://x.com/gch_enbsbxbs/status/2094294541214117902",
+      "raw_json": "linked_tweets/raw/16_2094294541214117902.json",
+      "summary": "手动操作土狗池子的精力上限约 7 到 10 个，龙头仓位可更大，土狗更适合快进快出。"
+    },
+    {
+      "index": 17,
+      "topic": "头部币 LP 第二版",
+      "id": "1915026825765654712",
+      "url": "https://x.com/gch_enbsbxbs/status/1915026825765654712",
+      "raw_json": "linked_tweets/raw/17_1915026825765654712.json",
+      "summary": "头部币可用马丁 + 网格 + 多区间 LP 获取相对稳定现金流，但前提是价格最终能回来。"
+    }
+  ],
+  "extra_quoted_context": {
+    "id": "2094662841404194947",
+    "url": "https://x.com/gch_enbsbxbs/status/2094662841404194947",
+    "raw_json": "linked_tweets/raw/quote_main_2094662841404194947.json",
+    "summary": "CJ 表示近期 perp 套利收益下降，因此转向 LP 方向，并认为该赛道是自己擅长领域。"
+  },
+  "existing_related_archive": {
+    "tweet_id": "2090359344445719016",
+    "analysis_doc": "套利利润周期信号：FOMO资金、价格不对称与建仓反向逻辑.md",
+    "source_dir": "sources/gch-enbsbxbs-2090359344445719016-arbitrage-profit-cycle/"
+  },
+  "notes": "本次归档保存梭哈目录贴、17 条解析后的 CJ 原推文、同作者补充回复、主帖嵌入引用上下文、相关图片和视频。分析文档按多材料合并专题处理，聚焦主观 LP 的 fee/IL 覆盖、方向性区间、选品、撤池、MEV 与自动再平衡风险。"
+}
