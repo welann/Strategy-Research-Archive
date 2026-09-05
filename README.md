@@ -171,6 +171,9 @@
 - [`虚空Gamma与做市库存曲线：固定距离挂单、网格与期权做市.md`](虚空Gamma与做市库存曲线：固定距离挂单、网格与期权做市.md)
   - 总结 `Boywus` 对固定距离做市、`Gamma Scalping`、网格和期权做市的统一解释，重点拆解“价格 -> 目标库存”这条底层映射、虚空 `Gamma` 的成本迁移，以及期权做市商如何把线性资产加工成非线性 payoff。
 
+- [`Perp_DEX清算流研究方案：数据录制、Shadow_Book与库存尾部回放.md`](Perp_DEX清算流研究方案：数据录制、Shadow_Book与库存尾部回放.md)
+  - 基于《Perp DEX清算流守株待兔》《Lighter行情提前量》《主观LP交易思维》提出可回放研究方案，明确原始数据、shadow book 对账、清算触发、maker 排队撤单、对冲停机及胜率、滑点和库存尾部指标。
+
 ## 交易合规与异常检测
 
 - [`MoneyPass异常交易检测：负套利转账、Wash_Trading与链上取证边界.md`](MoneyPass异常交易检测：负套利转账、Wash_Trading与链上取证边界.md)
