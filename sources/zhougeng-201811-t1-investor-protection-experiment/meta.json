@@ -1,0 +1,27 @@
+{
+  "title": "T+1制度对中小投资者保护效果的实验研究",
+  "authors": [
+    "周耿",
+    "姜雨潇",
+    "范从来",
+    "王宇伟"
+  ],
+  "publication": "中国经济问题",
+  "publication_date": "2018-11",
+  "issue": "2018年第6期（总第311期）",
+  "pages": "60-75",
+  "doi": "10.19365/j.issn1000-4181.2018.06.06",
+  "source_type": "user_provided_pdf",
+  "source_path": "/Users/welann/Desktop/T+1制度对中小投资者保护效果的实验研究.pdf",
+  "archived_at": "2026-09-05",
+  "pdf_pages": 16,
+  "sha256": "0ea737e2773f46134a107b0e8c066a0aeee4f3be2757283a5401e877fa488f09",
+  "category": "市场微结构与交易所机制",
+  "extraction": "pypdf，逐页文本未经逐字校订；关键图表保留原页渲染",
+  "verification": "依据用户提供PDF归档，未对论文历史制度描述进行现行规则核验",
+  "source_inconsistencies": [
+    "正文股息0.8与表3的0.08不一致",
+    "表1初始禀赋339.1与正文339.3不一致",
+    "表5收盘偏离T检验p=0.060与正文全部泡沫指标10%不显著不一致"
+  ]
+}
