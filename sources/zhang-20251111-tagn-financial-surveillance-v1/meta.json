@@ -1,0 +1,40 @@
+{
+  "title": "Temporal Attentive Graph Networks for Financial Surveillance: An Incremental Multi-Scale Framework",
+  "authors": [
+    "Wei Zhang",
+    "Yimin Shen",
+    "Hang Zhou",
+    "Bo Zhou",
+    "Xianju Zheng",
+    "Xiang Chen"
+  ],
+  "corresponding_author": "Yimin Shen",
+  "publication": "Preprints.org",
+  "posted_date": "2025-11-11",
+  "version": "v1",
+  "peer_review_status_at_version": "NOT PEER-REVIEWED",
+  "doi": "10.20944/preprints202511.0762.v1",
+  "url": "https://doi.org/10.20944/preprints202511.0762.v1",
+  "license": "CC BY 4.0",
+  "source_type": "user_provided_pdf",
+  "source_path": "/Users/welann/Desktop/preprints202511.0762.v1.pdf",
+  "copy_source_path": "/Users/welann/.Trash/preprints202511.0762.v1.pdf",
+  "source_location_note": "读取后原文件移入废纸篓；复制前已确认逐页提取全文与首次读取一致",
+  "archived_at": "2026-09-09",
+  "pdf_pages": 11,
+  "body_pages": 10,
+  "sha256": "015a97ff0ca43bb926ab51b589ccc4114e37ed03908c7aad6de61ddad9c39f6f",
+  "category": "量化学习与研究框架",
+  "figures": 1,
+  "tables": 5,
+  "extraction": "pypdf逐页提取；pypdfium2渲染关键图表页；正文未逐字校订",
+  "verification_scope": "仅依据用户提供v1全文及图表核对；未核验后续发表状态，未取得底层数据或代码，未复现实验",
+  "document_issues": [
+    "摘要基线写Logistic Regression，正文与表3为XGBoost",
+    "表1数据源标为Suggested Source且宏观指标行重复",
+    "表4标题误用模型性能比较标题",
+    "三个月分类标签与情景分析的一个月输出期限未衔接",
+    "标题中的Incremental未对应完整在线学习实现",
+    "VIX可能属于输入特征，预警领先性未提供完整样本外验证细节"
+  ]
+}
