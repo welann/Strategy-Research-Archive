@@ -150,6 +150,9 @@
 - [`Stock_Perp休市定价：Impact_Price、EWMA、Mark护栏与清算反馈环.md`](Stock_Perp休市定价：Impact_Price、EWMA、Mark护栏与清算反馈环.md)
   - 总结 `agintender` 对 Binance 与 Bitget 股票永续休市定价算法的拆解，重点解释 `Impact Price → EWMA / EMA → Index → Mark` 如何运作，以及本地订单簿、动态护栏和清算系统如何形成可能自我放大的反馈环。
 
+- [`小盘股Stock_Perp第二资本市场：BNC周末价格发现、OI风险容量与Ticker货币化.md`](小盘股Stock_Perp第二资本市场：BNC周末价格发现、OI风险容量与Ticker货币化.md)
+  - 总结 `agintender` 关于小盘股 `Stock Perp` 的 X Article，重点拆解 `BNC` 周末价格发现、`Perp OI / Equity Float`、funding 拥挤定价、ticker 不增发货币化，以及为什么真正机会来自 `attention` 大于传统金融交易容量的缺口。
+
 - [`熊市项目方自救指南：用永续合约资金费率与双向借贷机制创造流动性.md`](熊市项目方自救指南：用永续合约资金费率与双向借贷机制创造流动性.md)
   - 总结 `agintender` 关于熊市项目方库存管理的长文，重点拆解 `token loan + call option` 的隐性成本、`alt perp funding` 如何回流给持币人，以及正向借币池和反向抵押池组成的双向机制。
 

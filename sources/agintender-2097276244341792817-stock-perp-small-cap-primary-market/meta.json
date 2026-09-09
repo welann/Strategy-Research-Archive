@@ -1,0 +1,63 @@
+{
+  "title": "Stock Perp 将成为小盘股未来的主力战场",
+  "author": {
+    "id": "913320844411019265",
+    "name": "danny",
+    "screenName": "agintender",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1629854460003614722/WBiNvasr_normal.jpg",
+    "verified": true
+  },
+  "published_local": "2026-09-08 18:49",
+  "published_iso": "2026-09-08T10:49:56+00:00",
+  "url": "https://x.com/agintender/status/2097276244341792817",
+  "article_url": "https://x.com/i/article/2097272634673385472",
+  "source_type": "x_article",
+  "tweet_id": "2097276244341792817",
+  "capture_tool": "twitter-cli",
+  "metrics_at_capture": {
+    "likes": 203,
+    "retweets": 59,
+    "replies": 21,
+    "quotes": 13,
+    "views": 73017,
+    "bookmarks": 228
+  },
+  "article_character_count": 11638,
+  "top_level_media_count": 0,
+  "archive_files": {
+    "tweet_raw_json": "tweet.raw.json",
+    "article_raw_json": "article.raw.json",
+    "article_markdown": "article.md",
+    "original_markdown": "original.md",
+    "original_text": "original.txt",
+    "referenced_index": "referenced_tweets/index.md"
+  },
+  "referenced_sources": [
+    {
+      "type": "x_article",
+      "title": "意外遇上巧合：Alpaca逼空大戏的天时、地利、人和与交易所阴差阳错下促成的架币叙事",
+      "url": "https://x.com/agintender/status/1954160744678699396?s=20",
+      "local_markdown": "referenced_tweets/1954160744678699396.md",
+      "tweet_raw_json": "referenced_tweets/raw/1954160744678699396.json",
+      "article_raw_json": "referenced_tweets/1954160744678699396.article.raw.json",
+      "used_for": "funding 作为武器、低流动性永续逼空和清算反馈的背景案例。"
+    },
+    {
+      "type": "x_article",
+      "title": "不管你是P小将、老镰刀还是交易所，链上不是避税港：CARF收网，加密资产的全球税务围猎",
+      "url": "https://x.com/agintender/status/2016096621147173253?s=20",
+      "local_markdown": "referenced_tweets/2016096621147173253.md",
+      "tweet_raw_json": "referenced_tweets/raw/2016096621147173253.json",
+      "article_raw_json": "referenced_tweets/2016096621147173253.article.raw.json",
+      "used_for": "stock perp 税务路径、现金结算衍生品与 CARF/CRS 背景。"
+    },
+    {
+      "type": "existing_archive",
+      "title": "Nasdaq关门以后，谁来报价：Stock Perp、Oracle和一场24/7的股票定价战争（一）",
+      "url": "https://agintender.substack.com/p/nasdaqstock-perporacle247",
+      "local_archive": "../agintender-212825757-stock-perp-oracle-offhours-pricing/",
+      "used_for": "Impact Price、EWMA、Index band、mark-price protection 等休市定价机制背景。"
+    }
+  ],
+  "notes": "正文数字按作者文章与 twitter-cli 抓取时点记录，未在本归档中独立复算 BNC、FWDI、ONDS、AAOI 的实时成交额、OI、funding 或流通市值。"
+}

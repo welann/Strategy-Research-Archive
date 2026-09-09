@@ -1,0 +1,486 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "1954160744678699396",
+      "text": "https://t.co/94O5rz5Yoa",
+      "author": {
+        "id": "913320844411019265",
+        "name": "danny",
+        "screenName": "agintender",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1629854460003614722/WBiNvasr_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 197,
+        "retweets": 31,
+        "replies": 18,
+        "quotes": 2,
+        "views": 60455,
+        "bookmarks": 196
+      },
+      "createdAt": "Sat Aug 09 12:40:02 +0000 2025",
+      "createdAtLocal": "2025-08-09 20:40",
+      "createdAtISO": "2025-08-09T12:40:02+00:00",
+      "media": [],
+      "urls": [
+        "http://x.com/i/article/1954029520794599424"
+      ],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zxx",
+      "score": null,
+      "articleTitle": "意外遇上巧合：Alpaca逼空大戏的天时、地利、人和与交易所阴差阳错下促成的架币叙事",
+      "articleText": "在金融市场的残酷丛林中，“逼空”（Short Squeeze）是一场经典的围猎游戏，它将市场结构、资金杠杆和群体心理融合成一门暴力的艺术。2025年4月的Alpaca Finance（ $ALPACA ）代币，堪称加密货币领域一场教科书级别的逼空操盘。它完美地向市场展示了，庄家（或称“聪明钱”）如何利用天时、地利、人和，将一场本应是“价值归零”的退市悲剧，导演成针对散户的精准收割盛宴。\n\n在这里，是工具的机制决定了价值，而非资产的内在价值。\n\n以ALPACA事件为例，剖析庄家如何利用Binance的下架公告制造“天时”，如何操纵现货与永续合约的价差及资金费率作为“地利”，并最终利用普通交易者对“做空”的惯性思维这一“人和”弱点，引爆了这场单日吞噬逾5500万美元空头头寸的资本绞杀战。\n\n阅读导览：\n\n1. 给不了解Alpaca事件背景和形成因素的朋友们，建议从第一节开始；\n\n2. 想了解Alpaca具体操作手法的朋友们，建议从第四节开始；\n\n3. 想了解资金费率作为催化剂在这场逼空大戏作用的朋友，建议从第二节开始；\n\n## 一、天时：被武器化的“归零共识”\n\n在任何一场精心策划的战役中，时机就是一切。对于ALPACA的操盘手而言，最佳的“天时”并非某个技术指标的突破，而是由全球顶级交易所Binance亲手缔造的、无懈可击的心理共识。\n\n催化剂：下架公告的“神谕”效应\n\n2025年4月24日，Binance正式宣布将于5月2日下架ALPACA现货交易对，并于4月30日提前结算其永续合约。在加密世界，Binance的公告几乎等同于“神谕”。一条“下架令”，在绝大多数交易者心中，等同于对一个项目判处了死刑。\n\n这种认知迅速形成了一条简单、清晰且极具诱惑力的逻辑链：下架 → 流动性枯竭 → 交易价值丧失 → 价格必定归零。这种“必定归零”的心态，如病毒般在市场中传播，迅速统一了几乎所有散户的预期。对于他们来说，做空一个即将被Binance抛弃的代币，不再是高风险的投机，而是一次“稳赚不赔”的套利机会。\n\n猎场构建：拥挤的空头陷阱\n\n这种强大的心理共识，直接转化为市场行为：一个极度拥挤、高杠杆且行为模式高度一致的空头阵营迅速形成。数据显示，公告发布后，ALPACA永续合约的空头OI持仓量急剧飙升。市场亲手为自己挖掘了一个完美的“空头陷阱”。\n\n庄家/大户洞悉这一切。他们看到的不是一个失败的项目，而是一个由无数未来“强制买家”（被迫平仓的空头）组成的、流动性充沛的燃料库。他们无需创造恐慌，只需耐心等待恐慌情绪发酵至顶峰，让尽可能多的空头进入这个精心布置的猎场。这个由权威公告创造的“天时”，为后续的收割行动提供了最完美的舞台。\n\n## 二、地利：隐秘的战场规则\n\n如果说“天时”是心理战的胜利，那么“地利”则是对市场微观结构和交易规则的极致利用。庄家巧妙地选择了两个战场——现货市场和永续合约市场，并把后者的一项核心机制变成了收割散户的利器。\n\n支点：低市值的现货市场\n\nALPACA事件的核心策略在于利用其现货市场的结构性弱点。在事件发生时，其流通市值一度萎缩至仅约500万美元。这意味着，操纵者只需动用相对较少的资金，就能在现货市场制造剧烈的价格波动，从而撬动规模远大于现货、且高度杠杆化的衍生品市场。现货价格，成为了这场多空大战的“价格之锚”。\n\n酷刑：作为金融武器的资金费率\n\n永续合约通过“资金费率”机制，使其价格锚定现货价格。通常，当看空情绪浓厚，合约价格低于现货价时，资金费率为负，空头需向多头支付费用。\n\n在这场博弈中，Binance于4月29日的一个关键举动，彻底改变了游戏规则。交易所宣布将ALPACA永续合约的资金费率结算频率从常规的每8小时一次，调整为每小时一次，并将费率上限设为惊人的”±2%”。 （30日更换为±4%）\n\n这一调整的杀伤力是毁灭性的。它意味着：\n\n- 空头持仓者每小时都需要支付其仓位价值±2%/4%的“罚金”。\n\n- 在不计算杠杆的情况下，持有一天空头仓位的成本高达48%/96%。\n\n资金费率在此刻不再是交易成本，而是一件无法承受的金融“酷刑工具”。它为所有空头头寸设置了一个滴答作响的“死亡倒计时”，迫使他们在爆仓和支付巨额费用之间做出选择，而最终唯一的理性选择就是投降——买入平仓。（第四部分会详细讲解）\n\n## 三、人和：被预判的对手\n\n如果说天时和地利是庄家借势和用势，那么“人和”的成功，则源于对局中另一方——散户群体——心理和行为范式的精准预判和利用。\n\n庄家的剧本 vs. 散户的范式\n\n此次事件中，被收割的空头大多陷入了一个简单的思维定式：“下架=利空=做空”。这种一级思维的致命缺陷在于，它完全忽略了市场的微观结构、交易机制的极端变化以及对手盘的存在。\n\n与之相对，庄家的剧本则是多维度、多层次的：\n\n- 吸筹期：在市场恐慌、价格低迷时（如$0.03左右），悄悄吸纳大量现货筹码。\n\n- 诱敌期：利用官方公告，让“归零叙事”充分发酵，引诱海量空头进场，构建一个流动性充裕的对手盘。\n\n- 攻击期：在空头仓位最拥挤、资金费率规则对自己最有利时，通过拉动现货引爆衍生品市场的清算引擎。\n\n- 退场期：在逼空行情达到顶峰、市场情绪转为FOMO时，将手中积累的现货筹码抛售给追涨的散户，完成利润收割并导致价格崩盘。\n\n散户的认知盲区\n\n散户的失败，根植于几个关键的认知盲区：\n\n1. 忽视结构风险：未能评估ALPACA作为一个低市值、低流动性代币，其现货价格极易被少量资金操控。\n\n2. 低估机制武器：未能将极端负资金费率和高频结算视为一种金融武器，而仅仅看作是可承受的持仓成本。\n\n3. 误读市场共识：将一边倒的看空共识视为确定性的信号，而未意识到当一个方向的交易变得过度拥挤时，风险已经不成比例地向反向倾斜。\n\n散户看到的是一个即将失败的项目，而庄家看到的则是一个充满结构性漏洞、可以被利用来收割对手盘的市场。\n\n## 四、4%的“催命符”\n\n催化剂：Binance资金费率调整如何将时间衰减武器化\n\n如果说巨鲸的吸筹和市场的看跌共识是天时地利人和的杰作，那么Binance交易所对资金费率规则的调整，则成为了点燃这场爆炸的催化剂（“催命符”）。2025年4月25日，Binance发布公告，将 ALPACAUSDT 永续合约的资金费率结算频率从通常的每8小时一次，调整为每小时一次。随后在4月30日，费率上限进一步被提高到 ±4%。\n\n这一规则变更的威力是巨大的。随着巨鲸开始拉升现货价格，永续合约的价格由于空头压制而出现滞后，导致合约价格相对于现货指数价格产生显著折价。这使得资金费率迅速变为深度负值。当资金费率达到每小时 -2% 甚至 -4% 时，意味着空头交易者每持仓一小时，就需要向多头支付其仓位价值 2% 到 4% 的费用。\n\n理论上，在 -4% 的费率下，空头持仓24小时的资金成本将高达其本金的 96%，这还不包括任何价格波动带来的亏损。这种机制将资金费率从一个价格锚定工具，转变为一个惩罚性的、基于时间的武器。\n\n空头交易者面临两难困境：要么因价格上涨而被强制平仓，要么因无法承受高昂的持仓成本而主动平仓。时间本身成为了空头的敌人，迫使他们投降的压力不再仅仅来自价格，更来自无法承受的资金流失。多头方则处于极为有利的地位，他们不仅能从价格上涨中获利，还能持续“吸血”，收取空头支付的高额资金费率。\n\n## 五、猎杀时刻：逐级爆仓的连锁反应分析\n\n在所有条件准备就绪后，市场迎来了最后的高潮。从4月29日到4月30日的不到24小时内，ALPACA 的价格走出了令人瞠目结舌的抛物线行情。价格从约 0.065 美元的低点，火箭般蹿升至超过 1.47 美元的高点，涨幅超过 2,160%。\n\n这次价格的极端波动量化地体现在清算数据上。在高峰期，ALPACA 合约在24小时内的总清算额超过了5500万美元，其中约4500万美元来自空头头寸的爆仓。这一数字甚至在短时间内超过了比特币的清算量，凸显了这场逼空战的惨烈程度。\n\n这场价格的爆炸性上涨是一个典型的、由杠杆驱动的连锁清算反馈循环。其过程如下：\n\n1. 初始拉升：巨鲸利用其在现货市场的控制力，推高 ALPACA 价格，导致第一批高杠杆空头头寸触及强平线。\n\n2. 强制买入：被强制平仓的空头头寸，在市场上表现为强制性的市价买单。这些买单进一步推高了价格。\n\n3. 连锁反应：价格的进一步上涨，又触发了下一批空头头寸的强平线，产生了更多的市价买单。\n\n4. 自我强化循环：这个“价格上涨 -> 空头爆仓 -> 强制买入 -> 价格进一步上涨”的过程形成了一个正反馈循环，导致价格在短时间内垂直拉升，直到市场上大部分空头头寸被清除为止。\n\n## 六、以逼空为引的下架币叙事\n\n史诗般的逼空之后，一切都不可避免地走向终结。随着4月30日永续合约的最终结算，以及5月2日现货交易对的下架，ALPACA 的价格迅速崩溃，回归到其由基本面决定的价值区间。\n\n2025年5月底，项目方正式宣布，将在年底前逐步关停所有业务。在公告中，团队明确指出，Binance的下架是“压垮骆驼的最后一根稻草”，它严重损害了市场信心，切断了代币的流动性和用户获取渠道，并导致所有潜在的新产品开发和并购计划被迫中止。一个曾经在 DeFi 领域备受瞩目的项目，就此黯然落幕。\n\n然而，$ALPACA  的消亡却催生了一种新的、奇特的市场叙事——“下架币概念”。这次事件向市场展示了一种可能性：一个基本面濒临死亡的代币，其永续合约市场却可能因为结构性失衡而爆发出惊人的财富效应。受此启发，一些投机者开始主动在各大交易所寻找那些市值小、流动性差、符合潜在下架特征的代币，并提前布局，期望能够复制 ALPACA 的逼空奇迹。后续市场上出现的 $MEMEFI 在下架前的价格异动，就被许多分析师直接与 ALPACA 事件进行类比，证明了这种“下架币叙事”已经成为一种被市场认可的投机策略。\n\n这一系列事件揭示了低流动性资产永续合约市场的一个核心脆弱性：其内部机制可以被操纵，以产生与基本面逻辑完全相反的结果。下架，这个本应是资产价值终结的信号，反而成为了引爆一场短暂但剧烈的价值爆炸的必要前提。在一个高效的流动性市场中，被下架资产的价格理应下跌。但 ALPACA 的市场规模极小（市值约500万美元），流动性匮乏。\n\n这使得一个有决心的行动者能够用相对较少的资金控制现货价格。通过控制现货价格，他们便能操纵现货与永续合约之间的价差（基差），而基差又直接决定了资金费率的方向和大小。市场上高度集中的空头头寸为这场大火提供了充足的燃料，巨鲸对现货价格的控制是火花，而交易所的资金费率规则则成了助燃剂。这充分说明，对于某些特定资产，其永续合约市场已不再是价格发现的场所，而是一个自成体系的、充满博弈论的战场。\n\n在这个战场里，游戏规则本身远比标的资产的价值更为重要。\n\n## 结论：一场完美的围猎\n\nALPACA的“下架逼空”事件，是一场将天时、地利、人和运用到极致的资本围猎。庄家利用了权威信息（天时）制造了散户的思维定式，利用了市场结构和交易规则（地利）设计了无法逃脱的陷阱，并精准地利用了散户的群体行为（人和）作为引爆陷阱的燃料。\n\n这场游戏的最终结局极具讽刺意味：衍生品市场的投机狂潮，最终成为了压垮Alpaca Finance项目本身的最后一根稻草。项目方在随后的关停公告中明确指出，Binance的下架以及随后的价格剧烈波动，“严重损害了市场信心”，并使得所有潜在的自救计划被迫中止。\n\n对于所有市场参与者而言，ALPACA事件是一个残酷的警示：在金融的黑暗森林里，你交易的不仅仅是资产本身，更是在与所有其他玩家以及游戏规则进行博弈。无法看清全局结构、只凭单一叙事和惯性思维行动的人，最容易从猎手沦为猎物\n\n愿我们始终怀揣着一颗敬畏市场之心。\n\n知其然，且知其所以然。"
+    },
+    {
+      "id": "1954162548062015509",
+      "text": "@agintender 事业型男人我好爱，怎么大周末的更新那么频繁",
+      "author": {
+        "id": "1473880930846576640",
+        "name": "白丁",
+        "screenName": "Geight16",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1935238842639872000/WX3Uf9aF_normal.png",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1342,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Aug 09 12:47:12 +0000 2025",
+      "createdAtLocal": "2025-08-09 20:47",
+      "createdAtISO": "2025-08-09T12:47:12+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1954163017970487650",
+      "text": "@Geight16 🤣 我原来是想下周一再发的，但是最近看到好多“妖币”，就想说还是早点发出来吧\n\n流量差点就差点吧\n能救一个仓位是一个",
+      "author": {
+        "id": "913320844411019265",
+        "name": "danny",
+        "screenName": "agintender",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1629854460003614722/WBiNvasr_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1200,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Aug 09 12:49:04 +0000 2025",
+      "createdAtLocal": "2025-08-09 20:49",
+      "createdAtISO": "2025-08-09T12:49:04+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1954369053193273722",
+      "text": "@agintender 由于我也在这个币种上面亏过钱，且都是重仓亏钱，所以看这个文章的时候就非常清晰的理解作者的意思。也同时让我这个老韭菜，再次清晰的认识到了资金费率的强大威力。\n以前也有大概理解资金费率的事情，但是今天是彻底理解了。感谢。🖕🖕🖕🖕",
+      "author": {
+        "id": "1906275332615008256",
+        "name": "疯狂的Jerrick(Trader)",
+        "screenName": "LeeJerrick89784",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2067234766341197824/w5wtifFf_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 6,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 781,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Aug 10 02:27:47 +0000 2025",
+      "createdAtLocal": "2025-08-10 10:27",
+      "createdAtISO": "2025-08-10T02:27:47+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1954354623554388117",
+      "text": "@agintender 写的太好了Danny，可以考虑出书了👍",
+      "author": {
+        "id": "1833121598490259457",
+        "name": "MoonStar",
+        "screenName": "NityData49998",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2096111107337584640/Jm0FzHPk_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 291,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Aug 10 01:30:27 +0000 2025",
+      "createdAtLocal": "2025-08-10 09:30",
+      "createdAtISO": "2025-08-10T01:30:27+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1955083108333580415",
+      "text": "@agintender 很好的文章，我都仔细看了，这样看来perp future本身是有点问题的，这个不到期的future设定要求时刻保持关注fundin rate。长时间做这个对身体伤害会比较大，这样看来做空ETF虽然杠杆3倍不多，但是能睡个好觉。除非特殊行情还是别做永续了。",
+      "author": {
+        "id": "1727853779746471937",
+        "name": "Lorgar Dekaepta",
+        "screenName": "LorgarDekaepta",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1947959091441045504/8pbVKayZ_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 363,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Aug 12 01:45:11 +0000 2025",
+      "createdAtLocal": "2025-08-12 09:45",
+      "createdAtISO": "2025-08-12T01:45:11+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1954446565247946988",
+      "text": "@agintender 写的好好",
+      "author": {
+        "id": "1910544583995645952",
+        "name": "Lynn（天才交易员版",
+        "screenName": "Liq0Crypto",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2090818360040898560/7n1wmmcI_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 318,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Aug 10 07:35:47 +0000 2025",
+      "createdAtLocal": "2025-08-10 15:35",
+      "createdAtISO": "2025-08-10T07:35:47+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1954173673440784678",
+      "text": "@agintender 又是跪着看完的一篇，学到了\n多谢丹尼老师",
+      "author": {
+        "id": "1787490242754473984",
+        "name": "Larry｜Web3",
+        "screenName": "Larry_M_Free",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1824773213920088065/dEh8sCeg_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 379,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Aug 09 13:31:25 +0000 2025",
+      "createdAtLocal": "2025-08-09 21:31",
+      "createdAtISO": "2025-08-09T13:31:25+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1954186298698412091",
+      "text": "@agintender 高质量好文 danny牛逼",
+      "author": {
+        "id": "1838558104721444864",
+        "name": "0x择莫",
+        "screenName": "CryptoZeMo_0x",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2024856056753700864/dJbw_JYo_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 458,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Aug 09 14:21:35 +0000 2025",
+      "createdAtLocal": "2025-08-09 22:21",
+      "createdAtISO": "2025-08-09T14:21:35+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1954179655189057779",
+      "text": "@agintender 不光有料   行文也舒服",
+      "author": {
+        "id": "1856711468978466816",
+        "name": "愉悦",
+        "screenName": "Yuyuechaoaiwan",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1995414027179380736/2jVh0bev_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 408,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Aug 09 13:55:11 +0000 2025",
+      "createdAtLocal": "2025-08-09 21:55",
+      "createdAtISO": "2025-08-09T13:55:11+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "1954345633642676404",
+      "text": "@agintender 写得真好",
+      "author": {
+        "id": "1469545279330283520",
+        "name": "冠霖",
+        "screenName": "YinhaoD",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2069198926016839680/r6WDPSlO_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 330,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Aug 10 00:54:43 +0000 2025",
+      "createdAtLocal": "2025-08-10 08:54",
+      "createdAtISO": "2025-08-10T00:54:43+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1954178069842833465",
+      "text": "@agintender 这波早点发对了",
+      "author": {
+        "id": "1438033461164478465",
+        "name": "Terry Dang",
+        "screenName": "truongd28615354",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1978814899611639808/V68oll-a_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 329,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Aug 09 13:48:53 +0000 2025",
+      "createdAtLocal": "2025-08-09 21:48",
+      "createdAtISO": "2025-08-09T13:48:53+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1954571640865755215",
+      "text": "@agintender 雄文，如果配上K线图和标签就更加图文并茂啦",
+      "author": {
+        "id": "216982382",
+        "name": "Lunula",
+        "screenName": "lylunula",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1778024336747888640/5BMhr1nZ_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 259,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Aug 10 15:52:48 +0000 2025",
+      "createdAtLocal": "2025-08-10 23:52",
+      "createdAtISO": "2025-08-10T15:52:48+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1967786038950269298",
+      "text": "@agintender 这个文章可以转载吗",
+      "author": {
+        "id": "899618860143263746",
+        "name": "Kai.Btc",
+        "screenName": "brandon_2333",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1864567312499814400/DGGPadSo_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 77,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 16 03:02:06 +0000 2025",
+      "createdAtLocal": "2025-09-16 11:02",
+      "createdAtISO": "2025-09-16T03:02:06+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1965706378452127900",
+      "text": "@agintender 羊驼空军在此，说实话现在回忆那几天仍旧是头皮发麻后背发凉，羊驼的操盘手真的绝",
+      "author": {
+        "id": "771658352380129280",
+        "name": "进宝_大王",
+        "screenName": "TuTu_Tuboss",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1966585718349983745/wM1_zZ9W_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 81,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 10 09:18:16 +0000 2025",
+      "createdAtLocal": "2025-09-10 17:18",
+      "createdAtISO": "2025-09-10T09:18:16+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1980089438622355863",
+      "text": "@agintender 如果能够预判到事件发生，小仓位买入现货可能是一个风险较小的操作",
+      "author": {
+        "id": "1976554229259960320",
+        "name": "xhy520bgx",
+        "screenName": "Xhy_bgx",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1976554524601958400/F-OoZzjN_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 43,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Oct 20 01:51:25 +0000 2025",
+      "createdAtLocal": "2025-10-20 09:51",
+      "createdAtISO": "2025-10-20T01:51:25+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "1955223063710322939",
+      "text": "@agintender 前两天忘记给大佬三连了，补一个",
+      "author": {
+        "id": "1057315529663250434",
+        "name": "哈莫妮卡357(🦈,💧)",
+        "screenName": "z357z357",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1932774107990683648/kekHpnXr_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 118,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Aug 12 11:01:19 +0000 2025",
+      "createdAtLocal": "2025-08-12 19:01",
+      "createdAtISO": "2025-08-12T11:01:19+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}
