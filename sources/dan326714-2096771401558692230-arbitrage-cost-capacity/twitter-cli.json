@@ -1,0 +1,517 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2096771401558692230",
+      "text": "主战场不在套利了，分享点心得。\n\n套利的资金是有限的，人的精力是有限的，路径是无限的，套利机会是无限的。\n\n有些东西是天生打不赢的，不要去找大哥们的事，一般都不会挨揍，我就不去找bn vip9的事，我要是去了他追着我打，我跑什么他跑什么，我毛都赚不到，想好自己能做什么，能不能跨过去那座大山。\n\n1. 现货上，佣金是绝对实力的，代码相等怎么都打不过，我队友有万2～3的佣金，很多币上点资金，阈值我都看不到，万6人家就跑，bn跑btc大哥也是，所以不要尝试跟他们拼，也别去惹人家，他们躺平了挂着跑一些币，很多币风险大没挂，就有机会。\n\n当大哥出门旅游，机器网络故障，没来的及配置，一堆堆问题都会让你能吃到。\n\n2. 合约相关，合约开仓关仓磨损在哪里，来回各滑千1，交易所手续费，而且资金效率高，还要亏千1走，这是成本。\n\n2.1 合约阈值1.003～1.006大哥基本不吃，有一些普通脚本吃，挂着正出，每当一个币跌的时候链上价格一般会高，\n很多时候现货没有提现时间，想抓人学习很简单 ， okx有相关的服务，这个用okx api可以搞定。\n\n2.2 阈值时1.008～1.015这一段时顶级bot的，都是高频速度机器人，这一段不好吃\n\n2.3 阈值1.02～1.2。这一块属于普通人,顶尖bot, 埋伏的\n前面2.2大哥满仓了，随便写了几十行的脚本就能吃，开源的脚本代码越少越容易看懂基本逻辑，快速修改，昨天我知道的几个朋友，一个出门正骨，一个大哥吃满，另外一个去了医院\n       刚出现机会阈值大，属于顶尖bot\n       链上sell大家都没币，就属于埋伏者，链上埋伏容易出事，比如aia, h , 利润大，不卷\n\n  2.4 阈值1.2+ \n\n       顶尖bot  or  黑客 or 埋伏，代码写死，阈值大于30%不要吃，能保命，或者自己观察到不是黑客盗币在吃\n\n这里有俩bot, 很强，风控很厉害，tac都没吃，链上吃了单子交易所应该会拆，强的是交易所部分，拆单，风控，滑点。\nhttps://t.co/FB1D5EeuiM\n\nhttps://t.co/aQHYYntMZT",
+      "author": {
+        "id": "1597583113160474624",
+        "name": "十年一梦",
+        "screenName": "dan326714",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2069648244687413248/VezLsbGH_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 152,
+        "retweets": 12,
+        "replies": 33,
+        "quotes": 2,
+        "views": 18247,
+        "bookmarks": 200
+      },
+      "createdAt": "Mon Sep 07 01:23:52 +0000 2026",
+      "createdAtLocal": "2026-09-07 09:23",
+      "createdAtISO": "2026-09-07T01:23:52+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRk28j0bkAAehen.jpg",
+          "width": 3412,
+          "height": 2162
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2096807496929468489",
+      "text": "@dan326714 在可以快速反应，有快速定位是不是黑客的能力下，高价差还是得吃啊，这才是主要利润来源～",
+      "author": {
+        "id": "1459435857593581570",
+        "name": "0x0",
+        "screenName": "0x0_zero",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1998751606234558468/jyXKGw9n_normal.png",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 4,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 1511,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 03:47:18 +0000 2026",
+      "createdAtLocal": "2026-09-07 11:47",
+      "createdAtISO": "2026-09-07T03:47:18+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2096839614782951685",
+      "text": "@0x0_zero 我不怎么做套利了，做做新币，好资源得了，自动化Lp进行中。",
+      "author": {
+        "id": "1597583113160474624",
+        "name": "十年一梦",
+        "screenName": "dan326714",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2069648244687413248/VezLsbGH_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1208,
+        "bookmarks": 2
+      },
+      "createdAt": "Mon Sep 07 05:54:56 +0000 2026",
+      "createdAtLocal": "2026-09-07 13:54",
+      "createdAtISO": "2026-09-07T05:54:56+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2068114352218239133",
+      "text": "Get connected with fast, reliable internet for streaming, video calls, online gaming and more.\n\nOrder online in minutes.",
+      "author": {
+        "id": "1330170106501079041",
+        "name": "Starlink",
+        "screenName": "Starlink",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 301,
+        "retweets": 13,
+        "replies": 21,
+        "quotes": 2,
+        "views": 7661208,
+        "bookmarks": 39
+      },
+      "createdAt": "Fri Jun 19 23:30:59 +0000 2026",
+      "createdAtLocal": "2026-06-20 07:30",
+      "createdAtISO": "2026-06-19T23:30:59+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2096775559099592872",
+      "text": "@dan326714 AI润色一下? 有些表达不太流畅",
+      "author": {
+        "id": "1448937568276402185",
+        "name": "比特护国公🤖",
+        "screenName": "lordbytecoin",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1458264986162122755/OEWR3WXI_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 1123,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 01:40:24 +0000 2026",
+      "createdAtLocal": "2026-09-07 09:40",
+      "createdAtISO": "2026-09-07T01:40:24+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2096776190245912959",
+      "text": "@lordbytecoin 随手写的，做个分享，凑合看吧。",
+      "author": {
+        "id": "1597583113160474624",
+        "name": "十年一梦",
+        "screenName": "dan326714",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2069648244687413248/VezLsbGH_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1113,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 01:42:54 +0000 2026",
+      "createdAtLocal": "2026-09-07 09:42",
+      "createdAtISO": "2026-09-07T01:42:54+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2096798502944899200",
+      "text": "@dan326714 确实，除了做市商账户，扣完各种费率，盈利区间被压缩的非常短。很容易发生平仓时出现亏损。",
+      "author": {
+        "id": "3747845172",
+        "name": "St",
+        "screenName": "timelifenow",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1906188188051492864/sNg6l7Tv_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 626,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 03:11:34 +0000 2026",
+      "createdAtLocal": "2026-09-07 11:11",
+      "createdAtISO": "2026-09-07T03:11:34+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2096855554283217197",
+      "text": "@dan326714 大哥说的太对了，经历了tac以后，大于5个点的价差我已经只敢看着了，扒完砸盘地址筹码来源后才敢吃，但是这样往往已经没有机会了，这个取舍很难做好",
+      "author": {
+        "id": "1683186935249141760",
+        "name": "0xxyg小宇哥",
+        "screenName": "0xxiaoyuge",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1846363626040672256/Q4gZPTl7_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 332,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 06:58:16 +0000 2026",
+      "createdAtLocal": "2026-09-07 14:58",
+      "createdAtISO": "2026-09-07T06:58:16+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2096813434499121424",
+      "text": "@dan326714 现在主做趋势，发现趋势做好可以吃一辈子，任何场子都可以适应，当然我自己不是套利的料，做自己擅长的",
+      "author": {
+        "id": "1851068637395996672",
+        "name": "欧羊疯",
+        "screenName": "DannisGogo",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1851069046504243200/8H92H2ME_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 513,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 04:10:54 +0000 2026",
+      "createdAtLocal": "2026-09-07 12:10",
+      "createdAtISO": "2026-09-07T04:10:54+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2096794328018419904",
+      "text": "@dan326714 这心得挺实在，不过主战场一换策略也得跟着变，别当板上钉钉。",
+      "author": {
+        "id": "340142471",
+        "name": "Betaer -Let's Connect",
+        "screenName": "Betaer",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2087844197315620864/MQ-wZnQI_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 596,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 02:54:59 +0000 2026",
+      "createdAtLocal": "2026-09-07 10:54",
+      "createdAtISO": "2026-09-07T02:54:59+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2096911811706847502",
+      "text": "@dan326714 执行层面说，套利机会确实多，但渠道的点差和手续费结构决定了哪条路真的有利润空间。",
+      "author": {
+        "id": "1549947817875341312",
+        "name": "TMGM-Leo",
+        "screenName": "LeoWang48003501",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2094634843791593472/I1P1VIBn_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 240,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 10:41:49 +0000 2026",
+      "createdAtLocal": "2026-09-07 18:41",
+      "createdAtISO": "2026-09-07T10:41:49+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2096845019004993935",
+      "text": "@dan326714 价值 100wu 的心得老哥就这么公布了",
+      "author": {
+        "id": "1625793364103925762",
+        "name": "simon",
+        "screenName": "coopersimon191",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1778735887112888320/e5fYR_RU_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 313,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 06:16:24 +0000 2026",
+      "createdAtLocal": "2026-09-07 14:16",
+      "createdAtISO": "2026-09-07T06:16:24+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2096804999661752725",
+      "text": "@dan326714 新战场在哪😏",
+      "author": {
+        "id": "1107624707426115585",
+        "name": "khan09.AI",
+        "screenName": "KhanAIBuilds",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1906682523847106562/FFhVWmt5_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 411,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 03:37:23 +0000 2026",
+      "createdAtLocal": "2026-09-07 11:37",
+      "createdAtISO": "2026-09-07T03:37:23+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2097736649757381045",
+      "text": "Starlink offers fast, reliable internet in the most rural and remote locations. Portable and easy to set up, Starlink works wherever you are.\n\nOrder online in minuts.\"",
+      "author": {
+        "id": "1330170106501079041",
+        "name": "Starlink",
+        "screenName": "Starlink",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 13137,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 09 17:19:26 +0000 2026",
+      "createdAtLocal": "2026-09-10 01:19",
+      "createdAtISO": "2026-09-09T17:19:26+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2096792137912439060",
+      "text": "@dan326714 主战场不在套利了，那去做什么了 老哥",
+      "author": {
+        "id": "905310977406623745",
+        "name": "灵感无限AI",
+        "screenName": "0xNeptuned",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2050094731703861248/j9jtnWBF_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 490,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 02:46:16 +0000 2026",
+      "createdAtLocal": "2026-09-07 10:46",
+      "createdAtISO": "2026-09-07T02:46:16+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2096778100222972105",
+      "text": "@dan326714 大哥进化太快了",
+      "author": {
+        "id": "1485065014050443267",
+        "name": "小马",
+        "screenName": "mamm75229513",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1981007185539739648/mFl07DsI_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 587,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 01:50:30 +0000 2026",
+      "createdAtLocal": "2026-09-07 09:50",
+      "createdAtISO": "2026-09-07T01:50:30+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2097119623330345374",
+      "text": "@dan326714 哥主战场干啥去啦🤔",
+      "author": {
+        "id": "1455785104106680320",
+        "name": "zkslr",
+        "screenName": "0xzkslr",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1996486668623470593/kLnKnWcl_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 68,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 08 00:27:35 +0000 2026",
+      "createdAtLocal": "2026-09-08 08:27",
+      "createdAtISO": "2026-09-08T00:27:35+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2097073951465930778",
+      "text": "@dan326714 干货",
+      "author": {
+        "id": "35100712",
+        "name": "Guzi",
+        "screenName": "guzibiji",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2031717188328189952/40mBKi4k_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 57,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Sep 07 21:26:06 +0000 2026",
+      "createdAtLocal": "2026-09-08 05:26",
+      "createdAtISO": "2026-09-07T21:26:06+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

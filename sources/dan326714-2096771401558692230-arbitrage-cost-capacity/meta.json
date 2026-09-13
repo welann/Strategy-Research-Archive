@@ -1,0 +1,29 @@
+{
+  "tweet_id": "2096771401558692230",
+  "author": "十年一梦",
+  "handle": "dan326714",
+  "url": "https://x.com/dan326714/status/2096771401558692230",
+  "created_at": "Mon Sep 07 01:23:52 +0000 2026",
+  "created_timestamp": 1788744232,
+  "archived_at": "2026-09-14",
+  "retrieval": "FxTwitter public mirror for article entities and original media; authenticated twitter-cli after explicit user authorization for canonical tweet and visible replies",
+  "article_id": null,
+  "reply_count_at_fetch": 33,
+  "replies_archived": true,
+  "reply_scope_note": "twitter-cli详情中筛选主题相关回复；排除广告与推荐；不保证完整评论树",
+  "media_files": [
+    "assets/holder-dashboard.jpg"
+  ],
+  "verification": "保留主帖及公开镜像正文；译文另对读作者原站；不独立验证收益、实时排名或账户能力",
+  "sha256": {
+    "twitter-cli.json": "e84e2995d991670cdebbef95e0280c8ea53318b3a8d190c76b1098fd064a98db",
+    "original.md": "b008f253c89bed510e9d57a47912d8410472159a898515b7f71003cbc644ebcb",
+    "original.txt": "7c5665a4c67f3727628fdc96aa0dfa6a1e03c052df15f27e61540d3a73d43d40",
+    "raw.json": "f0505e7dd3d1462051fd9247bbcfd6c1b1bbd38e8cbd692fab2cc284e0db9d68",
+    "replies.md": "43e02898bafde5bcba5d9b9523bbe70372968d0b96a20ef2234e1acc0e01ac55",
+    "assets/holder-dashboard.jpg": "2e1e4e29baf31232511a22d6f63495a78b2beacd55dde0b66d6599d2d3c80ef4"
+  },
+  "visible_related_reply_count": 15,
+  "cli_original_tweet_verified": true,
+  "supplemental_author_search": "详情页已取得相关作者回复；额外conversation_id搜索返回HTTP404，未以此推断无其他作者补充"
+}

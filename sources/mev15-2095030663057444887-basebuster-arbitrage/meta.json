@@ -1,0 +1,31 @@
+{
+  "tweet_id": "2095030663057444887",
+  "author": "青十五",
+  "handle": "mev15_eth",
+  "url": "https://x.com/mev15_eth/status/2095030663057444887",
+  "created_at": "Wed Sep 02 06:06:48 +0000 2026",
+  "created_timestamp": 1788329208,
+  "archived_at": "2026-09-14",
+  "retrieval": "FxTwitter public mirror for article entities and original media; authenticated twitter-cli after explicit user authorization for canonical tweet and visible replies",
+  "article_id": "2095024543815655424",
+  "reply_count_at_fetch": 5,
+  "replies_archived": true,
+  "reply_scope_note": "twitter-cli详情中筛选主题相关回复；排除广告与推荐；不保证完整评论树",
+  "media_files": [
+    "assets/cover.jpg"
+  ],
+  "verification": "保留主帖及公开镜像正文；译文另对读作者原站；不独立验证收益、实时排名或账户能力",
+  "sha256": {
+    "twitter-cli.json": "39ee331f435eb883ccfbbea31bd26c5a5fa5836a142b462f3a567cc337e90f4a",
+    "original.md": "6ee1d6a47be4cf0fc7822df7a9bc1fdeddef80ee38d7c8b32fb22fd0c9889f9e",
+    "original.txt": "adcf05e3ebb26c17c0f05272c59ed6b07487d53119d52c042044745980bd3633",
+    "linked-original.html": "84916f1bf54f12ad60ea4161a8f0fc037136cf76fb84c6740eea8b2031021c6d",
+    "raw.json": "8119135accdabfae42d426d97cbf89145d2a0ac7c004a47e19d0aaad087ce3a4",
+    "article.md": "e7c9dc64ea53846b199ac359484d351c37edac4ee435303627f550be40159813",
+    "replies.md": "33d950b1e737ca4aca7af9f19ad3bd9c9e4153ff66c47848c50771851b1345d1",
+    "assets/cover.jpg": "21d29e0af6f9fda936af7c88e334b57ac1f3e0506d68d375c9248d6559bda529"
+  },
+  "visible_related_reply_count": 5,
+  "cli_original_tweet_verified": true,
+  "supplemental_author_search": "详情页5条相关回复未见作者修正；未保证隐藏或后续回复完整性"
+}

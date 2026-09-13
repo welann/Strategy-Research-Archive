@@ -1,0 +1,49 @@
+{
+  "title": "Decentralised Finance and Automated Market Making: Predictable Loss and Optimal Liquidity Provision",
+  "authors": [
+    "Álvaro Cartea",
+    "Fayçal Drissi",
+    "Marcello Monga"
+  ],
+  "arxiv_id": "2309.08431v3",
+  "version": "v3",
+  "version_date": "2024-06-13",
+  "source_url": "https://arxiv.org/html/2309.08431v3",
+  "pdf_url": "https://arxiv.org/pdf/2309.08431v3",
+  "archived_at": "2026-09-14",
+  "publication_note_in_source": "Forthcoming in SIAM Journal on Financial Mathematics",
+  "license_in_html": "CC Zero",
+  "pdf_pages": 36,
+  "figure_count": 10,
+  "svg_files": 11,
+  "table_count": 4,
+  "category": "链上数据与DeFi交易",
+  "verification_scope": "读取v3正文、模型、回测与建模讨论；核对关键PDF图表及算术，未复现底层链上回测；不核验后续版本或现行链上参数",
+  "notes": [
+    "HTML与PDF部分公式编号不同，笔记以HTML公式编号为准",
+    "主要回测设mu=0，不验证预测信号带来的偏斜增益",
+    "表3收益不含gas；180万美元为历史成本下估算",
+    "477275美元交易量乘0.05%为238.6375美元，与正文1431美元容量例子不一致",
+    "零漂移盈利阈值附近文字有系数不一致，笔记按公式34至36计算"
+  ],
+  "sha256": {
+    "original.md": "ac173ae121cbdf43641fc7c22476a69ac62243b78fce19fda118071f49600356",
+    "original.txt": "43c5d6dd0b648154f0d180d154170efd0c1b90f5f133951d94a5f94b94881f11",
+    "original.pdf": "766e8ead4ff0e36c78d47b410f56dfb51fb09604bc462412b427640fb4556cd0",
+    "original.html": "d17218d89ed44fb418b1238323feafa5aa86f26719b138ecc0d8df9e4064e7b7",
+    "assets/DOLP_backtestgammas.svg": "9033bd96fffc1b9f37249fbe4df6f4d3e575d71454267dadc53d35496e0268d4",
+    "assets/DOLP_feerate_vol.svg": "13b4b2631c284b8aa6d17757ed2beba3d90253e76d41ec9c6bd790083f4c5371",
+    "assets/pdf-page-13.png": "45c18bc7cf2535f3956605fcaa59fd75059fd1fc33330e19175a0d2b4fd4b0ef",
+    "assets/DOLP5.svg": "f8eb8fd20c87172945625ced914a4fe01bf158eb2485ab76900118ed958a6231",
+    "assets/OLP_dyn2.svg": "a419b8b1c14d34b650024e9f8a112800fd737c7da2a94dff5dc68b6e25c4f7a1",
+    "assets/OLP_dyn0.svg": "9e147c4e69f53ccd45632f9588aeddcc21e52a7fc79a6ca9b5f4604092641d7d",
+    "assets/DOLP_feerate.svg": "f4b0aad1a57231926ce4dde4ac90d5233fd97e8ea8adfe514b1d814d5aef7600",
+    "assets/OLP_dyn1.svg": "7abe753aa0997e4ddbae3e591dbb0cb07447958e24d47c9aa9ad805d65056a48",
+    "assets/DOLP_feerate_dist.svg": "395c1c6315c9600164dd3070ebdfb03d57ac3659de1d8eec5df1cf177cf86a5f",
+    "assets/gamma_1_5min.svg": "dc9ef65c69066505a2f87744c6099e1883c596692101917b15bd825956ca6e9e",
+    "assets/SIMPLE1.svg": "bfcb52647bee7293d66a4c0e33adf8e0eab00a7cc0bd02201d8c32b3ed264718",
+    "assets/pdf-page-21.png": "1c528353f39b546f3e29085c96455e77bd13f0002207a2f06dc3aeece413c9a8",
+    "assets/pdf-page-26.png": "3611a59aebcb3c68cb69550f4a7aafea0aad3ad45d0424bb412bdf596685542b",
+    "assets/LP1.svg": "360767b3006625857867612b749021baa54aa543dd5174848c08b094457e8b50"
+  }
+}

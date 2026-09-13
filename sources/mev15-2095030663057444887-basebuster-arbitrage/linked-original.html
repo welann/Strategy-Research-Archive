@@ -1,0 +1,204 @@
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="description" content="Walkthrough of a modern arbitrage bot"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><meta name="generator" content="Astro v4.16.10"><title>Arbitrage for Fun and Profit</title><link rel="canonical" href="https://thinkingthoughts.dev/blog/arbitrage/"><!-- Open Graph --><meta property="og:type" content="article"><meta property="og:url" content="https://thinkingthoughts.dev/blog/arbitrage/"><meta property="og:title" content="Arbitrage for Fun and Profit"><meta property="og:description" content="Walkthrough of a modern arbitrage bot"><meta property="og:site_name" content="~/thoughts"><!-- Twitter --><meta name="twitter:card" content="summary"><meta name="twitter:title" content="Arbitrage for Fun and Profit"><meta name="twitter:description" content="Walkthrough of a modern arbitrage bot"><meta name="twitter:site" content="@zholme7"><meta name="twitter:creator" content="@zholme7"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet"><meta name="astro-view-transitions-enabled" content="true"><meta name="astro-view-transitions-fallback" content="animate"><style>.astro-route-announcer{position:absolute;left:0;top:0;clip:rect(0 0 0 0);clip-path:inset(50%);overflow:hidden;white-space:nowrap;width:1px;height:1px}:root{--bg: #080808;--text: #f2f2f2;--dim: #8a8a8a;--dim-faint: #666666;--accent: #00ff9d;--max-width: 65ch;--padding: 1.5rem}*{margin:0;padding:0;box-sizing:border-box}html{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,sans-serif;line-height:1.6;font-size:16px;width:100%;height:100%;-webkit-text-size-adjust:100%;overflow-x:hidden}body{min-height:100vh;display:flex;flex-direction:column;width:100%;position:relative;background:var(--bg);overflow-x:hidden}.monospace{font-family:IBM Plex Mono,monospace}nav{width:100%;background:var(--bg);position:sticky;top:0;z-index:100;border-bottom:1px solid rgba(255,255,255,.1)}.nav-container{max-width:var(--max-width);margin:0 auto;padding:var(--padding);display:flex;justify-content:space-between;align-items:center;gap:1rem}.site-title{font-size:1.1rem;font-weight:500}nav a{color:var(--text);text-decoration:none;transition:color .2s;padding:.5rem}nav a:hover{color:var(--accent)}.nav-links{display:flex;align-items:center;gap:.75rem;font-size:.95rem}.nav-link{color:var(--dim)}.nav-link:hover{color:var(--accent)}.nav-link.active{color:var(--text)}main{flex:1;display:flex;flex-direction:column;width:100%;max-width:var(--max-width);margin:0 auto;padding:var(--padding)}footer{width:100%;padding:var(--padding);text-align:center;font-size:.9rem;background:var(--bg);border-top:1px solid rgba(255,255,255,.1)}.dim{color:var(--dim)}.cursor{display:inline-block;width:8px;height:16px;background:var(--accent);animation:blink 1s step-end infinite;vertical-align:middle;margin-left:4px}@keyframes blink{50%{opacity:0}}::selection{background:var(--accent);color:var(--bg)}:focus-visible{outline:2px solid var(--accent);outline-offset:3px;border-radius:2px}@media (prefers-reduced-motion: reduce){*,*:before,*:after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}.cursor{animation:none;opacity:1}}a.glow-link{transition:color .2s}a.glow-link:hover{color:var(--accent)}.hover-card{transition:background-color .2s;border-radius:4px}.hover-card:hover{background-color:#ffffff08}@media (max-width: 600px){:root{--padding: 1rem}html{font-size:15px}.nav-container{padding:.75rem var(--padding)}.site-title{font-size:1rem}main{padding-top:1rem;padding-bottom:2rem}}@keyframes astroFadeInOut{0%{opacity:1}to{opacity:0}}@keyframes astroFadeIn{0%{opacity:0;mix-blend-mode:plus-lighter}to{opacity:1;mix-blend-mode:plus-lighter}}@keyframes astroFadeOut{0%{opacity:1;mix-blend-mode:plus-lighter}to{opacity:0;mix-blend-mode:plus-lighter}}@keyframes astroSlideFromRight{0%{transform:translate(100%)}}@keyframes astroSlideFromLeft{0%{transform:translate(-100%)}}@keyframes astroSlideToRight{to{transform:translate(100%)}}@keyframes astroSlideToLeft{to{transform:translate(-100%)}}@media (prefers-reduced-motion){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}[data-astro-transition-scope]{animation:none!important}}
+.post[data-astro-cid-7jjqptxk]{margin:2rem 0}@media (min-width: 768px){.post[data-astro-cid-7jjqptxk]{margin:4rem 0}}header[data-astro-cid-7jjqptxk]{margin-bottom:2rem}@media (min-width: 768px){header[data-astro-cid-7jjqptxk]{margin-bottom:3rem}}.meta[data-astro-cid-7jjqptxk]{color:var(--dim);margin-bottom:1rem;font-size:.9rem}.tags[data-astro-cid-7jjqptxk]{margin-top:.5rem;display:flex;flex-wrap:wrap;gap:.5rem}.tag[data-astro-cid-7jjqptxk]{color:var(--accent);margin-right:1rem}h1[data-astro-cid-7jjqptxk]{font-size:1.75rem;line-height:1.2;margin-bottom:1rem;font-weight:600}@media (min-width: 768px){h1[data-astro-cid-7jjqptxk]{font-size:2rem}}.description[data-astro-cid-7jjqptxk]{color:var(--dim);font-size:1rem}@media (min-width: 768px){.description[data-astro-cid-7jjqptxk]{font-size:1.1rem}}.content[data-astro-cid-7jjqptxk]{margin-top:0}.content[data-astro-cid-7jjqptxk] h2{font-size:1.3rem;margin:1.5rem 0 1rem;font-weight:600}@media (min-width: 768px){.content[data-astro-cid-7jjqptxk] h2{font-size:1.5rem;margin:2rem 0 1rem}}.content[data-astro-cid-7jjqptxk] h3{font-size:1.1rem;margin:1.25rem 0 .75rem;font-weight:600}@media (min-width: 768px){.content[data-astro-cid-7jjqptxk] h3{font-size:1.2rem;margin:1.5rem 0 1rem}}.content[data-astro-cid-7jjqptxk] h4{font-size:1rem;margin:1rem 0 .5rem;font-weight:600}.content[data-astro-cid-7jjqptxk] p{margin-bottom:1.25rem}.content[data-astro-cid-7jjqptxk] ul,.content[data-astro-cid-7jjqptxk] ol{margin:1rem 0;padding-left:2.5rem}.content[data-astro-cid-7jjqptxk] li{margin-bottom:.5rem;padding-left:.5rem}.content[data-astro-cid-7jjqptxk] code{font-family:IBM Plex Mono,monospace;background:#ffffff1a;padding:.2em .4em;border-radius:3px;font-size:.9em;overflow-wrap:break-word;word-wrap:break-word}.content[data-astro-cid-7jjqptxk] pre{padding:1rem;border-radius:4px;background:#ffffff0d;overflow-x:auto;margin:1.5rem 0}.content[data-astro-cid-7jjqptxk] pre code{background:none;padding:0}.content[data-astro-cid-7jjqptxk] .callout{display:flex;gap:.75rem;align-items:flex-start;padding:1rem 1.25rem;margin:0 0 2rem;border:1px solid rgba(255,200,0,.35);border-left:3px solid #ffb020;border-radius:6px;background:#ffb0200f;font-size:.95rem;line-height:1.55}.content[data-astro-cid-7jjqptxk] .callout .callout-icon{flex-shrink:0;font-size:1.1rem;line-height:1.4}.content[data-astro-cid-7jjqptxk] .callout p{margin:0}.content[data-astro-cid-7jjqptxk] .callout strong{color:#ffb020}.content[data-astro-cid-7jjqptxk] blockquote{border-left:2px solid var(--accent);padding-left:1rem;margin:1.5rem 0;color:var(--dim);font-style:italic}.content[data-astro-cid-7jjqptxk] a{color:var(--accent);text-decoration:none;transition:opacity .2s}.content[data-astro-cid-7jjqptxk] a:hover{opacity:.8;text-decoration:underline}.content[data-astro-cid-7jjqptxk] img{max-width:80%;height:auto;display:block;margin:1.5rem auto;border-radius:8px;border:1px solid rgba(255,255,255,.1)}.post-footer[data-astro-cid-7jjqptxk]{margin-top:1rem;padding-top:.75rem;border-top:1px solid rgba(255,255,255,.1)}.social-links[data-astro-cid-7jjqptxk]{display:flex;align-items:center;gap:.5rem}.social-links[data-astro-cid-7jjqptxk] a[data-astro-cid-7jjqptxk]{color:var(--accent);text-decoration:none;transition:opacity .2s}.social-links[data-astro-cid-7jjqptxk] a[data-astro-cid-7jjqptxk]:hover{opacity:.8}
+</style><script type="module" src="/_astro/hoisted.2daoxv0f.js"></script><style>[data-astro-transition-scope="astro-mnal4lm5-1"] { view-transition-name: astro-mnal4lm5-1; }@layer astro { ::view-transition-old(astro-mnal4lm5-1) { 
+	animation-duration: 90ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both, both;
+	animation-name: astroFadeOut, astroSlideToLeft; }::view-transition-new(astro-mnal4lm5-1) { 
+	animation-duration: 210ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-delay: 30ms;
+	animation-fill-mode: both, both;
+	animation-name: astroFadeIn, astroSlideFromRight; }[data-astro-transition=back]::view-transition-old(astro-mnal4lm5-1) { 
+	animation-name: astroFadeOut, astroSlideToRight; }[data-astro-transition=back]::view-transition-new(astro-mnal4lm5-1) { 
+	animation-name: astroFadeIn, astroSlideFromLeft; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-mnal4lm5-1"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-mnal4lm5-1"] { 
+	animation-duration: 90ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both, both;
+	animation-name: astroFadeOut, astroSlideToLeft; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-mnal4lm5-1"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-mnal4lm5-1"] { 
+	animation-duration: 210ms, 220ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1), cubic-bezier(0.76, 0, 0.24, 1);
+	animation-delay: 30ms;
+	animation-fill-mode: both, both;
+	animation-name: astroFadeIn, astroSlideFromRight; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-mnal4lm5-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-mnal4lm5-1"] { 
+	animation-name: astroFadeOut, astroSlideToRight; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-mnal4lm5-1"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-mnal4lm5-1"] { 
+	animation-name: astroFadeIn, astroSlideFromLeft; }</style><style>[data-astro-transition-scope="astro-elwpjrfh-2"] { view-transition-name: astro-elwpjrfh-2; }@layer astro { ::view-transition-old(astro-elwpjrfh-2) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }::view-transition-new(astro-elwpjrfh-2) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back]::view-transition-old(astro-elwpjrfh-2) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back]::view-transition-new(astro-elwpjrfh-2) { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; } }[data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-elwpjrfh-2"],
+			[data-astro-transition-fallback="old"][data-astro-transition-scope="astro-elwpjrfh-2"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-elwpjrfh-2"],
+			[data-astro-transition-fallback="new"][data-astro-transition-scope="astro-elwpjrfh-2"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }[data-astro-transition=back][data-astro-transition-fallback="old"] [data-astro-transition-scope="astro-elwpjrfh-2"],
+			[data-astro-transition=back][data-astro-transition-fallback="old"][data-astro-transition-scope="astro-elwpjrfh-2"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeOut; }[data-astro-transition=back][data-astro-transition-fallback="new"] [data-astro-transition-scope="astro-elwpjrfh-2"],
+			[data-astro-transition=back][data-astro-transition-fallback="new"][data-astro-transition-scope="astro-elwpjrfh-2"] { 
+	animation-duration: 180ms;
+	animation-timing-function: cubic-bezier(0.76, 0, 0.24, 1);
+	animation-fill-mode: both;
+	animation-name: astroFadeIn; }</style></head> <body> <nav> <div class="nav-container"> <a href="/" class="monospace site-title" data-astro-transition-scope="astro-mnal4lm5-1">~/thoughts</a> <div class="nav-links monospace"> <a href="/blog" class="nav-link active">blog</a> <a href="/experience" class="nav-link">experience</a> <a href="/about" class="nav-link">about</a> </div> </div> </nav> <main data-astro-transition-scope="astro-elwpjrfh-2">  <article class="post" data-astro-cid-7jjqptxk> <header data-astro-cid-7jjqptxk> <div class="meta monospace" data-astro-cid-7jjqptxk> <time datetime="2025-01-20T00:00:00.000Z" data-astro-cid-7jjqptxk> January 20, 2025 </time> <div class="tags" data-astro-cid-7jjqptxk> <span class="tag" data-astro-cid-7jjqptxk>mev</span><span class="tag" data-astro-cid-7jjqptxk>arbitrage</span> </div> </div> <h1 data-astro-cid-7jjqptxk>Arbitrage for Fun and Profit</h1> <p class="description" data-astro-cid-7jjqptxk>Walkthrough of a modern arbitrage bot</p> </header> <div class="content" data-astro-cid-7jjqptxk> <div class="callout">
+  <span class="callout-icon">⚠️</span>
+  <p><strong>This post is outdated.</strong> The MEV landscape moves fast, and much of what follows no longer reflects current infrastructure, tooling, or strategy. It's kept here as a snapshot of my early journey, not as up-to-date guidance.</p>
+</div>
+<p>My 2024 was characterized by diving deep into the rabbit hole of MEV (Maximal Extractable Value). I started knowing nothing about how it worked, but was instantly intrigued by its shadowy PVP nature. After extensive research, I decided to take a shot at writing an <a href="https://github.com/Zacholme7/BaseBuster">arbitrage bot</a> - one of the most common forms of MEV bots. A quick look at the top of any block is sure to reveal several arbitrage transactions. Throughout this post, I’ll walk through my journey from complete novice to having a bot that can successfully land transactions in today’s brutal MEV ecosystem.</p>
+<h2 id="background">Background</h2>
+<p>Arbitrage isn’t new - it has existed in traditional finance for decades, typically dominated by massive hedge funds that dig tunnels to shave milliseconds off their latency. For newcomers, arbitrage simply means capturing pricing discrepancies between different financial venues. Here’s a concrete example: imagine Uniswap is trading ETH/USD at 1/100 while SushiSwap is trading at 1/150. In this case, we can swap 1 ETH for 150 USD on SushiSwap, then immediately swap that 150 USD back for 1.5 ETH on Uniswap, pocketing a 0.5 ETH profit! Even better, this can be executed atomically with minimal capital using flash loans.</p>
+<h2 id="core-components-of-an-arbitrage-bot">Core Components of an Arbitrage Bot</h2>
+<p>While specific implementations vary, arbitrage bots share several fundamental components:</p>
+<ol>
+<li>Path Discovery: You need a set of paths that you can arbitrage over. This can be structured as a graph or precomputed paths.</li>
+<li>Opportunity Detection: A system to process these paths and identify profitable arbitrage opportunities, typically using graph traversal algorithms combined with either amount-out simulations or off-chain calculations.</li>
+<li>Execution Contract: A smart contract that can execute your arbitrage transactions when a valid path is found.</li>
+</ol>
+<h3 id="basebuster-architecture">BaseBuster Architecture</h3>
+<p>BaseBuster is my L2 arbitrage bot that consumed six months of my life and countless hours of development. While my days of arbitrage have (temporarily) concluded and I didn’t make significant profits, I learned an immense amount and joined the relatively small group of developers who have successfully landed arbitrage transactions.</p>
+<h3 id="chain-state-management">Chain State Management</h3>
+<p>The foundation of any arbitrage bot is accurate chain state management. In this context, chain state refers to the current state of pools at a specific block height - something rarely discussed but absolutely critical. You can’t find arbitrage opportunities without knowing the exact state of the pools you’re targeting.</p>
+<p>Initially, I planned to use <a href="https://github.com/darkforestry/amms-rs">amm-rs</a> like most developers. However, when it failed to compile, I did the reasonable thing and fixe… spent five months building my own solution: <a href="https://github.com/Zacholme7/PoolSync">PoolSync</a>. This battle-tested application accurately syncs state from DeFi pools and has proven extremely reliable in production.</p>
+<h3 id="pool-selection-strategy">Pool Selection Strategy</h3>
+<p>One hard-learned lesson was the crucial importance of pool selection. You need to strike a perfect balance between pools with high activity and those with sufficient liquidity. There’s no point in searching dead pools with no volume or liquidity.</p>
+<p>My filtering process involved multiple layers:</p>
+<ol>
+<li>Querying Birdeye for top tokens by volume (assuming volume correlates with volatility)</li>
+<li>Matching these against the raw pool set to find pools where both base/quote pairs were high-volume tokens</li>
+<li>Filtering by slippage metrics using REVM for simulation</li>
+</ol>
+<p>The slippage calculation was particularly tricky. Simple amount-out calculations don’t account for pool constraints - you need to perform actual swaps and measure the output. This requires finding the correct balance slots in contracts, which isn’t standardized across pools. I used an access list inspector with balance calls to deduce the proper slots.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="rust"><code><span class="line"><span style="color:#F97583">let</span><span style="color:#F97583"> mut</span><span style="color:#E1E4E8"> insp </span><span style="color:#F97583">=</span><span style="color:#B392F0"> AccessListInspector</span><span style="color:#F97583">::</span><span style="color:#B392F0">default</span><span style="color:#E1E4E8">();</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">// Populate inspector via transact</span></span>
+<span class="line"><span style="color:#F97583">let</span><span style="color:#F97583"> mut</span><span style="color:#E1E4E8"> evm </span><span style="color:#F97583">=</span><span style="color:#B392F0"> Evm</span><span style="color:#F97583">::</span><span style="color:#B392F0">builder</span><span style="color:#E1E4E8">()</span></span>
+<span class="line"><span style="color:#F97583">    .</span><span style="color:#B392F0">with_db</span><span style="color:#E1E4E8">(</span><span style="color:#F97583">&#x26;mut</span><span style="color:#E1E4E8"> nodedb)</span></span>
+<span class="line"><span style="color:#F97583">    .</span><span style="color:#B392F0">with_external_context</span><span style="color:#E1E4E8">(</span><span style="color:#F97583">&#x26;mut</span><span style="color:#E1E4E8"> insp)</span></span>
+<span class="line"><span style="color:#F97583">    .</span><span style="color:#B392F0">modify_tx_env</span><span style="color:#E1E4E8">(</span><span style="color:#F97583">|</span><span style="color:#E1E4E8">tx</span><span style="color:#F97583">|</span><span style="color:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#E1E4E8">        tx</span><span style="color:#F97583">.</span><span style="color:#E1E4E8">caller </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> account;</span></span>
+<span class="line"><span style="color:#E1E4E8">        tx</span><span style="color:#F97583">.</span><span style="color:#E1E4E8">transact_to </span><span style="color:#F97583">=</span><span style="color:#B392F0"> TransactTo</span><span style="color:#F97583">::</span><span style="color:#B392F0">Call</span><span style="color:#E1E4E8">(token);</span></span>
+<span class="line"><span style="color:#E1E4E8">        tx</span><span style="color:#F97583">.</span><span style="color:#E1E4E8">data </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> calldata</span><span style="color:#F97583">.</span><span style="color:#B392F0">clone</span><span style="color:#E1E4E8">()</span><span style="color:#F97583">.</span><span style="color:#B392F0">into</span><span style="color:#E1E4E8">();</span></span>
+<span class="line"><span style="color:#E1E4E8">    })</span></span>
+<span class="line"><span style="color:#F97583">    .</span><span style="color:#B392F0">append_handler_register</span><span style="color:#E1E4E8">(inspector_handle_register)</span></span>
+<span class="line"><span style="color:#F97583">    .</span><span style="color:#B392F0">build</span><span style="color:#E1E4E8">();</span></span>
+<span class="line"><span style="color:#F97583">let</span><span style="color:#E1E4E8"> _ </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> evm</span><span style="color:#F97583">.</span><span style="color:#B392F0">transact</span><span style="color:#E1E4E8">();</span></span>
+<span class="line"><span style="color:#B392F0">drop</span><span style="color:#E1E4E8">(evm);</span></span>
+<span class="line"><span style="color:#F97583">let</span><span style="color:#E1E4E8"> access_list </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> insp</span><span style="color:#F97583">.</span><span style="color:#B392F0">access_list</span><span style="color:#E1E4E8">()</span><span style="color:#F97583">.</span><span style="color:#79B8FF">0</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">// Process access list to find balance slot</span></span>
+<span class="line"><span style="color:#F97583">for</span><span style="color:#E1E4E8"> item </span><span style="color:#F97583">in</span><span style="color:#F97583"> &#x26;</span><span style="color:#E1E4E8">access_list {</span></span>
+<span class="line"><span style="color:#F97583">    if</span><span style="color:#E1E4E8"> item</span><span style="color:#F97583">.</span><span style="color:#E1E4E8">address </span><span style="color:#F97583">==</span><span style="color:#E1E4E8"> token {</span></span>
+<span class="line"><span style="color:#6A737D">        // Case 1: Single storage key that's not implementation slot</span></span>
+<span class="line"><span style="color:#F97583">        if</span><span style="color:#E1E4E8"> item</span><span style="color:#F97583">.</span><span style="color:#E1E4E8">storage_keys</span><span style="color:#F97583">.</span><span style="color:#B392F0">len</span><span style="color:#E1E4E8">() </span><span style="color:#F97583">==</span><span style="color:#79B8FF"> 1</span><span style="color:#F97583"> &#x26;&#x26;</span><span style="color:#F97583"> !</span><span style="color:#E1E4E8">item</span><span style="color:#F97583">.</span><span style="color:#E1E4E8">storage_keys</span><span style="color:#F97583">.</span><span style="color:#B392F0">contains</span><span style="color:#E1E4E8">(</span><span style="color:#F97583">&#x26;</span><span style="color:#E1E4E8">implementation_slot) {</span></span>
+<span class="line"><span style="color:#E1E4E8">            slot_map</span><span style="color:#F97583">.</span><span style="color:#B392F0">insert</span><span style="color:#E1E4E8">(token, item</span><span style="color:#F97583">.</span><span style="color:#E1E4E8">storage_keys[</span><span style="color:#79B8FF">0</span><span style="color:#E1E4E8">]);</span></span>
+<span class="line"><span style="color:#F97583">            break</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#E1E4E8">        }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        // Case 2: Multiple storage keys - look for known slots first</span></span>
+<span class="line"><span style="color:#F97583">        for</span><span style="color:#F97583"> &#x26;</span><span style="color:#E1E4E8">known_slot </span><span style="color:#F97583">in</span><span style="color:#F97583"> &#x26;</span><span style="color:#E1E4E8">known_slots {</span></span>
+<span class="line"><span style="color:#F97583">            if</span><span style="color:#E1E4E8"> item</span><span style="color:#F97583">.</span><span style="color:#E1E4E8">storage_keys</span><span style="color:#F97583">.</span><span style="color:#B392F0">contains</span><span style="color:#E1E4E8">(</span><span style="color:#F97583">&#x26;</span><span style="color:#E1E4E8">known_slot) {</span></span>
+<span class="line"><span style="color:#E1E4E8">                slot_map</span><span style="color:#F97583">.</span><span style="color:#B392F0">insert</span><span style="color:#E1E4E8">(token, known_slot);</span></span>
+<span class="line"><span style="color:#F97583">                break</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#E1E4E8">            }</span></span>
+<span class="line"><span style="color:#E1E4E8">        }</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#6A737D">        // Case 3: Take first non-implementation slot if no known slots found</span></span>
+<span class="line"><span style="color:#F97583">        if</span><span style="color:#F97583"> !</span><span style="color:#E1E4E8">slot_map</span><span style="color:#F97583">.</span><span style="color:#B392F0">contains_key</span><span style="color:#E1E4E8">(</span><span style="color:#F97583">&#x26;</span><span style="color:#E1E4E8">token) {</span></span>
+<span class="line"><span style="color:#F97583">            for</span><span style="color:#F97583"> &#x26;</span><span style="color:#E1E4E8">slot </span><span style="color:#F97583">in</span><span style="color:#F97583"> &#x26;</span><span style="color:#E1E4E8">item</span><span style="color:#F97583">.</span><span style="color:#E1E4E8">storage_keys {</span></span>
+<span class="line"><span style="color:#F97583">                if</span><span style="color:#E1E4E8"> slot </span><span style="color:#F97583">!=</span><span style="color:#E1E4E8"> implementation_slot {</span></span>
+<span class="line"><span style="color:#E1E4E8">                    slot_map</span><span style="color:#F97583">.</span><span style="color:#B392F0">insert</span><span style="color:#E1E4E8">(token, slot);</span></span>
+<span class="line"><span style="color:#F97583">                    break</span><span style="color:#E1E4E8">;</span></span>
+<span class="line"><span style="color:#E1E4E8">                }</span></span>
+<span class="line"><span style="color:#E1E4E8">            }</span></span>
+<span class="line"><span style="color:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span>
+<span class="line"></span></code></pre>
+<p>From there, you can perform full cycle swaps and only keep pools within a specified slippage threshold.</p>
+<h3 id="path-searching-and-selection">Path Searching and Selection</h3>
+<p>For path discovery, you can either:</p>
+<ol>
+<li>Perform a DFS on a graph every block</li>
+<li>Search over precomputed paths</li>
+</ol>
+<p>I chose the second approach. After establishing our pool set, we compute all possible arbitrage paths of a certain depth. The key optimization is only checking paths containing pools that were touched in the latest block - there’s no reason to check for arbitrage opportunities in untouched pools since their prices haven’t changed.</p>
+<p>To implement this, we take a state diff trace of each block to identify touched contracts, then match these against our indexed paths to quickly find relevant paths to check.</p>
+<pre class="astro-code github-dark" style="background-color:#24292e;color:#e1e4e8; overflow-x: auto;" tabindex="0" data-language="rust"><code><span class="line"><span style="color:#F97583">pub</span><span style="color:#F97583"> async</span><span style="color:#F97583"> fn</span><span style="color:#B392F0"> debug_trace_block</span><span style="color:#E1E4E8">&#x3C;</span><span style="color:#B392F0">T</span><span style="color:#F97583">:</span><span style="color:#B392F0"> Transport</span><span style="color:#F97583"> +</span><span style="color:#B392F0"> Clone</span><span style="color:#E1E4E8">, </span><span style="color:#B392F0">N</span><span style="color:#F97583">:</span><span style="color:#B392F0"> Network</span><span style="color:#E1E4E8">, </span><span style="color:#B392F0">P</span><span style="color:#F97583">:</span><span style="color:#B392F0"> Provider</span><span style="color:#E1E4E8">&#x3C;</span><span style="color:#B392F0">T</span><span style="color:#E1E4E8">, </span><span style="color:#B392F0">N</span><span style="color:#E1E4E8">>>(</span></span>
+<span class="line"><span style="color:#E1E4E8">    client</span><span style="color:#F97583">:</span><span style="color:#B392F0"> Arc</span><span style="color:#E1E4E8">&#x3C;</span><span style="color:#B392F0">P</span><span style="color:#E1E4E8">>,</span></span>
+<span class="line"><span style="color:#E1E4E8">    block_tag</span><span style="color:#F97583">:</span><span style="color:#B392F0"> BlockNumberOrTag</span><span style="color:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#E1E4E8">    diff_mode</span><span style="color:#F97583">:</span><span style="color:#B392F0"> bool</span><span style="color:#E1E4E8">,</span></span>
+<span class="line"><span style="color:#E1E4E8">) </span><span style="color:#F97583">-></span><span style="color:#B392F0"> Vec</span><span style="color:#E1E4E8">&#x3C;</span><span style="color:#B392F0">BTreeMap</span><span style="color:#E1E4E8">&#x3C;</span><span style="color:#B392F0">Address</span><span style="color:#E1E4E8">, </span><span style="color:#B392F0">AccountState</span><span style="color:#E1E4E8">>> {</span></span>
+<span class="line"><span style="color:#F97583">    let</span><span style="color:#E1E4E8"> tracer_opts </span><span style="color:#F97583">=</span><span style="color:#B392F0"> GethDebugTracingOptions</span><span style="color:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#E1E4E8">        config</span><span style="color:#F97583">:</span><span style="color:#B392F0"> GethDefaultTracingOptions</span><span style="color:#F97583">::</span><span style="color:#B392F0">default</span><span style="color:#E1E4E8">(),</span></span>
+<span class="line"><span style="color:#F97583">        ..</span><span style="color:#B392F0">GethDebugTracingOptions</span><span style="color:#F97583">::</span><span style="color:#B392F0">default</span><span style="color:#E1E4E8">()</span></span>
+<span class="line"><span style="color:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#F97583">    .</span><span style="color:#B392F0">with_tracer</span><span style="color:#E1E4E8">(</span><span style="color:#B392F0">BuiltInTracer</span><span style="color:#E1E4E8">(</span><span style="color:#B392F0">PreStateTracer</span><span style="color:#E1E4E8">))</span></span>
+<span class="line"><span style="color:#F97583">    .</span><span style="color:#B392F0">with_prestate_config</span><span style="color:#E1E4E8">(</span><span style="color:#B392F0">PreStateConfig</span><span style="color:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#E1E4E8">        diff_mode</span><span style="color:#F97583">:</span><span style="color:#B392F0"> Some</span><span style="color:#E1E4E8">(diff_mode),</span></span>
+<span class="line"><span style="color:#E1E4E8">        disable_code</span><span style="color:#F97583">:</span><span style="color:#B392F0"> Some</span><span style="color:#E1E4E8">(</span><span style="color:#79B8FF">false</span><span style="color:#E1E4E8">),</span></span>
+<span class="line"><span style="color:#E1E4E8">        disable_storage</span><span style="color:#F97583">:</span><span style="color:#B392F0"> Some</span><span style="color:#E1E4E8">(</span><span style="color:#79B8FF">false</span><span style="color:#E1E4E8">),</span></span>
+<span class="line"><span style="color:#E1E4E8">    });</span></span>
+<span class="line"><span style="color:#F97583">    let</span><span style="color:#E1E4E8"> results </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> client</span></span>
+<span class="line"><span style="color:#F97583">        .</span><span style="color:#B392F0">debug_trace_block_by_number</span><span style="color:#E1E4E8">(block_tag, tracer_opts)</span></span>
+<span class="line"><span style="color:#F97583">        .await</span></span>
+<span class="line"><span style="color:#F97583">        .</span><span style="color:#B392F0">unwrap</span><span style="color:#E1E4E8">();</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583">    let</span><span style="color:#F97583"> mut</span><span style="color:#E1E4E8"> post</span><span style="color:#F97583">:</span><span style="color:#B392F0"> Vec</span><span style="color:#E1E4E8">&#x3C;</span><span style="color:#B392F0">BTreeMap</span><span style="color:#E1E4E8">&#x3C;</span><span style="color:#B392F0">Address</span><span style="color:#E1E4E8">, </span><span style="color:#B392F0">AccountState</span><span style="color:#E1E4E8">>> </span><span style="color:#F97583">=</span><span style="color:#B392F0"> Vec</span><span style="color:#F97583">::</span><span style="color:#B392F0">new</span><span style="color:#E1E4E8">();</span></span>
+<span class="line"></span>
+<span class="line"><span style="color:#F97583">    for</span><span style="color:#E1E4E8"> trace_result </span><span style="color:#F97583">in</span><span style="color:#E1E4E8"> results</span><span style="color:#F97583">.</span><span style="color:#B392F0">into_iter</span><span style="color:#E1E4E8">() {</span></span>
+<span class="line"><span style="color:#F97583">        if</span><span style="color:#F97583"> let</span><span style="color:#B392F0"> TraceResult</span><span style="color:#F97583">::</span><span style="color:#B392F0">Success</span><span style="color:#E1E4E8"> { result, </span><span style="color:#F97583">..</span><span style="color:#E1E4E8"> } </span><span style="color:#F97583">=</span><span style="color:#E1E4E8"> trace_result {</span></span>
+<span class="line"><span style="color:#F97583">            match</span><span style="color:#E1E4E8"> result {</span></span>
+<span class="line"><span style="color:#B392F0">                GethTrace</span><span style="color:#F97583">::</span><span style="color:#B392F0">PreStateTracer</span><span style="color:#E1E4E8">(</span><span style="color:#B392F0">PreStateFrame</span><span style="color:#F97583">::</span><span style="color:#B392F0">Diff</span><span style="color:#E1E4E8">(diff_frame)) </span><span style="color:#F97583">=></span><span style="color:#E1E4E8"> {</span></span>
+<span class="line"><span style="color:#E1E4E8">                    post</span><span style="color:#F97583">.</span><span style="color:#B392F0">push</span><span style="color:#E1E4E8">(diff_frame</span><span style="color:#F97583">.</span><span style="color:#E1E4E8">post)</span></span>
+<span class="line"><span style="color:#E1E4E8">                }</span></span>
+<span class="line"><span style="color:#E1E4E8">                _ </span><span style="color:#F97583">=></span><span style="color:#B392F0"> warn!</span><span style="color:#E1E4E8">(</span><span style="color:#9ECBFF">"Invalid trace"</span><span style="color:#E1E4E8">),</span></span>
+<span class="line"><span style="color:#E1E4E8">            }</span></span>
+<span class="line"><span style="color:#E1E4E8">        }</span></span>
+<span class="line"><span style="color:#E1E4E8">    }</span></span>
+<span class="line"><span style="color:#E1E4E8">    post</span></span>
+<span class="line"><span style="color:#E1E4E8">}</span></span>
+<span class="line"></span></code></pre>
+<h3 id="profitability-calculations">Profitability Calculations</h3>
+<p>While you can simulate paths on-chain, off-chain calculations are generally faster and more efficient. The challenge lies in balancing speed with accuracy. We use a hybrid approach:</p>
+<ol>
+<li>Calculate rates for standard input amounts</li>
+<li>Use these rates to estimate profitability through simple multiplication</li>
+<li>Validate promising paths with more precise simulations</li>
+</ol>
+<p>For example, if we see 1 ETH = 150 USD on one path and 1 USD = 0.01 ETH on the reverse path, multiplying these rates (150 * 0.01 = 1.5) shows potential profit since the result exceeds 1.</p>
+<h3 id="advanced-simulation-techniques">Advanced Simulation Techniques</h3>
+<p>Our simulation strategy evolved through several iterations:</p>
+<ol>
+<li>Initial Approach: Using debug_traceCall (too slow due to RPC bottlenecks)</li>
+<li>REVM Integration: Local simulations, but still RPC-dependent for state access</li>
+<li>Direct Database Integration: Developed <a href="https://github.com/Zacholme7/NodeDB">NodeDB</a> to interface directly with RethDB for REVM</li>
+<li>Custom State Management: Building a focused database with only relevant storage slots</li>
+</ol>
+<p>The final approach minimizes RPC calls by maintaining only the essential state information needed for our specific arbitrage calculations.</p>
+<h3 id="contract">Contract</h3>
+<p>Our execution contract is optimized for minimal state reads. Instead of using high-level swap functions that access unnecessary state, I implemented direct, low-level swap logic. This allows precise control over which storage slots are accessed, making our simulations faster and more reliable.</p>
+<p>The contract uses Aave flash loans for capital efficiency and includes safety checks to revert if an opportunity becomes unprofitable during execution.</p>
+<h2 id="conclusion">Conclusion</h2>
+<p>While my arbitrage journey didn’t result in massive profits, it provided invaluable insights into MEV, blockchain architecture, and high-performance systems design. This article was a relatively brief, high level overview of my system. There are many undiscussed design decisions and complexities that went into each area of the bot. The code is the best reference to understand more, but feel free to contact me directly with any lingering questions! The ecosystem continues to evolve, and I hope sharing these learnings helps others entering the space.</p> </div> <footer class="post-footer monospace" data-astro-cid-7jjqptxk> <div class="social-links" data-astro-cid-7jjqptxk> <a href="https://github.com/Zacholme7" target="_blank" rel="noopener noreferrer" data-astro-cid-7jjqptxk>github</a> <span class="dim" data-astro-cid-7jjqptxk>/</span> <a href="https://x.com/zholme7" target="_blank" rel="noopener noreferrer" data-astro-cid-7jjqptxk>x</a> <span class="dim" data-astro-cid-7jjqptxk>/</span> <a href="https://t.me/zholme7" target="_blank" rel="noopener noreferrer" data-astro-cid-7jjqptxk>telegram</a> </div> </footer> </article>  </main> <footer class="monospace"> <span class="dim">$</span> echo "built with purpose" <span class="cursor"></span> </footer> </body></html> 

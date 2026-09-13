@@ -1,0 +1,1648 @@
+# Forthcoming in SIAM Journal on Financial Mathematics
+
+Decentralised Finance and Automated Market Making: Predictable Loss and Optimal Liquidity Provision
+
+Álvaro Cartea
+
+Address: Oxford-Man Institute of Quantitative Finance, Oxford, UK
+
+Address: Mathematical Institute, University of Oxford, Oxford, UK
+
+
+Fayçal Drissi
+
+Address: Oxford-Man Institute of Quantitative Finance, Oxford, UK
+
+
+Marcello Monga
+
+Address: Oxford-Man Institute of Quantitative Finance, Oxford, UK
+
+Address: Mathematical Institute, University of Oxford, Oxford, UK
+
+###### Abstract
+
+
+
+Constant product markets with concentrated liquidity (CL) are the most popular type of automated market makers. In this paper, we characterise the continuous-time wealth dynamics of strategic LPs who dynamically adjust their range of liquidity provision in CL pools. Their wealth results from fee income, the value of their holdings in the pool, and rebalancing costs. Next, we derive a self-financing and closed-form optimal liquidity provision strategy where the width of the LP’s liquidity range is determined by the profitability of the pool (provision fees minus gas fees), the predictable losses (PL) of the LP’s position, and concentration risk. Concentration risk refers to the decrease in fee revenue if the marginal exchange rate (akin to the midprice in a limit order book) in the pool exits the LP’s range of liquidity. When the drift in the marginal rate is stochastic, we show how to optimally skew the range of liquidity to increase fee revenue and profit from the expected changes in the marginal rate. Finally, we use Uniswap v3 data to show that, on average, LPs have traded at a significant loss, and to show that the out-of-sample performance of our strategy is superior to the historical performance of LPs in the pool we consider.
+
+
+
+###### Keywords:
+
+Decentralised finance, automated market making, concentrated liquidity, algorithmic trading, market making, stochastic control, predictable loss, impermanent loss, signals.
+
+\nonumnote
+
+We are grateful to Tarek Abou Zeid, Carol Alexander, Álvaro Arroyo, Sam Cohen, Patrick Chang, Mihai Cucuringu, Olivier Guéant, Anthony Ledford, Jonathan Plenk, Andre Rzym, and Leandro Sánchez-Betancourt, for insightful comments. The authors thank the Fintech Dauphine Chair, in partnership with Mazars and Crédit Agricole CIB, for their financial support. We are also grateful to seminar participants at Oxford, the OMI, the Oxford Victoria Seminar, the Oxford Mathematical Institute, EWGCFM, QuantMinds International, the WBS Gillmore Centre Academic Conference, and the Oxford DeFi Research Group. FD is grateful to the Oxford-Man Institute’s generosity and hospitality. MM acknowledges financial support from the EPSRC Centre for Doctoral Training in Mathematics of Random Systems: Analysis, Modelling and Simulation (EP/S023925/1).
+
+## 1 Introduction
+
+Traditional electronic exchanges are organised around limit order books to clear demand and supply of liquidity. In contrast, the takers and providers of liquidity in constant function markets (CFMs) interact in liquidity pools; liquidity providers (LPs) deposit their assets in the liquidity pool and liquidity takers (LTs) exchange assets directly with the pool. At present, constant product markets (CPMs) with concentrated liquidity (CL) are the most popular type of CFM, with Uniswap v3 as a prime example; see Adams et al. (2021). In CPMs with CL, LPs specify the rate intervals (i.e., tick ranges) over which they deposit their assets, and this liquidity is counterparty to trades of LTs when the marginal exchange rate of the pool is within the liquidity range of the LPs. When LPs deposit liquidity, fees paid by LTs accrue and are paid to LPs when they withdraw their assets from the pool. The amount of fees accrued to LPs is proportional to the share of liquidity they hold in each liquidity range of the pool.
+
+Existing research characterises the losses of LPs, but does not offer tools for strategic liquidity provision. In this paper, we study strategic liquidity provision in CPMs with CL. We derive the continuous-time dynamics of the wealth of strategic LPs which consists of the position they hold in the pool (position value), fee income, and costs from repositioning their liquidity position. The width of the range where the assets are deposited affects the value of the LP’s position in the pool; specifically, we show that the predictable loss (PL) incurred by LPs increases as the width of the liquidity range decreases. PL measures the unhedgeable losses of LPs stemming from the depreciation of their holdings in the pool and from the opportunity costs from locking their assets in the pool; see Cartea et al. (2023b). PL is similar to loss-versus-rebalancing (LVR) in Milionis et al. (2022) which describes the losses in traditional CFMs when LPs hedge their price exposure in an exogenous market.11
+            1
+
+
+
+          Milionis et al. (2022) introduced LVR in August 2022 as a measure that quantifies the unhedgeable losses of LPs in CFMMs when prices form in a centralised venue. Contemporaneously, Cartea et al. (2023b) introduced PL in November 2022 as a component in the wealth of strategic LPs that quantifies losses due to the convexity of the trading function and due to opportunity costs in CFMs and in CL markets.
+Also, we show that fee income is subject to a tradeoff between the width of the LP’s liquidity range and the volatility of the marginal rate in the pool. More precisely, CL increases fee revenue when the rate is in the range of the LP, but also increases concentration risk. Concentration risk refers to the risk that the LP faces when her position is concentrated in narrow ranges; the LP stops collecting fees when the rate exits the range of her position.
+
+We derive an optimal dynamic strategy to provide liquidity in a CPM with CL. In our model, the LP maximises the expected utility of her terminal wealth, which consists of the accumulated trading fees and the gains and losses from the market making strategy. The dynamic strategy controls the width and the skew of liquidity that targets the marginal exchange rate. For the particular case of log-utility, we obtain the strategy in closed-form and show how the solution balances the opposing effects between PL and fee collection. When volatility increases, PL increases, so there is an incentive for the LP to widen the range of liquidity provision to reduce the strategy’s exposure to PL. In particular, in the extreme case of very high volatility, the LP must withdraw from the pool because the exposure to PL is too high. Also, when there is an increase in the potential provision fees that the LP may collect because of higher liquidity taking activity, the strategy balances two opposing forces. One, there is an incentive to increase fee collection by concentrating the liquidity of the LP in a tight range around the exchange rate of the pool. Two, there is an incentive to limit the losses due to concentration risk by widening the range of liquidity provision. Finally, when the drift of the marginal exchange rate is stochastic (e.g., a predictive signal), the strategy skews the range of liquidity to increase fee revenue, by capturing the LT trading flow, and to increase the position value, by profiting from the expected changes in the marginal rate.
+
+Finally, we use Uniswap v3 data to motivate our model and to test the performance of the strategy we derive. The LP and LT data are from the pool ETH/USDC (Ethereum and USD coin) between the inception of the pool on  $5$  May  $2021$  and  $18$  August  $2022$ . To illustrate the performance of the strategy we use in-sample data to estimate model parameters and out-of-sample data to test the strategy. Our analysis of the historical transactions in Uniswap v3 shows that LPs have traded at a significant loss, on average, in the ETH/USDC pool. We show that the out-of-sample performance of our
+strategy is considerably superior to the average LP performance we observe in the ETH/USDC pool.
+
+Early works on AMMs are in Chiu and Koeppl (2019), Angeris et al. (2021), Lipton and Treccani (2021), Capponi and Jia (2021), Engel and Herlihy (2021a), Engel and Herlihy (2021b), Angeris et al. (2022); see also the recent review Biais et al. (2023). Capponi et al. (2023a) study price formation in AMMs. Some works in the literature study strategic liquidity provision in CFMs and CPMs with CL. Heimbach et al. (2022) discuss the tradeoff between risks and returns that LPs face in Uniswap v3, Cartea et al. (2023b) study the predictable losses of LPs in a continuous-time setup, Milionis et al. (2023) study the impact of fees on the profits of arbitrageurs in CFMs, Fukasawa et al. (2023) study the hedging of the impermanent losses of LPs, and Lı et al. (2023) study the economics of liquidity provision. Closest to our work are the models in Fan et al. (2021) and Fan et al. (2022) which focus on fee revenue and use approximation techniques to obtain dynamic strategies. Finally, there is a growing literature on AMM design for fair competition between LPs and LTs. Goyal et al. (2023) study an AMM with dynamic trading functions that incorporate beliefs of LPs, Lommers et al. (2023) study AMMs where the LP’s strategy adjusts dynamically to market information, and Cartea et al. (2023c) generalise CFMs and propose AMM designs where LPs express their beliefs and risk preferences; see also Bergault et al. (2024) and He et al. (2024).
+
+Our work is related to the algorithmic trading and optimal market making literature. Early works on liquidity provision in traditional markets are Ho and Stoll (1983), Biais (1993), and Avellaneda and Stoikov (2008) with extensions in many directions; see Cartea et al. (2014), Cartea et al. (2017), Guéant (2017), Bergault et al. (2021), Drissi (2022). We refer the reader to Cartea et al. (2015), Guéant (2016), and Donnelly (2022) for a comprehensive review of algorithmic trading models for takers and makers of liquidity in traditional markets. Also, our work is related to those in Cartea et al. (2018), Barger and Lorig (2019), Cartea and Wang (2020), Donnelly and Lorig (2020), Forde et al. (2022), Bergault et al. (2022) which implement market signals in algorithmic trading strategies.
+
+The remainder of the paper proceeds as follows. Section 2 describes CL pools. Section 3 studies the continuous-time dynamics of the wealth of LPs as a result of the position value, the fee revenue, and rebalancing costs. In particular, we use Uniswap v3 data to study the fee revenue component of the LP’s wealth and our results motivate the assumptions in our model. Section 4 introduces our liquidity provision model and uses stochastic control to derive a closed-form optimal strategy. Next, we study how the strategy controls the width and the skew of the liquidity range as a function of the pool’s profitability, PL, concentration risk, and the drift in the marginal rate. Finally, Section 5 uses Uniswap v3 data to test the performance of the strategy and showcases its superior performance.
+
+## 2 Constant function markets and concentrated liquidity
+
+### 2.1 Constant function markets
+
+Consider a reference asset  $X$  and a risky asset  $Y$  which is valued in units of  $X.$  Assume there is a pool that makes liquidity for the pair of assets  $X$  and  $Y$ , and denote by  $Z$  the marginal exchange rate of asset  $Y$  in units of asset  $X$  in the pool. In a CFM that charges a fee  $\tau$  proportional to trade size, the trading function  $f\left(q^{X},q^{Y}\right)=\kappa^{2}$  links the state of the pool before and after a trade is executed, where  $q^{X}$  and  $q^{Y}$  are the quantities of asset  $X$  and  $Y$  that constitute the reserves in the pool,  $\kappa$  is the depth of the pool, and  $f$  is increasing in both arguments. We write  $f\left(q^{X},q^{Y}\right)=\kappa^{2}$  as  $q^{X}=\varphi_{\kappa}\left(q^{Y}\right)$  for an appropriate decreasing level function  $\varphi_{\kappa}$ .
+
+We denote the execution rate for a traded quantity  $\pm y$  by  $\tilde{Z}\left(\pm y\right)$ , where  $y\geq 0$ . When an LT buys  $y$  of asset  $Y$ , she pays  $x=y\times\tilde{Z}\left(y\right)$  of asset  $X$ , where
+
+ |
+ |  $f\left(q^{X}+(1-\tau)\,x,q^{Y}-y\right)=\kappa^{2}\quad\implies\quad\tilde{Z}(y)=\frac{\varphi_{\kappa}\left(q^{Y}-y\right)-\varphi_{\kappa}(q^{Y})}{\left(1-\tau\right)\,y}\,.$
+ |
+ | (1)
+
+Similarly, when an LT sells  $y$  of asset  $Y$ , she receives  $x=y\times\tilde{Z}\left(-y\right)$  of asset  $X$ , where
+
+ |
+ |  $f\left(q^{X}+x,q^{Y}+(1-\tau)\,y\right)=\kappa^{2}\quad\implies\quad\tilde{Z}(-y)=\frac{\varphi_{\kappa}\left(q^{Y}\right)-\varphi_{\kappa}\left(q^{Y}+\left(1-\tau\right)\,y\right)}{y}\,.$
+ |
+ | (2)
+
+In CL markets, the marginal exchange rate is  $Z=-\varphi_{\kappa}^{\prime}(q^{Y})$ , which is the price of an infinitesimal trade when fees are zero, i.e., when  $y\rightarrow 0$  and  $\tau=0$ .22
+              2
+
+
+
+            When fees are not zero, the exchange rates for infinitesimal trades are  $\lim_{y\rightarrow 0}\tilde{Z}(y)=-\frac{1}{1-\tau}\,\varphi^{\prime}_{\kappa}(y)=\frac{1}{1-\tau}\,Z$  and  $\lim_{y\rightarrow 0}\tilde{Z}(-y)=-\left(1-\tau\right)\varphi^{\prime}_{\kappa}(y)=\left(1-\tau\right)\,Z$ ; see (1) and (2). In traditional CPMs such as Uniswap v2, the trading function is  $f\left(q^{X},q^{Y}\right)=q^{X}\times q^{Y}$ , so the level function is  $\varphi_{\kappa}(q^{Y})=\kappa^{2}/q^{Y}$  and the marginal exchange rate is  $Z=q^{X}/q^{Y}.$
+
+Liquidity provision operations in CPMs do not impact the marginal rate, so when an LP deposits the quantities  $x$  and  $y$  of assets  $X$  and  $Y$ , the condition  $Z=q^{X}/q^{Y}=(q^{X}+x)/(q^{Y}+y)$  must be satisfied; see Cartea et al. (2022), Cartea et al. (2023b).
+
+### 2.2 Concentrated liquidity markets
+
+This paper focuses on liquidity provision in CPMs with CL. In CPMs with CL, LPs specify a range of rates  $(Z^{\ell},Z^{u}]$  in which their assets can be counterparty to liquidity taking trades. Here,  $Z^{\ell}$  and  $Z^{u}$  take values in a finite set  $\{Z^{1},\dots,Z^{N}\}$ , the elements of the set are called ticks, and the range  $(Z^{i},Z^{i+1}]$  between two consecutive ticks is a tick range which represents the smallest possible liquidity range; see Drissi (2023) for a description of the mechanics of CL.33
+              3
+
+
+
+            In traditional limit order books, a tick is the smallest price increment.
+
+The assets that the LP deposits in a range  $(Z^{\ell},Z^{u}]$  provide the liquidity that supports marginal rate movements between  $Z^{\ell}$  and  $Z^{u}$ . The quantities  $x$  and  $y$  that the LP provides verify the key formulae
+
+ |
+ |  $\displaystyle\begin{cases}x=0\quad\quad\quad\quad\quad\ \ \ \,\quad\quad\quad\quad\textrm{and}\quad y=\tilde{\kappa}\left(\left(Z^{\ell}\right)^{-1/2}-\left(Z^{u}\right)^{-1/2}\right)&\textrm{if}\ \ Z\leq Z^{\ell},\\
+x=\tilde{\kappa}\left(Z^{1/2}-\left(Z^{\ell}\right)^{1/2}\right)\quad\ \ \ \ \,\textrm{and}\quad y=\tilde{\kappa}\left(Z^{-1/2}-\left(Z^{u}\right)^{-1/2}\right)&\textrm{if}\ \ Z^{\ell}<Z\leq Z^{u},\\
+x=\tilde{\kappa}\left(\left(Z^{u}\right)^{1/2}-\left(Z^{\ell}\right)^{1/2}\right)\ \ \ \,\textrm{and}\quad y=0&\textrm{if}\ \ Z>Z^{u}\,,\end{cases}$
+ |
+ | (3)
+
+where  $\tilde{\kappa}$  is the depth of the LP’s liquidity in the pool. The depth  $\tilde{\kappa}$  is specified by the LP and it remains constant unless the LP provides additional liquidity or withdraws her liquidity. When the rate  $Z$  changes, the equations in (3) and the prevailing marginal rate  $Z$  determine the holdings of the LP in the pool, in particular, they determine the quantities of each asset received by the LP when she withdraws her liquidity.
+
+Within each tick range, the constant product formulae (1)–(2) determine the dynamics of the marginal rate, where the depth  $\kappa$  is the total depth of liquidity in that tick range. To obtain the total depth in a tick range, one sums the depths of the individual liquidity positions in the same tick range; see Drissi (2023). When a liquidity taking trade is large, so the marginal rate crosses the boundary of a tick range, the pool executes two separate trades with potentially different depths for the constant product formula.
+
+In CPMs with CL, the proportional fee  $\tau$  charged by the pool to LTs is distributed among LPs. More precisely, if an LP’s liquidity position with depth  $\tilde{\kappa}$  is in a tick range where the total depth of liquidity is  $\kappa$ , then for every liquidity taking trade that pays an amount  $p$  of fees,44
+              4
+
+
+
+            The proportional fee  $\tau$  represents a fixed percentage applied to the trade size to calculate the fee  $p$  paid by an LT. Thus, the amount  $p$  is expressed in terms of the reference asset  $X$ . the LP with liquidity  $\tilde{\kappa}$  earns the amount
+
+ |
+ |  $\displaystyle\tilde{p}=\frac{\tilde{\kappa}}{\kappa}\,p\,\mathbbm{1}_{Z^{\ell}<Z\leq Z^{u}}\,.$
+ |
+ | (4)
+
+Thus, the larger is the position depth  $\tilde{\kappa}$ , the higher is the proportion of fees that the LP earns.55
+              5
+
+
+
+            For instance, if the LP is the only provider of liquidity in the range  $(Z^{\ell},Z^{u}]$  then  $\kappa=\tilde{\kappa}$ , so the LP collects all the fees in that range. The equations in (3) imply that for equal wealth, narrow liquidity ranges increase the value of  $\tilde{\kappa}.$  However, as the liquidity range of the LP decreases, the concentration risk increases.
+
+## 3 The wealth of liquidity providers in CL pools
+
+In this section, we consider a strategic LP who dynamically tracks the marginal rate  $Z$ . In our model, the LP’s position is self-financed throughout an investment window  $[0,T]$ , so the LP repeatedly withdraws her liquidity and collects the accumulated fees, then uses her wealth, i.e., the collected fees and the assets she withdraws, to deposit liquidity in a new range. In the remainder of this work, we work in a filtered probability space  $\left(\Omega,\mathcal{F},\mathbbm{P};\mathbbm{F}=(\mathcal{F}_{t})_{t\in[0,T]}\right)$  that satisfies the usual conditions, where  $\mathbbm{F}$  is the natural filtration generated by the collection of observable stochastic processes that we define below.
+
+We assume that the marginal exchange rate in the pool  $\left(Z_{t}\right)_{t\in[0,T]}$  is driven by a stochastic drift  $\left(\mu_{t}\right)_{t\in[0,T]}$  and we write
+
+ |
+ |  $\displaystyle\mathrm{d}Z_{t}=\mu_{t}\,Z_{t}\,\mathrm{d}t+\sigma\,Z_{t}\,\mathrm{d}W_{t}\,,$
+ |
+ | (5)
+
+where the volatility parameter  $\sigma$  is a nonnegative constant and  $(W_{t})_{t\in[0,T]}$  is a standard Brownian motion independent of  $\mu$ . We assume that  $\mu$  is càdlàg with finite fourth moment, i.e.,  $\mathbbm{E}\left[\mu_{t}^{4}\right]<+\infty$  for  $0\leq t\leq T$ . The LP observes and uses  $\mu$  to optimise her liquidity positions and improve trading performance.
+
+Consider an LP with initial wealth  $\tilde{x}_{0},$  in units of  $X,$  and an investment horizon  $[0,T],$  with  $T>0.$  At time  $t=0\,,$  she deposits quantities  $\left(x_{0},y_{0}\right)$  in the range  $\left(Z^{\ell}_{0},Z^{u}_{0}\right]$ , so the initial depth of her position is  $\tilde{\kappa}_{0},$  and the value of her initial position, marked-to-market in units of  $X$ , is  $\tilde{x}_{0}=x_{0}+y_{0}\,Z_{0}.$  The dynamics of the LP’s wealth consist of the value of the liquidity position in the pool  $\left(\alpha_{t}\right)_{t\in[0,T]}$ , the fee revenue  $\left(p_{t}\right)_{t\in[0,T]}$ , and the rebalancing costs  $\left(c_{t}\right)_{t\in[0,T]}$ . We introduce the wealth process  $(\tilde{x}_{t}=\alpha_{t}+p_{t}+c_{t})_{t\in[0,T]}$ , which we mark-to-market in units of the reference asset  $X$ , with  $\tilde{x}_{0}>0$  known. At any time  $t,$  the LP uses her wealth  $\tilde{x}_{t}$  to provide liquidity. Next, Subsection 3.1 studies the dynamics of the LP’s position  $\alpha$  in the pool, Subsection 3.2 studies the dynamics of the LP’s fee revenue  $p$ , and Subsection 3.3 studies the dynamics of the rebalancing costs  $c$ .
+
+### 3.1 Position value
+
+In this section, we focus our analysis on the position value  $\alpha$ . Throughout the investment window  $[0,T]$ , the holdings  $\left(x_{t},y_{t}\right)_{t\in[0,T]}$  of the LP change because the marginal rate  $Z$  changes and because she continuously adjusts her liquidity range around  $Z$ . More precisely, to make markets optimally, the LP controls the values of  $\left(\delta_{t}^{\ell}\right)_{t\in[0,T]}$  and  $\left(\delta_{t}^{u}\right)_{t\in[0,T]}$  which determine the dynamic liquidity provision boundaries  $\left(Z_{t}^{\ell}\right)_{t\in[0,T]}$  and  $\left(Z_{t}^{u}\right)_{t\in[0,T]}$  as follows:
+
+ |
+ |  $\displaystyle\begin{cases}\left(Z_{t}^{u}\right)^{1/2}=&Z_{t}^{1/2}/\left(1-\delta_{t}^{u}/2\right),\\
+\left(Z_{t}^{\ell}\right)^{1/2}=&Z_{t}^{1/2}\left(1-\delta_{t}^{\ell}/2\right),\end{cases}$
+ |
+ | (6)
+
+where  $\delta^{\ell}\in\left(-\infty,2\right]$ ,  $\delta^{u}\in\left[-\infty,2\right)$ , and  $\delta^{\ell}\,\delta^{u}/2<\delta^{\ell}+\delta^{u}$  because  $0\leq Z^{\ell}<Z^{u}<\infty.$  We define  $\delta^{\ell}$  and  $\delta^{u}$  in (6) in terms of  $\sqrt{Z}$  to simplify and linearise the CL constant product formulae; see Cartea et al. (2023b) for more details.
+
+In practice, the LP earns fees when the rate  $Z_{t}$  is in the LP’s liquidity range  $(Z^{\ell}_{t},Z^{u}_{t}]$ , so  $\delta^{\ell}\in\left(0,2\right]$ ,  $\delta^{u}\in\left[0,2\right)$ , and  $\delta^{\ell}\,\delta^{u}/2<\delta^{\ell}+\delta^{u}$ .66
+              6
+
+
+
+            Recall that in practice  $Z^{\ell}$  and  $Z^{u}$  take values in a finite set of ticks, so  $\delta^{\ell}$  and  $\delta^{u}$  also take values in a finite set. In the liquidity provision problem of Section 4, we use stochastic control techniques to derive an optimal strategy where the controls  $\delta^{\ell}$  and  $\delta^{u}$  are continuous, so we round the values of  $Z^{\ell}$  and  $Z^{u}$  to the nearest ticks in the performance analysis of Section 5. Below, Section 4 considers a problem where the controls are not constrained, and values  $\delta^{\ell}\notin\left(0,2\right]$ ,  $\delta^{u}\notin\left[0,2\right)$  are those where liquidity provision is unprofitable.
+
+In the remainder of this paper we define the spread  $\delta_{t}$  of the LP’s position as
+
+ |
+ |  $\displaystyle\delta_{t}=\delta_{t}^{u}+\delta_{t}^{\ell}\,,$
+ |
+ | (7)
+
+and we consider admissible strategies  $\delta$  that are  $\mathbbm{R}\textrm{-valued}$  and such that  $\int_{0}^{T}\delta_{t}^{-4}\,\mathrm{d}t<\infty,$  almost surely; see Section 4 for more details. For small position spreads, we use the first-order Taylor expansion to write the approximation
+
+ |
+ |  $\left(Z_{t}^{u}-Z^{\ell}_{t}\right)\Big/Z_{t}=\left(1-\delta_{t}^{u}/2\right)^{-2}-(1-\delta_{t}^{\ell}/2)^{2}\approx\delta_{t}.$
+ |
+
+We assume that the marginal rate process  $\left(Z_{t}\right)_{t\in[0,T]}$  follows the dynamics (5). Cartea et al. (2023b) show that the holdings in assets  $X$  and  $Y$  in the pool for an LP who follows an arbitrary strategy  $\left(Z_{t}^{\ell},Z_{t}^{u}\right)$  are given by
+
+ |
+ |  $x_{t}=\frac{\delta_{t}^{\ell}}{\delta_{t}^{\ell}+\delta_{t}^{u}}\,\alpha_{t}\quad\text{and}\quad y_{t}=\frac{\delta_{t}^{u}}{Z_{t}\left(\delta_{t}^{\ell}+\delta_{t}^{u}\right)}\,\alpha_{t}\,,$
+ |
+ | (8)
+
+so the value  $\left(\alpha_{t}\right)_{t\in[0,T]}$  of her position follows the dynamics
+
+ |
+ |  $\displaystyle\mathrm{d}\alpha_{t}=$
+ |  $\displaystyle\,\,\tilde{x}_{t}\,\left(\frac{1}{\delta_{t}^{\ell}+\delta_{t}^{u\,}}\right)\left(-\frac{\sigma^{2}}{2}\,\mathrm{d}t+\mu_{t}\,\delta_{t}^{u}\,\mathrm{d}t+\sigma\,\delta_{t}^{u}\,\mathrm{d}W_{t}\right)$
+ |
+
+ |
+ |  $\displaystyle=$
+ |  $\displaystyle\,\,\mathrm{d}\text{PL}_{t}+\tilde{x}_{t}\,\left(\frac{1}{\delta_{t}^{\ell}+\delta_{t}^{u\,}}\right)\left(\mu_{t}\,\delta_{t}^{u}\,\mathrm{d}t+\sigma\,\delta_{t}^{u}\,\mathrm{d}W_{t}\right)\,,$
+ |
+ | (9)
+
+where the predictable and negative component  $\text{PL}_{t}=-\frac{\sigma^{2}}{2}\,\int_{0}^{t}\frac{\tilde{x}_{s}}{\delta_{s}}\,\mathrm{d}s$  is the PL of the LP’s position which scales with the volatility of the marginal rate. PL is related to LVR (see Milionis et al. (2022)) which decomposes the loss of LPs in traditional CFMs into a hedgeable market risk and an unhedgeable component due to profits made by arbitrageurs. The dynamics in (9) show that a larger position spread  $\delta$  reduces PL and the overall risk of the LP’s position in the pool; see Cartea et al. (2023b) for more details.
+
+For a fixed value of the spread  $\delta_{t}=\delta^{\ell}_{t}+\delta^{u}_{t}$ , the dynamics in (9) show that if  $\mu_{t}\geq 0$ , then the LP increases her expected wealth by increasing the value  $\delta^{u}$ , i.e., by skewing her range of liquidity to the right. However, note that the quadratic variation of the LP’s position value is  $\mathrm{d}\langle\alpha,\alpha\rangle_{t}=\tilde{x}_{t}^{2}\,\sigma^{2}\left(\delta_{t}^{u}/\delta_{t}\right)^{2}\,\mathrm{d}t\,,$  so skewing the range to the right also increases the variance of the LP’s position. On the other hand, if  $\mu\leq 0$ , then the LP reduces her losses by decreasing the value of  $\delta^{u}$  or equivalently increasing the value of  $\delta^{\ell}$ , i.e., by skewing her range of liquidity to the left. Thus, the LP uses the expected changes in the marginal rate to skew the range of liquidity and to increase her expected terminal wealth.
+
+### 3.2 Fee income
+
+#### 3.2.1 Fee income: pool fee rate
+
+The dynamics of the fee income in our model of Section 4 uses a fixed depth  $\kappa$  and assumes that the pool generates fee income for all LPs at an instantaneous pool fee rate  $\pi$ ; clearly, these fees are paid by LTs who interact with the pool, see (1)–(2). The value of  $\pi$  represents the instantaneous profitability of the pool, akin to the size of market orders and their arrival rate in LOBs.
+
+In contrast to the proportional fee  $\tau$ , which represents the fixed percentage applied to the trade sizes of LTs to compute the fees paid to the pool, the pool fee rate  $\pi$  denotes the instantaneous profitability of the pool computed as the percentage of total fees paid by LTs relative to the size of the pool. Thus, the pool fee rate  $\pi$  depends on the intensity of the liquidity taking flow, the size of the pool, and the proportional fee  $\tau$ . Below, we also consider the fee revenue  $p$  of one LP who maximises her wealth by choosing an optimal spread for her liquidity position.
+
+To analyse the dynamics of the pool fee rate  $\pi,$  we use historical LT transactions in Uniswap v3 as a measure of activity and to estimate the total fee income generated by the pool; A describes the data and Table 4 provides descriptive statistics. Figure 1 shows the estimated fee rate  $\pi$  in the ETH/USDC pool. For any time  $t,$  we use77
+                7
+
+
+
+              Pools have different fee rates in Uniswap v3:  $0.01\%$ ,  $0.05\%,$  and  $0.1\%.$
+
+ |
+ |  $\pi_{t}=0.05\%\,\frac{V_{t}}{2\,\kappa\,Z_{t}^{1/2}}\,,$
+ |
+
+where  $V_{t}$  is the volume of LT transactions the day before  $t,$   $2\,\kappa\,Z_{t}^{1/2}$  is the pool value in terms of asset  $X$  at time  $t,$  and  $0.05\%$  is the fixed fee of the pool.88
+                8
+
+
+
+              The value of a CPM pool is given by the active pool depth. In particular, the size of a pool with quantity  $x$  of asset  $X$  and quantity  $y$  of asset  $Y$  is  $x+Z\,y=2\,x=2\,\kappa\,Z^{1/2}$  units of  $X$  because  $x\,y=\kappa^{2}\ \text{and}\ Z=x/y\ \text{ so }x^{2}=\kappa^{2}\,Z.$  Figure 1 suggests that the pool fee rate  $\pi$  generated by liquidity taking activity in the pool is stochastic and mean reverting. Here, we assume that  $\pi$  is independent of the rate  $Z$  over the time scales we consider; Table 1 shows that the pool fee rate is weakly correlated to the rate  $Z$  at different sampling frequencies, especially for the higher frequencies we consider in our numerical tests. In Section 4, the pool fee rate  $\pi$  follows Cox-Ingersoll-Ross-type dynamics.
+
+![原文图表](assets/DOLP_feerate.svg)
+
+![原文图表](assets/DOLP_feerate_dist.svg)
+
+Figure 1:
+Estimated pool fee rate from February to August 2022 in the ETH/USDC pool. For any time  $t,$  the pool fee rate is the total fee income, as a percentage of the total pool size, paid by LTs on the period  $[t-1\text{ day},t].$  The pool size at time  $t$  is  $2\,\kappa\,Z_{t}^{1/2}$  in terms of asset  $X$ , where  $Z_{t}$  is the active rate in the pool at time  $t.$  Left panel: historical values of the pool fee rate. Right panel: distribution of the pool fee rate.
+
+ $\Delta t=1$  minute
+ $\Delta t=5$  minutes
+ $\Delta t=1$  hour
+ $\Delta t=1$  day
+
+Correlation
+ |  $-2.1\%\ \ $
+ |  $-2.4\%$
+ |  $-2.6\%$
+ |  $-10.9\%$
+
+Two-tailed p-value
+ |  $2.0\%\ \ $
+ |  $8.9\%$
+ |  $8.2\%$
+ |  $16.7\%$
+
+ $R^{2}$  regression
+ |  $0.01\%$
+ |  $1.1\%$
+ |  $2.9\%$
+ |  $5.0\%$
+
+Table 1: First row: correlation of the returns of the rate  $Z$  and the fee rate  $\pi$ , i.e.,  $\left(Z_{t+\Delta t}-Z_{t}\right)/Z_{t}$  and   $\left(\pi_{t+\Delta t}-\pi_{t}\right)/\pi_{t}$  for  $\Delta t=1$  minute, five minutes, one hour, and one day, using data of the ETH/USDC pool between 5 May 2021 and 18 August 2022. Second row: two-tailed p-value of the t-test. Final row:  $R$ -squared of regression of the pool fee rate’s returns against the marginal exchange rate’s returns.
+
+#### 3.2.2 Fee income: spread and concentration risk
+
+In the three cases of (3), increasing the spread reduces the depth  $\tilde{\kappa}$  of the LP’s position. Recall that the LP fee income is proportional to  $\tilde{\kappa}/\kappa,$  where  $\kappa$  is the pool depth. Thus, decreasing the value of  $\tilde{\kappa}$  potentially reduces LP fee income. Figure 2 shows the value of  $\tilde{\kappa}$  as a function of the spread  $\delta$ .
+
+![原文图表](assets/SIMPLE1.svg)
+
+Figure 2: Value of the depth  $\tilde{\kappa}$  of the LP’s position in the pool as a function of the spread  $\delta.$  The spread is in percentage of the marginal exchange rate; recall that  $\left(Z_{t}^{u}-Z^{\ell}_{t}\right)/Z_{t}\approx\delta_{t}.$
+
+However, although narrow ranges increase the potential fee income, they also increase concentration risk; a wide spread (i.e., a lower value of the depth  $\tilde{\kappa}$ ) decreases fee income per LT transaction but reaps earnings from a larger number of LT transactions because the position is active for longer periods of time (i.e., it takes longer, on average, for  $Z$  to exit the LP’s range). Thus, the LP must strike a balance between maximising the depth  $\tilde{\kappa}$  around the rate and minimising the concentration risk, which depends on the volatility of the rate  $Z.$
+
+In our model, the LP continuously adjusts her position around the current rate  $Z,$  so we write the continuous-time dynamics of (4), conditional on the rate not exiting the LP’s range, as
+
+ |
+ |  $\displaystyle\mathrm{d}p_{t}=\underbrace{\left(\tilde{\kappa}_{t}\,/\,\kappa\right)}_{\text{Position depth}}\ \underbrace{\pi_{t}}_{\text{Fee rate}}\ \underbrace{\,2\,\kappa\,Z_{t}^{1/2}}_{\text{Pool size}}\,\mathrm{d}t\,,$
+ |
+ | (10)
+
+where  $(\tilde{\kappa}_{t})_{t\in[0,T]}$  models the depth of the LP’s position and  $p$  is the LP’s fee income for providing liquidity with depth  $\tilde{\kappa}$  in the pool. The fee income is proportional to the pool size, i.e., proportional to  $2\,\kappa\,Z_{t}^{1/2}.$  Next, use the second equation in (3) and equations (6)–(8) to write the dynamics of the LP’s position depth  $\tilde{\kappa}_{t}$  as
+
+ |
+ |  $\displaystyle\tilde{\kappa}_{t}=2\,\tilde{x}_{t}\,\left(\frac{1}{\delta_{t}^{\ell}+\delta_{t}^{u}}\right)\,Z_{t}^{-1/2}\,,$
+ |
+ | (11)
+
+so the dynamics in (10) become
+
+ |
+ |  $\displaystyle\mathrm{d}p_{t}=\left(\frac{4}{\delta_{t}^{\ell}+\delta_{t}^{u}}\right)\,\pi_{t}\,\tilde{x}_{t}\,\mathrm{d}t\,.$
+ |
+ | (12)
+
+In practice, there is latency in the market and the LP cannot reposition her liquidity position and rebalance her assets continuously. Thus,
+the LP faces concentration risk in between the times she repositions her liquidity; narrow spreads generate less fee income because the rate  $Z$  may exit the range of the LP’s liquidity, especially in volatile markets.
+
+To model the losses due to concentration risk in the continuous-time dynamics (12) of the LP’s fee revenue, we introduce an instantaneous concentration cost that reduces the fees collected by the LP as a function of the spread; the concentration cost increases (decreases) when the spread narrows (widens). We modify the dynamics of the fees collected by the LP in (12) as follows
+
+ |
+ |  $\displaystyle\mathrm{d}p_{t}=\left(\frac{4}{\delta_{t}^{\ell}+\delta_{t}^{u}}\right)\,\pi_{t}\,\tilde{x}_{t}\,\mathrm{d}t\,-\gamma\,\left(\frac{1}{\delta_{t}^{\ell}+\delta_{t}^{u}}\right)^{2}\,\tilde{x}_{t}\,\mathrm{d}t\,,$
+ |
+ | (13)
+
+where  $\gamma>0$  is the concentration cost parameter and  $\tilde{x}_{t}$  is the wealth invested by the LP in the pool at time  $t.$
+
+To justify the form of the concentration cost, we study the realised fee revenue in the ETH/USDC pool as a function of the spread  $\delta$  in (7) for rebalancing frequencies  $m=1$  minute and  $m=5$  minutes. We denote by  $\widehat{p}_{\delta,m}$  the average realised fee revenue earned by an LP in the ETH/USDC pool who provides liquidity with wealth  $\tilde{x}=1$ , in a range with spread  $\delta$ , around the marginal rate  $Z$  throughout a time window of length  $m$ . The left panel of Figure 3 shows that the value of  $\delta$  which maximises the fee revenue  $\widehat{p}_{\delta,m}$  is strictly positive for both values of  $m$  that we consider. In particular, narrow ranges reduce fee revenue due to concentration risk.
+
+The form of the fee revenue dynamics (13) is a second order Taylor approximation that captures the specific shape of the fee revenue in CL markets; see left panel of Figure 3. The LP uses the regression model
+
+ |
+ |  $\delta^{2}\,\widehat{p}_{\delta,m}=4\,\pi\,m\,\delta-\gamma\,m\,,$
+ |
+ | (14)
+
+which is based on the dynamics (13), to estimate the concentration cost parameter  $\gamma$ .
+The right panel of Figure 3 shows that  $\delta^{2}\,\widehat{p}_{\delta,m}$  is affine in  $\delta$  and that the estimated concentration cost parameter  $\gamma$  depends on the rebalancing frequency of the LP. In particular, the figure shows that the dynamics (13) and the second order approximation are suitable to describe the realised fee revenue in CL markets. The performance study of Section 5 uses this methodology to set the value of the concentration cost parameter  $\gamma$ .
+
+![原文图表](assets/gamma_1_5min.svg)
+
+Figure 3: Left panel: mean and standard deviation of the fee revenue of hypothetical liquidity positions as a function of the position spread  $\delta$  for the rebalancing frequencies  $m=1$  minute and  $m=5$  minutes. The fee revenue of each position considers a wealth  $\tilde{x}=1$  and uses historical LT transactions of the ETH/USDC pool of Uniswap v3; see data description in A. Right panel:  $\delta^{2}\,\widehat{p}_{\delta,m}$  as a function of the position spread  $\delta$  for the rebalancing frequencies  $m=1$  minute and  $m=5$  minutes. The concentration cost parameter is estimated as  $-\iota/m$  where  $\iota$  is the intercept of the regression of  $\delta^{2}\,\widehat{p}_{\delta,m}$  on  $\delta.$
+
+#### 3.2.3 Fee income: drift and asymmetry
+
+The stochastic drift  $\mu$  indicates the future expected changes of the marginal exchange rate in the pool. In practice, the LP may use a predictive signal so that  $\mu$  represents the belief that the LP holds over the future marginal rate. For an LP who maximises fee revenue, it is natural to consider asymmetric liquidity positions that capture the liquidity taking flow. We define the asymmetry of a position as
+
+ |
+ |  $\displaystyle\rho_{t}=\delta^{u}_{t}/\left(\delta^{u}_{t}+\delta^{\ell}_{t}\right)=\delta^{u}_{t}/\delta_{t}\,,$
+ |
+ | (15)
+
+where  $\delta^{u}_{t}$  and  $\delta^{\ell}_{t}$  are defined in (6). In one extreme, when the asymmetry  $\rho\to 0,$  then  $Z^{u}\to Z$  and the position consists of only asset  $X,$  and in the other extreme, when  $\rho\to 1,$  then  $Z^{\ell}\to Z$  and the position consists of only asset  $Y.$
+
+In the remainder of this work, the asymmetry of the LP’s position is a function of the observed drift:
+
+ |
+ |  $\displaystyle\rho_{t}=\rho\left(\delta_{t},\mu_{t}\right)=\frac{1}{2}+\frac{\mu_{t}}{\delta_{t}}=\frac{1}{2}+\frac{\mu_{t}}{\delta_{t}^{u}+\delta_{t}^{\ell}}\,,\quad\forall t\in[0,T]\,.$
+ |
+ | (16)
+
+The asymmetry (16) adapts the skew of the position to the expected drift of the marginal rate. When  $\mu=0$ , the position is symmetric around the marginal rate and  $\rho_{t}=1/2$ , so  $\delta_{t}^{\ell}=\delta_{t}^{u}.$  When  $\mu>0,$  the position is skewed to the right (i.e.,  $\delta_{t}^{u}>\delta^{\ell}_{t}$ ) to capture more LT trades and fee revenue, and similarly when  $\mu<0,$  the position is skewed to the left (i.e.,  $\delta_{t}^{u}<\delta^{\ell}_{t}$ ). Also, when  $\mu>0$  and the position is skewed to the right according to (16), the proportion of asset  $Y$  increases and the position profits from rate appreciation, and when the position is skewed to the left, the proportion of asset  $Y$  decreases and the position is protected from rate depreciation.
+
+Optimal liquidity provision is the dynamic choice of  $\delta^{u}$  and  $\delta^{\ell}$  over a trading window, or equivalently, the dynamic choice of  $\delta$  and  $\rho$ . Our model assumes that the LP fixes the asymmetry  $\rho$  of her position at time  $t$  according to (16), so we reduce the trading problem to a one-dimensional dynamic optimisation problem, which significantly simplifies calculations.
+
+To further justify the form of the asymmetry (16), we use Uniswap v3 data to study how the asymmetry and the width of the LP’s range of liquidity relate to fee revenue. First, we estimate the realised drift  $\mu$  in the pool ETH/USDC over a rolling window of  $T=5$  minutes.99
+                9
+
+
+
+              The values of the drift in this section are normalised to reflect daily estimates. In particular, we use  $\mu=\tilde{\mu}\,/\,\Delta t$  where  $\tilde{\mu}$  is the average of the observed log returns and  $\Delta t$  is the observed average LT trading frequency. Next, for any time  $t$ , the fee income for different positions of the LP’s liquidity range is computed for various values of the spread  $\delta$  and for various values of the asymmetry  $\rho.$  For each value of the realised drift  $\mu$  during the investment horizon, and for each fixed value of the spread  $\delta,$  we record the asymmetry that maximises fee income. Figure 4 shows the optimal (on average) asymmetry  $\rho$  as a function of the spread  $\delta$  of the position for multiple values of the realised drift  $\mu.$
+
+![原文图表](assets/DOLP5.svg)
+
+Figure 4: Optimal position asymmetry  $\rho^{\star}$  in (15) as a function of the spread  $\delta$  of the position, for multiple values of the drift  $\mu.$  For each historical value of the drift in our data, we compute the performance of hypothetical liquidity positions with asymmetry values in the range  $[0,1]$  and position spreads in the range  $[0.05\%,5\%].$  The asymmetry  $\rho^{\star}$  in the figure is the value of  $\rho$  that maximises the average fee income for each value of the pair  $\left(\delta,\mu\right)$ . The drift is computed as the mean of  $5$ -minute returns during one hour of trading, and the performance of the liquidity positions is computed as the total fee revenue if the position is held for an hour.
+
+Figure 4 suggests that there exists a preferred asymmetry of the position for a given value of the spread  $\delta$  and a given value of the drift  $\mu.$  First, for all values of the spread  $\delta$ , the LP skews her position to the right when the drift is positive ( $\rho^{\star}>0.5$ ) and she skews her position to the left when the drift is negative ( $\rho^{\star}<0.5$ ). Second, for narrow spreads, the liquidity position requires more asymmetry than for large spreads when the drift is not zero.
+
+In our liquidity provision model of Section 4, the LP holds a belief over the future exchange rate throughout the investment window and controls the spread  $\delta=\delta^{u}+\delta^{\ell}$  of her position. Thus, she strategically chooses the asymmetry of her position as a function of  $\delta$  and  $\mu.$  We approximate the relationship exhibited in Figure 4 with the asymmetry function (16).
+
+### 3.3 Rebalancing costs and gas fees
+
+Our model considers a strategic LP who continuously repositions her liquidity position in the pool which requires rebalancing of the LP’s assets. Specifically, repositioning typically leads to different holdings (8) in the pool, in which case the LP trades one asset for the other in the pool or in another trading venue. However, rebalancing assets to reposition liquidity is costly.
+
+Let  $\left(c_{t}\right)_{t\in[0,T]}$  denote the cost of rebalancing in terms of asset  $X$ . Similar to Fan et al. (2021) and Fan et al. (2022), we model rebalancing costs as proportional to the quantity  $y_{t}$  of asset  $Y$  that the LP deposits in the pool. At any time  $t$ , we assume that the LP uses all her wealth  $\tilde{x}_{t}$  when repositioning her liquidity position, so we use (8) to write
+
+ |
+ |  $c_{t}=-\zeta\,y_{t}\,Z_{t}=-\zeta\,\frac{\delta_{t}^{u}}{\delta_{t}^{\ell}+\delta_{t}^{u}}\,\tilde{x}_{t}\,,\quad c_{0}=0\,,$
+ |
+ | (17)
+
+where  $\zeta>0$  is a constant that models the execution costs.
+
+Transactions sent to the pool also bear gas fees. Gas fees are a flat fee paid to the blockchain and do not depend on the size of the LP’s transaction; see Lı et al. (2023) for more details on the impact of gas fees on liquidity provision. Thus, gas fees scale with the frequency at which the LP sends transactions to the pool. Our model considers continuous trading, so gas fees do not influence the optimisation problem, but should be considered when the strategy is implemented.
+
+In the next section, we derive an optimal liquidity provision strategy, and prove that the profitability of liquidity provision is subject to a tradeoff between fee revenue, PL, and concentration risk.
+
+## 4 Optimal liquidity provision in CL pools
+
+### 4.1 The problem
+
+Consider an LP who provides liquidity in a CPM with CL throughout the investment window  $[0,T]$ . We work on the filtered probability space  $\left(\Omega,\mathcal{F},\mathbbm{P};\mathbbm{F}=(\mathcal{F}_{t})_{t\in[0,T]}\right)$  where  $\mathcal{F}_{t}$  is the natural filtration generated by the collection  $\left(Z,\mu,\pi\right)$ .
+
+The dynamics of the LP’s wealth consist of the fees earned, the position value, and the rebalancing costs. Similar to Section 3.1, we denote the wealth process of the LP by  $(\tilde{x}_{t}=\alpha_{t}+p_{t}+c_{t})_{t\in[0,T]},$  with  $\tilde{x}_{0}>0$  known, where  $\alpha$  is the value of the LP’s position,  $p$  is the fee revenue, and  $c$  is the rebalancing cost. At any time  $t,$  the LP uses her wealth  $\tilde{x}_{t}$  to provide liquidity. Now, use (9), (13), and (17) to write the dynamics of the LP’s wealth as
+
+ |
+ |  $\displaystyle\mathrm{d}\tilde{x}_{t}=\tilde{x}_{t}\left(\frac{1}{\delta_{t}^{\ell}+\delta_{t}^{u}}\right)\left[\left(4\,\pi_{t}-\frac{\sigma^{2}}{2}+\left(\mu_{t}-\zeta\,\right)\,\delta_{t}^{u}\right)\mathrm{d}t+\sigma\,\delta_{t}^{u}\,\mathrm{d}W_{t}\right]-\gamma\,\left(\frac{1}{\delta_{t}^{\ell}+\delta_{t}^{u}}\right)^{2}\tilde{x}\,\mathrm{d}t\,,\ \ $
+ |
+ | (18)
+
+where  $\gamma\geq 0$  is the concentration cost parameter, see Subsection 3.2, and  $\pi$  follows the dynamics defined below in (20). To simplify notation, we set  $\zeta=0$ ; our results hold when replacing  $\mu$  by  $\mu-\zeta$ .
+
+Next, use  $\delta_{t}=\delta^{u}_{t}+\delta_{t}^{\ell}$  and  $\delta^{u}_{t}\,/\,\delta_{t}=\rho\left(\mu_{t},\delta_{t}\right)$  in (18) to write the dynamics of the LP’s wealth as
+
+ |
+ |  $\displaystyle\mathrm{d}\tilde{x}_{t}$
+ |  $\displaystyle=\frac{1}{\delta_{t}}\,\left(4\,\pi_{t}-\frac{\sigma^{2}}{2}\right)\,\tilde{x}_{t}\,\mathrm{d}t+\mu_{t}\,\rho\left(\delta_{t},\mu_{t}\right)\,\tilde{x}_{t}\,\mathrm{d}t+\sigma\,\rho\left(\delta_{t},\mu_{t}\right)\,\tilde{x}_{t}\,\mathrm{d}W_{t}-\frac{\gamma}{\delta_{t}^{2}}\,\tilde{x}_{t}\,\mathrm{d}t\,.$
+ |
+ | (19)
+
+Next, following the discussions of Section 3.2, we denote by  $\eta$  the profitability threshold and we assume that the pool fee rate  $\pi$  follows the dynamics
+
+ |
+ |  $\displaystyle\mathrm{d}(\pi_{t}-\eta_{t})$
+ |  $\displaystyle=\Gamma\,\left(\overline{\pi}+\eta_{t}-\pi_{t}\right)\mathrm{d}t+\psi\,\sqrt{\pi_{t}-\eta_{t}}\,\mathrm{d}B_{t}\,,$
+ |
+ | (20)
+
+where  $\Gamma>0$  denotes the mean reversion speed,  $\overline{\pi}>0$  is the long-term mean of  $\left(\pi_{t}-\eta_{t}\right)_{t\in[0,T]}$ ,  $\psi>0$  is a non-negative volatility parameter,  $\left(B_{t}\right)_{t\in[0,T]}$  is a Brownian motion independent of  $\left(W_{t}\right)_{t\in[0,T]},$  and  $\pi_{0}-\eta_{0}>0$  is known.
+To solve the LP’s optimal liquidity provision problem, we introduce the following assumption.
+
+###### Assumption 1
+
+The profitability threshold  $\eta$  in the dynamics (20) is given by
+
+ |
+ |  $\eta_{t}=\frac{\sigma^{2}}{8}-\frac{\mu_{t}}{4}\left(\mu_{t}-\frac{\sigma^{2}}{2}\right)+\frac{\varepsilon}{4}\,.$
+ |
+ | (21)
+
+From Assumption 1 and the CIR dynamics (20) it follows that
+
+ |
+ |  $\displaystyle\pi_{t}-\eta_{t}\geq 0\implies 4\,\pi_{t}-\frac{\sigma^{2}}{2}+\mu_{t}\left(\mu_{t}-\frac{\sigma^{2}}{2}\right)\geq\varepsilon>0\,,\quad\forall t\in[0,T]\,.$
+ |
+ | (22)
+
+Assumption 1 and condition (22) ensure that the spread  $\delta$  of the optimal strategy is admissible. Financially, the inequality in (22) is a profitability condition  $\pi_{t}\geq\eta_{t}$  that
+guarantees that the LP’s fee income  $\pi$  is greater than the PL faced by the LP, adjusted by the drift in the marginal rate. The profitability condition (22) is further discussed in Sections 4.3 and 6.
+
+Finally, note that the dynamics in (5) and (20) imply that the LP also observes  $W,$   $B,$  and the profitability threshold  $\eta$  is determined by  $\mu$ , so the LP observes all the stochastic processes of this problem.
+
+### 4.2 The optimal strategy
+
+The LP controls the spread  $\delta$  of her position to maximise the expected utility of her terminal wealth in units of  $X$ . To define the set of admissible strategies  $\mathcal{A}$ , note that if the LP assumes that the asymmetry function  $\rho$  is that in (16), then for each  $\delta$ , we need
+
+ |
+ |  $\int_{0}^{T}\rho\left(\delta_{t},\mu_{t}\right)^{2}\,\mathrm{d}t<\infty\quad\mathbbm{P}\textrm{--a.s.}\,.$
+ |
+ | (23)
+
+Observe that
+
+ |
+ |  $\begin{split}\int_{0}^{T}\rho\left(\delta_{t},\mu_{t}\right)^{2}\,\mathrm{d}t\,=\,&\int_{0}^{T}\left(\frac{1}{2}+\frac{\mu_{t}}{\delta_{t}}\right)^{2}\,\mathrm{d}t\,\leq\,\frac{T}{4}+\frac{1}{2}\,\int_{0}^{T}\mu_{t}^{4}\,\mathrm{d}t+\frac{1}{2}\,\int_{0}^{T}\frac{1}{\delta_{t}^{4}}\,\mathrm{d}t\,.\end{split}$
+ |
+ | (24)
+
+Thus, to satisfy (23) and to ensure that the control problem below is well-posed, we define the set of admissible strategies
+
+ |
+ |  $\displaystyle\mathcal{A}_{t}=\left\{(\delta_{s})_{s\in[t,T]},\ \mathbbm{R}\textrm{-valued},\ \mathbbm{F}\textrm{-adapted, and }\int_{t}^{T}\frac{1}{\delta_{s}^{4}}\,\mathrm{d}s<+\infty\ \mathbbm{P}\textrm{--a.s.}\right\}\,,$
+ |
+ | (25)
+
+where  $\mathcal{A}:=\mathcal{A}_{0}.$
+
+Let  $\delta\in\mathcal{A}$ . The performance criterion of the LP is a function  $u^{\delta}\colon[0,T]\times\mathbbm{R}^{4}\rightarrow\mathbbm{R}$  given by
+
+ |
+ |  $\displaystyle u^{\delta}(t,\tilde{x},z,\pi,\mu)=\mathbbm{E}_{t,\tilde{x},z,\pi,\mu}\left[U\left(\tilde{x}_{T}^{\delta}\right)\right]\,,$
+ |
+ | (26)
+
+where  $U$  is a concave utility function, and the value function  $u:[0,T]\times\mathbbm{R}^{4}\rightarrow\mathbbm{R}$  of the LP is
+
+ |
+ |  $u(t,\tilde{x},z,\pi,\mu)=\underset{\delta\in\mathcal{A}_{t}}{\sup}\,u^{\delta}(t,\tilde{x},z,\pi,\mu)\,.$
+ |
+ | (27)
+
+The following results solve the optimal liquidity provision model when the LP assumes a general stochastic drift  $\mu$  and her preferences are given by a logarithmic utility function.
+
+###### Proposition 1
+
+Assume the asymmetry function  $\rho$  is as in (16) and that  $U(x)=\log(x).$  Then,
+
+ |
+ |  $\displaystyle w\left(t,\tilde{x},z,\pi,\mu\right)=$
+ |  $\displaystyle\log\left(\tilde{x}\right)+\left(\pi-\eta\right)^{2}\int_{t}^{T}\mathbbm{E}_{t,\mu}\left[\frac{8}{2\,\gamma+\mu_{s}^{2}\,\sigma^{2}}\right]\exp\left(-2\,\Gamma\left(s-t\right)\right)\,\mathrm{d}s$
+ |
+ | (28)
+
+ |
+ |
+ |  $\displaystyle+\left(\pi-\eta\right)\left(2\,\Gamma\,\overline{\pi}+\psi^{2}\right)\int_{t}^{T}\mathbbm{E}_{t,\mu}\left[C\left(s,\mu_{s}\right)\right]\exp\left(-\Gamma\left(s-t\right)\right)\,\mathrm{d}s$
+ |
+ | (29)
+
+ |
+ |
+ |  $\displaystyle-\left(\pi-\eta\right)\int_{t}^{T}\mathbbm{E}_{t,\mu}\left[\frac{4\,\varepsilon}{2\,\gamma+\sigma^{2}\,\mu_{s}^{2}}\right]\exp\left(-\Gamma\left(s-t\right)\right)\,\mathrm{d}s$
+ |
+ | (30)
+
+ |
+ |
+ |  $\displaystyle+\int_{t}^{T}\left(\Gamma\,\overline{\pi}\,\mathbbm{E}_{t,\mu}\left[E\left(s,\mu_{s}\right)\right]+\psi^{2}\,\mathbbm{E}_{t,\mu}\left[\eta_{s}\,C\left(s,\mu_{s}\right)\right]\right)\mathrm{d}s$
+ |
+ | (31)
+
+ |
+ |
+ |  $\displaystyle-\frac{1}{2}\,\int_{t}^{T}\left(\mathbbm{E}_{t,\mu}\left[\frac{\varepsilon^{2}}{2\,\gamma+\sigma^{2}\,\mu_{s}^{2}}+\mu_{s}\right]\right)\mathrm{d}s-\pi\frac{\sigma^{2}}{8}\left(T-t\right)\,$
+ |
+ | (32)
+
+solves the HJB equation associated with problem (27). Here,  $\eta_{s}=\frac{\sigma^{2}}{8}-\frac{\mu_{s}}{4}\left(\mu_{s}-\frac{\sigma^{2}}{2}\right)+\frac{\varepsilon}{4}$  for  $s\geq t\,,$   $\eta_{t}=\eta$ , and  $\mathbbm{E}_{t,\mu}$  represents expectation conditioned on  $\mu_{t}=\mu$ , and
+
+ |
+ |  $C\left(t,\mu\right)=\mathbbm{E}_{t,\mu}\left[\,\int_{t}^{T}\frac{8}{2\,\gamma+\mu_{s}^{2}\,\sigma^{2}}\exp\left(-2\,\Gamma\left(s-t\right)\right)\,\mathrm{d}s\right]\,,$
+ |
+
+and
+
+ |
+ |  $E\left(t,\mu\right)=\mathbbm{E}_{t,\mu}\left[\,\int_{t}^{T}\left(\left(2\,\Gamma\,\overline{\pi}+\psi^{2}\right)C\left(s,\mu\right)+\frac{4\,\varepsilon}{2\,\gamma+\sigma^{2}\,\mu_{s}^{2}}\right)\exp\left(-\Gamma\left(s-t\right)\right)\,\mathrm{d}s\right]\,.$
+ |
+
+For a proof, see B.1.
+
+###### Theorem 1
+
+Let Assumption 1 hold and assume that  the asymmetry function  $\rho$  is as in (16) and that  $U(x)=\log(x).$  Then, the solution in Proposition 1 is the unique solution to the optimal control problem (27), and the optimal spread  $\left(\delta_{s}\right)_{s\in[t,T]}\in\mathcal{A}_{t}$  is given by
+
+ |
+ |  $\displaystyle\delta_{s}^{\star}=\frac{2\,\gamma+\mu_{s}^{2}\,\sigma^{2}}{4\,\pi_{s}-\frac{\sigma^{2}}{2}+\mu_{s}\left(\mu_{s}-\frac{\sigma^{2}}{2}\right)}=\frac{2\,\gamma+\mu_{s}^{2}\,\sigma^{2}}{4\left(\pi_{s}-\eta_{s}\right)+\varepsilon}\,,$
+ |
+ | (33)
+
+where  $\eta_{s}=\frac{\sigma^{2}}{8}-\frac{\mu_{s}}{4}\left(\mu_{s}-\frac{\sigma^{2}}{2}\right)+\frac{\varepsilon}{4}\,.$
+
+For a proof, see B.2.
+
+### 4.3 Discussion: profitability, PL, and concentration risk
+
+In this section, we study the strategy
+when  $\mu=0\,,$  in which case the position is symmetric, so  $\rho=1/2$  and  $\delta^{u}_{t}=\delta^{\ell}_{t}=\delta_{t}/2$  and the optimal spread (33) becomes1010
+              10
+
+
+
+            The position range is approximately symmetric around the position rate  $Z$  because  $\delta^{u}_{t}=\delta^{\ell}_{t}$  does not imply that  $Z-Z^{\ell}=Z^{u}-Z;$  see (6). However, for small values of  $\delta^{\ell}$  and  $\delta^{u},$  one can write the approximation  $Z-Z^{\ell}\approx Z^{u}-Z$ , in which case the position is symmetric around the rate  $Z$ .
+
+ |
+ |  $\displaystyle\delta_{t}^{\ell\,\star}=\delta_{t}^{u\,\star}=\frac{2\,\gamma}{8\,\pi_{t}-\sigma^{2}}\,\quad\implies\quad\delta_{t}^{\star}=\frac{4\,\gamma}{8\,\pi_{t}-\sigma^{2}},$
+ |
+ | (34)
+
+so the inequality in (22) becomes
+
+ |
+ |  $\displaystyle 4\,\pi_{t}-\frac{\sigma^{2}}{2}\geq\varepsilon>0\,,\quad\forall t\in[0,T]\,.$
+ |
+ | (35)
+
+The inequality in (35) guarantees that the optimal control (34) does not explode, and ensures that fee income is large enough for LP activity to be profitable. In particular, it ensures that  $\pi>\sigma^{2}/8+\varepsilon.$  When  $\varepsilon\to 0$ , i.e.,  $\sigma^{2}/4\to\pi,$  the spread  $\delta\to+\infty\,.$  However, we require that the spread  $\delta=\delta^{u}+\delta^{\ell}\leq 4$ , so the conditions  $\delta^{\ell}\leq 2$  and  $\delta^{u}\leq 2$  become
+
+ |
+ |  $\displaystyle\frac{\gamma}{4\,\pi-\frac{\sigma^{2}}{2}}\leq 2\implies\pi-\frac{\gamma}{8}\geq\frac{\sigma^{2}}{8}\,.$
+ |
+ | (36)
+
+When  $\delta^{\ell}=\delta^{u}=2,$  the LP provides liquidity in the maximum range  $(0\,,+\infty),$  so the depth of her liquidity position  $\tilde{\kappa}$  is minimal, the PL is minimal, and the LP’s position is equivalent to providing liquidity in CPMs without CL; see Cartea et al. (2023b) for more details. In that case, the dynamics of PL in (9) are
+
+ |
+ |  $\mathrm{d}\text{PL}_{t}=-\frac{\sigma^{2}}{8}\,\alpha_{t}\,\mathrm{d}t\,,$
+ |
+
+so  $\sigma^{2}/8$  is the lowest rate at which the LP’s assets can depreciate due to PL.
+
+On the other hand, when  $\delta\leq 4$ , the depreciation rate of the LP’s position value in (9) is higher than  $\sigma^{2}/8$ . In particular, if  $\delta=\delta^{\text{tick}}$ , where  $\delta^{\text{tick}}$  is the spread of a liquidity position concentrated within a single tick range, then the depth of the LP’s liquidity position  $\tilde{\kappa}$  is maximal and PL is maximal with dynamics
+
+ |
+ |  $\mathrm{d}\text{PL}_{t}=-\frac{\sigma^{2}}{2\,\delta^{\text{tick}}}\,\alpha_{t}\,\mathrm{d}t\,,$
+ |
+
+so  $\sigma^{2}/2\,\delta^{\text{tick}}$  is the highest rate at which the LP’s assets can depreciate due to PL.
+
+LPs should track the profitability of the pools they consider and check if the expected fee revenue covers PL before considering depositing their assets in the pool. When  $\mu=0,$  we propose that LPs use  $\sigma^{2}/8$  as a lower bound rule-of-thumb for the pool’s rate of profitability because  $\sigma^{2}/8$  is the lowest rate of depreciation of their wealth in the pool.
+
+Condition (36) ensures that the profitability  $\pi-\gamma/8,$  which is the pool fee rate adjusted by the concentration cost, is higher than the depreciation rate of the LP’s assets in the pool. Thus, the condition imposes a minimum profitability level of the pool, so LP activity is viable. An optimal control  $\delta^{\star}>4$  indicates non-viable LP activity because fees are not enough to compensate for the PL borne by the LP. Figure 5 shows the estimated pool fee rate and the estimated depreciation rate in the ETH/USDC pool (from January to August 2022). In particular, the CIR model captures the dynamics of  $\pi_{t}-\sigma^{2}/8.$
+
+![原文图表](assets/DOLP_feerate_vol.svg)
+
+Figure 5: Estimated pool fee rate from February to August 2022 in the ETH/USDC pool. For any time  $t$ , the pool fee rate is the total fee income, as a percentage of the total pool size, paid by LTs in the period  $[t-1\text{ day},t].$  The pool size at time  $t$  is  $2\,\kappa\,Z_{t}^{1/2}$  where  $Z_{t}$  is the active rate in the pool at time  $t.$
+
+Next, we study the dependence of the optimal spread on the value of the concentration cost coefficient  $\gamma,$  the fee rate  $\pi,$  and the volatility  $\sigma$ . The concentration cost coefficient  $\gamma$  scales the spread linearly in (34). Recall that the cost term penalises small spreads because there is a risk that the rate will exit the LP’s range. Thus, large values of  $\gamma$  generate large values of the spread. Figure 6 shows the optimal spread as a function of the pool fee rate  $\pi$ . Large potential fee income pushes the strategy towards targeting more closely the marginal rate  $Z$  to profit from fees. Lastly, Figure 7 shows that the optimal spread increases as the volatility of the rate  $Z$  increases.
+
+![原文图表](assets/OLP_dyn0.svg)
+
+Figure 6: Optimal LP position range  $\left(Z^{\ell},Z^{u}\right]$  as a function of the pool fee rate  $\pi$  for different values of the concentration cost parameter  $\gamma,$  when  $Z=100,$   $\sigma=0.02,$  and  $\mu=0.$
+
+![原文图表](assets/OLP_dyn2.svg)
+
+Figure 7: Optimal LP position range  $\left(Z^{\ell},Z^{u}\right]$  as a function of the volatility  $\sigma$  for different values of the concentration cost parameter  $\gamma,$  when  $Z=100,$   $\pi=0.02,$  and  $\mu=0.$
+
+Finally, the optimal spread does not depend on time or on the terminal date  $T.$  The LP marks-to-market her wealth in units of  $X,$  but does not penalise her holdings in asset  $Y$ . In particular, the LP’s performance criterion does not include a running penalty or a final liquidation penalty (to turn assets into cash or into the reference asset). For example, if at the end of the trading window the holdings in asset  $Y$  must be exchanged for  $X$ , then the optimal strategy would skew, throughout the trading horizon, the liquidity range to convert holdings in  $Y$  into  $X$  through LT activity.1111
+              11
+
+
+
+            In LOBs, one usually assumes that final inventory is liquidated with adverse price impact and that there is a running inventory penalty, thus market making strategies in LOBs depend on the terminal date  $T$ .
+
+### 4.4 Discussion: drift and position skew
+
+In this section, we study how the strategy depends on the stochastic drift  $\mu$ . Use  $\delta_{t}=\delta^{\ell}_{t}+\delta^{u}_{t}$  and  $\rho\left(\delta_{t},\mu_{t}\right)=\delta^{u}_{t}/\delta_{t}$  to write the two ends of the optimal spread as
+
+ |
+ |  $\displaystyle\delta_{t}^{u\,\star}=\frac{2\,\gamma+\mu_{t}^{2}\,\sigma^{2}}{8\,\pi_{t}-\sigma^{2}+2\,\mu_{t}\left(\mu_{t}-\frac{\sigma^{2}}{2}\right)}+\mu_{t}\quad\text{and}\quad\delta_{t}^{\ell\,\star}=\frac{2\,\gamma+\mu_{t}^{2}\,\sigma^{2}}{8\,\pi_{t}-\sigma^{2}+2\,\mu_{t}\left(\mu_{t}-\frac{\sigma^{2}}{2}\right)}-\mu_{t}\,.$
+ |
+ | (37)
+
+The inequality in (22) guarantees that the optimal control in (37) does not explode and ensures that fee income is large enough for LP activity to be profitable. The profitability condition in (36) becomes
+
+ |
+ |  $\pi_{t}-\frac{\gamma}{8}\geq\frac{\sigma^{2}}{8}\left(\frac{\mu_{t}^{2}\,}{2}+1\right)-\frac{\mu_{t}}{4}\left(\mu_{t}-\frac{\sigma^{2}}{2}\right)\,,$
+ |
+ | (38)
+
+so LPs that assume a stochastic drift in the dynamics of the exchange rate  $Z$  should use this simplified measure of the depreciation rate due to PL as a rule-of-thumb before considering depositing their assets in the pool.
+
+Next, we study the dependence of the optimal spread on the value of the drift  $\mu$ . First, recall that the controls in (37) must obey the inequalities1212
+              12
+
+
+
+            The admissible set of controls is not restricted to these ranges. However, values outside these range cannot be implemented in practice.
+
+ |
+ |  $0<\delta^{\ell}_{t}\leq 2\quad\text{and}\quad 0\leq\delta^{u}_{t}<2\,,$
+ |
+
+because  $0\leq Z^{\ell}<Z^{u}<\infty$  and  $Z_{t}\in(Z^{\ell}_{t},Z^{u}_{t}]$ , which together with (7) implies  $0\leq\delta_{t}\leq 4$ . Next, the asymmetry function satisfies
+
+ |
+ |  $0<\rho\left(\delta_{t},\mu\right)=\frac{\delta^{u}_{t}}{\delta_{t}}<1\,,$
+ |
+ | (39)
+
+which implies
+
+ |
+ |  $0\leq\rho\left(\delta_{t},\mu\right)\,\delta_{t}<2\quad\text{and}\quad 0\leq\left(1-\rho\left(\delta_{t},\mu\right)\right)\,\delta_{t}<2\,.$
+ |
+ | (40)
+
+Now, use (16) and (40) to write
+
+ |
+ |  $0\leq\left(\frac{1}{2}+\frac{\mu}{\delta_{t}}\right)\,\delta_{t}<2\quad\text{and}\quad 0\leq\left(\frac{1}{2}-\frac{\mu}{\delta_{t}}\right)\,\delta_{t}<2\,.$
+ |
+ | (41)
+
+Finally, use (39) and (41) to obtain the inequalities
+
+ |
+ |  $\displaystyle 2\,\left|\mu\right|\leq\delta_{t}\leq 4-2\,\left|\mu\right|,$
+ |
+ | (42)
+
+so  $\mu$  must be in the range  $\left[-1,1\right]$  for the LP to provide liquidity. If  $\mu$  is outside this range, concentration risk is too high so the LP must withdraw her holdings from the pool. Recall that the dynamics of  $Z$  are geometric and  $\mu$  is a percentage drift, so values of  $\mu$  outside the range  $\left[-1,1\right]$  are unlikely. Moreover, when  $\mu=-1,$  the drift of the exchange rate  $Z$  is large and negative, so the optimal range is  $(0,Z],$  i.e., the largest possible range to the left of  $Z.$  When  $\mu=1,$  the drift of the exchange rate  $Z$  is large and positive, so the optimal range is  $(Z,+\infty),$  which is the largest possible range to the right of  $Z.$  Condition (42) is always verified when we study the performance of the strategy in the ETH/USDC pool. Figure 8 shows how the optimal spread adjusts to the value of the drift  $\mu$ . Finally, note that
+
+ |
+ |  $\frac{\partial\delta^{u\,\star}}{\partial\sigma}=\frac{\partial\delta^{\ell\,\star}}{\partial\sigma}=\frac{2\,\mu^{2}\,\sigma\left(4\,\pi-4\,\eta+\varepsilon\right)+4\,\sigma\left(1+\mu\right)\left(2\,\gamma+\mu^{2}\,\sigma^{2}\right)}{\left(4\,\pi-4\,\eta+\varepsilon\right)^{2}}>0\,,\qquad\forall\mu\in[-1,1]\,,$
+ |
+ | (43)
+
+shows that the optimal range is strictly increasing in the volatility  $\sigma$  of the rate  $Z,$  which one expects as increased activity that exposes the position value to more PL, and increases the concentration risk.
+
+![原文图表](assets/OLP_dyn1.svg)
+
+Figure 8: Optimal LP position range  $\left(Z^{\ell},Z^{u}\right]$  as a function of the drift  $\mu$  for different values of the concentration cost parameter  $\gamma,$  when  $Z=100,$   $\pi=0.02,$  and  $\sigma=0.02.$
+
+## 5 Performance of strategy
+
+### 5.1 Methodology
+
+In this section, we use Uniswap v3 data between 1 January and 18 August 2022 (see data description in A) to study the performance of the strategy of Section 4. We consider execution costs and discuss how gas fees and liquidity taking activity in the pool affect the performance of the strategy.1313
+              13
+
+
+
+            In practice, LPs pay gas fees when using the Ethereum network to deposit liquidity, withdraw liquidity, and adjust their holdings. Gas is paid in Ether, the native currency of the Ethereum network, and measures the computational effort of the LP operation; see Cartea et al. (2022), Cartea et al. (2023a).
+
+Our strategy in Section 4 is solved in continuous time. In our performance study, we discretise the trading window in one-minute periods and the optimal spread is fixed at the beginning of each time-step. That is, let  $t_{i}$  be the times where the LP interacts with the pool, where  $i\in\{1,\dots,N\}$  and  $t_{i+1}-t_{i}=1$  minute. For each time  $t_{i},$  the LP uses the optimal strategy in (37) based on information available at time  $t_{i},$  and she fixes the optimal spread of her position throughout the period  $[t_{i},t_{i+1});$  recall that the optimal spread is not a function of time.
+
+To determine the optimal spread (37) of the LP’s position at time  $t_{i},$  we use in-sample data  $[t_{i}-\text{1 day},t_{i}]$  to estimate the parameters. The volatility  $\sigma$  of the rate  $Z$  is given by the standard deviation of one-minute log returns of the rate  $Z,$  which is multiplied by  $\sqrt{1440}$  to obtain a daily estimate. The pool fee rate  $\pi_{t}$  is given by the total fee income generated by the pool during the in-sample period, divided by the pool size  $2\,\kappa\,Z_{t}^{1/2}$  at time  $t,$  where  $\kappa$  is the active depth at time  $t.$  We run the linear regression described in Section 3.2.2 to estimate the concentration cost parameter, which is set to  $\gamma=5\times 10^{-7}$ .
+Finally, prediction of the future marginal rate  $Z$  is out of the scope of this work, thus we set  $\mu=0$  and  $\rho=0.5.$
+
+To compute the LP’s performance as a result of changes in the value of her holdings in the pool (position value), and as a result of fee income, we use out-of-sample data  $[t_{i},t_{i+1}].$  We use equation (9) to determine the one-minute out-of-sample changes in the position value. For fee income, we use LT transactions in the pool at rates included in the range  $\left(Z_{t}^{\ell},Z_{t}^{u}\right]$  and equation (4). The income from fees accumulates in a separate account in units of  $X$  with zero risk-free rate.1414
+              14
+
+
+
+            In practice, fees accumulate in both assets  $X$  and  $Y.$  At the end of the out-of-sample window, the LP withdraws her liquidity and collects the accumulated fees, and we repeat the in-sample estimation and out-of-sample liquidity provision described above. Thus, at times  $t_{i},$  where  $i\in\{1,\dots,N-1\},$  the LP consecutively withdraws and deposits liquidity in different ranges. Between two consecutive operations (i.e., reposition liquidity provision), the LP may need to take liquidity in the pool to adjust her holdings in asset  $X$  and  $Y.$  In that case, we use results in Cartea et al. (2022) to compute execution costs.1515
+              15
+
+
+
+            Cartea et al. (2022) show that execution costs in the pool are a closed-form function of the rate  $Z,$  the pool depth  $\kappa,$  and the transaction size. In particular, we consider execution costs when the LP trades asset  $Y$  in the pool to adjust her holdings between two consecutive operations. More precisely, we consider that for every quantity  $y$  of asset  $Y$  bought or sold in the pool, a transaction cost  $y\,Z_{t}^{3/2}/\kappa$  is incurred. We assume that the LP’s taking activity does not impact the dynamics of the pool. Finally, we obtain 331,858 individual LP operations from 1 January to 18 August 2022.
+
+### 5.2 Benchmark
+
+We compare the performance of our strategy with the performance of LPs in the pool we consider. We select operation pairs that consist of first providing and then withdrawing the same depth of liquidity  $\tilde{\kappa}$  at two different points in time by the same LP.1616
+              16
+
+
+
+            In blockchain data, every transaction is associated to a unique wallet address. The operations that we select represent approximately  $66\%$  of all LP operations. Figure 9 shows the distribution of key variables that describe how LPs provide liquidity. The figure shows the distribution of the number of operations per LP, the changes in the position value, the length of time the position is held in the pool, and the position spread.
+
+![原文图表](assets/LP1.svg)
+
+Figure 9: From left to right: distribution of the number of operations per LP, changes in the holdings value as a percentage of initial wealth, position hold time, and position spread. ETH/USDC pool with selected operations from 5,156 LPs between 5 May 2021 and 18 August 2022.
+
+Finally, Table 2 shows the average and standard deviation of the distributions in Figure 9. Notice that the bulk of liquidity is deposited in small ranges, and positions are held for short periods of time;  $20\%$  of LP positions are held for less than five minutes and  $30\%$  for less than one hour. Table 2 also shows that, on average, the performance of the LP operations in the pool and the period we consider is  $-1.49\,\%$  per operation.
+
+Number of
+Position value
+Fee income
+Hold time
+Spread
+
+transactions per LP
+performance ( $\alpha_{T}/\tilde{x}_{0}-1$ )
+( $p_{T}/\tilde{x}_{0}-1$ )
+
+Average
+ |  $11.5$
+ |  $-1.64\%$
+ |  $0.155\%$
+ |  $6.1$  days
+ |  $18.7\%$
+
+Standard deviation
+ |  $40.2$
+ |  $7.5\%\ \ $
+ |  $0.274\%$
+ |  $22.4$  days
+ |  $43.2\%$
+
+Table 2: LP operations statistics in the ETH/USDC pool using operation data of 5,156 different LPs between 5 May 2021 and 18 August 2022. Performance includes transaction fees and excludes gas fees. The position value performance and the fee income are not normalised by the hold time.
+
+### 5.3 Performance results
+
+This subsection focuses on the performance of our strategy when gas fees are zero — at the end of the section we discuss the profitability of the strategy when gas fees are included. Figure 10 shows the distribution of the optimal spread (34) posted by the LP. The bulk of liquidity is deposited in ranges with a spread  $\delta$  below  $1\%$ . Table 2 compares the average performance of the components of the optimal strategy with the performance of LP operations observed in the ETH/USDC pool.1717
+              17
+
+
+
+            In particular, performance is given for the selected operations shown in Figure 9. Table 3 suggests that the position of the LP loses value in the pool (on average) because of PL; however, the fee income would cover the loss, on average, if one assumes that gas fees are zero. Finally, the results show that our optimal strategy significantly improves the PnL of LP activity in the pool and the performance of the assets themselves.
+
+![原文图表](assets/DOLP_backtestgammas.svg)
+
+Figure 10: Distribution of the position spread  $\delta.$
+
+ | Position value performance
+ | Fee income
+ | Total performance
+
+ | per operation
+ | per operation
+ | per operation
+
+ |
+ |
+ | (with transaction costs,
+
+ |
+ |
+ | without gas fees)
+
+Optimal strategy
+ |  $-0.015\%$
+ |  $0.0197\%$
+ |  $0.0047\%$
+
+ |  $(0.0951\%)$
+ |  $(0.005\%)$
+ |  $(0.02\%)$
+
+Market
+ |  $-0.0024\%$
+ |  $0.0017\%$
+ |  $-0.00067\%$
+
+ |  $(0.02\%)$
+ |  $(0.005\%)$
+ |  $(0.02\%)$
+
+Hold
+ | n.a.
+ | n.a.
+ |  $-0.00016\%$
+
+ |
+ |
+ |  $(0.08\%)$
+
+Table 3: Optimal strategy: Mean and standard deviation of the one-minute performance of the LP strategy (34) and its components. Market: Mean and standard deviation of one-minute performance of LP activity in the ETH/USDC pool using data between 1 January and 18 August 2022.
+Hold: Mean and standard deviation of the one-minute performance of holding the assets. In all cases, the performance includes transaction costs (pool fee and execution cost), but does not include gas fees.
+
+The results in Table 3 do not consider gas fees. Gas cost is a flat fee, so it does not depend on the position spread or size of transaction. If the activity of the LP does not affect the pool and if the fees collected scale with the wealth that the LP deposits in the pool, then the LP should consider an initial amount of  $X$  and  $Y$  that would yield enough fees to cover the flat gas fees. An estimate of the average gas cost gives an estimate of the minimum amount of initial wealth for a self-financing strategy to be profitable. Recall that, at any point in time  $t,$  the LP withdraws her liquidity, adjusts her holdings, and then deposits new liquidity. In the data we consider, the average gas fee is  $30.7\,$  USD to provide liquidity,  $24.5\,$  USD to withdraw liquidity, and  $29.6\,$  USD to take liquidity. Average gas costs are obtained from blockchain data which record the gas used for every transaction, and from historical gas prices. The LP pays a flat fee of  $84.8$  USD per operation when implementing the strategy in the pool we consider, so the LP strategy is profitable, on average, if the initial wealth deposited in the pool is greater than  $1.8\times 10^{6}$  USD.
+
+Fee income of the LP strategy is limited by the volume of liquidity taking activity in the pool, so one should not only consider increasing the initial wealth to make the strategy more profitable. There are  $4.7$  LT transactions per minute and the average volume of LT transactions is  $477,275$  USD per minute, so if the LP were to provide  $100\%$  of the liquidity, the average fee income per operation would be 1,431 USD.
+
+## 6 Discussion: modelling assumptions
+
+This section summarises our modelling assumptions and discusses their implications, strengths, and weaknesses.
+
+##### Continuous trading.
+
+Our model assumes continuous repositioning of the LP’s position. However, when interacting with blockchains, updates occur at the block validation frequency. For instance, the Ethereum network’s blocks are validated every 13 seconds, on average. Moreover, within each block, the transactions form a (random) queue that determines the priority with which they are executed. Finally, price formation in Ethereum blockchains leads to sandwich attacks; see Capponi et al. (2023b) for more details. Our model can be extended to include delays inherent to blockchains and we refer the reader to the work in Cartea and Sánchez-Betancourt (2021) and Cartea et al. (2021).
+
+##### Rebalancing.
+
+Continuous repositioning requires rebalancing the LP’s assets which incurs costs as discussed in Section 3.3. To model this aspect, we assume that the LP pays costs that are proportional to the quantity of asset  $Y$  held in the pool. In practice, the exact costs depend on variations in the holdings between two consecutive liquidity positions. Thus, liquidity provision strategies should balance large variations in the holdings with fee revenue, PL, and concentration cost. However, the nonlinearity in the CL constant product formula complicates the mathematical modelling of this aspect of trading costs. Moreover, rebalancing costs depend on the cost structure of the trading venue where rebalancing trades are executed.
+
+##### Gas fees.
+
+Our model assumes that gas fees paid by the LP to interact with the blockchain are flat and constant. In practice, gas fees are stochastic and depend on exogenous factors such as the price of electricity and network congestion. These could be included in our model by considering a stochastic gas fee that is observed by the LP. Also, our model is optimal when the spread of liquidity position is continuously adjusted to account for changes in the stochastic drift and profitability of liquidity taking according to (33). Thus, profitable liquidity provision using our strategy requires a large initial wealth to overcome gas fees from continuous trading. However, we expect the strategy to remain profitable in discrete time when the stochastic drift  $\mu$  and the stochastic profitability  $\pi$  remain stable, so the LP only rebalances her liquidity position when either the drift  $\mu$  or the pool fee rate  $\pi$  undergo large changes.
+
+##### Concentration costs.
+
+The specific microstructure of CL markets features a new type of investment risk which we refer to as concentration risk. To capture the losses due to concentration risk in a continuous-time framework, we introduced an instantaneous cost which is inversely proportional to the spread of the LP’s position, and we showed that it captures the losses due to concentration risk accurately. In practice, LPs must tailor the estimation of the concentration cost parameter  $\gamma$  in (13) to the rebalancing frequency and to the volatility of the marginal rate  $Z.$
+
+##### Asymmetry.
+
+Our model assumes a fixed relation between the asymmetry of the LP’s position and the drift in the marginal rate. This relation fits observed data but also leads the LP to skew the position to capture more LT trades and to profit from expected rate movements. Future work will consider a richer characterization of the asymmetry because it may be desirable for LPs to adjust the asymmetry of their position as a function of other state variables or as a controlled variable
+
+##### Fee dynamics.
+
+Our model assumes that the distribution of fee revenue  $\pi$  among LPs is stochastic and proportional to the size of the pool to reflect that large pools attract more trading flow because trading is cheaper. We also make the simplifying assumption that fees are uncorrelated to the price. In practice, the dynamics of fee revenue may be correlated to those of the volatility of the rate, which is also related to the concentration cost parameter  $\gamma.$  Future work will consider more complex relations among these variables.
+
+##### Profitability condition.
+
+We impose specific dynamics for the fee rate  $\pi$  such that it satisfies a profitability condition (22) that allows us to obtain an admissible strategy. While we use this constraint to solve the optimal liquidity provision problem, it also represents an adequate and natural measure for LPs to assess the profitability of liquidity provision in different pools before depositing their assets.
+
+##### Constant volatility.
+
+At present, CFMs with CL mainly serve as trading venues for crypto-assets which are better described with a diffusion model with stochastic volatility. It is straightforward to extend our strategy to this type of models.
+
+##### Market impact.
+
+Finally, our analysis does not take into account the impact of liquidity provision on liquidity taking activity, however, we expect liquidity provision in CPMs with CL to be profitable in pools where the volatility of the marginal rate is low, where liquidity taking activity is high, and when the gas fee cost to interact with the liquidity pools is low. These conditions ensure that the fees paid to LPs in the pool, adjusted by gas fees and concentration cost, exceed PL so liquidity provision is viable.
+
+### 6.1 Discussion: related work
+
+Closest to this work are the strategic liquidity provision models proposed in Fan et al. (2021) and Fan et al. (2022) which also consider CL markets. Both models allow LPs to compute liquidity positions over different intervals centered around the marginal rate within a given time horizon; Fan et al. (2021) only consider static LP strategies which do not use of reallocations, and Fan et al. (2022) reposition liquidity whenever the price is outside of the position range. Both approaches only focus on maximising fee revenue and rely on approximations of the LP’s objective and use Neural Networks to obtain context-aware approximate strategies. In contrast, our model leads to closed-form formulae that explicitly balance fee revenue with concentration risk, predictable loss, and rebalancing costs, while allowing LPs to use price signals (potentially based on exogenous information) to improve trading performance.
+
+## 7 Conclusions
+
+We studied the dynamics of the wealth of an LP in a CPM with CL who implements a self-financing strategy that dynamically adjusts the range of liquidity. The wealth of the LP consists of the position value and fee revenue. We showed that the position value depreciates due to PL and the LP widens her liquidity range to minimise her exposure to PL. On the other hand, the fee revenue is higher for narrow ranges, but narrow ranges also increase concentration risk.
+
+We derived the optimal strategy to provide liquidity in a CPM with CL when the LP maximises expected utility of terminal wealth. This strategy is found in closed-form for log-utility of wealth, and it shows that liquidity provision is subject to a profitability condition. In particular, the potential gains from fees, net of gas fees and concentration costs, must exceed PL. Our model shows that the LP strategically adjusts the spread of her position around the reference exchange rate; the spread depends on various market features including tthe volatility of the rate, the liquidity taking activity in the pool, and the drift of the rate.
+
+## Appendix A Uniswap v3 ETH/USDC pool data statistics
+
+ETH represents Ether, the Ethereum blockchain native currency. USDC represents USD coin, a currency fully backed by U.S. Dollars (USD). The fees paid by LTs is  $0.05\%$  of trade size; the fee is deducted from the quantity paid into the pool by the LT and distributed among LPs; see equation (4).
+
+Uniswap v3 pools can be created with different values of the LT trading fee, e.g.,  $0.01\%,$   $0.05\%,$   $0.30\%,$  or  $1\%,$  called fee tiers. Additionally, different pools with the same asset pair may coexist if they have different fee tiers. Once a pool is created, its fee tier does not change.
+
+ | LT
+ | LP
+
+Number of instructions
+ | 2,654,347
+ | 68,434
+
+Average daily number
+ |
+ |
+
+of instructions
+ | 4,720
+ | 471
+
+Total USD volume
+ |  $\approx$  $ 262 $\times 10^{9}$
+ |  $\approx$  $ 232  $\times 10^{9}$
+
+Average daily USD volume
+ | $ 554,624,500
+ | $ 863,285
+
+Average LT transaction
+ |
+ |
+
+or LP operation size
+ | $ 98,624
+ | $ 3,611,197
+
+Average interaction frequency
+ | 13 seconds
+ | 590 seconds
+
+Table 4: LT and LP activity in the ETH/USDC pool between 5 May 2021 and 18 August 2022: Total and average daily count of LT transactions and LP operations in the pool, total and average daily size of LT transactions and LP operations in the pool in USD, average LT transaction size and average LP operation size in USD dollars, and average liquidity taking and provision frequency.
+
+## Appendix B Proofs
+
+### B.1 Proof of Proposition 1
+
+To solve the problem (27), we introduce an equivalent control problem. First, define the process  $\left(\tilde{\pi}_{t}\right)_{t\in[0,T]}=\left(\pi_{t}-\eta_{t}\right)_{t\in[0,T]}$  with dynamics
+
+ |
+ |  $d\tilde{\pi}_{t}=\Gamma\,\left(\overline{\pi}-\tilde{\pi}_{t}\right)\mathrm{d}t+\psi\,\sqrt{\tilde{\pi}_{t}}\,\mathrm{d}B_{t}\,,$
+ |
+
+where  $\tilde{\pi}_{0}=\pi_{0}-\eta_{0}$  and  $\eta$  is in (21).
+
+We introduce the performance criterion  $\tilde{u}^{\delta}\colon[0,T]\times\mathbbm{R}^{4}\rightarrow\mathbbm{R}$  given by
+
+ |
+ |  $\displaystyle\tilde{u}^{\delta}(t,\tilde{x},z,\pi,\mu)=\mathbbm{E}_{t,\tilde{x},z,\tilde{\pi},\mu}\left[\log\left(\tilde{x}_{T}^{\delta}\right)\right]\,,$
+ |
+ | (44)
+
+and the value function  $\tilde{u}:[0,T]\times\mathbbm{R}^{4}\rightarrow\mathbbm{R}$  given by
+
+ |
+ |  $\tilde{u}(t,\tilde{x},z,\tilde{\pi},\mu)=\underset{\delta\in\mathcal{A}}{\sup}\,u^{\delta}(t,\tilde{x},z,\pi,\mu)\,.$
+ |
+ | (45)
+
+Clearly, the problems (45) and (27) are equivalent, and the value functions satisfy  $u(t,\tilde{x},z,\pi,\mu)=\tilde{u}(t,\tilde{x},z,\tilde{\pi},\mu)$  for all  $\left(t,\tilde{x},z,\pi,\mu\right)\in[0,T]\times\mathbbm{R}^{4}$  and for all  $\tilde{\pi}=\pi-\eta\in\mathbbm{R}$ , where  $\eta=\frac{\sigma^{2}}{8}-\frac{\mu}{4}\left(\mu-\frac{\sigma^{2}}{2}\right)+\frac{\varepsilon}{4}\,.$
+
+The value function in (45) admits the dynamic programming principle, so it satisfies the HJB equation
+
+ |
+ |  $\displaystyle 0=$
+ |  $\displaystyle\,\partial_{t}w+\frac{1}{2}\sigma^{2}\,z^{2}\,\partial_{zz}w+\mu\,Z\,\partial_{z}w+\Gamma\left(\overline{\pi}-\tilde{\pi}\right)\partial_{\tilde{\pi}}w+\frac{1}{2}\,\psi^{2}\,\tilde{\pi}\,\partial_{\tilde{\pi}\tilde{\pi}}w+\mathcal{L}^{\mu}w$
+ |
+ | (46)
+
+ |
+ |
+ |  $\displaystyle+\underset{\delta\in\mathbbm{R}^{+}}{\sup}\Bigg(\frac{1}{\delta}\left(4\,\tilde{\pi}+4\,\eta-\frac{\sigma^{2}}{2}\right)\tilde{x}\,\partial_{\tilde{x}}w+\mu\,\rho\left(\delta,\mu\right)\,\tilde{x}\,\partial_{\tilde{x}}w+\frac{1}{2}\,\sigma^{2}\,\rho\left(\delta,\mu\right)^{2}\,\tilde{x}^{2}\,\partial_{\tilde{x}\tilde{x}}w$
+ |
+ | (47)
+
+ |
+ |
+ |  $\displaystyle\qquad\quad\quad\quad-\frac{\gamma}{\delta^{2}}\,\tilde{x}\,\partial_{\tilde{x}}w+\sigma^{2}\,\rho\left(\delta,\mu\right)\,\tilde{x}\,z\,\partial_{\tilde{x}z}w\Bigg)\,,$
+ |
+ | (48)
+
+with terminal condition
+
+ |
+ |  $\displaystyle w(T,\tilde{x},z,\tilde{\pi},\mu)=\log\left(\tilde{x}\right),\quad\forall\left(\tilde{x},z,\tilde{\pi},\mu\right)\in\mathbbm{R}^{4}\,,$
+ |
+ | (49)
+
+where  $\mathcal{L}^{\mu}$  is the infinitesimal generator of  $\mu$ .
+
+To study the HJB in (46), use the ansatz
+
+ |
+ |  $\displaystyle w\left(t,\tilde{x},z,\tilde{\pi},\mu\right)=\log\left(\tilde{x}\right)+\theta\left(t,z,\tilde{\pi},\mu\right)\,,$
+ |
+ | (50)
+
+to obtain the HJB
+
+ |
+ |  $\displaystyle 0=$
+ |  $\displaystyle\,\partial_{t}\theta+\frac{1}{2}\sigma^{2}\,z^{2}\,\partial_{zz}\theta+\mu\,Z\,\partial_{z}\theta+\Gamma\left(\overline{\pi}-\tilde{\pi}\right)\partial_{\tilde{\pi}}w+\frac{1}{2}\,\psi^{2}\,\tilde{\pi}\,\partial_{\tilde{\pi}\tilde{\pi}}w+\frac{\mu}{2}-\frac{1}{8}\,\sigma^{2}$
+ |
+ | (51)
+
+ |
+ |
+ |  $\displaystyle+\mathcal{L}^{\mu}\theta+\underset{\delta\in\mathbbm{R}^{+}}{\sup}\Bigg(\frac{1}{\delta}\left(4\,\tilde{\pi}+4\,\eta-\frac{\sigma^{2}}{2}\right)+\frac{\mu^{2}}{\delta}-\frac{1}{2}\,\sigma^{2}\,\left(\frac{\mu^{2}}{\delta^{2}}+\frac{\mu}{\delta}\right)-\frac{\gamma}{\delta^{2}}\Bigg)\,,$
+ |
+ | (52)
+
+with terminal condition
+
+ |
+ |  $\displaystyle\theta\left(T,z,\tilde{\pi},\mu\right)=0\,,\quad\forall\,(z,\tilde{\pi},\mu)\in\mathbbm{R}^{3}\,.$
+ |
+ | (53)
+
+The supremum in the HJB (51) is attained at
+
+ |
+ |  $\delta^{\star}=\frac{2\,\gamma+\mu^{2}\,\sigma^{2}}{4\,\tilde{\pi}+4\,\eta-\frac{\sigma^{2}}{2}+\mu\left(\mu-\frac{\sigma^{2}}{2}\right)}=\frac{2\,\gamma+\mu^{2}\,\sigma^{2}}{4\,\tilde{\pi}+\varepsilon}\,.$
+ |
+
+Thus, (51) becomes
+
+ |
+ |  $\displaystyle 0=$
+ |  $\displaystyle\,\partial_{t}\theta+\frac{1}{2}\sigma^{2}\,z^{2}\,\partial_{zz}\theta+\mu\,Z\,\partial_{z}\theta+\Gamma\left(\overline{\pi}-\tilde{\pi}\right)\partial_{\tilde{\pi}}\theta+\frac{1}{2}\,\psi^{2}\,\tilde{\pi}\,\partial_{\tilde{\pi}\tilde{\pi}}\theta+\frac{\mu}{2}-\frac{\sigma^{2}}{8}+\mathcal{L}^{\mu}\theta+\frac{1}{2}\frac{\left(4\,\tilde{\pi}+\varepsilon\right)^{2}}{2\,\gamma+\mu^{2}\,\sigma^{2}}\,.$
+ |
+ | (54)
+
+Next, substitute the ansatz
+
+ |
+ |  $\displaystyle\theta\left(t,z,\tilde{\pi},\mu\right)=$
+ |  $\displaystyle\,A\left(t,\mu\right)z^{2}+B\left(t,\mu\right)\tilde{\pi}\,z+C\left(t,\mu\right)\tilde{\pi}^{2}$
+ |
+ | (55)
+
+ |
+ |
+ |  $\displaystyle+D\left(t,\mu\right)z+E\left(t,\mu\right)\tilde{\pi}+F\left(t,\mu\right)\,,$
+ |
+ | (56)
+
+in (51), collect the terms in  $Z$  and  $\tilde{\pi}$ , and write the following system of PDEs:
+
+ |
+ |  $\displaystyle\begin{cases}\left(\partial_{t}+\mathcal{L}^{\mu}\right)A\left(t,\mu\right)=&-\sigma^{2}\,A\left(t,\mu\right)-2\,\mu\,A\left(t,\mu\right)\>,\\
+\left(\partial_{t}+\mathcal{L}^{\mu}\right)B\left(t,\mu\right)=&-\mu\,B\left(t,\mu\right)+\Gamma B\left(t,\mu\right)\>,\\
+\left(\partial_{t}+\mathcal{L}^{\mu}\right)C\left(t,\mu\right)=&2\,C\left(t,\mu\right)\Gamma-\frac{8}{2\,\gamma+\mu^{2}\,\sigma^{2}}\>,\\
+\left(\partial_{t}+\mathcal{L}^{\mu}\right)D\left(t,\mu\right)=&-\mu\,D\left(t,\mu\right)-\Gamma\,\overline{\pi}\,B\left(t,\mu\right)\>,\\
+\left(\partial_{t}+\mathcal{L}^{\mu}\right)E\left(t,\mu\right)=&-2\,\Gamma\,\overline{\pi}\,C\left(t,\mu\right)-\psi^{2}\,C\left(t,\mu\right)+\Gamma\,E\left(t,\mu\right)-\frac{4\,\varepsilon}{2\,\gamma+\sigma^{2}\,\mu^{2}}\>,\\
+\left(\partial_{t}+\mathcal{L}^{\mu}\right)F\left(t,\mu\right)=&-\Gamma\,\overline{\pi}\,E\left(t,\mu\right)+\psi^{2}\,\eta\,C\left(t,\mu\right)-\frac{1}{2}\frac{\varepsilon^{2}}{2\,\gamma+\sigma^{2}\,\mu^{2}}-\frac{\mu}{2}+\frac{\sigma^{2}}{8}\>,\end{cases}$
+ |
+
+with terminal conditions  $A(T,\mu)=B(T,\mu)=C(T,\mu)=D(T,\mu)=E(T,\mu)=F(T,\mu)=0$  for all  $\mu\in\mathbbm{R}\,.$
+
+First, note that the PDEs in  $A$ ,  $B$ , and  $D$  admit the unique solutions  $A=B=D=0\,.$  Next, we solve the PDE in  $C\,.$  Use Itô’s lemma to write
+
+ |
+ |  $C\left(T,\mu_{T}\right)=C\left(t,\mu_{t}\right)+\int_{t}^{T}\left(\partial_{t}+\mathcal{L}^{\mu}\right)C\left(s,\mu_{s}\right)\mathrm{d}s\,.$
+ |
+
+Next, replace  $\left(\partial_{t}+\mathcal{L}^{\mu}\right)C\left(s,\mu_{s}\right)$  with  $2\,C\left(s,\mu_{s}\right)\Gamma-\frac{8}{2\,\gamma+\mu_{s}^{2}\,\sigma^{2}}$  to obtain
+
+ |
+ |  $C\left(T,\mu_{T}\right)=C\left(t,\mu_{t}\right)+2\,\Gamma\int_{t}^{T}C\left(s,\mu_{s}\right)\mathrm{d}s-\int_{t}^{T}\frac{8}{2\,\gamma+\mu_{s}^{2}\,\sigma^{2}}\,\mathrm{d}s\,.$
+ |
+
+Take expectations to get the equation
+
+ |
+ |  $C\left(t,\mu_{t}\right)=\mathbbm{E}_{t,\mu}\left[-2\,\Gamma\int_{t}^{T}C\left(s,\mu_{s}\right)\mathrm{d}s+\int_{t}^{T}\frac{8}{2\,\gamma+\mu_{s}^{2}\,\sigma^{2}}\,\mathrm{d}s\right]\,.$
+ |
+
+Now consider the candidate solution function
+
+ |
+ |  $\hat{C}\left(t,\mu_{t}\right)=\mathbbm{E}_{t,\mu}\left[\,\int_{t}^{T}\frac{8}{2\,\gamma+\mu_{s}^{2}\,\sigma^{2}}\exp\left(-2\,\Gamma\left(s-t\right)\right)\,\mathrm{d}s\right]$
+ |
+
+and write
+
+ |
+ |
+ |  $\displaystyle\mathbbm{E}_{t,\mu}\left[-2\,\Gamma\int_{t}^{T}\hat{C}\left(s,\mu_{s}\right)\mathrm{d}s+\int_{t}^{T}\frac{8}{2\,\gamma+\mu_{s}^{2}\,\sigma^{2}}\,\mathrm{d}s\right]$
+ |
+
+ |
+ |  $\displaystyle=$
+ |  $\displaystyle\mathbbm{E}_{t,\mu}\left[-2\,\Gamma\int_{t}^{T}\mathbbm{E}_{s,\mu}\left[\,\int_{s}^{T}\frac{8}{2\,\gamma+\mu_{u}^{2}\,\sigma^{2}}\exp\left(-2\,\Gamma\left(u-s\right)\right)\,\mathrm{d}u\right]\mathrm{d}s+\int_{t}^{T}\frac{8}{2\,\gamma+\mu_{s}^{2}\,\sigma^{2}}\,\mathrm{d}s\right]$
+ |
+
+ |
+ |  $\displaystyle=$
+ |  $\displaystyle\mathbbm{E}_{t,\mu}\left[\,\int_{t}^{T}\frac{8}{2\,\gamma+\mu_{s}^{2}\,\sigma^{2}}\exp\left(-2\,\Gamma\left(s-t\right)\right)\,\mathrm{d}s\right]\,.$
+ |
+
+Thus,  $\hat{C}$  is a solution to the equation in  $C$  and by uniqueness of solutions, we conclude that  $C=\hat{C}\,.$
+
+Follow the same steps as above to obtain the solution
+
+ |
+ |  $E\left(t,\mu\right)=\mathbbm{E}_{t,\mu}\left[\,\int_{t}^{T}\left(\left(2\,\Gamma\,\overline{\pi}+\psi^{2}\right)C\left(s,\mu\right)+\frac{4\,\varepsilon}{2\,\gamma+\sigma^{2}\,\mu_{s}^{2}}\right)\exp\left(-\Gamma\left(s-t\right)\right)\,\mathrm{d}s\right]$
+ |
+
+to the PDE in  $E$ , and the solution
+
+ |
+ |  $F\left(t,\mu\right)=\mathbbm{E}_{t,\mu}\left[\,\int_{t}^{T}\left(\Gamma\,\overline{\pi}\,E\left(s,\mu_{s}\right)+\psi^{2}\,\eta_{s}\,C\left(s,\mu_{s}\right)-\frac{1}{2}\frac{\varepsilon^{2}}{2\,\gamma+\sigma^{2}\,\mu_{s}^{2}}-\frac{\mu_{s}}{2}+\frac{\sigma^{2}}{8}\right)\mathrm{d}s\right]\,$
+ |
+
+to the PDE in  $F\,,$  where  $\eta_{s}=\frac{\sigma^{2}}{8}-\frac{\mu_{s}}{4}\left(\mu_{s}-\frac{\sigma^{2}}{2}\right)+\frac{\varepsilon}{4}\,,$  which proves the result. ∎
+
+### B.2 Proof of Theorem 1
+
+Proposition 1 provides a classical solution to (46). Therefore, standard results apply and showing that (33) is an admissible control is enough to prove that (28) is the value function (27). Specifically, use the form of the optimal control  $\delta^{\star}$  in (33) to obtain
+
+ |
+ |  $0<\frac{1}{\delta_{s}^{\star}}=\frac{\tilde{\pi}_{s}+\varepsilon}{\sigma^{2}\mu_{s}^{2}+2\,\gamma}\leq\frac{\tilde{\pi}_{s}+\varepsilon}{2\,\gamma}\,,\qquad\forall s\in[t,T]\,,$
+ |
+ | (57)
+
+where  $\tilde{\pi}_{s}=\pi_{s}-\eta_{s},$  thus  $\delta^{\star}$  is an admissible control. ∎
+
+## References
+
+
+
+- Adams et al. (2021)
+
+Adams, H., Zinsmeister, N.,
+Salem, M., Keefer, R.,
+Robinson, D., 2021.
+
+Uniswap v3 core.
+
+Technical Report.
+
+
+
+- Angeris et al. (2022)
+
+Angeris, G., Chitra, T.,
+Evans, A., 2022.
+
+When does the tail wag the dog? curvature and market
+making .
+
+
+
+- Angeris et al. (2021)
+
+Angeris, G., Kao, H.T.,
+Chiang, R., Noyes, C.,
+Chitra, T., 2021.
+
+An analysis of uniswap markets.
+
+
+
+- Avellaneda and Stoikov (2008)
+
+Avellaneda, M., Stoikov, S.,
+2008.
+
+High frequency trading in a limit order book.
+
+Quantitative Finance 8,
+217–224.
+
+doi:10.1080/14697680701381228.
+
+
+
+- Barger and Lorig (2019)
+
+Barger, W., Lorig, M.,
+2019.
+
+Optimal liquidation under stochastic price impact.
+
+International Journal of Theoretical and Applied
+Finance 22, 1850059.
+
+
+
+- Bergault et al. (2024)
+
+Bergault, P., Bertucci, L.,
+Bouba, D., Guéant, O.,
+Guilbert, J., 2024.
+
+Price-aware automated market makers: Models beyond
+brownian prices and static liquidity.
+
+arXiv preprint arXiv:2405.03496 .
+
+
+
+- Bergault et al. (2022)
+
+Bergault, P., Drissi, F.,
+Guéant, O., 2022.
+
+Multi-asset optimal execution and statistical
+arbitrage strategies under Ornstein–Uhlenbeck dynamics.
+
+SIAM Journal on Financial Mathematics
+13, 353–390.
+
+doi:10.1137/21M1407756.
+
+
+
+- Bergault et al. (2021)
+
+Bergault, P., Evangelista, D.,
+Guéant, O., Vieira, D.,
+2021.
+
+Closed-form approximations in multi-asset market
+making.
+
+Applied Mathematical Finance 28,
+101–142.
+
+doi:10.1080/1350486X.2021.1949359.
+
+
+
+- Biais (1993)
+
+Biais, B., 1993.
+
+Price formation and equilibrium liquidity in
+fragmented and centralized markets.
+
+The Journal of Finance 48,
+157–185.
+
+
+
+- Biais et al. (2023)
+
+Biais, B., Capponi, A.,
+Cong, L.W., Gaur, V.,
+Giesecke, K., 2023.
+
+Advances in blockchain and crypto economics.
+
+Management Science 69,
+6417–6426.
+
+
+
+- Capponi and Jia (2021)
+
+Capponi, A., Jia, R., 2021.
+
+The adoption of blockchain-based decentralized
+exchanges.
+
+arXiv preprint arXiv:2103.08842 .
+
+
+
+- Capponi et al. (2023a)
+
+Capponi, A., Jia, R., Yu,
+S., 2023a.
+
+Price discovery on decentralized exchanges.
+
+Available at SSRN 4236993 .
+
+
+
+- Capponi et al. (2023b)
+
+Capponi, A., Jia, R., Zhu,
+B., 2023b.
+
+The paradox of just-in-time liquidity in
+decentralized exchanges: More providers can sometimes mean less liquidity.
+
+Available at SSRN .
+
+
+
+- Cartea et al. (2017)
+
+Cartea, Á., Donnelly, R.,
+Jaimungal, S., 2017.
+
+Algorithmic trading with model uncertainty.
+
+SIAM Journal on Financial Mathematics
+8, 635–671.
+
+
+
+- Cartea et al. (2018)
+
+Cartea, Á., Donnelly, R.,
+Jaimungal, S., 2018.
+
+Enhancing trading strategies with order book
+signals.
+
+Applied Mathematical Finance 25,
+1–35.
+
+
+
+- Cartea et al. (2022)
+
+Cartea, Á., Drissi, F.,
+Monga, M., 2022.
+
+Decentralised finance and automated market making:
+Execution and speculation.
+
+Available at SSRN 4144743 .
+
+
+
+- Cartea et al. (2023a)
+
+Cartea, Á., Drissi, F.,
+Monga, M., 2023a.
+
+Execution and statistical arbitrage with signals in
+multiple automated market makers, in: 2023 IEEE 43rd
+International Conference on Distributed Computing Systems Workshops
+(ICDCSW), IEEE. pp. 37–42.
+
+
+
+- Cartea et al. (2023b)
+
+Cartea, Á., Drissi, F.,
+Monga, M., 2023b.
+
+Predictable losses of liquidity provision in constant
+function markets and concentrated liquidity markets.
+
+Applied Mathematical Finance 30,
+69–93.
+
+
+
+- Cartea et al. (2023c)
+
+Cartea, Á., Drissi, F.,
+Sánchez-Betancourt, L., Siska, D.,
+Szpruch, L., 2023c.
+
+Automated market makers designs beyond constant
+functions.
+
+Available at SSRN 4459177 .
+
+
+
+- Cartea et al. (2015)
+
+Cartea, Á., Jaimungal, S.,
+Penalva, J., 2015.
+
+Algorithmic and high-frequency trading.
+
+Cambridge University Press.
+
+
+
+- Cartea et al. (2014)
+
+Cartea, Á., Jaimungal, S.,
+Ricci, J., 2014.
+
+Buy low, sell high: A high frequency trading
+perspective.
+
+SIAM Journal on Financial Mathematics
+5, 415–444.
+
+
+
+- Cartea et al. (2021)
+
+Cartea, Á., Jaimungal, S.,
+Sánchez-Betancourt, L., 2021.
+
+Latency and liquidity risk.
+
+International Journal of Theoretical and Applied
+Finance 24, 2150035.
+
+
+
+- Cartea and Sánchez-Betancourt (2021)
+
+Cartea, Á., Sánchez-Betancourt, L.,
+2021.
+
+The shadow price of latency: Improving intraday fill
+ratios in foreign exchange markets.
+
+SIAM Journal on Financial Mathematics
+12, 254–294.
+
+
+
+- Cartea and Wang (2020)
+
+Cartea, Á., Wang, Y.,
+2020.
+
+Market making with alpha signals.
+
+International Journal of Theoretical and Applied
+Finance 23, 2050016.
+
+
+
+- Chiu and Koeppl (2019)
+
+Chiu, J., Koeppl, T.V.,
+2019.
+
+Blockchain-based settlement for asset trading.
+
+The Review of Financial Studies
+32, 1716–1753.
+
+
+
+- Donnelly (2022)
+
+Donnelly, R., 2022.
+
+Optimal execution: A review.
+
+Applied Mathematical Finance 29,
+181–212.
+
+
+
+- Donnelly and Lorig (2020)
+
+Donnelly, R., Lorig, M.,
+2020.
+
+Optimal trading with differing trade signals.
+
+Applied Mathematical Finance 27,
+317–344.
+
+
+
+- Drissi (2022)
+
+Drissi, F., 2022.
+
+Solvability of differential riccati equations and
+applications to algorithmic trading with signals.
+
+Applied Mathematical Finance 29,
+457–493.
+
+doi:10.1080/1350486X.2023.2241130.
+
+
+
+- Drissi (2023)
+
+Drissi, F., 2023.
+
+Models of market liquidity: Applications to
+traditional markets and automated market makers.
+
+Available at SSRN 4424010 .
+
+
+
+- Engel and Herlihy (2021a)
+
+Engel, D., Herlihy, M.,
+2021a.
+
+Composing networks of automated market makers, in:
+Proceedings of the 3rd ACM Conference on Advances in
+Financial Technologies, pp. 15–28.
+
+
+
+- Engel and Herlihy (2021b)
+
+Engel, D., Herlihy, M.,
+2021b.
+
+Presentation and publication: Loss and slippage in
+networks of automated market makers.
+
+arXiv preprint arXiv:2110.09872 .
+
+
+
+- Fan et al. (2021)
+
+Fan, Z., Marmolejo-Cossio, F.,
+Moroz, D.J., Neuder, M.,
+Rao, R., Parkes, D.C.,
+2021.
+
+Strategic liquidity provision in uniswap v3.
+
+arXiv preprint arXiv:2106.12033 .
+
+
+
+- Fan et al. (2022)
+
+Fan, Z., Marmolejo-Cossío, F.J.,
+Altschuler, B., Sun, H.,
+Wang, X., Parkes, D.,
+2022.
+
+Differential liquidity provision in uniswap v3 and
+implications for contract design, in: Proceedings of the
+Third ACM International Conference on AI in Finance, pp.
+9–17.
+
+
+
+- Forde et al. (2022)
+
+Forde, M., Sánchez-Betancourt, L.,
+Smith, B., 2022.
+
+Optimal trade execution for Gaussian signals with
+power-law resilience.
+
+Quantitative Finance 22,
+585–596.
+
+
+
+- Fukasawa et al. (2023)
+
+Fukasawa, M., Maire, B.,
+Wunsch, M., 2023.
+
+Model-free hedging of impermanent loss in geometric
+mean market makers.
+
+arXiv preprint arXiv:2303.11118 .
+
+
+
+- Goyal et al. (2023)
+
+Goyal, M., Ramseyer, G.,
+Goel, A., Mazières, D.,
+2023.
+
+Finding the right curve: Optimal design of constant
+function market makers, in: Proceedings of the 24th ACM
+Conference on Economics and Computation, pp. 783–812.
+
+
+
+- Guéant (2016)
+
+Guéant, O., 2016.
+
+The Financial Mathematics of Market Liquidity: From
+optimal execution to market making. volume 33.
+
+CRC Press.
+
+
+
+- Guéant (2017)
+
+Guéant, O., 2017.
+
+Optimal market making.
+
+Applied Mathematical Finance
+24, 112–154.
+
+doi:10.1080/1350486X.2017.1342552.
+
+
+
+- He et al. (2024)
+
+He, X.D., Yang, C., Zhou,
+Y., 2024.
+
+Liquidity pool design on automated market makers.
+
+arXiv preprint arXiv:2404.13291 .
+
+
+
+- Heimbach et al. (2022)
+
+Heimbach, L., Schertenleib, E.,
+Wattenhofer, R., 2022.
+
+Risks and returns of Uniswap v3 liquidity
+providers.
+
+
+
+- Ho and Stoll (1983)
+
+Ho, T.S., Stoll, H.R.,
+1983.
+
+The dynamics of dealer markets under competition.
+
+The Journal of Finance 38,
+1053–1074.
+
+
+
+- Lı et al. (2023)
+
+Lı, T., Naik, S.,
+Papanicolaou, A., Schönleber, L.,
+2023.
+
+Yield farming for liquidity provision .
+
+
+
+- Lipton and Treccani (2021)
+
+Lipton, A., Treccani, A.,
+2021.
+
+Blockchain and Distributed Ledgers: Mathematics,
+Technology, and Economics.
+
+World Scientific.
+
+
+
+- Lommers et al. (2023)
+
+Lommers, K., Kim, J.,
+Skidan, B., 2023.
+
+The case for stochastically dynamic AMMs.
+
+Preprint.
+
+
+
+- Milionis et al. (2023)
+
+Milionis, J., Moallemi, C.C.,
+Roughgarden, T., 2023.
+
+Automated market making and arbitrage profits in the
+presence of fees.
+
+arXiv preprint arXiv:2305.14604 .
+
+
+
+- Milionis et al. (2022)
+
+Milionis, J., Moallemi, C.C.,
+Roughgarden, T., Zhang, A.L.,
+2022.
+
+Automated market making and loss-versus-rebalancing.
+
+arXiv preprint arXiv:2208.06046 .
