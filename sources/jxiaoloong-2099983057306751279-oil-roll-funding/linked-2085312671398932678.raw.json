@@ -1,0 +1,290 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2085312671398932678",
+      "text": "https://t.co/dbkQKzqzrK",
+      "author": {
+        "id": "1466901613000359940",
+        "name": "0xJA | Whale.Dance 🐳",
+        "screenName": "JXiaoLoong",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2054812848367534080/y82wDRML_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 12,
+        "retweets": 1,
+        "replies": 5,
+        "quotes": 2,
+        "views": 3263,
+        "bookmarks": 12
+      },
+      "createdAt": "Thu Aug 06 10:30:58 +0000 2026",
+      "createdAtLocal": "2026-08-06 18:30",
+      "createdAtISO": "2026-08-06T10:30:58+00:00",
+      "media": [],
+      "urls": [
+        "http://x.com/i/article/2085304625260007424"
+      ],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zxx",
+      "score": null,
+      "articleTitle": "BZ / CL 价差套利",
+      "articleText": "第二天的推文来分享一个比较大众的套利 —— BZ / CL 价差套利\n\n套利逻辑很简单，绝大部分时间 BZ 和 CL 走势是相同的，我们可以拉历史数据做一个 BZ/CL 的价格曲线，他应该会沿着某个基准线上下波动走势，我们可以拟合出来一个基准线\n然后在这个 BZ/CL 比值明显低于基准线时候，我们就可以做多 BZ 做空 CL，等他收敛到基准值后获利，反之亦然\n\n于是我让 Claude 做了一个 BZ/CL 比值图表，并且拟合了一条基准线（90天线性拟合），可以看出，这个基准线并非严格的直线，而是有一定斜率的，但斜率不大，仍能接受\n\n因此，我们可以用这个比值和基准线对比，当偏离达到一定程度时候就可以考虑入场，接近回归的时候出场。\n\n我是在 7/25 那天发现这个策略（刚好那天比值处于低位，确实是走运了），当时也只是灵机一动想到的，于是我马上尝试做多 BZ 做空 CL，一天时间价差直接回归了一半，赚了 750 刀\n\n我这才意识到这几个月我到底错过了什么！？因为通过历史数据我们其实可以发现，每次 BZ/CL 价差扩大都蕴含巨大的套利机会。而在 3、4 月份，当时价差是非常离谱的 —— 这可能也是当时原油资费巨高的原因之一 —— 如果那时候就已经发现套利机会，直接赚个几十万 u 不是问题（当然，通过我的资金费率套利，在那段原油资费疯狂飙升的时期，也算是蹭到汤喝了）\n\n但我也意识到，统计套利赚钱了很多时候可能只是运气好，所以光看统计图还不够，我们需要了解本质：BZ CL 套利的成立需要有底层支撑，所以我开始学习原油相关的知识，我查阅相关新闻和借助 AI 之后，总算初步有了一些理解：\n\nBZ，也就是布伦特原油，指的是出产于北大西洋北海布伦特地区的轻质低硫原油，而 CL 指的是 WTI 原油，是出产在美国西德克萨斯的中质原油，他们虽然相似，但两个原油的品种并不一样，严格来说，WTI 的原油品质更好，所以 2011 年以前，这个价差长期在零附近摆动，WTI 多数时候还略高一点——2000 到 2010 那十年，WTI 基本都是溢价的（下表黄色区域，布伦特 - WTI 价差是负值，表示 WTI 更贵）：\n\n那为什么现在布伦特原油长期比 WTI 原油贵呢？其实是 2011 年美国页岩油大爆产，供给增加了，但由于美国当时还有一条 1975 年《能源政策与保护法》留下的原油出口禁令，油根本出不去，导致 WTI 严重供过于求发生贬值。所以可以从图中看出 2011 年到 2015 年布伦特原油和 WTI 原油价差是非常大的\n\n转机发生在 2015 年，那时候美国废除了原油出口禁令，美国正式成为原油的出口国，WTI 可以运出海外，于是我们可以看到 2015 年之后，布伦特和 WTI 不再有那么大的价差了\n\n因此，现在 WTI 和布伦特的价差则是由运费决定的：BZ - CL 的价差，就是把一桶油从库欣运到欧洲的运费。目前，根据经验值，这个运费在 $3 ~ $6 之间（这个只是一个根据价差算出的统计值，目前我还没找到具体证据证明运费就在此区间）。\n\n可能还有一个疑问：WTI 原油还得从美国运到欧洲，那不应该 WTI 更贵吗？实际上这个价格是指原油还在库欣时候的价格。打个比方，假设现在布伦特原油价格是 $79，运费 $3.5。你是一个贸易商，你在库欣想买一桶油，你算的是：“我在库欣买了这桶油,还得再花 $3.5 才能运到欧洲。到了欧洲我能卖 $79。所以我在库欣最多愿意出 $79 − $3.5 = $75.5”。所以 WTI 最多不能超过 $75.5，才会有人买，这就是价差存在的物理依据。\n\n所以这里存在一个物理套利：\n\n- 如果价差 > 运费，套利者就会买 WTI，租船拉到欧洲卖布伦特，真金白银赚 → 推高 WTI、压低布伦特 → 价差被压回运费\n\n- 反之，出口不赚钱了，船停开 → 美国油开始积压 → WTI 下跌 → 价差被拉回运费\n\n目前，美国稳定过剩、必须出口，这个关系就成立，而通道一旦被堵（比如 2011 年的禁令政策堵，也可能是管道满、港口瓶颈），或者美国从出口国变为进口国了（在可预见的未来里不太可能出现），这个锚就会失效。\n\n所以，分析到这里我们其实可以发现，这个价差并不是按百分比算，而是按 “绝对值” 的，这个绝对值就是运费区间，按经验值就是在 $3 ~ $6 之间。然后各种新闻都有可能影响这个运费，所以我们需要优化一下我们的图表，将原本的百分比价差改为绝对值，标记上运费区间，并且标记上关键新闻方便我们观察新闻和价差的相关性：\n\n当然，到目前位置我们只是勉强搞懂了价差的成因，那我们如何套利呢？\n\n首先需要说明，价差确实和运费挂钩，这是我们套利的物理基础，但不代表运费就是一成不变的，虽然从最近几年来看价差确实都维持在一定水平，但说不定哪天发生什么黑天鹅事件就脱锚了？统计学虽然有指导意义，但还是要做好仓位管理和止损。\n\n接下来，我们可以通过分析最近几个月在 HL 或 币安上 BZ / CL 价差曲线，我们还是通过统计的方式找到基线，并根据历史数据寻找可能的进场信号和出场信号，然后设计策略和参数做一个回测：\n\n当然，无论是什么策略，回测看着都很好（不然也不叫策略了），不代表实际就能赚钱，所以还得实际跑一跑。\n\n通过回测确定了一个比较满意的策略和参数之后，马上总结成文档，然后让我的 Claude 在 OpenWhale 把原油套利策略写出来，实际运行了一下，结果还不错！在上一轮价差偏离的时期，4 天时间成功套到 2600 刀（加上一开始尝试赚的 750 刀，也算是吃到肉了）：\n\n而我们 WhaleDance 的 Oil Master 底层也是这套策略，在上一轮价差周期也在 7 天内打出了 19.3% 的收益率，最大回撤仅 4%，还是非常不错的：\n\n当然，所有套利都是有风险甚至是高风险的，不存在稳赚不赔的套利，因此无论是套利还是交易，还是需要做好仓位管理，设置止损，见好就收\n\n类似的套利逻辑可以拓展到很多种类，比如币安上的 ETF 合约和股票合约套利、美股韩股海力士套利等等，后续的推文可以再展开聊聊~"
+    },
+    {
+      "id": "2086004780854387171",
+      "text": "@JXiaoLoong 所以直接跟单 oil master 就好了是吧？",
+      "author": {
+        "id": "1443138410571395073",
+        "name": "whiskoy",
+        "screenName": "whiskoy_eth",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2005233340790784000/3I31XBMY_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 128,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Aug 08 08:21:10 +0000 2026",
+      "createdAtLocal": "2026-08-08 16:21",
+      "createdAtISO": "2026-08-08T08:21:10+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2086017904693415991",
+      "text": "@whiskoy_eth 是的！",
+      "author": {
+        "id": "1466901613000359940",
+        "name": "0xJA | Whale.Dance 🐳",
+        "screenName": "JXiaoLoong",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2054812848367534080/y82wDRML_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 104,
+        "bookmarks": 0
+      },
+      "createdAt": "Sat Aug 08 09:13:19 +0000 2026",
+      "createdAtLocal": "2026-08-08 17:13",
+      "createdAtISO": "2026-08-08T09:13:19+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2089095629012410477",
+      "text": "@JXiaoLoong 简而言之我们可以比较呆瓜的认为 在没有黑天鹅的情况下我们可以单纯的在cl和bz价差大于6u和小于2u（或是负数 ）的时候做cl和bz的价差波段?",
+      "author": {
+        "id": "1927628606382985216",
+        "name": "wei",
+        "screenName": "wei1731562",
+        "profileImageUrl": "https://abs.twimg.com/sticky/default_profile_images/default_profile_normal.png",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 117,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Aug 16 21:03:06 +0000 2026",
+      "createdAtLocal": "2026-08-17 05:03",
+      "createdAtISO": "2026-08-16T21:03:06+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2089096575239008743",
+      "text": "@wei1731562 可以的，但尽量避开换月期，然后套利风险确实还是比较大的，控制好仓位，做好监控，耐心等回归",
+      "author": {
+        "id": "1466901613000359940",
+        "name": "0xJA | Whale.Dance 🐳",
+        "screenName": "JXiaoLoong",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2054812848367534080/y82wDRML_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 94,
+        "bookmarks": 0
+      },
+      "createdAt": "Sun Aug 16 21:06:51 +0000 2026",
+      "createdAtLocal": "2026-08-17 05:06",
+      "createdAtISO": "2026-08-16T21:06:51+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2089220833546043542",
+      "text": "@JXiaoLoong 75x 这么高吗",
+      "author": {
+        "id": "1864373467333660672",
+        "name": "透",
+        "screenName": "Darkhorse1027",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2095952197704097792/Ki9yPzKY_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 66,
+        "bookmarks": 0
+      },
+      "createdAt": "Mon Aug 17 05:20:37 +0000 2026",
+      "createdAtLocal": "2026-08-17 13:20",
+      "createdAtISO": "2026-08-17T05:20:37+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2090135825992617992",
+      "text": "@Darkhorse1027 套利得重仓做，重仓就得尽量高杠杆，不然赚的少）",
+      "author": {
+        "id": "1466901613000359940",
+        "name": "0xJA | Whale.Dance 🐳",
+        "screenName": "JXiaoLoong",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2054812848367534080/y82wDRML_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 88,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Aug 19 17:56:28 +0000 2026",
+      "createdAtLocal": "2026-08-20 01:56",
+      "createdAtISO": "2026-08-19T17:56:28+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2085313140846440758",
+      "text": "@JXiaoLoong 现在套利风险会比以前更大一些吗🤔",
+      "author": {
+        "id": "1042437708",
+        "name": "麻辣毛蛋｜买真实美股上Backpack🎒｜狗宝真帅🐕",
+        "screenName": "malamaodan309",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2008775629748211712/DpgFlGju_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 121,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Aug 06 10:32:50 +0000 2026",
+      "createdAtLocal": "2026-08-06 18:32",
+      "createdAtISO": "2026-08-06T10:32:50+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2085317153730043984",
+      "text": "@malamaodan309 根据经验，只要没有太大的突发新闻价差应该都会在一周内收敛的，风险就是怕价差持续扩大",
+      "author": {
+        "id": "1466901613000359940",
+        "name": "0xJA | Whale.Dance 🐳",
+        "screenName": "JXiaoLoong",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2054812848367534080/y82wDRML_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 72,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Aug 06 10:48:47 +0000 2026",
+      "createdAtLocal": "2026-08-06 18:48",
+      "createdAtISO": "2026-08-06T10:48:47+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2085552917994778713",
+      "text": "@JXiaoLoong 大佬的硬文章从来不会让人失望，学习了！\n哈哈~有做策略的思路了。让我的agent也模仿模仿~",
+      "author": {
+        "id": "1937799108980592641",
+        "name": "0xdb (Ø,G)",
+        "screenName": "VKong90141",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2018130352250949633/6ea2TYxY_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 76,
+        "bookmarks": 0
+      },
+      "createdAt": "Fri Aug 07 02:25:38 +0000 2026",
+      "createdAtLocal": "2026-08-07 10:25",
+      "createdAtISO": "2026-08-07T02:25:38+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

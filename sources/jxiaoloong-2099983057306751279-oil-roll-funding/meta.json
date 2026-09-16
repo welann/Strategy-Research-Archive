@@ -1,0 +1,90 @@
+{
+  "source_url": "https://x.com/JXiaoLoong/status/2099983057306751279",
+  "tweet_id": "2099983057306751279",
+  "article_id": "2099903290104496128",
+  "title": "原油换月，狂赚 13000u",
+  "author": "JXiaoLoong",
+  "published_at": "2026-09-15T22:05:51+00:00",
+  "article_modified_at": "2026-09-16T06:54:18.000Z",
+  "retrieved_at": "2026-09-16T14:43:28.897100+00:00",
+  "type": "套利执行复盘",
+  "retrieval": [
+    "twitter-cli tweet --json",
+    "FxTwitter article structure and media"
+  ],
+  "reply_ids": [
+    "2100081091004784772",
+    "2100085452435075392",
+    "2100071156493763044",
+    "2100078451562868864",
+    "2100011867188170941",
+    "2100114103666897009",
+    "2100115017567735901",
+    "2100115274066469094",
+    "2100010541414830224",
+    "2100068339351752777",
+    "2100096576941170956"
+  ],
+  "coverage": "主文章全文、封面及7张正文图、11条可见相关回复（含作者4条）、1张作者回复图；文末两篇旧文保存CLI文字快照，其他历史嵌入推文保留链接，未递归完整归档。",
+  "media": [
+    {
+      "url": "https://pbs.twimg.com/media/HSR1-sKaQAA6ewa.jpg",
+      "file": "assets/2099933046128656384.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSRdxXYbsAAtqld.jpg",
+      "file": "assets/2099906428932960256.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSRfhfRacAA7f4i.jpg",
+      "file": "assets/2099908355196350464.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSRetX6bUAAJjE0.jpg",
+      "file": "assets/2099907459867693056.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSRed1baAAAjx6i.jpg",
+      "file": "assets/2099907192912740352.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSRdziVaIAEh4yn.jpg",
+      "file": "assets/2099906466232803329.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSRc4DtaYAAhFjH.jpg",
+      "file": "assets/2099905444399702016.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSReXlUaoAAooKJ.png",
+      "file": "assets/2099907085509238784.png"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSUANrba8AAGbys.png",
+      "file": "assets/reply-2100085452435075392.png"
+    }
+  ],
+  "limitations": [
+    "收益为作者自述及界面截图，未取得交易流水独立审计",
+    "原始详情接口含无关推荐，未纳入原文整理",
+    "Boros结算盈利与总盈亏口径有差异，见分析文档"
+  ],
+  "sha256": {
+    "article.raw.json": "75c6019a83b72f774a84ed82c24c2c44ab9f1ff15941deea450e15a34d67cc14",
+    "assets/2099905444399702016.jpg": "d3e8a907b81392dbb39fe3c8a84c4fe76a87219c37161a143b788626addce44b",
+    "assets/2099906428932960256.jpg": "f32fffd8bec7ca3fbf9de5b0d30b869c174c3868848c058ab3410a3a6369970b",
+    "assets/2099906466232803329.jpg": "2940be8dbd511fbac50caf96e78e645bb157490803f19382aaf5f026dbbb4a00",
+    "assets/2099907085509238784.png": "c22dab06165bd3035a703c2dc8f1dd08a8a08b9b2de9538009006774de87f247",
+    "assets/2099907192912740352.jpg": "061f2d8faa464dd1418c299cd1c914f6a7814fbe57fea3814cb69cf228710c39",
+    "assets/2099907459867693056.jpg": "17a7d7834425f43b6c4ed26c372bf28cdb8c545a4ff082eeb2e5428979099d59",
+    "assets/2099908355196350464.jpg": "fd9dba8d951d3416c71eca7728088abeea80ff06a57e31532cf4b0d042ef11ea",
+    "assets/2099933046128656384.jpg": "45eab0922a777373694010d52eeaf36539b98a59250606e3979d9274ca938d19",
+    "assets/reply-2100085452435075392.png": "9cf696ad0a3992f869e993b189981c8d8a917d286f412526177e86c6fe99275d",
+    "linked-2085312671398932678.raw.json": "7414a53d878af8564650aadd0a82f1acde1a829cd7435a759ea1e77032299f4d",
+    "linked-2085724783388614696.raw.json": "96754d02b0205faec4de35f45ecc624829ad01c8d853258217f591f03e1d22e9",
+    "linked-context.md": "519297f89835bf517f158425e6ab8a479c0f40c61b42737e3b312d09aa76a767",
+    "original.md": "4e2b837865534bcb07a7ff05bcbfb734e0539629f8408c8201cae18958680ad3",
+    "original.txt": "8bf9bfbdbc224d74313138f1b17338b7af8f29881406bb05bf374290e57ce594",
+    "tweet.raw.json": "f82dc8ff465d86901a4391101b903d031ef670a8f1a0bfe11d2043a8f5dc6caf"
+  }
+}

@@ -1,0 +1,514 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2099983057306751279",
+      "text": "https://t.co/2POhxwoXv1",
+      "author": {
+        "id": "1466901613000359940",
+        "name": "0xJA | Whale.Dance 🐳",
+        "screenName": "JXiaoLoong",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2054812848367534080/y82wDRML_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 71,
+        "retweets": 8,
+        "replies": 7,
+        "quotes": 1,
+        "views": 8678,
+        "bookmarks": 112
+      },
+      "createdAt": "Tue Sep 15 22:05:51 +0000 2026",
+      "createdAtLocal": "2026-09-16 06:05",
+      "createdAtISO": "2026-09-15T22:05:51+00:00",
+      "media": [],
+      "urls": [
+        "https://x.com/i/article/2099903290104496128"
+      ],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zxx",
+      "score": null,
+      "articleTitle": "原油换月，狂赚 13000u",
+      "articleText": "上次换月时候我做了一个复盘：\n\n> 1. 提前在 @boros_fi 做好布局（紧密关注 @0xanonnnn 大佬的推文）\n2. 另外，将资金拆分到不同的账户里做不同的套利策略，避免策略仓位冲突\n\n## 事实证明，这是一个价值 1 万 3 千刀的复盘。\n\n这次原油换月我做了三件事：\n\n1. 将原油价差套利的仓位转移到子账户，花了 200 多 u 的手续费，并且在合适的时间逐步减仓\n\n2. 密切关注 Boros 上的原油市场，在合适时机果断买入和卖出\n\n3. 在 OpenWhale启动原油资费套利\n\n第一个没什么好讲的，我们重点说说第二个和第三个。\n\n# 在 Boros 用 500u 本金打出 300u 收益\n\n## Part 1 换月之前\n\n上个月在 Boros 上交的学费这次终于起作用了 —— 在原油换月开始之前（9.4），资费已经出现了不少的波动，Implied APY 从 -15% 干到接近 -100%。\n\n当时我还以为这次会又错过入场机会了，但在看了 @0xanonnnn 大佬的推文后，其实当时换月还没开始 —— 正确的换月时间是 北京时间 9.9 5:30AM ~ 9.15 5:30 AM。\n\n而且这个月的近月远月价差比上个月更高，同时地缘政治形势也不容乐观，几个 BUFF 叠加下来，因此我判断这个月的原油资费大概率会比上个月来得更猛烈！\n\n但是接近 -100% 的 Implied APY 显然不适合进场，刚好在换月开始前撞上了周末（9.5 ~ 9.6），周末原油是几乎没有资费的，因此那些低位持有 YU 空头的人就会连续亏损 48 小时：\n\n比如在 -100% 价格持有 1000 YU 的人，在周末就会按照 1000u 的 100% 左右的 APY 持续亏钱 48 小时，大概亏 5.5u，但要注意 1000 YU 的本金可能就只需 50 ~ 60u（相当于直接亏了 10%），这个亏损还是很恐怖的。\n\n所以受不了亏损的人就会主动平仓离场，把 Implied APY 拉回合理价格 —— 这时候就是做空 YU 的建仓窗口期了！\n\n## Part 2 换月中\n\n于是我在周末结束之后的凌晨（9.7），看到 Implied APY 在 -60% 左右就果断入场，买了 11000 的 YU 做空。事实证明，这个价格差不多就是整个换月期的顶部了（当然，如果能在更早 Implied APY -15% 时候入场就更牛逼了）\n\n不过换月期间也跨越了一个周末（9.12 ~ 9.13），周五的最后一次结算之后忘记把仓位平掉，换月期间每小时稳定赚 1 ~ 5u，而到了周末变成了稳定亏 1u，回撤了一点利润。后面重新挂了个单，在周一 早上 Implied APY 回到 -80% 时候自动吃单平掉了，比较可惜的就是没有把最后一天的换月资费收益完整套到，但总体来说还算不错，这波把学费差不多赚回来了！\n\n最后，这 11000 YU 的空头仓位本金只有 500u 左右，产生了 245u 的收益（图中亏损的钱就是我的学费哈哈哈）\n\n## Part 3 换月后\n\n这其实还没结束\n\nBoros 上，下个月的原油市场也已经上线了，在昨天（9.15）凌晨最后一次结算完（5 点的时候）之后，本来已经上床了的我突然想起来：换月结束就得做多 YU 了！\n\n于是在床上的我马上拿出手机切换到下个月的原油市场，看到还有 -50% 的 Implied APY，果断买入做多 YU！起床之后看 Implied APY 已经升到 -4%（现在已经到 -1% 了），凌晨这波操作直接浮盈 60u\n\n其实这个操作在上个月已经分享过，就是在换月结束市场还没反应过来的时候低位做多 YU，就能在之后的在非换月期间赚取为期三周以上的固定 APY 收益：\n\n## 总结一下 Boros 换月套利方法论\n\n上面用实际操作分享了我是如何在换月期间通过 Boros 赚钱的。可惜的是目前原油市场流动性太低，没法上很大仓位，但操作得好赚个一个月生活费还是可以的。\n\n不过！接下来我想尝试把这套操作复刻到 OpenWhale 上，实现全自动运行，因此我有必要总结成一个方法论。不过事先声明，这个方法论遵循下面三个重要前提：\n\n1. 非换月期，原油资费长期几乎为 0（允许偶尔有波动）\n\n2. 换月期由于原油期货近月远月价格差异，形成 Backwardation 结构，且越极端越好（我们可以在 https://www.barchart.com/futures/quotes/CB*0/futures-prices 这里看到近月和远月的原油期货价格。一般来说，当他们价差越大，Backwardation 结构就会越极端，对应的换月期间资费就会越高）\n\n3. 有足够的深度支撑你开仓\n\n在这三个前提下，我们整个 Boros 换月套利方法论如下：\n\n1. 提前埋伏：在一个换月期开始之前（大概是每个月的第 5/6 个交易日左右？），提前在合适的高位买入做空 YU，如果你认为这次换月资费来的足够猛烈（通过评估前提 2），甚至可以无视滑点市价买入。\n\n2. 补票上车：每次周末都是一个做空 YU 的窗口期，特别是在周末结束的那个凌晨。如果错过了提前埋伏机会，就趁周末挂单/市价买入，补票上车\n\n3. 平仓时机：换月期原油资费一般是从 8 点开始涨，然后到第二天凌晨 5 点到达峰值，接下来的 6，7 点是一个回落的过程，然后 8 点到底，第二天重新开始涨。因此，如果你想在换月期间平仓 YU 空头，最好是在凌晨 5 点结算完毕之后尽快执行（比如第二天是周末，或者到了换月最后一天想要平仓）。当然，如果入场 Implied APY 足够高，可以不平仓直接等市场到期结算。\n\n4. 反向套利：Boros 的原油市场一般会在换月结束的 3 天后到期，因此每次到了换月的最后一两天，Boros 就会上线下一个月的原油市场，这个市场也会因为处于换月期，会有较低的 Implied APY。因此我们可以在这个月换月期刚结束（一般是换月最后一天的凌晨 5 点），趁市场还没反应过来，马上到下个月的市场低位做多 YU，这样你可以吃到为期三周以上的固定 APY 收益。这个仓位要在下次换月开始之前找个高点平掉，然后重新回到第一步\n\n注意：上面 4 点操作都基于前面的三个前提，如果前提是不成立的，那么这些操作都可能会无效。\n\n# 原油资费套利狂赚 1.3wu\n\n重点来了，Boros 上原油池子太小，可以稳稳地赚点生活费，但如果有更高的风险偏好，想财富自由，还是得在大市场里做套利，其中一个就是原油资费套利\n\n一般来说，资费套利都是通过跨所进行的，一个所收资费另一个做对冲。但这样需要的资金量非常大，而且跨所之间的价差不好把握，也容易爆仓。虽然有 Gate 的 CrossEx 这种跨所共享保证金产品，但鉴于 Gate 前段时间的负面新闻，实在不敢放太多钱进去。\n\n所以比起跨所，我认为单所资费套利对我这种小资金更友好，虽然套利失败的概率也高，但几乎没有爆仓风险\n\n单所套利其实就是指在邻近资费收取时候做快进快出，我在很早之前就尝到了甜头，并且后续依靠这个策略在三个月内赚到接近 7wu 的收益（差点就够买 1 个 BTC 了）\n\n虽然这个策略失败概率也很高，而且能承载的资金量非常有限，平时其实很难赚钱\n\n但原油不一样。原油在各个交易所都有极大的深度，一旦这种庞然巨物出现了高资费，套利空间是巨大的，甚至手动套利都能赚钱\n\n于是，就有赚 1 wu 的空间了：\n\n当然，这里赚 1wu 只是我资金上限（本金只有 8wu），如果资金足够，套利发挥的好，光靠这个策略在这波赚个 3~5 wu 也是有可能的\n\n上个月的换月其实也产生了高资费，但由于我的原油价差套利策略和资费套利策略没有拆分账号，就没法放开来做资费套利，这次终于能套爽了\n\n## 好吧，说完赚钱的，也说说亏钱的\n\n由于油价一直飙升，虽然我的原油价差套利本身已经回本甚至赚钱了，而且现在的价差也正和我一开始预判那样往反向走了：\n\n但是，和很多做空原油的小伙伴一样，我当时留下的 10wu BZ 空单敞口目前还是产生了很大的亏损，换月期间也陆续平掉了一部分，真的也亏了不少\n\n而且由于这次换月一直是 BZ 资费低于 CL（之前以为会反过来，但还是想多了），因此之前的 做多 CL 做空 BZ 组合一直在持续支付资费，更何况我还留了个 BZ 空单敞口，要付的资费更多了，目前已经产生了 4ku 资费亏损…… 所以这波属于是自己套自己利了\n\n换月过了，希望原油能跌下来我能回回血。以后还是乖乖研究套利吧，做套利赚的钱都因为做交易亏掉了\n\n另外，现在资费下去了，然后反向价差也扩大了，差不多是时候可以开始做反向的价差套利了~\n\nPS. @whaledotdance 上的 Oil Master 准备开机啦，赶紧来跟单吧！\n\n最后，补充一下我总结的几个原油的套利策略和其底层原理：\n\n希望能赚🙏"
+    },
+    {
+      "id": "2100081091004784772",
+      "text": "@JXiaoLoong 老师你这单所快进快出有操作图吗？一般在资费结算之后，价差就会亏回去，你这图资费也赚了，价差也赚了似乎不太对啊😲",
+      "author": {
+        "id": "859646579573215236",
+        "name": "Adman",
+        "screenName": "vck2f2etqd97hnx",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1728810962319458304/RgI3xYCp_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 84,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 04:35:24 +0000 2026",
+      "createdAtLocal": "2026-09-16 12:35",
+      "createdAtISO": "2026-09-16T04:35:24+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100085452435075392",
+      "text": "@vck2f2etqd97hnx 价差其实没赚哈哈，不过如你所说，这个策略确实是存在风险的，搞得不好也会亏很多 https://t.co/FWaG2pBcEs",
+      "author": {
+        "id": "1466901613000359940",
+        "name": "0xJA | Whale.Dance 🐳",
+        "screenName": "JXiaoLoong",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2054812848367534080/y82wDRML_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 1,
+        "replies": 1,
+        "quotes": 0,
+        "views": 72,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 04:52:44 +0000 2026",
+      "createdAtLocal": "2026-09-16 12:52",
+      "createdAtISO": "2026-09-16T04:52:44+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSUANrba8AAGbys.png",
+          "width": 292,
+          "height": 266
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100071156493763044",
+      "text": "@JXiaoLoong 没看懂你这个原油的资费套利是什么机制 ，是靠 CL 和 BZ 的资费差吗？ CL 多 BZ 空？ 跨所吗 另外不同交易所本身还有一定的价差以及结算周期不一致 这怎么解决",
+      "author": {
+        "id": "2089237617674178560",
+        "name": "Northfield",
+        "screenName": "Northfieldxme",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2089238282370797568/vnB8r32W_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 126,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 03:55:55 +0000 2026",
+      "createdAtLocal": "2026-09-16 11:55",
+      "createdAtISO": "2026-09-16T03:55:55+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100078451562868864",
+      "text": "@Northfieldxme 临近结算快进快出",
+      "author": {
+        "id": "1466901613000359940",
+        "name": "0xJA | Whale.Dance 🐳",
+        "screenName": "JXiaoLoong",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2054812848367534080/y82wDRML_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 120,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 04:24:55 +0000 2026",
+      "createdAtLocal": "2026-09-16 12:24",
+      "createdAtISO": "2026-09-16T04:24:55+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2099066818602119408",
+      "text": "Jared Kushner @jaredkushner, United States Special Envoy for Peace, in his video speech during YES 2026 stated: “This has been a brutal war. I think that there's a lot of different considerations from President Trump's perspective. Obviously, number one is the human cost, it's brought a lot of human suffering, which really is what sits with him the most, and then beyond that, there's the economic impact. We were talking a lot in our meetings with the Europeans about the fact that gas prices now in Europe are two to three times higher than they were before the war.”",
+      "author": {
+        "id": "758949578",
+        "name": "Yalta European Strategy (YES)",
+        "screenName": "yes_ukraine",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1484520519915425801/w4z0fAJ3_normal.png",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 4,
+        "replies": 0,
+        "quotes": 0,
+        "views": 300,
+        "bookmarks": 4
+      },
+      "createdAt": "Sun Sep 13 09:25:02 +0000 2026",
+      "createdAtLocal": "2026-09-13 17:25",
+      "createdAtISO": "2026-09-13T09:25:02+00:00",
+      "media": [
+        {
+          "type": "video",
+          "url": "https://video.twimg.com/amplify_video/2099054830685986816/vid/avc1/1920x1080/9K5l0Ai7NEJXQEQ3.mp4?tag=29",
+          "width": 1920,
+          "height": 1080
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2100011867188170941",
+      "text": "@JXiaoLoong 现在bz和cl高价差 没资费",
+      "author": {
+        "id": "1864373467333660672",
+        "name": "透",
+        "screenName": "Darkhorse1027",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2095952197704097792/Ki9yPzKY_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 215,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 00:00:20 +0000 2026",
+      "createdAtLocal": "2026-09-16 08:00",
+      "createdAtISO": "2026-09-16T00:00:20+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100114103666897009",
+      "text": "@Darkhorse1027 是的，现在可以做价差套利，赌价差回归",
+      "author": {
+        "id": "1466901613000359940",
+        "name": "0xJA | Whale.Dance 🐳",
+        "screenName": "JXiaoLoong",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2054812848367534080/y82wDRML_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 73,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 06:46:35 +0000 2026",
+      "createdAtLocal": "2026-09-16 14:46",
+      "createdAtISO": "2026-09-16T06:46:35+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100115017567735901",
+      "text": "@JXiaoLoong 必須轉發！Boros恭喜你發財！",
+      "author": {
+        "id": "1926240392933949440",
+        "name": "Yoko | Pendle",
+        "screenName": "pendle_grandma",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1927433275791798272/w-mAqgpC_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 92,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 06:50:13 +0000 2026",
+      "createdAtLocal": "2026-09-16 14:50",
+      "createdAtISO": "2026-09-16T06:50:13+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100115274066469094",
+      "text": "@pendle_grandma 感谢老师！！",
+      "author": {
+        "id": "1466901613000359940",
+        "name": "0xJA | Whale.Dance 🐳",
+        "screenName": "JXiaoLoong",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2054812848367534080/y82wDRML_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 65,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 06:51:14 +0000 2026",
+      "createdAtLocal": "2026-09-16 14:51",
+      "createdAtISO": "2026-09-16T06:51:14+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100010541414830224",
+      "text": "@JXiaoLoong 好总结",
+      "author": {
+        "id": "18040977",
+        "name": "Yole",
+        "screenName": "bitfarmer888",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2033966378949222400/pF2dhd2Q_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 175,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 23:55:04 +0000 2026",
+      "createdAtLocal": "2026-09-16 07:55",
+      "createdAtISO": "2026-09-15T23:55:04+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100068339351752777",
+      "text": "@JXiaoLoong 已跟单Oil Master~😎",
+      "author": {
+        "id": "1937799108980592641",
+        "name": "0xdb (Ø,G)",
+        "screenName": "VKong90141",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2018130352250949633/6ea2TYxY_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 74,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 03:44:44 +0000 2026",
+      "createdAtLocal": "2026-09-16 11:44",
+      "createdAtISO": "2026-09-16T03:44:44+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2100096576941170956",
+      "text": "@JXiaoLoong 牛逼牛逼👍",
+      "author": {
+        "id": "1872831625886875648",
+        "name": "Boiledwater22",
+        "screenName": "Boiledwater22",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1929577246156902405/Em6OjEPY_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 36,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 05:36:56 +0000 2026",
+      "createdAtLocal": "2026-09-16 13:36",
+      "createdAtISO": "2026-09-16T05:36:56+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2100025443705585983",
+      "text": "上一个帖子说了自动价差套利机器人, 今天说一下另一个在跑的自动费率套利机器人. \n\n这个其实和自动价差套利机器人是一套代码框架, 但是策略比较简单: 在币安和 bsc 链上, 做一蓝子的山寨币费率套利. 整体收益年化大概在 30% 左右, 好处是省心省力, 基本不需要额外迭代, 而且资金容量大一些. \n\n分享一些我做的一些安全和收益增强的工作:\n1. 单个币种要根据链上深度, 持仓金额比例设置最大上限, 一旦超过, 必须要减仓到安全线. 这个是安全的保证,也是你能睡好的重要前提. 我目前是在爆仓价格不足 3x 的时候, 开始缓慢减仓. 当然报警通知也是必不可上的. \n2. 尽量多做一些币种, 我目前大概日常持仓是 20-30 个, 币种分散以后, 不但安全, 整体的收益也更加平滑一点\n3. 已经有的仓位, 可以做一些价差套利, 比如价差收益高于持有的费率收益和入场出场磨损以后, 可以顺便吃价差.\n4. 自动调仓, 根据费率情况, 自动调整仓位. 这个尤其有一个坑, 不要做的太激进, 因为费率变化比较大, 所以换仓的时候, 一定要有收益评估, 也绝对不能写成一旦实时费率降低就换仓, 这样很容易乱换\n\n因为我本身有本职工作, 我的所有机器人目标都是完全自动化, 为此可以接受一定程度的收益或者策略设计上的妥协. 很多时候策略设计都不是奔着最优方案去的, 但是比较适合自动化. 希望对大家有帮助",
+      "author": {
+        "id": "1457368145904259080",
+        "name": "编程菜狗勇闯区块链",
+        "screenName": "0xKISS",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1580407442193534976/uUK0pP9Q_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 75,
+        "retweets": 8,
+        "replies": 6,
+        "quotes": 0,
+        "views": 7132,
+        "bookmarks": 95
+      },
+      "createdAt": "Wed Sep 16 00:54:17 +0000 2026",
+      "createdAtLocal": "2026-09-16 08:54",
+      "createdAtISO": "2026-09-16T00:54:17+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2099854088271696102",
+      "text": "[ 年化 15%-30% + 免费积分 ]\n\n我自己放了几十万u在做这个，资金容量不算很大但也不小，但对于大多数人应该算挺香的了。其实这个alpha有点晚了，我已经存了几个月，目前还剩下三周。\n\n其实就是 Ondo 的交易现金奖励活动，每周分发 $175k。\n\n获得奖励的方式有两种：\n1. 交易\n2. 持仓\n\n最简单的方式是我们已经用了很久的ETH/BTC对冲：在同一个号里同时开仓相反方向的BTC和ETH，并在另一个交易所对冲。这样同账户内有BTC/ETH的对冲，账户波动较小，可以开更高杠杆，跨所之间又能完全对冲。\n\n过去几个月里，按照单边6倍杠杆的持仓计算，年化从15%-30%不等，呈上升趋势，最近一周的年化是30%。\n\n除了30%年化的现金奖励，还能额外拿到ondo perps的积分。\n\n虽然活动只剩下三周了，但大家可以牢记这个持仓方法，以后再看到交易所类似的活动，就可以用上。\n\nhttps://t.co/gulzRMYc97",
+      "author": {
+        "id": "2883623935",
+        "name": "yourQuantGuy",
+        "screenName": "yourQuantGuy",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1921904182144958464/Pog_SOSz_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 97,
+        "retweets": 11,
+        "replies": 8,
+        "quotes": 0,
+        "views": 11218,
+        "bookmarks": 103
+      },
+      "createdAt": "Tue Sep 15 13:33:22 +0000 2026",
+      "createdAtLocal": "2026-09-15 21:33",
+      "createdAtISO": "2026-09-15T13:33:22+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSQt0gxWMAAJySZ.jpg",
+          "width": 1228,
+          "height": 1202
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100068018164563987",
+      "text": "arc 是 easy 模式啊\n又一个 100x 拿下\n\n$PCH https://t.co/nwyePcIuej",
+      "author": {
+        "id": "4802503404",
+        "name": "QQㄋㄟㄋㄟ甜到咩噗的Yankee",
+        "screenName": "0xanonnnn",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1714202148660019200/6l5EmGoY_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 34,
+        "retweets": 0,
+        "replies": 22,
+        "quotes": 0,
+        "views": 8064,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 03:43:27 +0000 2026",
+      "createdAtLocal": "2026-09-16 11:43",
+      "createdAtISO": "2026-09-16T03:43:27+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSTwudQagAA3IB3.jpg",
+          "width": 1062,
+          "height": 1336
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2100060028174786731",
+      "text": "月中了，休息几天，激情澎湃的了两周lp先告一断落。\n总体+13000u。\n单笔最大动用资金9000+\n单笔最大回撤3000+。",
+      "author": {
+        "id": "1408723899316015108",
+        "name": "平A流法师🧙⚡️💎",
+        "screenName": "szu_jason",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1805852806190088193/auAeRJsx_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 11,
+        "retweets": 0,
+        "replies": 5,
+        "quotes": 0,
+        "views": 2502,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 03:11:42 +0000 2026",
+      "createdAtLocal": "2026-09-16 11:11",
+      "createdAtISO": "2026-09-16T03:11:42+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}
