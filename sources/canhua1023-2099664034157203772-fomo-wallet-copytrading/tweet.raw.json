@@ -1,0 +1,375 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2099664034157203772",
+      "text": "https://t.co/Koz5V52u1T",
+      "author": {
+        "id": "1285586776292233219",
+        "name": "东之伊甸丶",
+        "screenName": "canhua1023",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1960674253860429828/X7DfvTgg_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 50,
+        "retweets": 3,
+        "replies": 5,
+        "quotes": 0,
+        "views": 10692,
+        "bookmarks": 83
+      },
+      "createdAt": "Tue Sep 15 00:58:10 +0000 2026",
+      "createdAtLocal": "2026-09-15 08:58",
+      "createdAtISO": "2026-09-15T00:58:10+00:00",
+      "media": [],
+      "urls": [
+        "https://x.com/i/article/2099663186001821696"
+      ],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zxx",
+      "score": null,
+      "articleTitle": "“fomo地址跟单”打法--自动矿机",
+      "articleText": "robin其实晚上的流动性非常好，最危险的时间段是晚上8点到凌晨12点左右，我都是动态关闭bot开关的这个时间段。（是数千笔交易和完整24小时K线的回测数据，请相信它）\n\n每天睡醒几个账号基本都能收菜小几千刀，只要再配合自己人工打狗的账号，ai买了什么你再去人工看下，好的就跟着买点转专用钱包，然后放那不动就好了。\n\n不管未来出了什么，arc也好，其他也罢，核心就是\n\n“fomo地址跟单”打法。\n\n当然这套打法纯适合懒人了，我是懒得扫链的，我只想躺着刷抖音顺便把钱赚了，顺便搜集更多数据，建立高倍暴击跟单账号，就完美了。\n\n#fomo"
+    },
+    {
+      "id": "2099744974288146468",
+      "text": "@canhua1023 目前只扒了100多个fomo聪明钱，你是跟了多少地址哇",
+      "author": {
+        "id": "1200326368476585988",
+        "name": "Phbo",
+        "screenName": "kang77157661",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1871904623319044096/9kY58Eip_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 476,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 06:19:47 +0000 2026",
+      "createdAtLocal": "2026-09-15 14:19",
+      "createdAtISO": "2026-09-15T06:19:47+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2099747828730114271",
+      "text": "@kang77157661 1000多个，再加门槛判断自动买入。",
+      "author": {
+        "id": "1285586776292233219",
+        "name": "东之伊甸丶",
+        "screenName": "canhua1023",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1960674253860429828/X7DfvTgg_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 499,
+        "bookmarks": 1
+      },
+      "createdAt": "Tue Sep 15 06:31:08 +0000 2026",
+      "createdAtLocal": "2026-09-15 14:31",
+      "createdAtISO": "2026-09-15T06:31:08+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2099672489291043288",
+      "text": "@canhua1023 可以出一个，网页，按月收费配置吗？",
+      "author": {
+        "id": "1655736286802763777",
+        "name": "财富密码",
+        "screenName": "dodoBeyond",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1957110750369165312/Vy0AsyOw_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 15,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 01:31:46 +0000 2026",
+      "createdAtLocal": "2026-09-15 09:31",
+      "createdAtISO": "2026-09-15T01:31:46+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2099869181374296145",
+      "text": "@canhua1023 HI 你买入卖出是接入哪个 API的",
+      "author": {
+        "id": "65614325",
+        "name": "Felix | 樂",
+        "screenName": "A9A9A9GO",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2069308928559833088/Gf_cDEvh_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 171,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 14:33:21 +0000 2026",
+      "createdAtLocal": "2026-09-15 22:33",
+      "createdAtISO": "2026-09-15T14:33:21+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2089982892009284074",
+      "text": "無料の配送特典も、エンタメも楽しみ放題。",
+      "author": {
+        "id": "161616614",
+        "name": "Amazon.co.jp (アマゾンジャパン)",
+        "screenName": "AmazonJP",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1912987271915241472/Rd3JbaXj_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 203,
+        "retweets": 7,
+        "replies": 4,
+        "quotes": 1,
+        "views": 17814108,
+        "bookmarks": 85
+      },
+      "createdAt": "Wed Aug 19 07:48:46 +0000 2026",
+      "createdAtLocal": "2026-08-19 15:48",
+      "createdAtISO": "2026-08-19T07:48:46+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2099681808334156033",
+      "text": "@canhua1023 wok 对哦，把PM的跟单bot挪到Fomo去改一改就能用了",
+      "author": {
+        "id": "1738546352760500224",
+        "name": "JooDev",
+        "screenName": "JohnnnnHn",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1752375302188052486/8SOjRQDT_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 669,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 02:08:47 +0000 2026",
+      "createdAtLocal": "2026-09-15 10:08",
+      "createdAtISO": "2026-09-15T02:08:47+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2099669623906111942",
+      "text": "@canhua1023 带带弟弟",
+      "author": {
+        "id": "1409856695002558465",
+        "name": "Yzxxxx",
+        "screenName": "yeyeyeyeyee_",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1609710371912429568/NHl1Jh9Z_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 664,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 01:20:22 +0000 2026",
+      "createdAtLocal": "2026-09-15 09:20",
+      "createdAtISO": "2026-09-15T01:20:22+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100567819545133220",
+      "text": "怀念robinhood。 之前一天撸个1wu 感觉so easy。\n现在 arc 一天撸个1000u 得小心翼翼。 \n过了 就是过了。",
+      "author": {
+        "id": "1466028290272079875",
+        "name": "C J",
+        "screenName": "gch_enbsbxbs",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1680120283494252545/hONIznd9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 34,
+        "retweets": 0,
+        "replies": 15,
+        "quotes": 0,
+        "views": 7662,
+        "bookmarks": 7
+      },
+      "createdAt": "Thu Sep 17 12:49:29 +0000 2026",
+      "createdAtLocal": "2026-09-17 20:49",
+      "createdAtISO": "2026-09-17T12:49:29+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100437958775947496",
+      "text": "ARC 的阿三天才 dev 设计出来了一堆奇奇怪怪的机制。昨天已经看到有新项目中招了\n\n大家之前熟悉的 ERC-20 USDC 是 6 位整数（1e6 decimals）\n\n传统 EVM 链里的 Gas 代币（比如 ETH）都是 18 位整数。而 @arc  链为了继承传统 EVM 的格式，给 USDC 赋予了双重属性：\n1️⃣ 付 gas、原生转账、msg.value 用的是18 位整数\n2️⃣ transfer、approve、balanceOf 等 ERC 接口用的是 6 位整数\n\n昨天看到群友分享了一个 Stonkbroker fork 叫 Arcade。里面核心的 Swapper 合约，接受池子里 6 位整数的 USDC 报价，转给用户的时候用的是 18 位整数的原生转账：用户到手的钱变成了 1e12 分之一 🤡\n\n当然Arc这里 USDC 的设计除了有 EVM 兼容的考虑外，可能还有gas计价的考虑：测试网或者主网如果 gas 费用太低，无法直接用 6 位整数来表示。",
+      "author": {
+        "id": "1865234789403418624",
+        "name": "Dr. 67. Pump",
+        "screenName": "real_dr_pump",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1956936547674333184/VVNeorUq_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 44,
+        "retweets": 5,
+        "replies": 4,
+        "quotes": 0,
+        "views": 18230,
+        "bookmarks": 26
+      },
+      "createdAt": "Thu Sep 17 04:13:28 +0000 2026",
+      "createdAtLocal": "2026-09-17 12:13",
+      "createdAtISO": "2026-09-17T04:13:28+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "2100332461657866432",
+        "text": "Who the heck designed that?\n\nSame asset, two different interfaces with different decimals and a conversion schema in between.\n\n🤡 Absolutely bonkers. Insane.\n\nIf you are starting something new ... make things simpler god darn it 🤦 https://t.co/JSvlyGDKvd",
+        "author": {
+          "screenName": "LefterisJP",
+          "name": "Lefteris Karapetsas"
+        }
+      }
+    },
+    {
+      "id": "2100410072761528717",
+      "text": "复盘完 arc 我只能说 Hermes Agent 太 NB 了，整个过程从挖掘、到从监控、情报收集，到买卖操作建议，全部都是由他辅助我完成的。而且他查询、验证各种信息，包括真假合约、持仓、买入卖出等，信息都非常精准，很容易进行更好的复盘。\n\n唯一的问题是，我没有严格按照他说的去做，结果导致利润回吐了一半。这是非常令人遗憾的事情，但是每次学习时，它都可以帮我创建新的 skills，帮我很好地应对下一次，所以已经把很多事情处理好了。\n\n简直太爽了。下一步找一个 Agentic Wallet 接入进去，让它帮我操作吧，其实比我自己好多了。有什么 Agentic Wallet 推荐吗？",
+      "author": {
+        "id": "1466675689554202624",
+        "name": "brucexu.eth",
+        "screenName": "brucexu_eth",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1906994546455822336/OEoYVc1W_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 128,
+        "retweets": 10,
+        "replies": 14,
+        "quotes": 0,
+        "views": 24099,
+        "bookmarks": 147
+      },
+      "createdAt": "Thu Sep 17 02:22:39 +0000 2026",
+      "createdAtLocal": "2026-09-17 10:22",
+      "createdAtISO": "2026-09-17T02:22:39+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100572785395290378",
+      "text": "如果你是 $PONS 持有者，那么请一起推波助澜 $PONS 回购的去中心化。 \n\n截止目前，已经有超过20个小时 $PONS 处于一个极低效率的销毁状态，原因不是协议收入的问题，而是 @ponsdotfamily  团队没有及时将协议收入转入回购分配器。\n\n目前尚不清楚pons 团队迟迟未向回购分配器转入资金的原因（目前处于托管账本的待转入资金约 $1.4M），此前也出现过类似的补回购资金不及时的情况。通过合约写死将对应回购资金自动划入回购分配器，不再等人手工补弹药，技术实现上并无太大难度，关键看团队想不想这么做。\n\npons 的官方doc 也明确表示未来的版本回购将是去中心化的，现在，正是推动回购去中心化的成熟时机。\n\n让每一枚 $PONS 的燃烧都由代码保证。 @MEADGod",
+      "author": {
+        "id": "1426697517668847618",
+        "name": "yyy",
+        "screenName": "y_cryptoanalyst",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1940912893202944000/CGNonSFc_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 92,
+        "retweets": 14,
+        "replies": 27,
+        "quotes": 2,
+        "views": 22588,
+        "bookmarks": 2
+      },
+      "createdAt": "Thu Sep 17 13:09:13 +0000 2026",
+      "createdAtLocal": "2026-09-17 21:09",
+      "createdAtISO": "2026-09-17T13:09:13+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSa7v4TbwAEj9_7.jpg",
+          "width": 1994,
+          "height": 1540
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSa7x1NbkAEBmmb.jpg",
+          "width": 2252,
+          "height": 808
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "2100468477324890248",
+        "text": "Pons 的回购销毁力度明显下降了一个数量级，目前每15分钟只烧约等值350刀的币。\n\n先别慌。不是协议用于回购的弹药用完了，而是团队还没往回购分配器补弹药。\n\nPons 的回购机制并非完全去中心化，分2步走：\n\n第一步：团队将托管账本（协议收入）的资金划转到回购分配器；\n\n第二步：回购分配器自动执行TWAP 程序买 $PONS 并打到销毁地址。\n\n目前托管账本里还有约165万美元的资金，其中80% 将用于回购；但回购分配器上仅剩12.7万美元，这就是目前 $PONS 烧得明显慢的原因。只需等团队往回购分配器里补弹药，就能加大火力烧了。\n\n出来做事了，奥兹。 @MEADGod",
+        "author": {
+          "screenName": "y_cryptoanalyst",
+          "name": "yyy"
+        }
+      }
+    }
+  ]
+}

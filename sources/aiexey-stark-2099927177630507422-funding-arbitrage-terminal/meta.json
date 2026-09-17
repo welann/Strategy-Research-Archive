@@ -1,0 +1,55 @@
+{
+  "tweet_id": "2099927177630507422",
+  "author": {
+    "id": "1710348465920708608",
+    "name": "Alekzz",
+    "screenName": "AIexey_Stark",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/2019881230855012352/zbCA1RIi_normal.jpg",
+    "verified": true
+  },
+  "source_url": "https://x.com/AIexey_Stark/status/2099927177630507422",
+  "published_at": "2026-09-15T18:23:48+00:00",
+  "retrieved_at": "2026-09-17T16:13:12.886599+00:00",
+  "title": "Full guide to farming funding arbitrage",
+  "article_id": null,
+  "article_modified_at": null,
+  "retrieval": [
+    "twitter-cli tweet --json",
+    "FxTwitter article structure / expanded links"
+  ],
+  "media": [
+    {
+      "url": "https://pbs.twimg.com/media/HSRwndZXsAADSY1.jpg",
+      "file": "assets/main-1.jpg"
+    }
+  ],
+  "reply_ids": [
+    "2099927340188840376",
+    "2099931250236801205",
+    "2099931687656317100",
+    "2099953995154649278",
+    "2099957561155830138",
+    "2099931450170601916",
+    "2099931591921312245",
+    "2100133230418489739",
+    "2100121118980071588",
+    "2100113360750862424",
+    "2099962822675558410",
+    "2100071113179209945",
+    "2099940720580653241",
+    "2099932685191860604",
+    "2100064061262115293"
+  ],
+  "coverage": "主帖全文、文章结构与所有返回配图、可见相关回复。历史延伸阅读保留链接，未递归归档。回复并非完整覆盖。",
+  "limitations": [
+    "未取得原始交易记录或回测代码独立复现",
+    "时间敏感收益及平台数为来源发布时表述，不代表当前可执行机会"
+  ],
+  "sha256": {
+    "assets/main-1.jpg": "82d5ecd896461b1798674ad12d0dbb6b2660eb65d67e1e6559d24985590ca3a1",
+    "original.md": "5664e85653a271f7d41da88a61dbe9a2ee47d7909f36dafd2b4b7970e1b4f93d",
+    "original.txt": "8477b16e196c834e67f7fbb73802d616372c044adc6ae39daac4b6f54d51a86f",
+    "supplement.raw.json": "49e9fdf59ec94ac2345170a049cfc9386fdc81b0ef41714daf42235a39cc5acc",
+    "tweet.raw.json": "3e64ccb82f294c99ba970aab6742bfc382cf40c0a1fb5a49e4f69ce26ed615e0"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "tweet_id": "2099664034157203772",
+  "author": {
+    "id": "1285586776292233219",
+    "name": "东之伊甸丶",
+    "screenName": "canhua1023",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1960674253860429828/X7DfvTgg_normal.jpg",
+    "verified": true
+  },
+  "source_url": "https://x.com/canhua1023/status/2099664034157203772",
+  "published_at": "2026-09-15T00:58:10+00:00",
+  "retrieved_at": "2026-09-17T16:13:12.885142+00:00",
+  "title": "“fomo地址跟单”打法--自动矿机",
+  "article_id": "2099663186001821696",
+  "article_modified_at": "2026-09-15T00:58:10.000Z",
+  "retrieval": [
+    "twitter-cli tweet --json",
+    "FxTwitter article structure / expanded links"
+  ],
+  "media": [
+    {
+      "url": "https://pbs.twimg.com/media/HSOAte_bUAAblXb.jpg",
+      "file": "assets/2099663370186346496.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSOBGGQaAAA4L9A.png",
+      "file": "assets/2099663793043406848.png"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSOA8PZbAAAraV5.png",
+      "file": "assets/2099663623698448384.png"
+    }
+  ],
+  "reply_ids": [
+    "2099744974288146468",
+    "2099747828730114271",
+    "2099672489291043288",
+    "2099869181374296145",
+    "2099681808334156033",
+    "2099669623906111942"
+  ],
+  "coverage": "主帖全文、文章结构与所有返回配图、可见相关回复。历史延伸阅读保留链接，未递归归档。回复并非完整覆盖。",
+  "limitations": [
+    "未取得原始交易记录或回测代码独立复现",
+    "时间敏感收益及平台数为来源发布时表述，不代表当前可执行机会"
+  ],
+  "sha256": {
+    "assets/2099663370186346496.jpg": "f83270f423c33b7df3ea809228011962e4ff6112aa617b09a267ff7aa6caf801",
+    "assets/2099663623698448384.png": "24a5abc7a835b4414004e1b552f3c41a155355f3a238532c7bbdd153e9a58f29",
+    "assets/2099663793043406848.png": "1e2a5066adfacabe9d43da48d2cdc88826a529069f108baead8210c31ab97db4",
+    "original.md": "a053054a1b14b48d4e7b49419725b61cbffc58916a567f736227c982de91982e",
+    "original.txt": "e3f198edb50421938a1049d368dc5e1f02df6b3361b1ef8211d9425a34e96204",
+    "supplement.raw.json": "ed6c2172997c0cdb981c86b53c1626a6696ca6859bab15f516d77665e968069e",
+    "tweet.raw.json": "6dd07ddd35f87fde198b4361b2dfa40879e506d12c979f18655adfa5219ac496"
+  }
+}

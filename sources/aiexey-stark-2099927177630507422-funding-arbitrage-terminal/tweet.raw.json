@@ -1,0 +1,527 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2099927177630507422",
+      "text": "Full guide to farming funding arbitrage\n\nthis is a very underrated thing, especially for low-capital traders, let’s break it down in details.\n\nfunding is a fixed payment made at certain intervals, where either shorts pay longs or longs pay shorts. \n\nsometimes this can be very profitable if you select the right asset wisely.\n\nthe idea is to choose two DEXs/CEXs where funding is opposite: positive on one and negative on the other.\n\nafter that, you have to calculate the execution costs, consider the spread, monitor funding changes, etc.\n\nsometimes it can be really difficult, but that’s why trading desks exist - they show all the information you need.\n\nI’ve used a lot of terminals, and I can confidently say that @vooi_io is the greatest one.\n\njoin via link: https://t.co/uz2FDX5jB4\n\nthe best option is to arbitrage between two DEXs, because the fees are often significantly lower.\n\nright now, the platform has 7 DEXes and 3 CEXes available, and you can trade directly via the terminal. \n\ncurrent best arb opportunities: \n\n- long $STONK on aster and short on Lighter Core: +1149% APR.\n- long $LSK on Aster and short on Bybit: +863% APR.\n- short $USO on Lighter RH and long on Mexc: +329% APR.\n\nvery often, crazy APRs come with very low volumes and low liquidity, so watch this closely.\n\nhowever, it’s worth saying that you won’t be able to farm 500%+ APR for long, funding usually stabilizes after about an hour.\n\nin my opinion, the best way to farm funding is on highly liquid pairs, profit is small, but it’s stable and there’s almost no risks.\n\nfor example, right now you can farm 75.5% APR on $ETH by opening a long on Aster and a short on Extended.\n\njust imagine farming funding between @Lighter_xyz Robinhood and @variational_io\n\nyou get points on Lighter + points on Variational + money. pure jackpot, lol.\n\nif you’re still not farming Lighter: https://t.co/QBxB0hrK4y\n\nexperiment, try various strategies, and choose the best one for yourself.\n\nyou have plenty to choose from - Vooi offers 818 strategies ranging from 1% to 2000% APR.\n\nfarm smarter. perp dex season is here.",
+      "author": {
+        "id": "1710348465920708608",
+        "name": "Alekzz",
+        "screenName": "AIexey_Stark",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2019881230855012352/zbCA1RIi_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 105,
+        "retweets": 13,
+        "replies": 14,
+        "quotes": 0,
+        "views": 10921,
+        "bookmarks": 142
+      },
+      "createdAt": "Tue Sep 15 18:23:48 +0000 2026",
+      "createdAtLocal": "2026-09-16 02:23",
+      "createdAtISO": "2026-09-15T18:23:48+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSRwndZXsAADSY1.jpg",
+          "width": 961,
+          "height": 752
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null,
+      "quotedTweet": {
+        "id": "2099601618077372704",
+        "text": "this is why i keep saying funding arbitrage is underrated.\n\nat the current rates, these 2 positions are paying me:\n\n→ $225.89 / day\n→ $1,581 / week\n→ $6,777 / month\n→ $82,450 / year\n\nand that's before considering the cumulative funding already sitting at:\n\n$1,266 + $972 = $2,238 thanks to solana bulls on phoenix @PhoenixTrade \n\nbtw i invest the proceeds into variational points for a guaranteed 2x at tge\n\nNFA. funding rates can change.",
+        "author": {
+          "screenName": "givenoxbt",
+          "name": "giveno"
+        }
+      }
+    },
+    {
+      "id": "2099927340188840376",
+      "text": "Register on Lighter:\nhttps://t.co/tzOZe4aZwP",
+      "author": {
+        "id": "1710348465920708608",
+        "name": "Alekzz",
+        "screenName": "AIexey_Stark",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2019881230855012352/zbCA1RIi_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 278,
+        "bookmarks": 2
+      },
+      "createdAt": "Tue Sep 15 18:24:27 +0000 2026",
+      "createdAtLocal": "2026-09-16 02:24",
+      "createdAtISO": "2026-09-15T18:24:27+00:00",
+      "media": [],
+      "urls": [
+        "https://robinhoodchain.lighter.xyz/?referral=ALEKZZZ"
+      ],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2099931250236801205",
+      "text": "@AIexey_Stark @givenoxbt @Lighter_xyz @variational_io Nice breakdown bro \n\nVooi looks interesting",
+      "author": {
+        "id": "1515372765410316292",
+        "name": "Zeus 🪐",
+        "screenName": "Zeus00nn",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2006694792290504704/W3nbkZdL_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 118,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 18:39:59 +0000 2026",
+      "createdAtLocal": "2026-09-16 02:39",
+      "createdAtISO": "2026-09-15T18:39:59+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "nl",
+      "score": null
+    },
+    {
+      "id": "2099931687656317100",
+      "text": "@Zeus00nn @givenoxbt @Lighter_xyz @variational_io 🤝",
+      "author": {
+        "id": "1710348465920708608",
+        "name": "Alekzz",
+        "screenName": "AIexey_Stark",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2019881230855012352/zbCA1RIi_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 93,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 18:41:43 +0000 2026",
+      "createdAtLocal": "2026-09-16 02:41",
+      "createdAtISO": "2026-09-15T18:41:43+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "qme",
+      "score": null
+    },
+    {
+      "id": "2092052696853283060",
+      "text": "複数のデバイスでシームレスなストリーミング再生、在宅勤務、ゲームなどに対応する高速で信頼性の高いホームインターネットをご利用ください。\n\n数分でオンラインからご注文いただけます。",
+      "author": {
+        "id": "1330170106501079041",
+        "name": "Starlink",
+        "screenName": "Starlink",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 3767,
+        "retweets": 307,
+        "replies": 113,
+        "quotes": 12,
+        "views": 403461185,
+        "bookmarks": 952
+      },
+      "createdAt": "Tue Aug 25 00:53:26 +0000 2026",
+      "createdAtLocal": "2026-08-25 08:53",
+      "createdAtISO": "2026-08-25T00:53:26+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2099953995154649278",
+      "text": "@AIexey_Stark @Lighter_xyz @variational_io PERP\nDEX\nLIST",
+      "author": {
+        "id": "1447236080353349634",
+        "name": "cryppi / perpdexlist",
+        "screenName": "cryppimagic",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1513128114934669320/PoeHmm8o_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 139,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 20:10:22 +0000 2026",
+      "createdAtLocal": "2026-09-16 04:10",
+      "createdAtISO": "2026-09-15T20:10:22+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "in",
+      "score": null
+    },
+    {
+      "id": "2099957561155830138",
+      "text": "@cryppimagic @Lighter_xyz @variational_io Great product as well",
+      "author": {
+        "id": "1710348465920708608",
+        "name": "Alekzz",
+        "screenName": "AIexey_Stark",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2019881230855012352/zbCA1RIi_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 87,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 20:24:32 +0000 2026",
+      "createdAtLocal": "2026-09-16 04:24",
+      "createdAtISO": "2026-09-15T20:24:32+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2099931450170601916",
+      "text": "@AIexey_Stark @Lighter_xyz @variational_io well detailed breakdown ser",
+      "author": {
+        "id": "713081498283413504",
+        "name": "giveno",
+        "screenName": "givenoxbt",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2091156441784586240/it1--iKC_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 161,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 18:40:47 +0000 2026",
+      "createdAtLocal": "2026-09-16 02:40",
+      "createdAtISO": "2026-09-15T18:40:47+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2099931591921312245",
+      "text": "@givenoxbt @Lighter_xyz @variational_io Appreciate the support, g",
+      "author": {
+        "id": "1710348465920708608",
+        "name": "Alekzz",
+        "screenName": "AIexey_Stark",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2019881230855012352/zbCA1RIi_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 141,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 18:41:21 +0000 2026",
+      "createdAtLocal": "2026-09-16 02:41",
+      "createdAtISO": "2026-09-15T18:41:21+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2100133230418489739",
+      "text": "@AIexey_Stark @Lighter_xyz @variational_io appreciate the shout out!",
+      "author": {
+        "id": "1678513621264142336",
+        "name": "vooi",
+        "screenName": "vooi_io",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1938271243876155393/fXAC9P_h_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 141,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 08:02:35 +0000 2026",
+      "createdAtLocal": "2026-09-16 16:02",
+      "createdAtISO": "2026-09-16T08:02:35+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2100121118980071588",
+      "text": "@AIexey_Stark @Lighter_xyz @variational_io funding arbitrage is pretty underrated",
+      "author": {
+        "id": "966484170930380803",
+        "name": "magsimich",
+        "screenName": "magsimich",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2067590814855737344/UsDKYROw_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 35,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 07:14:27 +0000 2026",
+      "createdAtLocal": "2026-09-16 15:14",
+      "createdAtISO": "2026-09-16T07:14:27+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2100113360750862424",
+      "text": "@AIexey_Stark @Lighter_xyz @variational_io Extremely detailed",
+      "author": {
+        "id": "1643127409712181249",
+        "name": "Ronin | PerpDEX",
+        "screenName": "Ronin9x",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2038175158154977280/5cG0ffcX_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 41,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 06:43:38 +0000 2026",
+      "createdAtLocal": "2026-09-16 14:43",
+      "createdAtISO": "2026-09-16T06:43:38+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2099962822675558410",
+      "text": "@AIexey_Stark @Lighter_xyz @variational_io Why do we need lending protocols if we can earn a hundred times bigger APR like this?",
+      "author": {
+        "id": "1628147208204742657",
+        "name": "vannok",
+        "screenName": "Vannok1",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2014128764880289792/b88gEmu4_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 56,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 20:45:27 +0000 2026",
+      "createdAtLocal": "2026-09-16 04:45",
+      "createdAtISO": "2026-09-15T20:45:27+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2100071113179209945",
+      "text": "@AIexey_Stark @Lighter_xyz @variational_io nice",
+      "author": {
+        "id": "1652653177249071110",
+        "name": "NOJOB | Perp DEX & DeFi",
+        "screenName": "NOJOBNOPLANER",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1972455804797427712/LMXqVw8o_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 41,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 03:55:45 +0000 2026",
+      "createdAtLocal": "2026-09-16 11:55",
+      "createdAtISO": "2026-09-16T03:55:45+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2092052696714924450",
+      "text": "複数のデバイスでシームレスなストリーミング再生、在宅勤務、ゲームなどに対応する高速で信頼性の高いホームインターネットをご利用ください。\n\n数分でオンラインからご注文いただけます。",
+      "author": {
+        "id": "1330170106501079041",
+        "name": "Starlink",
+        "screenName": "Starlink",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 4075,
+        "retweets": 245,
+        "replies": 109,
+        "quotes": 26,
+        "views": 484534529,
+        "bookmarks": 1148
+      },
+      "createdAt": "Tue Aug 25 00:53:26 +0000 2026",
+      "createdAtLocal": "2026-08-25 08:53",
+      "createdAtISO": "2026-08-25T00:53:26+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2099940720580653241",
+      "text": "@AIexey_Stark @Lighter_xyz @variational_io so many inefficiencies to profit from, gotta act now",
+      "author": {
+        "id": "1085056343298490369",
+        "name": "me_cool_off",
+        "screenName": "me_cool_off",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2059844281339105280/rfRIX6wB_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 56,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 19:17:37 +0000 2026",
+      "createdAtLocal": "2026-09-16 03:17",
+      "createdAtISO": "2026-09-15T19:17:37+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2099932685191860604",
+      "text": "@AIexey_Stark @Lighter_xyz @variational_io Good guide",
+      "author": {
+        "id": "1634963479026122753",
+        "name": "Dekos",
+        "screenName": "PolyDekos",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2017876506685378560/fbrJiDrm_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 57,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 18:45:41 +0000 2026",
+      "createdAtLocal": "2026-09-16 02:45",
+      "createdAtISO": "2026-09-15T18:45:41+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2100064061262115293",
+      "text": "@AIexey_Stark @Lighter_xyz @variational_io tell them\n\nVooi looking good",
+      "author": {
+        "id": "1349432670200205313",
+        "name": "Gyo",
+        "screenName": "Gyokeres_eth",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2020131329635938304/rxNnVPDQ_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 70,
+        "bookmarks": 0
+      },
+      "createdAt": "Wed Sep 16 03:27:44 +0000 2026",
+      "createdAtLocal": "2026-09-16 11:27",
+      "createdAtISO": "2026-09-16T03:27:44+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    }
+  ]
+}

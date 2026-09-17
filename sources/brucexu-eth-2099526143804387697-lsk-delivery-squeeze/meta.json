@@ -1,0 +1,48 @@
+{
+  "tweet_id": "2099526143804387697",
+  "author": {
+    "id": "1466675689554202624",
+    "name": "brucexu.eth",
+    "screenName": "brucexu_eth",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1906994546455822336/OEoYVc1W_normal.jpg",
+    "verified": true
+  },
+  "source_url": "https://x.com/brucexu_eth/status/2099526143804387697",
+  "published_at": "2026-09-14T15:50:14+00:00",
+  "retrieved_at": "2026-09-17T16:13:12.888036+00:00",
+  "title": "深度套利复盘：从 LSK 学会“捡尸体”，详细探讨四种策略分析、参考实际轧空案例、得到一些判断策略",
+  "article_id": "2099521808580190208",
+  "article_modified_at": "2026-09-14T15:50:47.000Z",
+  "retrieval": [
+    "twitter-cli tweet --json",
+    "FxTwitter article structure / expanded links"
+  ],
+  "media": [
+    {
+      "url": "https://pbs.twimg.com/media/HSL_9XSaEAE446k.jpg",
+      "file": "assets/2099521805996396545.jpg"
+    }
+  ],
+  "reply_ids": [
+    "2099620080153919933",
+    "2099642559396188354",
+    "2099680021887787508",
+    "2099680486318842127",
+    "2099648434487882231",
+    "2099688450702102846",
+    "2099749795086901698",
+    "2099536963833582007"
+  ],
+  "coverage": "主帖全文、文章结构与所有返回配图、可见相关回复。历史延伸阅读保留链接，未递归归档。回复并非完整覆盖。",
+  "limitations": [
+    "未取得原始交易记录或回测代码独立复现",
+    "时间敏感收益及平台数为来源发布时表述，不代表当前可执行机会"
+  ],
+  "sha256": {
+    "assets/2099521805996396545.jpg": "6f034447af213203b19293b408744bff88996bbabc8b02fa6aa74c9065c6ab18",
+    "original.md": "b7dd88862d2a60dc49fb59a44187ff02171be142c5b95281a632d617c0f7a93b",
+    "original.txt": "72f4bf46259be480e960453ad9a62b86e0ba7d29ce1b51b44ebd7a59457d08f3",
+    "supplement.raw.json": "b4c6ce0ee7f2d0979e539b879f0a473692d084d8ef05f5ffd5e0e99fa64958dd",
+    "tweet.raw.json": "b1b45860d5f08027deb141fa52cddb0d0aafb2307af39d6f13e564a06c2fed83"
+  }
+}
