@@ -1,0 +1,105 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2096956007918219583",
+      "text": "BTC 系统化期权策略指数（9.7）\n\n过去一周 BTC 先跌后涨，HODL（持币策略）从 733 涨到 756，一周上涨 3.15%。周中一度跌到 7 万 6，周四反弹到周五收于 8万 1 附近，整个周末也在 8 万上下徘徊。这一周所有的期权策略表现都很不错，不论是卖 call 的、卖 put 的、周频的、周末的都是权利金全收，所有指数全线上涨！下面我们看下各条策略指数的表现。\n\nCC35（现货备兑）\n1038 → 1085（+4.52%）\n本周卖 call 的行权价是 8万 2，现货周五凌晨险些冲破，但下午结算时回落到 8 万 1，完美收关。现货涨幅加上全额权利金，备兑这周比单纯持币多赚了一份权利金，是备兑能遇到的最好剧本，正好是上期“结算前涨、结算后跌”的镜像。\n\n过去 7 年 374 个周期里，call 到期未被行权的概率有 71%，但在现货上涨的 204 周里只有 48% 的概率未被行权，所以上周的运气算很不错。\n\nCLL（领口）\n793 → 824（+4.03%）\ncall 这边和备兑一样全收，多买的那张 put 保险行权价 7 万 5，白付保费，所以比备兑少赚了半个百分点。\n\nSTG35（周频卖宽跨）\n228 → 234（+2.73%）\ncall 行权价 8 万 2、put 行权价 7 万 8，现货周三最低 跌破过 put，但结算时回到 8 万 1，所以也是两条腿权利金全收。\n\nCSP35（现金担保卖 put）\n365 → 370（+1.41%）\n结算价 8 万 1 远在 put 行权价 7万 8 之上，权利金全收。\n\nWKND35（周末宽跨）\n1506 → 1518（+0.77%）\ncall 行权价在 8 万、put 行权价 7 万 9，周末现货一度冲过 call 行权价但是结算时再次回落，稳稳落于区间，两条腿权利金全收。\n\n=====  \n\n以上报告数据来源为 https://t.co/DavBhD0uFp ，本周新增了 ETH 的回测，欢迎大家也来回测自己设想的策略！",
+      "author": {
+        "id": "1702231380",
+        "name": "leifu _/",
+        "screenName": "leifuchen",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1479549463312183296/aJbH14q3_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 20,
+        "retweets": 1,
+        "replies": 2,
+        "quotes": 2,
+        "views": 15606,
+        "bookmarks": 25
+      },
+      "createdAt": "Mon Sep 07 13:37:26 +0000 2026",
+      "createdAtLocal": "2026-09-07 21:37",
+      "createdAtISO": "2026-09-07T13:37:26+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRniKGMWgAAZteh.jpg",
+          "width": 2186,
+          "height": 1884
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "2094409317617201625",
+        "text": "BTC 系统化期权策略指数（8.31）\n\n过去一周 BTC 原地踏步，HODL（持币策略）停在 733，一周微涨 0.02%。从价格路径看，8.28 结算前现货价一度站上 8 万关口，结算后跌回 7 万 7。这种行情对现金抵押的卖方更友好，而对 BTC 抵押的备兑类策略则相对难受，下面我们看下各策略指数的表现。\n\nCSP35（现金担保卖 put）\n359 → 365（+1.53%）\n整周行情都稳稳站在卖 put 的行权价7 万 4 之上许多，权利金全收。\n\nWKND35（周末宽跨）\n1493 → 1506（+0.90%）\n周末虽然再度冲上 7 万 9，但那时期权早已结算，因此周末宽跨策略再次稳稳收下两条腿的全部权利金。\n\nSTG35（周频卖宽跨）\n228 → 228（+0.05%）\n这个策略其实就是 CSP35 + CC35，整周波动吃满了，卖call 的腿被严重击穿，赔付比收到的权利金多出一倍，但损失正好被卖 put 的腿完全覆盖，所以本周指数几乎没有变动。\n\nCC35（现货备兑）\n1053 → 1038（−1.43%）\n周五结算时现货价高出行权价将近 3%， 收入权利金相对赔付严重不足，再加上作为抵押物的现货在结算后还出现了下跌，导致现货端没有收益，最终本周产生了不小的亏损。\n\n现货走平原本应该是现货备兑最舒服的情况（除非正好是本周这样结算前涨，结算后跌），过去 7 年中现货走平的周有 66 个，备兑平均盈利 1.1%，包含本周在内亏损周只有 5 个，可以说运气确实不好。\n\nCLL（领口）\n808 → 793（−1.94%）\n领口是在备兑的基础上买一张保险。现货离 put 的行权价 7万 1 差着一大截，保险又白买了，叠加备兑的亏损可谓雪上加霜，这个看似全防的保守策略，本周以将近 2%的跌幅排名垫底。\n\n=====\n\n以上报告数据来源为 https://t.co/DavBhD0uFp ，欢迎大家使用来回测自己设想的策略！",
+        "author": {
+          "screenName": "leifuchen",
+          "name": "leifu _/"
+        }
+      }
+    },
+    {
+      "id": "2102311311858405642",
+      "text": "@leifuchen @grok 帮我通俗易懂的解释一下这篇文章",
+      "author": {
+        "id": "1720832432113688576",
+        "name": "歪脖山上的喷子",
+        "screenName": "qbnrc",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2019733019687600128/UXaaPI_i_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 81,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 08:17:30 +0000 2026",
+      "createdAtLocal": "2026-09-22 16:17",
+      "createdAtISO": "2026-09-22T08:17:30+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102311095465812357",
+      "text": "@leifuchen @grok  帮我通俗易懂的解释一下",
+      "author": {
+        "id": "1720832432113688576",
+        "name": "歪脖山上的喷子",
+        "screenName": "qbnrc",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2019733019687600128/UXaaPI_i_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 96,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 08:16:38 +0000 2026",
+      "createdAtLocal": "2026-09-22 16:16",
+      "createdAtISO": "2026-09-22T08:16:38+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

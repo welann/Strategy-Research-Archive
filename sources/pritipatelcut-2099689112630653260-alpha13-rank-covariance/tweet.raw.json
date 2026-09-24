@@ -1,0 +1,412 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2099689112630653260",
+      "text": "今天又测了一个很有意思的量化因子，叫做「价量协同失效反转因子Price-Volume Decoupling Reversal Factor（ 下面会放测试图）\n\n逻辑其实也很直觉：正常情况下，价格与成交量之间应该存在某种「协同关系」——上涨伴随放量、下跌伴随缩量，这是市场共识的典型表现。 但当这种关系在短期内被打破，例如价格上涨但成交量并未同步放大，或者成交量剧烈变化但价格反应迟钝，往往代表市场内部出现了结构性分歧\n\n因子公式如下： (-1 * RANK(COVIANCE(RANK(CLOSE), RANK(VOLUME), 5)))\n\n本质上是在捕捉市场中「价量协同失效」所带来的结构性错配，并试图在这种错配回归正常关系的过程中，获取反转收益\n\n两行源代码就可跑完整回测，大家可以去试试\nhttps://t.co/cvZgUElpJA",
+      "author": {
+        "id": "1760805549355216896",
+        "name": "套利豪仔🗽",
+        "screenName": "pritipatelcut",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2007410168041222147/pYv20KIq_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 398,
+        "retweets": 57,
+        "replies": 6,
+        "quotes": 1,
+        "views": 37179,
+        "bookmarks": 773
+      },
+      "createdAt": "Tue Sep 15 02:37:49 +0000 2026",
+      "createdAtLocal": "2026-09-15 10:37",
+      "createdAtISO": "2026-09-15T02:37:49+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSOYAo-bMAALZs1.jpg",
+          "width": 2238,
+          "height": 1035
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSOYCxAagAAOOh2.jpg",
+          "width": 2225,
+          "height": 1043
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2099697808945107026",
+      "text": "@pritipatelfgoo 你以前是不是发过这个策略？我测过，不行",
+      "author": {
+        "id": "1489651692366811141",
+        "name": "David",
+        "screenName": "DavidHoong1",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1489651755956637698/4TU1G6-__normal.png",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1854,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 03:12:22 +0000 2026",
+      "createdAtLocal": "2026-09-15 11:12",
+      "createdAtISO": "2026-09-15T03:12:22+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2099702387875401782",
+      "text": "@DavidHoong1 不一样的",
+      "author": {
+        "id": "1760805549355216896",
+        "name": "套利豪仔🗽",
+        "screenName": "pritipatelcut",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2007410168041222147/pYv20KIq_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1745,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 03:30:34 +0000 2026",
+      "createdAtLocal": "2026-09-15 11:30",
+      "createdAtISO": "2026-09-15T03:30:34+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2092052696727433675",
+      "text": "複数のデバイスでシームレスなストリーミング再生、在宅勤務、ゲームなどに対応する高速で信頼性の高いホームインターネットをご利用ください。\n\n数分でオンラインからご注文いただけます。",
+      "author": {
+        "id": "1330170106501079041",
+        "name": "Starlink",
+        "screenName": "Starlink",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 6061,
+        "retweets": 528,
+        "replies": 189,
+        "quotes": 29,
+        "views": 548762825,
+        "bookmarks": 1153
+      },
+      "createdAt": "Tue Aug 25 00:53:26 +0000 2026",
+      "createdAtLocal": "2026-08-25 08:53",
+      "createdAtISO": "2026-08-25T00:53:26+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2099810538058596469",
+      "text": "@pritipatelfgoo 一看就是过拟合",
+      "author": {
+        "id": "1897497966044438528",
+        "name": "雨点子",
+        "screenName": "yudianzi2666",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1897499415755284480/-QThAje8_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 667,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 10:40:19 +0000 2026",
+      "createdAtLocal": "2026-09-15 18:40",
+      "createdAtISO": "2026-09-15T10:40:19+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2099773011373240494",
+      "text": "@pritipatelfgoo the rank is time series rank?",
+      "author": {
+        "id": "1185762611499094016",
+        "name": "(𝕏ᵀ𝕏)⁻¹",
+        "screenName": "CompressedDirt",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1721464316581515264/pU2qF1Kk_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 875,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 08:11:12 +0000 2026",
+      "createdAtLocal": "2026-09-15 16:11",
+      "createdAtISO": "2026-09-15T08:11:12+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2099860268977136025",
+      "text": "@pritipatelfgoo Interesting concept. Have there been any published studies done on this hypothesis already?",
+      "author": {
+        "id": "1513947617113395214",
+        "name": "Chris",
+        "screenName": "cmp_055",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2038378594490060800/sHTXPOwh_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 428,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 13:57:56 +0000 2026",
+      "createdAtLocal": "2026-09-15 21:57",
+      "createdAtISO": "2026-09-15T13:57:56+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2099818969397887457",
+      "text": "@pritipatelfgoo This is Alpha#13 from Kakushadze's 101 Formulaic Alphas (2015, WorldQuant)... You're getting paid to be the person who absorbs someone else's rush order. \nBut it only work if you check thousands of stocks with hundreds of similar weak signals... no really exploitable",
+      "author": {
+        "id": "520952562",
+        "name": "Skew Pirate",
+        "screenName": "skewpirate",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2098134147386748928/F91o0vLg_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 7,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 609,
+        "bookmarks": 7
+      },
+      "createdAt": "Tue Sep 15 11:13:49 +0000 2026",
+      "createdAtLocal": "2026-09-15 19:13",
+      "createdAtISO": "2026-09-15T11:13:49+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2099950287104647391",
+      "text": "@pritipatelfgoo curious about how this factor plays out. sounds like it could shake things up a bit. 🤔",
+      "author": {
+        "id": "1511930402",
+        "name": "notgwapo",
+        "screenName": "notgwap0",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2082512390323929088/5MIg2IEn_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 214,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 15 19:55:38 +0000 2026",
+      "createdAtLocal": "2026-09-16 03:55",
+      "createdAtISO": "2026-09-15T19:55:38+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2103140960515523049",
+      "text": "New book has now gone to print. https://t.co/WANVHopuUt",
+      "author": {
+        "id": "1107174888",
+        "name": "Rob Carver",
+        "screenName": "investingidiocy",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/924350309098549248/VOaP0GaA_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 62,
+        "retweets": 4,
+        "replies": 3,
+        "quotes": 2,
+        "views": 2332,
+        "bookmarks": 17
+      },
+      "createdAt": "Thu Sep 24 15:14:14 +0000 2026",
+      "createdAtLocal": "2026-09-24 23:14",
+      "createdAtISO": "2026-09-24T15:14:14+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS_bi_SWIAANpZk.jpg",
+          "width": 1043,
+          "height": 754
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2103067959963132190",
+      "text": "Interesting: even if you \n- only train from 2009 - 2015\n- only train on 33 Features\nAI Factor produces a still a great predictor! Model is OOS live since 12/07/24 trading with realistic variable slippage!\nBuild with @P123Finance https://t.co/ftlr1D60Te",
+      "author": {
+        "id": "55667023",
+        "name": "Andreas Himmelreich",
+        "screenName": "GfI_Himmelreich",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1390218699500568576/B6Mh1B39_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 21,
+        "retweets": 0,
+        "replies": 3,
+        "quotes": 0,
+        "views": 1704,
+        "bookmarks": 20
+      },
+      "createdAt": "Thu Sep 24 10:24:09 +0000 2026",
+      "createdAtLocal": "2026-09-24 18:24",
+      "createdAtISO": "2026-09-24T10:24:09+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS-XoENXAAAiksG.jpg",
+          "width": 1569,
+          "height": 1075
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2102759902376849716",
+      "text": "This is why I think you should always build with a clear hypothesis first. It’s a key lesson I took from one of Sersan’s blogs and it’s an idea he indirectly reinforces across a lot of his other writing too.\n\nBefore I begin building any strategy, there’s a lot of work I do BEFORE looking at an equity curve or performance metrics.\n\nI write down things like:\n\n- What market tendency or behavior is this strategy trying to exploit?\n- What environments do I expect it to perform well or poorly in?\n- How do I expect the returns to be distributed?\n- Why should this edge exist in the first place?\n\nThen, while building, I want the behavior I observe to be broadly consistent with that hypothesis.\n\nIf I see behavior that I did not expect beforehand, I scrutinize it and become suspicious. I don’t blindly accept that a strategy must be good simply because the returns look good and it appears robust.\n\nIf the strategy is making money for reasons that are very different from the reasons I defined beforehand, I question it.\n\nThat doesn’t mean unexpected discoveries are automatically bad. But they should be treated as new hypotheses that need their own validation, rather than something you simply accept because it improved the backtest. This has become a key part of my development process.\n\nSergi provides so much value. I can’t find all the blogs I originally used to construct this idea, but I specifically remember this one changing how I approached this aspect strategy development:\n\nSeasonal Patterns in Trading:\nhttps://t.co/KRMomoACYG",
+      "author": {
+        "id": "1788313388503744512",
+        "name": "D. Martin",
+        "screenName": "dmartin_trading",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2003439589160042496/zHqeR_Qv_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 43,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 3912,
+        "bookmarks": 40
+      },
+      "createdAt": "Wed Sep 23 14:00:02 +0000 2026",
+      "createdAtLocal": "2026-09-23 22:00",
+      "createdAtISO": "2026-09-23T14:00:02+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null,
+      "quotedTweet": {
+        "id": "2102405820000743440",
+        "text": "I see traders hunting for very short-term “seasonal tendencies.”\n\nFind the right weekday, hour and filter. Get a nice backtest. Call it an edge.\n\nI’m skeptical. Even when it stays profitable out of sample.\n\nTake this NQ example:\n\nIt shorts on Wednesdays at 14:00 CT when price is below the day’s open, then exits at the close.\n\nSimple rule. Attractive equity curve. Still profitable in the untouched 2022–2026 period.\n\nBut it was selected from 3,510 combinations of weekdays, times, filters and direction. And that was only the final search, after trying different testing windows and ranking methods.\n\n“But it worked out of sample.”\n\nYes. That matters. But it does not establish that Wednesday adds anything.\n\nMaybe weak afternoons tend to stay weak, regardless of the weekday.\n\nAnd out-of-sample profits can happen by chance, too. Across enough searches, some rules will look good in both periods without having a genuine edge.\n\nThis is why I see little value in endlessly searching the same historical data.\n\nMore combinations. More adjustments. More stories to explain the winner.",
+        "author": {
+          "screenName": "SystematicPeter",
+          "name": "Peter - Cracking Markets"
+        }
+      }
+    },
+    {
+      "id": "2102908597717848077",
+      "text": "🔥 \"Deep Sector Rotation Swing Trading\" Muy buen paper. Mientras el SP 500 perdía 18.11% en 2022, una estrategia de swing trading con IA ganó 10.29%. La diferencia fue de 28.40 puntos porcentuales, comprando y vendiendo ETFs sectoriales cada semana\n\nBock y Maewal desarrollaron un sistema de trading que utiliza inteligencia artificial para decidir en qué sectores de la economía estadounidense invertir durante la semana siguiente\n\nEn lugar de intentar predecir el precio de cada acción, el modelo analiza 11 ETFs que representan sectores como tecnología, energía, salud, finanzas, consumo e industria\n\nLa idea es sencilla: no todos los sectores se comportan igual cuando cambian las condiciones del mercado. Mientras algunos reciben fuertes ventas, otros pueden mantenerse relativamente estables o incluso subir\n\nLos autores entrenan una red neuronal con datos históricos de precios y volumen de los ETFs. El modelo intenta identificar qué sectores tienen mayores posibilidades de registrar un movimiento positivo durante la semana siguiente\n\nPero no compra automáticamente todos los sectores que parecen atractivos\n\nPrimero evalúa qué tan consistentes son sus predicciones y descarta aquellos donde existe demasiada incertidumbre. También incorpora filtros relacionados con las pérdidas recientes y los resultados históricos de sus operaciones\n\nLa estrategia funciona de la siguiente manera:\n\n- Cada viernes, el modelo analiza la información disponible y selecciona los sectores para la semana siguiente\n- El lunes, compra los ETFs seleccionados y distribuye el capital según los resultados históricos de cada sector\n- El viernes, vende todas las posiciones y actualiza el modelo con la información de la semana que terminó\n\nNo necesita mantener posiciones durante meses ni apostar permanentemente a que el mercado va a subir. Si un sector no cumple las condiciones exigidas por el modelo, simplemente no lo compra\n\nEn promedio, el sistema seleccionó solamente 2.25 de los 11 sectores disponibles por semana\n\nLos autores probaron la estrategia utilizando datos de 2012 - 2022, entrenando modelos con los dos años anteriores y actualizándolos semanalmente con la nueva información\n\nLos resultados del backtest fueron:\n\n- Retorno anual promedio de los años estudiados: 26.61%, frente al 13.97% del S&P 500\n- Sharpe (retorno obtenido por unidad de riesgo) promedio: 1.39\n- Operaciones ganadoras: 60.62%\n- Drawdown máximo (caída desde el máximo anterior) promedio por año: 9.7%\n\nEl sistema superó al S&P 500 en 10 de los 11 años analizados, aunque eso no significa que siempre haya ganado dinero\n\nEn 2018 perdió 3.18%, mientras que el índice cayó 4.41%. Y en 2022, cuando el S&P 500 retrocedió 18.11%, la estrategia obtuvo un retorno positivo de 10.29%\n\nEste último resultado es particularmente interesante porque el modelo no necesitó anticipar exactamente cuándo comenzaría un mercado bajista. Su objetivo era seleccionar sectores con mejores perspectivas relativas para la semana siguiente y evitar aquellos cuyas señales no resultaban suficientemente confiables\n\nPero hay una limitación fundamental: todos estos resultados corresponden a un backtest que no incorpora los costos de transacción\n\nLos propios autores reconocen que los spreads (diferencia entre el precio comprador y vendedor), las comisiones y otros costos de operar pueden reducir la rentabilidad de un sistema que modifica sus posiciones cada semana\n\nAdemás, el trabajo es preliminar. Aunque las predicciones de trading se evalúan sobre datos no utilizados para entrenar cada modelo, los autores experimentaron con distintas configuraciones antes de elegir la arquitectura y las reglas definitivas\n\nTampoco presentan resultados posteriores a 2022 que permitan comprobar si la estrategia conservó su ventaja en condiciones de mercado más recientes\n\nLo interesante de este paper no es simplemente que una inteligencia artificial haya conseguido ganarle al mercado durante el período estudiado\n\nEs que utiliza el aprendizaje automático para resolver un problema muy concreto: decidir dónde colocar el capital cuando las oportunidades cambian constantemente entre los distintos sectores de la economía\n\nMuchas veces pensamos que una estrategia necesita encontrar la próxima gran acción o anticipar cada movimiento del S&P 500\n\nPero existe otra posibilidad: concentrarse en identificar qué partes del mercado presentan mejores oportunidades, evitar aquellas donde las señales son débiles y revisar sistemáticamente esas decisiones a medida que aparece nueva información\n\nLa inteligencia artificial no elimina la incertidumbre del trading. Puede ayudarte a procesar más información y adaptar tus decisiones, pero la verdadera prueba es comprobar si esa ventaja sobrevive fuera del backtest, después de incorporar los costos y cuando el mercado deja de comportarse como lo hizo durante el entrenamiento\n\nLink al paper: https://t.co/BrY7KbhQls",
+      "author": {
+        "id": "1839292983876923398",
+        "name": "Matias Scalbi",
+        "screenName": "MatiasScalbi",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1889772473702330368/uwqZtJCE_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 66,
+        "retweets": 10,
+        "replies": 4,
+        "quotes": 0,
+        "views": 4800,
+        "bookmarks": 92
+      },
+      "createdAt": "Wed Sep 23 23:50:54 +0000 2026",
+      "createdAtLocal": "2026-09-24 07:50",
+      "createdAtISO": "2026-09-23T23:50:54+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS8IOG_XQAEBD23.png",
+          "width": 517,
+          "height": 652
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "es",
+      "score": null
+    }
+  ]
+}

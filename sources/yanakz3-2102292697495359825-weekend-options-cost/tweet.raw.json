@@ -1,0 +1,449 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2102292697495359825",
+      "text": "前些日子一直在看的在看leifu老师（@leifuchen）更新的期权周期性策略。其中的《35delta周末宽跨策略》表现很亮眼，具体策略一句话就能说清楚。就是在周五，卖出周日同时间到期的2天，0.35delta的末日跨式期权。原文：（https://t.co/WBHVsCwqTy）\n\n这类策略的思路对我来说非常新奇，属实是让我打开了另一种思路。有效性自不必说，已经在回测中得到了验证，关键是它真的很简单，一分钟理解上手，甚至从执行层面，你从头到尾都不需要看一眼K线。\n\n回测的结果很亮眼，实际操作起来会怎么样呢？\n\n据我所知greekslive目前的回测系统是0成本策略。周期性策略由于是固定周期、利润复投的设定，我认为微小的成本都会在时间周期拉长后被显著放大。\n\n而期权交易的手续费可真不低，0.03%，甚至这还不是大头。真正的大头是权利金折损——除非挂单被吃，否则你很难在标记价格成交一单期权。\n\n拿这会儿一张末日期权来看，买1价0.0095btc，卖1价0.0105btc，而标记价格是0.01btc。按标记价格算，实际你on screen卖出收到的权利金，已经折损了5%，而这绝大部分时候已经算低了。在报价档位分界（0.005）以上，越便宜的期权你损失得越多，35delta的周末期权可能恰好就在这附近。\n\n我让AI帮我估算了一下，它认为按大小单去平均估计，折损率在7.5%-10%左右是合理区间。本次验证我设定的是0.03%手续费+5%权利金折损，往低了算试试。\n\n手工实现这个策略的回测，我用了比较毛坯的数据构建方法： 1、用历史成交价作为入场价格，再用官方到期结算价计算赔付，不先重建整套波动率曲面。 2、获取成交记录里的 IV、指数价、行权价和剩余时间，采用“短期远期价≈指数价”的近似。 我们就可以得到某个有成交记录的历史期权的delta。\n**早期的末日期权在上架初期缺少有效的成交记录数据，所以我把卖出时间统一到北京时间周六0:00，实际持有时间只有40小时。**\n\n确实很毛坯，有效吗？我用2021年7月1日开始的数据进行了回测，与leifu老师的X文（https://t.co/KrotQgWZhW）中讨论的BTC回测区间对齐，初始净值100，得到的最终结果是717.8，与文章中结果721仅相差0.44%，以策略本身的简易特性，我们就姑且认为方法准确可行吧。\n\n最终结果如图1所示，可以看到末期资产直接打7折了。\n\n啊当然，即便少了30%，它还是稳稳压死现货一头。但真的就这么万金油吗？为此我专门做了第二次回测，结果请看图2。这里我选用的策略起始时间点，是2020年2月3日，因为从这一天开始，deribit才有当日到期期权，再往前我的估算方法就无效了。\n\n》》没错，加上了交易成本并将起始时间点调整，这个策略跑输了现货。\n\n对于想无脑执行这个策略的小伙伴，似乎被泼了一盆冷水。究竟哪个点出了问题？什么因素影响了结论？屏幕前的各位不妨自行思考下。\n——但别灰心，它只是“特定时间节点出发，并在当前节点”跑输了现货，如果仔细优化又是另一回事了。\n\n归根结底，这是一条底子极佳的基础策略，可能比你以前接触的任何无脑策略，都要来的强。它迫使你，去思考和融合择时策略、对冲策略以及基础指标的配合。一定会成为我未来重点研究的对象。也推荐给大家去尝试。\n\n最后我的评价是，市场从来不会把一个显而易见的躺赢机会，平白无故暴露在你面前，这其中一定藏了你还没察觉的问题。",
+      "author": {
+        "id": "1354868331778510851",
+        "name": "BitCow",
+        "screenName": "Yanakz3",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1354868418290180096/Fk2UOF-h_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 91,
+        "retweets": 16,
+        "replies": 24,
+        "quotes": 1,
+        "views": 14436,
+        "bookmarks": 123
+      },
+      "createdAt": "Tue Sep 22 07:03:32 +0000 2026",
+      "createdAtLocal": "2026-09-22 15:03",
+      "createdAtISO": "2026-09-22T07:03:32+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSzV6s-aUAATwTm.jpg",
+          "width": 3520,
+          "height": 2970
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSzV8YcbkAAlIA-.jpg",
+          "width": 3520,
+          "height": 2970
+        }
+      ],
+      "urls": [
+        "https://x.com/leifuchen/status/2096956007918219583"
+      ],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "2096956007918219583",
+        "text": "BTC 系统化期权策略指数（9.7）\n\n过去一周 BTC 先跌后涨，HODL（持币策略）从 733 涨到 756，一周上涨 3.15%。周中一度跌到 7 万 6，周四反弹到周五收于 8万 1 附近，整个周末也在 8 万上下徘徊。这一周所有的期权策略表现都很不错，不论是卖 call 的、卖 put 的、周频的、周末的都是权利金全收，所有指数全线上涨！下面我们看下各条策略指数的表现。\n\nCC35（现货备兑）\n1038 → 1085（+4.52%）\n本周卖 call 的行权价是 8万 2，现货周五凌晨险些冲破，但下午结算时回落到 8 万 1，完美收关。现货涨幅加上全额权利金，备兑这周比单纯持币多赚了一份权利金，是备兑能遇到的最好剧本，正好是上期“结算前涨、结算后跌”的镜像。\n\n过去 7 年 374 个周期里，call 到期未被行权的概率有 71%，但在现货上涨的 204 周里只有 48% 的概率未被行权，所以上周的运气算很不错。\n\nCLL（领口）\n793 → 824（+4.03%）\ncall 这边和备兑一样全收，多买的那张 put 保险行权价 7 万 5，白付保费，所以比备兑少赚了半个百分点。\n\nSTG35（周频卖宽跨）\n228 → 234（+2.73%）\ncall 行权价 8 万 2、put 行权价 7 万 8，现货周三最低 跌破过 put，但结算时回到 8 万 1，所以也是两条腿权利金全收。\n\nCSP35（现金担保卖 put）\n365 → 370（+1.41%）\n结算价 8 万 1 远在 put 行权价 7万 8 之上，权利金全收。\n\nWKND35（周末宽跨）\n1506 → 1518（+0.77%）\ncall 行权价在 8 万、put 行权价 7 万 9，周末现货一度冲过 call 行权价但是结算时再次回落，稳稳落于区间，两条腿权利金全收。\n\n=====  \n\n以上报告数据来源为 https://t.co/DavBhD0uFp ，本周新增了 ETH 的回测，欢迎大家也来回测自己设想的策略！",
+        "author": {
+          "screenName": "leifuchen",
+          "name": "leifu _/"
+        }
+      }
+    },
+    {
+      "id": "2102301210007007531",
+      "text": "感谢奶牛老师的分享，补充一下这个策略来自 @cryptarbitrage 对于 ETF 上市后 BTC 期权交易时间段的异象研究，即虽然周末市场对于 IV的定价相对工作日低，但还不够低，存在明显的风险溢价，可能是因为大家愿意多付一点保费来更好地享受周末。\n\n同样还有一个类似的时间异象，比如周日交割后双买持有到周一。\n\nhttps://t.co/EZ7bqfvhxQ",
+      "author": {
+        "id": "1702231380",
+        "name": "leifu _/",
+        "screenName": "leifuchen",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1479549463312183296/aJbH14q3_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 531,
+        "bookmarks": 2
+      },
+      "createdAt": "Tue Sep 22 07:37:21 +0000 2026",
+      "createdAtLocal": "2026-09-22 15:37",
+      "createdAtISO": "2026-09-22T07:37:21+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102306210171260977",
+      "text": "@leifuchen @cryptarbitrage 感谢分享，说实话这类策略对我的启发，完全不亚于当初看到MA策略时的豁然开朗。",
+      "author": {
+        "id": "1354868331778510851",
+        "name": "BitCow",
+        "screenName": "Yanakz3",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1354868418290180096/Fk2UOF-h_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 2,
+        "quotes": 0,
+        "views": 357,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 07:57:14 +0000 2026",
+      "createdAtLocal": "2026-09-22 15:57",
+      "createdAtISO": "2026-09-22T07:57:14+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102400162467557635",
+      "text": "@Yanakz3 @leifuchen 谢谢奶牛哥，我们会在回测系统优先安排交易费用设定。",
+      "author": {
+        "id": "1272837733535191040",
+        "name": "Jeff Liang",
+        "screenName": "JeffLia12309881",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1490920422191558657/dABO118v_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 1,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1829,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 14:10:34 +0000 2026",
+      "createdAtLocal": "2026-09-22 22:10",
+      "createdAtISO": "2026-09-22T14:10:34+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102424999403598139",
+      "text": "@JeffLia12309881 @leifuchen 期待系统完善",
+      "author": {
+        "id": "1354868331778510851",
+        "name": "BitCow",
+        "screenName": "Yanakz3",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1354868418290180096/Fk2UOF-h_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 265,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 15:49:15 +0000 2026",
+      "createdAtLocal": "2026-09-22 23:49",
+      "createdAtISO": "2026-09-22T15:49:15+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102303088426230095",
+      "text": "@Yanakz3 @leifuchen 只要卖的人足够多，就一定有人来桶，周末的定价很尾部，新手玩这个还是适当配点ddh安全一些",
+      "author": {
+        "id": "384850586",
+        "name": "龙心盐",
+        "screenName": "ssslumdunk",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1463758640595480576/vw0gtzya_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 3,
+        "retweets": 0,
+        "replies": 3,
+        "quotes": 0,
+        "views": 615,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 07:44:49 +0000 2026",
+      "createdAtLocal": "2026-09-22 15:44",
+      "createdAtISO": "2026-09-22T07:44:49+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102305858697015726",
+      "text": "@ssslumdunk @leifuchen DDH具体用什么策略，感觉也是个究极大坑哈哈。",
+      "author": {
+        "id": "1354868331778510851",
+        "name": "BitCow",
+        "screenName": "Yanakz3",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1354868418290180096/Fk2UOF-h_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 309,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 07:55:50 +0000 2026",
+      "createdAtLocal": "2026-09-22 15:55",
+      "createdAtISO": "2026-09-22T07:55:50+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102303463560351801",
+      "text": "@Yanakz3 @leifuchen 奶牛老师，玩期权的时候，你会盯盘吗，如合约一样",
+      "author": {
+        "id": "1737875754514345989",
+        "name": "疯狂的大蘑菇",
+        "screenName": "Gtsircrazy",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1866137936879833089/KFVJ0tTa_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 165,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 07:46:19 +0000 2026",
+      "createdAtLocal": "2026-09-22 15:46",
+      "createdAtISO": "2026-09-22T07:46:19+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102306717870760397",
+      "text": "@Gtsircrazy @leifuchen 基本不盯哈哈，最多我玩游戏的时候开个副屏展示下K线哈。睡眠第一，睡觉时禁用一切K线报警。",
+      "author": {
+        "id": "1354868331778510851",
+        "name": "BitCow",
+        "screenName": "Yanakz3",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1354868418290180096/Fk2UOF-h_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 202,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 07:59:15 +0000 2026",
+      "createdAtLocal": "2026-09-22 15:59",
+      "createdAtISO": "2026-09-22T07:59:15+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102333058594808097",
+      "text": "@Yanakz3 @leifuchen 回测的期权链历史数据是哪个平台的呀",
+      "author": {
+        "id": "1133260017958760448",
+        "name": "nix",
+        "screenName": "96992969a",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1701147275328892928/CGNhaFOj_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 99,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 09:43:55 +0000 2026",
+      "createdAtLocal": "2026-09-22 17:43",
+      "createdAtISO": "2026-09-22T09:43:55+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102425601030365390",
+      "text": "@96992969a @leifuchen 数据都是deribit公开的能查到的数据，可以让AI帮你拉",
+      "author": {
+        "id": "1354868331778510851",
+        "name": "BitCow",
+        "screenName": "Yanakz3",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1354868418290180096/Fk2UOF-h_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 102,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 15:51:39 +0000 2026",
+      "createdAtLocal": "2026-09-22 23:51",
+      "createdAtISO": "2026-09-22T15:51:39+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102517263387779488",
+      "text": "@Yanakz3 @leifuchen @threadreaderapp unroll",
+      "author": {
+        "id": "1712841901718794240",
+        "name": "tom",
+        "screenName": "x_tom_jp",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1712842010716180480/dMqqmHtx_normal.png",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 16,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 21:55:53 +0000 2026",
+      "createdAtLocal": "2026-09-23 05:55",
+      "createdAtISO": "2026-09-22T21:55:53+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2102499719645986952",
+      "text": "@Yanakz3 @leifuchen 干货满满，周末卖跨式这思路有点东西",
+      "author": {
+        "id": "1222150895233851392",
+        "name": "币安手续费减免",
+        "screenName": "FelipeE01041659",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2101288754938060800/0cc4F17U_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 21,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 20:46:10 +0000 2026",
+      "createdAtLocal": "2026-09-23 04:46",
+      "createdAtISO": "2026-09-22T20:46:10+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102507553699631579",
+      "text": "@Yanakz3 @leifuchen 周末卖宽跨，吃的就是时间价值",
+      "author": {
+        "id": "1496323642221019137",
+        "name": "Tim哥",
+        "screenName": "timbrobro",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1955592230250631168/KCOHY9aq_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 21,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 21:17:18 +0000 2026",
+      "createdAtLocal": "2026-09-23 05:17",
+      "createdAtISO": "2026-09-22T21:17:18+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2092327264704930213",
+      "text": "高速で安定したインターネットを、地方や遠隔地でも\n持ち運びやすく、セットアップも簡単なStarlink Miniなら、どこにいても快適につながります\n\nわずか数分でご注文いただけます",
+      "author": {
+        "id": "1330170106501079041",
+        "name": "Starlink",
+        "screenName": "Starlink",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2782,
+        "retweets": 144,
+        "replies": 74,
+        "quotes": 14,
+        "views": 308769839,
+        "bookmarks": 692
+      },
+      "createdAt": "Tue Aug 25 19:04:28 +0000 2026",
+      "createdAtLocal": "2026-08-26 03:04",
+      "createdAtISO": "2026-08-25T19:04:28+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    }
+  ]
+}

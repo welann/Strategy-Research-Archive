@@ -1,0 +1,153 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2097136840251990157",
+      "text": "ETH 系统化期权策略指数家族发布！\n\n格致回测系统上周开始支持 ETH 数据，因此我们把 BTC 的策略指数原样复制到 ETH 上看看它们的表现究竟如何。\n\n策略设置同样还是每周五换仓的 7 天合成期权，行权价取 35Δ，不做 Delta 对冲，不计交易成本。\n\n唯一的区别是 ETH 的期权上线比 BTC 要晚一些，所以我们把策略指数的起始日期定在 2021 年 7 月 1 日（起始值为100），当天 ETH 价格在 2100 附近，5 年多过去了，经历两轮牛熊的 ETH 还在 2400- 2,500 区间震荡，只涨了不到 20%。  \n\nETH 六大策略指数终值和夏普：  \n\nWKND35（周末宽跨）\n终值 515，夏普 2.12，最大回撤 −16% \n\nCLL（领口）\n终值 186，夏普 0.54 \n\nCC35（现货备兑）\n终值 175，夏普 0.52 \n\nCSP35（现金担保卖 put）\n终值 146，夏普 0.40\n\nHODL（持币）\n终值 119，夏普 0.40，最大回撤 −79% \n\nSTG35（周频双卖）\n终值 108，夏普 0.27  \n\n周末宽跨在 ETH 和 BTC 都位列第一，而且也是断层领先。当然也出现过尾部风险，2022 年 6 月曾创下一个周末亏损 12%的记录。\n\n周频双卖在 ETH 和 BTC 上都位列倒一，虽然 271 周里 66% 是赚钱的，但 2023 和 2024 两年分别亏了 19% 和 20%，主要是因为 ETH 在牛市中的暴涨非常猛烈。指数样本期内，ETH 单周涨跌超过 10% 的周占 27%，而 BTC 只有 14%（2026 年至今这个数字分别为 14% 和 8%，所以大家都觉得今年市场平静了不少），而市场给 ETH 的权利金溢价并不足以覆盖这个差距，所以周频双卖在 ETH 上更难做。\n\nETH 除了暴涨多之外，暴跌也多，所以 ETH 的领口策略还跑赢了备兑，这主要得益于 ETH 在 2022 年和今年的表现：\n- 2022 年 ETH 价格从最高 4800 跌到 900，put 赔付了 6 次，领口策略全年收益 −43%，备兑收益 −55%，领口追平前一年和备兑的差异。\n- 2026 年 ETH 在年初下跌 31%，备兑策略下跌 24%，而领口策略仅仅下跌 2.5%，凭借在暴跌中的卓越表现，今年至今领口涨了 25%，而备兑刚刚填完坑目前只涨了 5%。\n\n最后我们把 BTC 的策略指数也重设到 2021 年 7 月 1 日和 ETH 做个对照：\n\n- 周末宽跨：\nETH 515 vs BTC 721，比例系数 0.71 \n\n- 领口：\nETH 186 vs BTC 309，比例系数 0.60\n\n- 现金担保卖 put：\nETH 146 vs BTC 266，比例系数 0.55\n\n- 持币：\nETH 119 vs BTC  239，比例系数 0.50\n\n- 现货备兑：\nETH 175 vs BTC 407，比例系数 0.43\n\n- 周频双卖：\nETH 108 vs BTC 282，比例系数 0.38\n\n可以看到 ETH 在每一个不择时的系统化策略上表现都远不如 BTC，说明 ETH 的策略更加依赖择时。\n\n=====    \n\n以上报告数据来源为 https://t.co/DavBhD12uX ，本周新增了 ETH 的回测，欢迎大家也来回测自己的策略！",
+      "author": {
+        "id": "1702231380",
+        "name": "leifu _/",
+        "screenName": "leifuchen",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1479549463312183296/aJbH14q3_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 17,
+        "retweets": 2,
+        "replies": 55,
+        "quotes": 3,
+        "views": 7941,
+        "bookmarks": 20
+      },
+      "createdAt": "Tue Sep 08 01:36:00 +0000 2026",
+      "createdAtLocal": "2026-09-08 09:36",
+      "createdAtISO": "2026-09-08T01:36:00+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HRo4bwbXYAAGo-H.jpg",
+          "width": 1200,
+          "height": 1051
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2097162715903250732",
+      "text": "@leifuchen 这个策略指数很有意思",
+      "author": {
+        "id": "1272837733535191040",
+        "name": "Jeff Liang",
+        "screenName": "JeffLia12309881",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1490920422191558657/dABO118v_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 294,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 08 03:18:49 +0000 2026",
+      "createdAtLocal": "2026-09-08 11:18",
+      "createdAtISO": "2026-09-08T03:18:49+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2097145614559739952",
+      "text": "@leifuchen 同時有做BTC跟ETH，ETH的波動真的比較容易把人送走🙃",
+      "author": {
+        "id": "1911661953782546432",
+        "name": "加密貝兒ღ",
+        "screenName": "0xGummyBear",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1970383655332909056/6BQEtZLO_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 127,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 08 02:10:52 +0000 2026",
+      "createdAtLocal": "2026-09-08 10:10",
+      "createdAtISO": "2026-09-08T02:10:52+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2097158645066649733",
+      "text": "@0xGummyBear 是的，ETH 难度更大",
+      "author": {
+        "id": "1702231380",
+        "name": "leifu _/",
+        "screenName": "leifuchen",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1479549463312183296/aJbH14q3_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 114,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 08 03:02:38 +0000 2026",
+      "createdAtLocal": "2026-09-08 11:02",
+      "createdAtISO": "2026-09-08T03:02:38+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2092052697335697754",
+      "text": "複数のデバイスでシームレスなストリーミング再生、在宅勤務、ゲームなどに対応する高速で信頼性の高いホームインターネットをご利用ください。\n\n数分でオンラインからご注文いただけます。",
+      "author": {
+        "id": "1330170106501079041",
+        "name": "Starlink",
+        "screenName": "Starlink",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 3837,
+        "retweets": 229,
+        "replies": 112,
+        "quotes": 9,
+        "views": 535499835,
+        "bookmarks": 954
+      },
+      "createdAt": "Tue Aug 25 00:53:26 +0000 2026",
+      "createdAtLocal": "2026-08-25 08:53",
+      "createdAtISO": "2026-08-25T00:53:26+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    }
+  ]
+}

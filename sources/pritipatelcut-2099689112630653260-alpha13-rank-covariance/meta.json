@@ -1,0 +1,52 @@
+{
+  "source_url": "https://x.com/pritipatelcut/status/2099689112630653260",
+  "tweet_id": "2099689112630653260",
+  "author": {
+    "id": "1760805549355216896",
+    "name": "套利豪仔🗽",
+    "screenName": "pritipatelcut",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/2007410168041222147/pYv20KIq_normal.jpg",
+    "verified": true
+  },
+  "published_at": "2026-09-15T02:37:49+00:00",
+  "retrieved_at": "2026-09-24T18:04:29.893525+00:00",
+  "retrieval": [
+    "twitter-cli",
+    "FxTwitter expanded links"
+  ],
+  "reply_ids": [
+    "2099697808945107026",
+    "2099702387875401782",
+    "2099810538058596469",
+    "2099773011373240494",
+    "2099860268977136025",
+    "2099818969397887457",
+    "2099950287104647391"
+  ],
+  "media": [
+    {
+      "url": "https://pbs.twimg.com/media/HSOYAo-bMAALZs1.jpg",
+      "file": "assets/main-1.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSOYCxAagAAOOh2.jpg",
+      "file": "assets/main-2.jpg"
+    }
+  ],
+  "coverage": "主帖、配图和可见相关回复。期权篇另归档两个引用前帖的主文及图片；因子篇另存链接代码库README和一手公式核对记录。",
+  "limitations": [
+    "未运行策略回测，未取得作者使用的完整数据与配置",
+    "截图收益是来源展示，不是独立验证结果",
+    "代码库快照为归档时main分支，不能视为原帖回测使用版本"
+  ],
+  "sha256": {
+    "assets/main-1.jpg": "25530ec215fbee9653e39210a4e8c8e2cf5d72ff20f5a903fa6544729679c3e2",
+    "assets/main-2.jpg": "528d3f39c1e308fbe42cc0f06daace6c1d0c88fb41a08dc77185ea39aeb583b9",
+    "library-readme.md": "1ec3f7fab05bd9cfdf27bff07afce1a3611c772dc726e7deb8c978c4348ba4f0",
+    "original.md": "96ec98fa01c116dfad16e2dabbfd7c1c8d4d7f42c2d19bc9d561a21be139d7d9",
+    "original.txt": "78aaa3beb40ba706a27436f0f761f0dcbe18ea36cc207c777375442d99b6db9f",
+    "supplement.raw.json": "17668c6e55a0b0f566532a2dc7a840211cd07730c50aa06c45a3b1bae2c5267a",
+    "tweet.raw.json": "c126ed216f039bcd0e6ecbd4c12cbade88bf6ce785c180a5a75bdf19ae03861d",
+    "verification.md": "f26a06e41089b278c012dfa9814183f2681730aa73aa3a88c584c21fb1e03fcd"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "source_url": "https://x.com/Yanakz3/status/2102292697495359825",
+  "tweet_id": "2102292697495359825",
+  "author": {
+    "id": "1354868331778510851",
+    "name": "BitCow",
+    "screenName": "Yanakz3",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1354868418290180096/Fk2UOF-h_normal.jpg",
+    "verified": true
+  },
+  "published_at": "2026-09-22T07:03:32+00:00",
+  "retrieved_at": "2026-09-24T18:04:29.892536+00:00",
+  "retrieval": [
+    "twitter-cli",
+    "FxTwitter expanded links"
+  ],
+  "reply_ids": [
+    "2102301210007007531",
+    "2102306210171260977",
+    "2102400162467557635",
+    "2102424999403598139",
+    "2102303088426230095",
+    "2102305858697015726",
+    "2102303463560351801",
+    "2102306717870760397",
+    "2102333058594808097",
+    "2102425601030365390",
+    "2102517263387779488",
+    "2102499719645986952",
+    "2102507553699631579"
+  ],
+  "media": [
+    {
+      "url": "https://pbs.twimg.com/media/HSzV6s-aUAATwTm.jpg",
+      "file": "assets/main-1.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSzV8YcbkAAlIA-.jpg",
+      "file": "assets/main-2.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HRniKGMWgAAZteh.jpg",
+      "file": "assets/linked-2096956007918219583.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HRo4bwbXYAAGo-H.jpg",
+      "file": "assets/linked-2097136840251990157.jpg"
+    }
+  ],
+  "coverage": "主帖、配图和可见相关回复。期权篇另归档两个引用前帖的主文及图片；因子篇另存链接代码库README和一手公式核对记录。",
+  "limitations": [
+    "未运行策略回测，未取得作者使用的完整数据与配置",
+    "截图收益是来源展示，不是独立验证结果",
+    "代码库快照为归档时main分支，不能视为原帖回测使用版本"
+  ],
+  "sha256": {
+    "assets/linked-2096956007918219583.jpg": "62d8994b7485239fffe80ad7abfac2bc091bfce375590d87322a6de29f2de466",
+    "assets/linked-2097136840251990157.jpg": "ed5a82e97650b1b34052af9f0e5c3244e3e34d573cb091a5e003d310b796a8e1",
+    "assets/main-1.jpg": "c049f50f3559413c881555acb42b31b11f2409916135c2c91e08a6f6e7b93f72",
+    "assets/main-2.jpg": "220d2e0161d91232e7471f9f83430863d60b57af6f3ebb26ed26e69c6f8bb036",
+    "linked-2096956007918219583.raw.json": "cf72ea31a9718af8bcf8ccc11d97ba40ab64fdf075237df927cc396a3b6eae4f",
+    "linked-2097136840251990157.raw.json": "c163d40988d8fecaa99192265ae1d922fe90c312a4ef852be5cdcb51f5699ba2",
+    "linked-context.md": "d60ccbb756eff3463105879d1cb691d2160b8e8e6b1be0decaa529d08d68968f",
+    "original.md": "77bd219d5361461063cfb1a54cf30823b462a0ba3bb49009885bcea90bf890ac",
+    "original.txt": "65554a45994d84603787bfe6b1c8c7bae42971e2beae8ce35a5f6de2ee27b6f2",
+    "supplement.raw.json": "15643a89ea12553c13d74c6936bab5066dff312b92a728206138f6e8767bf2b8",
+    "tweet.raw.json": "4d1c8641802bcc0ea6d9e9c907050619380bbff01a37a5df0c4b06c1c67d238c"
+  }
+}
