@@ -1,0 +1,441 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2102219507129332019",
+      "text": "\"Adam & Eve\" 是我很喜欢的一个反转技术形态。\n\n1. Adam：先出现一个快速的 V 型底，往往是恐慌下杀后迅速反弹。\n2. 股价反弹，但还没有真正反转成功。\n3. Eve：第二次下跌时速度更慢，形成一个圆弧底，波动通常比第一次收敛。\n4. 最后突破两个底之间的 neckline，形态确认。\n\n第一次代表市场砸不动了，第二次代表卖压慢慢耗尽。 $INTC",
+      "author": {
+        "id": "1853646812558536704",
+        "name": "TraderGoku",
+        "screenName": "tradergoku",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1928452810309337088/U04Ti9eN_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 339,
+        "retweets": 59,
+        "replies": 15,
+        "quotes": 7,
+        "views": 79658,
+        "bookmarks": 295
+      },
+      "createdAt": "Tue Sep 22 02:12:42 +0000 2026",
+      "createdAtLocal": "2026-09-22 10:12",
+      "createdAtISO": "2026-09-22T02:12:42+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSyT7h5XYAEz2YY.jpg",
+          "width": 3598,
+          "height": 1676
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSyUZcnXIAAl7my.png",
+          "width": 862,
+          "height": 635
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "2100582559696461955",
+        "text": "$INTC “Adam and Eve” 形态测试压力位 https://t.co/fpL6fvCOjM",
+        "author": {
+          "screenName": "tradergoku",
+          "name": "TraderGoku"
+        }
+      }
+    },
+    {
+      "id": "2102462651045658935",
+      "text": "@tradergoku 老師，這個是不是也是類似Adam$Eve的走法 https://t.co/fVvLM4mbgs",
+      "author": {
+        "id": "119491628",
+        "name": "海地-蔡家人.🎒✳️🌊RIVER.edge 🦭",
+        "screenName": "elinor512",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1977909236740018176/--4RALb1_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 402,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 18:18:52 +0000 2026",
+      "createdAtLocal": "2026-09-23 02:18",
+      "createdAtISO": "2026-09-22T18:18:52+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS1yoyWbMAAnxWG.jpg",
+          "width": 1096,
+          "height": 2048
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102468631363989759",
+      "text": "@elinor512 像，需要先把圆弧底走出来。",
+      "author": {
+        "id": "1853646812558536704",
+        "name": "TraderGoku",
+        "screenName": "tradergoku",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1928452810309337088/U04Ti9eN_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 553,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 18:42:38 +0000 2026",
+      "createdAtLocal": "2026-09-23 02:42",
+      "createdAtISO": "2026-09-22T18:42:38+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102348938841829706",
+      "text": "@tradergoku 你看一下rocketlab 看起来也像adam eve",
+      "author": {
+        "id": "989286570103529472",
+        "name": "YYDS",
+        "screenName": "ya78756632",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1611527246379982848/KwpPxLci_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 777,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 10:47:01 +0000 2026",
+      "createdAtLocal": "2026-09-22 18:47",
+      "createdAtISO": "2026-09-22T10:47:01+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102409483075109249",
+      "text": "@ya78756632 很像，需要看到圆弧底的形成进行确认。",
+      "author": {
+        "id": "1853646812558536704",
+        "name": "TraderGoku",
+        "screenName": "tradergoku",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1928452810309337088/U04Ti9eN_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 0,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 685,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 14:47:36 +0000 2026",
+      "createdAtLocal": "2026-09-22 22:47",
+      "createdAtISO": "2026-09-22T14:47:36+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102220362520183257",
+      "text": "@tradergoku 等回调，$110附近再入。",
+      "author": {
+        "id": "1084930254223769600",
+        "name": "无我",
+        "screenName": "XiaoqunYan",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2101568003158736896/yRdvSXmc_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 5,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 2074,
+        "bookmarks": 2
+      },
+      "createdAt": "Tue Sep 22 02:16:06 +0000 2026",
+      "createdAtLocal": "2026-09-22 10:16",
+      "createdAtISO": "2026-09-22T02:16:06+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2102242533070029222",
+      "text": "@tradergoku 昨晚看好像很多都是这个形态，这个名字还是第一次听",
+      "author": {
+        "id": "932777020408451072",
+        "name": "David Fan",
+        "screenName": "davidxffan2",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1423133582646816770/fO6JKi5S_normal.png",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1440,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 03:44:12 +0000 2026",
+      "createdAtLocal": "2026-09-22 11:44",
+      "createdAtISO": "2026-09-22T03:44:12+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102245843076079643",
+      "text": "@tradergoku I learned something new today, great share.",
+      "author": {
+        "id": "469435845",
+        "name": "Casey Silver | Trade Tracs",
+        "screenName": "CaseyVSilver",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1980328325823315968/vHBT7FZ2_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1376,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 03:57:21 +0000 2026",
+      "createdAtLocal": "2026-09-22 11:57",
+      "createdAtISO": "2026-09-22T03:57:21+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2102224083534651902",
+      "text": "@tradergoku 谢谢 老师",
+      "author": {
+        "id": "1835572947261837312",
+        "name": "M",
+        "screenName": "TheInvisib13",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2099758288443518976/fSIF8CEI_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 1089,
+        "bookmarks": 0
+      },
+      "createdAt": "Tue Sep 22 02:30:53 +0000 2026",
+      "createdAtLocal": "2026-09-22 10:30",
+      "createdAtISO": "2026-09-22T02:30:53+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2092327265057247612",
+      "text": "高速で安定したインターネットを、地方や遠隔地でも\n持ち運びやすく、セットアップも簡単なStarlink Miniなら、どこにいても快適につながります\n\nわずか数分でご注文いただけます",
+      "author": {
+        "id": "1330170106501079041",
+        "name": "Starlink",
+        "screenName": "Starlink",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2599,
+        "retweets": 143,
+        "replies": 69,
+        "quotes": 5,
+        "views": 287478505,
+        "bookmarks": 629
+      },
+      "createdAt": "Tue Aug 25 19:04:28 +0000 2026",
+      "createdAtLocal": "2026-08-26 03:04",
+      "createdAtISO": "2026-08-25T19:04:28+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2103028079195037895",
+      "text": "这个统计很有意思，两党议员们重仓的美股最新列表，建议收藏\n\n民主党：\n \n$GOOG 谷歌-C\n$AMAT 应用材料\n$CRM 赛富时\n$LLY 礼来\n$AXP 美国运通\n$MU 美光科技\n$NFLX 奈飞\n\n共和党：\n \n$FIX 美国舒适系统\n$IBIT 比特币ETF-iShares\n$ALL 好事达\n$UTHR 美国联合医疗\n$T AT&T\n$CVX 雪佛龙\n$ASML 阿斯麦\n$COP 康菲石油\n \n两党共同持股：\n\n$NVDA 英伟达\n$MSFT 微软\n$AMZN 亚马逊\n$AAPL 苹果\n$CRWD CrowdStrike\n$META Meta Platforms\n$INTC 英特尔\n$AMD 美国超微公司\n$ANET Arista Networks\n$SPCX SpaceX\n$JPM 摩根大通\n$COST 开市客\n$JNJ 强生\n$PM 菲利普莫里斯\n\n今年看炒股，民主党组合+15%，共和党+27%\n\n特别是共同持股的部分，有机会也值得配置一些",
+      "author": {
+        "id": "1632261908178046977",
+        "name": "美股OK哥",
+        "screenName": "artinmemes",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1838932235090907136/g6-1v5Vb_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 274,
+        "retweets": 47,
+        "replies": 13,
+        "quotes": 1,
+        "views": 44305,
+        "bookmarks": 312
+      },
+      "createdAt": "Thu Sep 24 07:45:41 +0000 2026",
+      "createdAtLocal": "2026-09-24 15:45",
+      "createdAtISO": "2026-09-24T07:45:41+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2103116235722707029",
+      "text": "哎呀跌死我了 我不活啦。（babybus增博版）",
+      "author": {
+        "id": "2063073064758157312",
+        "name": "Babybus",
+        "screenName": "BabybusFL",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2093017236453617664/pOO5wgdC_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 62,
+        "retweets": 0,
+        "replies": 11,
+        "quotes": 0,
+        "views": 14328,
+        "bookmarks": 2
+      },
+      "createdAt": "Thu Sep 24 13:35:59 +0000 2026",
+      "createdAtLocal": "2026-09-24 21:35",
+      "createdAtISO": "2026-09-24T13:35:59+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2102941475902476400",
+      "text": "如果我告诉你我也不知道为何利率今天能涨那么多（宏观数据不足以支撑这种涨幅），可以接受吗？但黄金还是强劲的。贝森特还没有出招。",
+      "author": {
+        "id": "1620475218627121153",
+        "name": "投资TALK君",
+        "screenName": "TJ_Research",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1751334877591486464/ptPeGDbr_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 182,
+        "retweets": 3,
+        "replies": 62,
+        "quotes": 2,
+        "views": 50820,
+        "bookmarks": 9
+      },
+      "createdAt": "Thu Sep 24 02:01:33 +0000 2026",
+      "createdAtLocal": "2026-09-24 10:01",
+      "createdAtISO": "2026-09-24T02:01:33+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "2102939919899664757",
+        "text": "@TJ_Research talk君，谈谈国债收益率飙升的问题吧，贝森特是不是也没啥好办法了?",
+        "author": {
+          "screenName": "xuxing0314",
+          "name": "Xing Xu"
+        }
+      }
+    },
+    {
+      "id": "2103117569959895315",
+      "text": "我从来没有见过像今天一样的美股市场\nQQQ创新高 但是30%的股票都在50日均线下方\n广度非常差 但是科技股却创新高\n\n缩小仓位 Be careful here https://t.co/kiPAKtiA0t",
+      "author": {
+        "id": "1106168053",
+        "name": "Kova",
+        "screenName": "kovainvest",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2053109121386242056/mfvnDlia_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 42,
+        "retweets": 1,
+        "replies": 10,
+        "quotes": 0,
+        "views": 10196,
+        "bookmarks": 6
+      },
+      "createdAt": "Thu Sep 24 13:41:17 +0000 2026",
+      "createdAtLocal": "2026-09-24 21:41",
+      "createdAtISO": "2026-09-24T13:41:17+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HS_GRedWAAAbpMn.jpg",
+          "width": 1674,
+          "height": 322
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    }
+  ]
+}

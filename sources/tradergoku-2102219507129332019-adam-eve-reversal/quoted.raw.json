@@ -1,0 +1,309 @@
+{
+  "ok": true,
+  "schema_version": "1",
+  "data": [
+    {
+      "id": "2100582559696461955",
+      "text": "$INTC “Adam and Eve” 形态测试压力位 https://t.co/fpL6fvCOjM",
+      "author": {
+        "id": "1853646812558536704",
+        "name": "TraderGoku",
+        "screenName": "tradergoku",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1928452810309337088/U04Ti9eN_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 50,
+        "retweets": 6,
+        "replies": 5,
+        "quotes": 1,
+        "views": 28465,
+        "bookmarks": 19
+      },
+      "createdAt": "Thu Sep 17 13:48:03 +0000 2026",
+      "createdAtLocal": "2026-09-17 21:48",
+      "createdAtISO": "2026-09-17T13:48:03+00:00",
+      "media": [
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSbEj8lWcAExlGX.jpg",
+          "width": 3596,
+          "height": 1670
+        },
+        {
+          "type": "photo",
+          "url": "https://pbs.twimg.com/media/HSbEmUOWQAAc9nD.jpg",
+          "width": 1602,
+          "height": 806
+        }
+      ],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100621229430550935",
+      "text": "@tradergoku 已经成立了",
+      "author": {
+        "id": "1008162403",
+        "name": "RamenPanda",
+        "screenName": "IamRamenPanda",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1652077879906414593/Y8cRI8vf_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 2,
+        "retweets": 0,
+        "replies": 1,
+        "quotes": 0,
+        "views": 1086,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 17 16:21:43 +0000 2026",
+      "createdAtLocal": "2026-09-18 00:21",
+      "createdAtISO": "2026-09-17T16:21:43+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2100625623349612771",
+      "text": "@IamRamenPanda 🔥",
+      "author": {
+        "id": "1853646812558536704",
+        "name": "TraderGoku",
+        "screenName": "tradergoku",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1928452810309337088/U04Ti9eN_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 621,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 17 16:39:11 +0000 2026",
+      "createdAtLocal": "2026-09-18 00:39",
+      "createdAtISO": "2026-09-17T16:39:11+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "qme",
+      "score": null
+    },
+    {
+      "id": "2100816943519551883",
+      "text": "@tradergoku boom！ 不愧是国会山股神买入的标的",
+      "author": {
+        "id": "2094249339409530880",
+        "name": "Archer",
+        "screenName": "archerss0088",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2100835518351392768/FVec9oR9_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 149,
+        "bookmarks": 0
+      },
+      "createdAt": "Fri Sep 18 05:19:25 +0000 2026",
+      "createdAtLocal": "2026-09-18 13:19",
+      "createdAtISO": "2026-09-18T05:19:25+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2092052696740114525",
+      "text": "複数のデバイスでシームレスなストリーミング再生、在宅勤務、ゲームなどに対応する高速で信頼性の高いホームインターネットをご利用ください。\n\n数分でオンラインからご注文いただけます。",
+      "author": {
+        "id": "1330170106501079041",
+        "name": "Starlink",
+        "screenName": "Starlink",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1720501511271383040/FXz_jiJu_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 5165,
+        "retweets": 382,
+        "replies": 137,
+        "quotes": 23,
+        "views": 535510866,
+        "bookmarks": 1026
+      },
+      "createdAt": "Tue Aug 25 00:53:26 +0000 2026",
+      "createdAtLocal": "2026-08-25 08:53",
+      "createdAtISO": "2026-08-25T00:53:26+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    },
+    {
+      "id": "2100582794498105846",
+      "text": "@tradergoku boom soon",
+      "author": {
+        "id": "1210420042988343297",
+        "name": "Sam",
+        "screenName": "imsamguo",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1485519081315127299/1NKDTZoa_normal.jpg",
+        "verified": false
+      },
+      "metrics": {
+        "likes": 1,
+        "retweets": 0,
+        "replies": 0,
+        "quotes": 0,
+        "views": 423,
+        "bookmarks": 0
+      },
+      "createdAt": "Thu Sep 17 13:48:59 +0000 2026",
+      "createdAtLocal": "2026-09-17 21:48",
+      "createdAtISO": "2026-09-17T13:48:59+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "en",
+      "score": null
+    },
+    {
+      "id": "2103028079195037895",
+      "text": "这个统计很有意思，两党议员们重仓的美股最新列表，建议收藏\n\n民主党：\n \n$GOOG 谷歌-C\n$AMAT 应用材料\n$CRM 赛富时\n$LLY 礼来\n$AXP 美国运通\n$MU 美光科技\n$NFLX 奈飞\n\n共和党：\n \n$FIX 美国舒适系统\n$IBIT 比特币ETF-iShares\n$ALL 好事达\n$UTHR 美国联合医疗\n$T AT&T\n$CVX 雪佛龙\n$ASML 阿斯麦\n$COP 康菲石油\n \n两党共同持股：\n\n$NVDA 英伟达\n$MSFT 微软\n$AMZN 亚马逊\n$AAPL 苹果\n$CRWD CrowdStrike\n$META Meta Platforms\n$INTC 英特尔\n$AMD 美国超微公司\n$ANET Arista Networks\n$SPCX SpaceX\n$JPM 摩根大通\n$COST 开市客\n$JNJ 强生\n$PM 菲利普莫里斯\n\n今年看炒股，民主党组合+15%，共和党+27%\n\n特别是共同持股的部分，有机会也值得配置一些",
+      "author": {
+        "id": "1632261908178046977",
+        "name": "美股OK哥",
+        "screenName": "artinmemes",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1838932235090907136/g6-1v5Vb_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 274,
+        "retweets": 47,
+        "replies": 13,
+        "quotes": 1,
+        "views": 44329,
+        "bookmarks": 313
+      },
+      "createdAt": "Thu Sep 24 07:45:41 +0000 2026",
+      "createdAtLocal": "2026-09-24 15:45",
+      "createdAtISO": "2026-09-24T07:45:41+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102892768066781250",
+      "text": "还有人研究一只美股，只看TradingView、刷几条新闻、看看PE就敢下重仓？\n\n我现在真正准备买一家公司之前，基本都会把它从财报→估值→管理层→机构→内部人→用户数据→期权→空头完整过一遍。下面这10个网站，建议直接收藏。\n\n1. SEC EDGAR｜所有研究最后都要回到这里\nhttps://t.co/ZWLFCsfb2m\n这是美国上市公司最原始的信息源。10-K看完整业务和风险，10-Q看季度变化，8-K看重大事项，Form 4查高管交易，13D/13G看大股东，S-3/424B查融资增发。\n\n尤其是小盘故事股突然暴涨，我第一件事不是看Twitter，而是搜SEC：有没有ATM、有没有可转债、有没有增发、股本有没有疯狂膨胀。\n\n2. TIKR｜快速把10年基本面拉出来\nhttps://t.co/xvV5n9AZzK\n\n非常适合第一轮基本面筛选。Revenue、Gross Margin、Operating Margin、FCF、EPS、Shares Outstanding、估值、分析师预测都能放在一起看，还能看比较长的历史财务数据。\n我最喜欢先看三个东西：收入是不是持续增长、利润有没有跟上、股本是不是越发越多。\n\n3. Koyfin｜估值+预期+同行对比\nhttps://t.co/rI3HyybU97\n\n查Forward PE、EV/EBITDA、FCF Yield、利润率、分析师预期、历史估值都很方便。\n\n一只股票跌了50%不代表便宜。我会把它和自己的历史估值、同行估值一起比较。\n股价跌很多和估值便宜，是完全不同的两件事。\n\n4. Quartr｜把CEO过去几年说过的话翻出来\nhttps://t.co/Ow6vlWAW72\n\nEarnings Call、Transcript、Investor Day、Presentation、公司公告集中在一起。\n\n我特别喜欢查管理层有没有“拖延症”。\n\n去年：“预计2026年量产。”\n今年：“预计2027年开始量产。”\n单独看一次电话会发现不了，把过去几次放一起就很明显。\n\n5. WhaleWisdom｜看看机构到底有没有下注\nhttps://t.co/OZ4kGqBNV7\n\n主要看13F、基金历史持仓、新建仓、加仓、减仓、清仓以及某只股票有哪些机构持有。\n\n我不会看到一个基金买了就跟。\n真正有意思的是：不同风格的大机构是不是同时开始往一个方向集中。\n\n6. OpenInsider｜CEO和董事自己买不买\nhttps://t.co/DJexqc6v6b\n\n可以快速筛公开市场Insider Buying。\nCEO嘴上说“公司严重低估”没有成本。\n\n但如果CEO、CFO、董事几个人同时掏自己的现金持续买股票，我会认真多看一眼。\n\n卖出未必代表看空，买入通常更值得研究。\n\n7. Similarweb｜公司说用户爆发，我先查流量\nhttps://t.co/LQfgxUhmX7\n\n特别适合研究 $GOOGL、$META、$RDDT、$DUOL、电商、SaaS、Fintech和AI应用。\n可以看Website Traffic、访问来源、地区、竞争对手等。\n\n财报三个月一次，互联网流量却可以提供另一个更高频的观察窗口。\n\n8. Google Trends｜一个产品到底有没有真正出圈\nhttps://t.co/rC08hBEocF\n\n公司天天说自己的产品爆火没用。\n\n直接把品牌、产品和竞争对手放进去比较搜索热度。\n\n比如：\nGemini vs ChatGPT\nRobinhood vs Coinbase\nClaude vs其他AI产品\n它不能直接等于用户或收入，但很适合验证“热度故事”。\n\n9. Unusual Whales｜最后看看期权市场在交易什么\nhttps://t.co/APfUCIzv4e\n\nOptions Flow、OI、Premium、Bid/Ask、Gamma、Dark Pool都可以观察。\n\n我主要拿它回答：\n\n财报前有没有突然出现异常大单？\n市场是不是疯狂买Protection？\n某个关键Strike有没有堆积大量Gamma？\n我从来不会因为一个Call大单买股票，它只是最后一层验证。\n\n10. Fintel｜Short Interest+机构+Insider综合检查\nhttps://t.co/gsTPLUlCdp\n\n适合最后做风险排查。\n\nShort Interest、Institutional Ownership、Insider、Borrow数据等都可以结合起来看。\n尤其小盘股我一定查空头到底有多少。\n高Short Float可能意味着逼空机会，也可能意味着很多专业空头真的发现了问题。\n所以我的完整流程一般是：\n\nSEC查真假 → TIKR/Koyfin看数字和估值 → Quartr听管理层 → WhaleWisdom/OpenInsider看谁在买 → Similarweb/Trends验证业务热度 → Unusual Whales/Fintel看市场资金和空头。\n\n研究一家公司真正有价值的，从来不是找10个理由证明自己为什么对。\n而是拼命找：\n\n到底有什么东西，能够证明自己错了。",
+      "author": {
+        "id": "1874887449404448769",
+        "name": "美股投资young",
+        "screenName": "youngstockuser",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2075997000626032640/imNaaX5M_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 329,
+        "retweets": 105,
+        "replies": 21,
+        "quotes": 4,
+        "views": 24640,
+        "bookmarks": 538
+      },
+      "createdAt": "Wed Sep 23 22:48:00 +0000 2026",
+      "createdAtLocal": "2026-09-24 06:48",
+      "createdAtISO": "2026-09-23T22:48:00+00:00",
+      "media": [],
+      "urls": [
+        "https://www.sec.gov/edgar/search/"
+      ],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null
+    },
+    {
+      "id": "2102841269009465504",
+      "text": "过去一个月，RSP-4.5%，大科技+7.6%，芯片+8.5%，所以为什么参与度那么低，利率飙涨，其他行业先被杀，非大科技板块有点像债券属性了，而科技板块是成长属性，分子（盈利）增速超过分母（折现率）。另外大科技里也有分歧。\n这种行情投个股确实会难一些，轮动明显且快速。",
+      "author": {
+        "id": "1620475218627121153",
+        "name": "投资TALK君",
+        "screenName": "TJ_Research",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/1751334877591486464/ptPeGDbr_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 163,
+        "retweets": 3,
+        "replies": 27,
+        "quotes": 0,
+        "views": 43231,
+        "bookmarks": 18
+      },
+      "createdAt": "Wed Sep 23 19:23:22 +0000 2026",
+      "createdAtLocal": "2026-09-24 03:23",
+      "createdAtISO": "2026-09-23T19:23:22+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "zh",
+      "score": null,
+      "quotedTweet": {
+        "id": "2102815271459385427",
+        "text": "@XZ02191005 @TJ_Research 指数看起来很强，其实下面很多股票已经先跌了，现在主要靠少数AI、半导体和超级大盘股撑着",
+        "author": {
+          "screenName": "Jamesl1hq",
+          "name": "肖澜"
+        }
+      }
+    },
+    {
+      "id": "2103116235722707029",
+      "text": "哎呀跌死我了 我不活啦。（babybus增博版）",
+      "author": {
+        "id": "2063073064758157312",
+        "name": "Babybus",
+        "screenName": "BabybusFL",
+        "profileImageUrl": "https://pbs.twimg.com/profile_images/2093017236453617664/pOO5wgdC_normal.jpg",
+        "verified": true
+      },
+      "metrics": {
+        "likes": 62,
+        "retweets": 0,
+        "replies": 11,
+        "quotes": 0,
+        "views": 14339,
+        "bookmarks": 2
+      },
+      "createdAt": "Thu Sep 24 13:35:59 +0000 2026",
+      "createdAtLocal": "2026-09-24 21:35",
+      "createdAtISO": "2026-09-24T13:35:59+00:00",
+      "media": [],
+      "urls": [],
+      "isRetweet": false,
+      "retweetedBy": null,
+      "lang": "ja",
+      "score": null
+    }
+  ]
+}

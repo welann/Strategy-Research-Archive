@@ -1,0 +1,68 @@
+{
+  "tweet_id": "2102219507129332019",
+  "source_url": "https://x.com/tradergoku/status/2102219507129332019",
+  "author": {
+    "id": "1853646812558536704",
+    "name": "TraderGoku",
+    "screenName": "tradergoku",
+    "profileImageUrl": "https://pbs.twimg.com/profile_images/1928452810309337088/U04Ti9eN_normal.jpg",
+    "verified": true
+  },
+  "published_at": "2026-09-22T02:12:42+00:00",
+  "retrieved_at": "2026-09-24T16:35:36.174196+00:00",
+  "retrieval": "twitter-cli tweet --json",
+  "reply_ids": [
+    "2102462651045658935",
+    "2102468631363989759",
+    "2102348938841829706",
+    "2102409483075109249",
+    "2102220362520183257",
+    "2102242533070029222",
+    "2102245843076079643",
+    "2102224083534651902"
+  ],
+  "author_reply_ids": [
+    "2102468631363989759",
+    "2102409483075109249"
+  ],
+  "quoted_tweet_id": "2100582559696461955",
+  "media": [
+    {
+      "url": "https://pbs.twimg.com/media/HSyT7h5XYAEz2YY.jpg",
+      "file": "assets/main-1.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSyUZcnXIAAl7my.png",
+      "file": "assets/main-2.png"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HS1yoyWbMAAnxWG.jpg",
+      "file": "assets/reply-2102462651045658935.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSbEj8lWcAExlGX.jpg",
+      "file": "assets/quoted-1.jpg"
+    },
+    {
+      "url": "https://pbs.twimg.com/media/HSbEmUOWQAAc9nD.jpg",
+      "file": "assets/quoted-2.jpg"
+    }
+  ],
+  "coverage": "主帖全文及接口可见相关回复；技术形态篇另含引用前帖全文和两张图。",
+  "limitations": [
+    "未将收益预测或图形解释视为已验证结论",
+    "配图价格仅为来源快照，非归档日实时行情",
+    "无关推荐与广告未作为正文或作者补充"
+  ],
+  "sha256": {
+    "assets/main-1.jpg": "eec5d2f600d4726853ca445e3b1085f417c55f113ec82279f90fe3bfce5f09aa",
+    "assets/main-2.png": "e618556e2fd02ee8fa3116c67b837b6789b8cc902296c187251af0995481db98",
+    "assets/quoted-1.jpg": "b3bbbf9f0c919229444060bb5861ce97e82ad23260ae83b2cc471b0b3c43dd7f",
+    "assets/quoted-2.jpg": "2208ab6ef8da80837aa79649142ab86035357382c13e09242420378b77f03977",
+    "assets/reply-2102462651045658935.jpg": "86b1f6782a8d86d1ee388f220db7929229fa38efee37fde0a5de9d9b7d211c0c",
+    "original.md": "bb14ef844a0d5d093a426f4f559c042a79dc8ff47d807ded43d892e488fc1039",
+    "original.txt": "3145502820aa560ac72848bb4b83a0706c2b1095532c6fdc3644c74d2d13a209",
+    "quoted.raw.json": "a750ace8b2fbfc790f669657fc43f377fc746e685ba25823ffa809a1fe324746",
+    "tweet.raw.json": "1fab3b2d3877b706ad2654813005d5467a1537515d7263c2b6f4cb034e61bfba"
+  }
+}
