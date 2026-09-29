@@ -1,0 +1,81 @@
+{
+  "source_url": "https://x.com/Billy0xFF/status/2104795363140096270",
+  "author": "0xBilly",
+  "screen_name": "Billy0xFF",
+  "tweet_id": "2104795363140096270",
+  "article_id": "2104781994970558465",
+  "title": "三星除息日——7.5%利润大容量无风险规则套利复盘",
+  "published_at": "2026-09-29T04:48:14+00:00",
+  "article_modified_at": "2026-09-29T04:56:52.000Z",
+  "archived_at": "2026-09-29T13:13:23.030428+00:00",
+  "method": [
+    "twitter-cli tweet JSON",
+    "FxTwitter article block/media supplement"
+  ],
+  "related_reply_count": 26,
+  "reply_completeness": "本次接口可见快照，非完整性保证",
+  "assets": [
+    {
+      "path": "assets/2104789007553134592.jpg",
+      "url": "https://pbs.twimg.com/media/HTW2c2JaAAARCIU.jpg",
+      "bytes": 48040,
+      "sha256": "3d78b291840aac3a0763d7d23990ad7cbc6f8650299179871720829dfceab1d2"
+    },
+    {
+      "path": "assets/2104792976807628800.png",
+      "url": "https://pbs.twimg.com/media/HTW6D4xbEAA3OYW.png",
+      "bytes": 56286,
+      "sha256": "cc2f6f984d8ef90dbb255bfacc137fdc7518004fe1cd176459b9432080860aa8"
+    },
+    {
+      "path": "assets/2104794256254885888.jpg",
+      "url": "https://pbs.twimg.com/media/HTW7OXFa4AA-iBv.jpg",
+      "bytes": 75666,
+      "sha256": "1cf119ee8d46ef7f5435c6df7eae77f21f3ec5e5e079ab3309369e51630052ad"
+    },
+    {
+      "path": "assets/2104790636234944512.png",
+      "url": "https://pbs.twimg.com/media/HTW37pdaMAAVm9O.png",
+      "bytes": 31880,
+      "sha256": "6d79e10c8181023f26cda1dd1f33af4cd3d0fff6d23d7cf2696e7b56389e4a20"
+    },
+    {
+      "path": "assets/2104793107946680320.png",
+      "url": "https://pbs.twimg.com/media/HTW6LhTaMAAcu-R.png",
+      "bytes": 74410,
+      "sha256": "2762da305fe250f7c437aca36a93e8c82d3f2f63a423d2eeec9f5c6b1a0a4d53"
+    },
+    {
+      "path": "assets/2104793175902871552.jpg",
+      "url": "https://pbs.twimg.com/media/HTW6PedbYAAF6Ib.jpg",
+      "bytes": 83423,
+      "sha256": "0fae76a96d84dc3cdf340a4002a0561446d8b32a2720529eb08a0c69c9f1b833"
+    },
+    {
+      "path": "assets/2104792857513201664.jpg",
+      "url": "https://pbs.twimg.com/media/HTW588XakAAWHOx.jpg",
+      "bytes": 54044,
+      "sha256": "d0cca9f11f6e050213d0105a6250c4a3b27d1495786bd863c09958585e130af8"
+    },
+    {
+      "path": "assets/reply-2104920609658671609-1.jpg",
+      "url": "https://pbs.twimg.com/media/HTYtbM2asAAj3-8.jpg",
+      "bytes": 116326,
+      "sha256": "ddb4785f0d6d2c92fff2d802aeba990a3d97d4e9e6c78451867ee032342abb46"
+    },
+    {
+      "path": "assets/reply-2104920609658671609-2.jpg",
+      "url": "https://pbs.twimg.com/media/HTYuGPhaAAAgeIF.jpg",
+      "bytes": 130961,
+      "sha256": "941b7ddc401e4411b255cabe07c12f90d4caad3b1c6ed3363ade49a88802faae"
+    }
+  ],
+  "verification_urls": [
+    "https://www.binance.com/en/square/post/371541460284468"
+  ],
+  "limitations": [
+    "未获取成交及资金费到账流水",
+    "XYZ公式与历史预言机行为按作者模型记录，未完成独立规则核验",
+    "装饰动图仅保留原始链接"
+  ]
+}
