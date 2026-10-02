@@ -1,0 +1,99 @@
+{
+  "source_url": "https://x.com/mev15_eth/status/2105924978935800148",
+  "tweet_id": "2105924978935800148",
+  "author": "青十五",
+  "screen_name": "mev15_eth",
+  "published_at": "2026-10-02T07:36:55.000Z",
+  "article_modified_at": "2026-10-02T07:36:55.000Z",
+  "article_id": "2105876070415441920",
+  "title": "以太坊MEV基础设施新人选型指南",
+  "archive_date": "2026-10-02",
+  "archive_timezone": "Asia/Shanghai",
+  "method": "twitter-cli status 返回 AUTH_NEEDED；公开 FxTwitter API 获取主帖及完整 article 结构",
+  "reply_count_reported_by_source": 3,
+  "replies_archived": 0,
+  "reply_scope": "未获取回复正文，不能判断作者是否有补充",
+  "external_links": [
+    "https://xiaobot.net/post/5689c539-43b0-4bdc-a133-db2786d36f32",
+    "https://xiaobot.net/post/724d55c1-8f5b-4cf4-847d-3a2e127fc0ab",
+    "https://mevboost.pics/",
+    "https://www.ethernodes.org/"
+  ],
+  "assets": [
+    {
+      "path": "assets/2105876068012023809.jpg",
+      "source_url": "https://pbs.twimg.com/media/HTmTIF7aYAEuHkj.jpg",
+      "download_url": "https://pbs.twimg.com/media/HTmTIF7aYAEuHkj.jpg?name=orig",
+      "bytes": 114677,
+      "sha256": "7dc7e379d332aa20186743bb1b323ac760f9091b6763052d94e7727687f86358"
+    },
+    {
+      "path": "assets/2105876044653932545.jpg",
+      "source_url": "https://pbs.twimg.com/media/HTmTGu6aMAEZxzM.jpg",
+      "download_url": "https://pbs.twimg.com/media/HTmTGu6aMAEZxzM.jpg?name=orig",
+      "bytes": 150140,
+      "sha256": "4bef323e37f55c401f8aa20afc993fdcc77557aba70ab3bec9d2711240a8f66e"
+    },
+    {
+      "path": "assets/2105876061343129600.jpg",
+      "source_url": "https://pbs.twimg.com/media/HTmTHtFbIAA_PdT.jpg",
+      "download_url": "https://pbs.twimg.com/media/HTmTHtFbIAA_PdT.jpg?name=orig",
+      "bytes": 34323,
+      "sha256": "ce6cf5a8c51b59ba61619d91043db2ac36a4882430e0e479b4efc60dd0c9c222"
+    },
+    {
+      "path": "assets/2105876058289659904.png",
+      "source_url": "https://pbs.twimg.com/media/HTmTHhta4AARnVL.png",
+      "download_url": "https://pbs.twimg.com/media/HTmTHhta4AARnVL.png?name=orig",
+      "bytes": 31661,
+      "sha256": "d1c10f5d6c62b171c9f3317a2b8d3af35e884341f79d130137c1f2fc87dfcb19"
+    },
+    {
+      "path": "assets/2105876048554733568.jpg",
+      "source_url": "https://pbs.twimg.com/media/HTmTG9cbsAA9M5J.jpg",
+      "download_url": "https://pbs.twimg.com/media/HTmTG9cbsAA9M5J.jpg?name=orig",
+      "bytes": 58090,
+      "sha256": "ff7ae7a3ee7077d9ea0fafcc2d4c5fcc626c3036e3f0a4b73edcb524f3a19bb2"
+    },
+    {
+      "path": "assets/2105876064195293184.jpg",
+      "source_url": "https://pbs.twimg.com/media/HTmTH3tbsAAVAgg.jpg",
+      "download_url": "https://pbs.twimg.com/media/HTmTH3tbsAAVAgg.jpg?name=orig",
+      "bytes": 44136,
+      "sha256": "a97e98ce29678b0b55dc0ee4331dae2e99e85921a9302c02ab3015b905a39388"
+    },
+    {
+      "path": "assets/2105876040279355392.jpg",
+      "source_url": "https://pbs.twimg.com/media/HTmTGenbcAAd3N1.jpg",
+      "download_url": "https://pbs.twimg.com/media/HTmTGenbcAAd3N1.jpg?name=orig",
+      "bytes": 69342,
+      "sha256": "15c2875af8ab875ccfdbb2d7732f2ba6e9ad7925e2dcba9890019e8d705eceb8"
+    },
+    {
+      "path": "assets/2105876055282307072.png",
+      "source_url": "https://pbs.twimg.com/media/HTmTHWgaUAAOA3K.png",
+      "download_url": "https://pbs.twimg.com/media/HTmTHWgaUAAOA3K.png?name=orig",
+      "bytes": 20524,
+      "sha256": "827f59eaa193edb1f803a2cbd92c66d71fcf72aebc3ca989e1c5a21a237b5bca"
+    },
+    {
+      "path": "assets/2105876051918475264.jpg",
+      "source_url": "https://pbs.twimg.com/media/HTmTHJ-aUAAQADI.jpg",
+      "download_url": "https://pbs.twimg.com/media/HTmTHJ-aUAAQADI.jpg?name=orig",
+      "bytes": 82832,
+      "sha256": "4179812438e0f56bfbac73de7a05f2334d8ef8645fa5f45ab01ef933362a2452"
+    }
+  ],
+  "verification_urls": [
+    "https://reth.rs/run/storage/minimal/",
+    "https://ethereum.org/developers/docs/blocks",
+    "https://docs.flashbots.net/flashbots-auction/advanced/troubleshooting",
+    "https://www.typescriptlang.org/docs/handbook/2/everyday-types.html"
+  ],
+  "limitations": [
+    "作者硬件型号、价格、涨价时间与收益未独立核验",
+    "客户端版本和RPC覆盖未在实际节点上验证",
+    "统计图与小样本投票不能代表全市场",
+    "评论待登录恢复后补查"
+  ]
+}
