@@ -1,0 +1,39 @@
+{
+  "source_url": "https://x.com/Boywus/status/2105888409797689611",
+  "tweet_id": "2105888409797689611",
+  "article_url": "https://x.com/i/article/2105873349180264448",
+  "article_id": "2105873349180264448",
+  "title": "我爱夏普的那些年",
+  "author": "Boywus",
+  "screen_name": "Boywus",
+  "published_at": "2026-10-02T05:11:37.000Z",
+  "modified_at": "2026-10-02T05:11:37.000Z",
+  "archive_date": "2026-10-10",
+  "archive_timezone": "Asia/Shanghai",
+  "method": "twitter-cli 认证检查 AUTH_NEEDED；公开 FxTwitter API读取主帖和完整文章",
+  "article_block_count": 395,
+  "reply_count_reported_by_source": 7,
+  "replies_archived": 0,
+  "reply_scope": "未取得回复正文，不能判断作者是否有评论补充",
+  "assets": [
+    {
+      "path": "assets/2105887157466562561.jpg",
+      "role": "装饰性文章封面",
+      "source_url": "https://pbs.twimg.com/media/HTmdNlXaAAEdvAl.jpg",
+      "download_url": "https://pbs.twimg.com/media/HTmdNlXaAAEdvAl.jpg?name=orig",
+      "bytes": 277997,
+      "sha256": "6b5bb3e84eafcb2b7abd7bdc36bf5357d1f3ebfee979dee7f2bb90f941a211dd"
+    }
+  ],
+  "verification_urls": [
+    "https://web.stanford.edu/~wfsharpe/art/sr/SR.htm",
+    "https://traders.berkeley.edu/papers/The-Statistics-of-Sharpe-Ratios.pdf",
+    "https://www.davidhbailey.com/dhbpapers/deflated-sharpe.pdf"
+  ],
+  "limitations": [
+    "示例数字均为教学假设，不是实盘策略绩效",
+    "概率例子未给事件频率，无法据此推断三年风险",
+    "历史熔断次数等旁支例子未独立核验",
+    "评论未获取"
+  ]
+}
